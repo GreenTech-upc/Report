@@ -32,7 +32,7 @@
 | Integrante                              | Código         |
 |-----------------------------------------|----------------|
 |                                         |   U            |
-| Cano Gomez,Yam Antony                   |   U202423775   |
+| Cano Gomez, Yam Antony                  |   U202423775   |
 |                                         |   U            |
 |                                         |   U            |
 |                                         |   U            |
@@ -156,10 +156,10 @@ Nacemos con el firme propósito de democratizar el acceso a la agricultura de pr
 
 Ante este panorama, **GreenTech** se enfoca en el desarrollo de plataformas de software accesibles, automatizadas y personalizables que rompen con los monopolios del software comercial tradicional. Buscamos transformar la gestión del campo reemplazando las inspecciones manuales por recolección y análisis de datos de vanguardia. Nuestro objetivo es empoderar a los agricultores, ingenieros agrónomos y cooperativas, brindándoles las capacidades tecnológicas necesarias para identificar de manera temprana amenazas como el estrés hídrico, las plagas o las deficiencias de fertilizantes. Al impulsar la toma de decisiones basadas en datos precisos y diagnósticos visuales, no solo ayudamos a incrementar la rentabilidad de las cosechas, sino que promovemos prácticas agrícolas mucho más eficientes y sostenibles a largo plazo.
 
-**Misión**
+**Misión :**
 Proveer a los productores agrícolas de soluciones tecnológicas accesibles y automatizadas para el monitoreo inteligente de sus parcelas, facilitando la detección temprana de anomalías y optimizando el uso de recursos críticos para lograr una agricultura más rentable y sostenible.
 
-**Visión**
+**Visión :**
 Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empoderando a agricultores y cooperativas de todos los tamaños mediante tecnología innovadora que elimine las barreras de entrada a la agricultura de precisión.
 
 ### 1.1.2. Perfiles de integrantes del equipo 
@@ -225,7 +225,65 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 
 #### 1.2.2.2. Lean UX Assumptions. 
 
+**Business Assumptions:**
+* Creemos que los agricultores y cooperativas agrarias están dispuestos a pagar suscripciones (Básico, Profesional y Cooperativa) por una plataforma que sea verdaderamente flexible y se adapte a las necesidades agronómicas específicas de sus terrenos.
+* Creemos que nuestro modelo de negocio será altamente escalable al integrarse con drones comerciales estándar, evitando la necesidad de fabricar hardware propio.
+
+**Business Outcome Assumptions:**
+* Creemos que lograremos una tasa de conversión del 25% hacia nuestras suscripciones de pago durante los primeros 6 meses.
+* Creemos que alcanzaremos un uso recurrente de la plataforma, convirtiéndonos en una herramienta indispensable a lo largo de todo el ciclo de vida del cultivo.
+
+**User Assumptions:**
+* Creemos que nuestros usuarios (productores independientes, ingenieros agrónomos y gestores de cooperativas) cuentan con drones, pero carecen de los conocimientos técnicos en programación o de herramientas de software abiertas para automatizarlos.
+* Creemos que los usuarios prefieren revisar datos consolidados desde una pantalla antes que realizar inspecciones físicas extenuantes y propensas a errores humanos.
+
+**User Outcome and Benefit Assumptions:**
+* Creemos que los usuarios ahorrarán un tiempo masivo y evitarán el gran esfuerzo físico que antes dedicaban a recorrer las parcelas de forma manual.
+* Creemos que los usuarios mitigarán la pérdida económica en sus cosechas al identificar de manera temprana amenazas como el estrés hídrico, plagas o deficiencias de fertilizante.
+
+**Feature Assumptions:**
+* Creemos que la funcionalidad **Automated drone flight routing** solucionará la necesidad de trazar y personalizar el recorrido del dron sobre áreas delimitadas sin requerir control manual intensivo.
+* Creemos que la funcionalidad **Visual terrain map generation** satisfará la necesidad de procesar imágenes aéreas para resaltar anomalías y la salud general del cultivo.
+* Creemos que la funcionalidad **Advanced image analysis** cruzará datos visuales de forma automatizada para diagnosticar problemas agronómicos específicos en los planes superiores.
+* Creemos que la funcionalidad **Crop history and reporting** respaldará la toma de decisiones mediante el almacenamiento seguro en la nube para comparar ciclos agrícolas estacionales.
+* Creemos que la consola **Multi-plot and multi-user management** ayudará a las cooperativas a organizar de forma colaborativa grandes extensiones de tierra y múltiples equipos de trabajo.
+  
 #### 1.2.2.3. Lean UX Hypothesis Statements. 
+
+**Hypothesis 1**
+
+*We believe we will achieve* a higher recurring usage of the platform for agricultural monitoring
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* a reduction in the time and manual effort required to plan drone flights over their plots
+*With* the Automated Drone Flight Routing feature, which allows users to delimit areas and automatically generate customized flight routes.
+
+**Hypothesis 2**
+
+*We believe we will achieve* a higher recurring usage of the mapping tool
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* a faster and more understandable visualization of the condition of their crops and terrain
+*With* the Visual Terrain Map Generation feature, which processes aerial images and generates visual maps highlighting potential crop anomalies.
+
+**Hypothesis 3**
+
+*We believe we will achieve* greater perceived value of the Professional and Cooperative subscriptions
+*If* agricultural engineers and cooperative managers
+*Attain* earlier identification of potential agronomic problems such as crop stress, pests, and fertilizer deficiencies
+*With* the Advanced Image Analysis feature, which automatically analyzes aerial images to identify relevant visual anomalies.
+
+**Hypothesis 4**
+
+*We believe we will achieve* higher retention and recurring usage of the platform throughout the crop lifecycle
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* the ability to compare historical crop conditions and use previous monitoring information to support their decisions
+*With* the Crop History and Reporting feature, which securely stores monitoring information in the cloud and enables comparison between agricultural cycles.
+
+**Hypothesis 5**
+
+*We believe we will achieve* a higher conversion rate to the Cooperative subscription
+*If* cooperative managers and their agricultural teams
+*Attain* more efficient collaborative management of multiple plots and users
+*With* the Multi-Plot and Multi-User Management console, which allows cooperatives to organize multiple agricultural areas and work collaboratively with different team members.
 
 #### 1.2.2.4. Lean UX Canvas. 
 

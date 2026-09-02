@@ -286,6 +286,10 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 *With* the Multi-Plot and Multi-User Management console, which allows cooperatives to organize multiple agricultural areas and work collaboratively with different team members.
 
 #### 1.2.2.4. Lean UX Canvas. 
+Figura 1
+Lean UX Canvas — SkyCrop
+
+![Lean UX Canvas - SkyCrop](resources/imgs/Lean_UX_Canvas-SkyCrop.png)
 
 ## 1.3. Segmentos objetivo. 
 

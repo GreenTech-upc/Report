@@ -33,7 +33,7 @@
 |-----------------------------------------|----------------|
 |                                         |   U            |
 | Cano Gomez,Yam Antony                   |   U202423775   |
-|                                         |   U            |
+| Sunio Danilo Landa Sánchez              |   U202423973   |
 |                                         |   U            |
 |                                         |   U            |
 
@@ -171,7 +171,164 @@
 
 ## 2.1. Competidores. 
 
+
+
 ### 2.1.1. Análisis competitivo. 
+
+<table border="1">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="4">
+    </td>
+  </tr>
+  
+  <tr>
+  <tr>
+    <th colspan="2" rowspan="2">Empresa</th>
+    <th>SkyCrop</th>
+    <th>QTG Perú</th>
+    <th>Energy Terra</th>
+    <th>Geodrone</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+  <th rowspan = "2">Perfil</th>
+    <th>Overview</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Ventaja Competitiva</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "2">Perfil de Marketing</th>
+    <th>Mercado Objetivo</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Estrategias de Marketing</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "3">Perfil de Producto</th>
+    <th>Productos & Servicios</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Precios & Costos</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+    <tr>
+    <th>Canales de Distribución</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "4">Análisis SWOT</th>
+    <th>Fortalezas</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Debilidades</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+    <tr>
+    <th>Oportunidades</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+    <tr>
+    <th>Amenazas</th>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores. 
 

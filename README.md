@@ -14,7 +14,7 @@
 
 **Código del Curso**: 1ASI0730
 
-**Curso:** Desarrollo de Aplicaciones Open Source
+**Curso:** Aplicaciones Web
 
 **NRC:** 8093
 
@@ -171,6 +171,11 @@
 
 ## 2.1. Competidores. 
 
+Hemos identificado a tres empresas con ofertas similares a la de nuestra startup:
+
+- **DJI Agriculture**: Una unidad del Grupo QTC Perú. Esta empresa ofrece soluciones agrícolas tales como los drones DJI Agras, los cuales permiten la fumigación, fertilización y siembra automatizada mediante rutas programables. Además, brinda soporte técnico, accesorios y repuestos para sus soluciones. 
+- **Energy Terra**: Es una empresa especializada en la agricultura y tecnología, lo cual se evidencia en la venta de drones agrícolas. Permite configurar rutas de vuelo con ayuda de tecnología de identificación 3D con Inteligencia Artificial, con el fin de recorrer terrenos complejos.
+- **Geodrone**: Es una empresa perteneciente al grupo RCP que se basa en la provisión de servicios con drones para inspecciones, limpiezas, captura de datos, agricultura, entre otros. Esta empresa además permite fabricar drones personalizados basándose en necesidades operativas. En su servicio de agricultura, la empresa ofrece la generación de mapas NDVI, de cobertura vegetal o de elevación. Además ofrece vuelos de seguimiento, detección de plagas e informes agrícolas.
 
 
 ### 2.1.1. Análisis competitivo. 
@@ -189,15 +194,23 @@
   <tr>
     <th colspan="2" rowspan="2">Empresa</th>
     <th>SkyCrop</th>
-    <th>QTG Perú</th>
+    <th>DJI Agriculture</th>
     <th>Energy Terra</th>
     <th>Geodrone</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>
+    <img src="" alt="Logo SkyCrop" style="max-width: 150px;">
+    </td>
+    <td>
+    <img src="resources/imgs/dji-agri-logo.png" alt="Logo DJI Agriculture" style="max-width: 150px;">
+    </td>
+    <td>
+    <img src="resources/imgs/energy-terra-logo.webp" alt="Logo Energy Terra" style="max-width: 150px;">
+    </td>
+    <td>
+    <img src="resources/imgs/logo-geodrone.svg" alt="Logo Geodrone" style="max-width: 150px;">
+    </td>
   </tr>
 
   <tr>

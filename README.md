@@ -173,8 +173,8 @@
 
 Hemos identificado a tres empresas con ofertas similares a la de nuestra startup:
 
-- **DJI Agriculture**: Una unidad del Grupo QTC Perú. Esta empresa ofrece soluciones agrícolas tales como los drones DJI Agras, los cuales permiten la fumigación, fertilización y siembra automatizada mediante rutas programables. Además, brinda soporte técnico, accesorios y repuestos para sus soluciones. 
-- **Energy Terra**: Es una empresa especializada en la agricultura y tecnología, lo cual se evidencia en la venta de drones agrícolas. Permite configurar rutas de vuelo con ayuda de tecnología de identificación 3D con Inteligencia Artificial, con el fin de recorrer terrenos complejos.
+- **Pix4D**: Es una empresa de software de fotogrametría, ofrece varios programas bajo licencia para usarse en varias industrias como en la agricultura. Uno de sus productos es Pix4D fields, un software híbrido de mapeo con drones para el análisis de cultivos y agricultura precisa. 
+- **DJI Enterprise**: Es una empresa que ofrece drones y software para drones. Uno de sus programas es DJI Terra, el cual consiste en la reconstrucción de terrenos para la adquisición y procesamiento de datos. Este programa es aplicable a la agricultura, permitiendo programar rutas de vuelo y generar mapas de vegetación para obtener información sobre la salud y crecimiento de los cultivos.
 - **Geodrone**: Es una empresa perteneciente al grupo RCP que se basa en la provisión de servicios con drones para inspecciones, limpiezas, captura de datos, agricultura, entre otros. Esta empresa además permite fabricar drones personalizados basándose en necesidades operativas. En su servicio de agricultura, la empresa ofrece la generación de mapas NDVI, de cobertura vegetal o de elevación. Además ofrece vuelos de seguimiento, detección de plagas e informes agrícolas.
 
 
@@ -187,6 +187,7 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
   <tr>
     <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
     <td colspan="4">
+      El objetivo de este analisis es conocer más sobre lo que ofrece nuestra competencia para, en base a ello, identificar en que aspectos podemos diferenciarnos y como podemos mejorar nuestro producto. Con estos avances podremos tener un mejor puesto en el mercado.
     </td>
   </tr>
   
@@ -194,35 +195,43 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
   <tr>
     <th colspan="2" rowspan="2">Empresa</th>
     <th>SkyCrop</th>
-    <th>DJI Agriculture</th>
-    <th>Energy Terra</th>
+    <th>Pix4D</th>
+    <th>DJI Enterprise</th>
     <th>Geodrone</th>
   </tr>
   <tr>
     <td>
-    <img src="" alt="Logo SkyCrop" style="max-width: 150px;">
+      <div style="background-color: white;">
+        <img src="" alt="Logo SkyCrop" style="max-width: 150px;">
+      </div>
     </td>
     <td>
-    <img src="resources/imgs/dji-agri-logo.png" alt="Logo DJI Agriculture" style="max-width: 150px;">
+      <div style="background-color: white;">
+        <img src="resources/imgs/pix4d-logo.png" alt="Logo Pix4D" style="max-width: 120px;">
+      </div>
     </td>
     <td>
-    <img src="resources/imgs/energy-terra-logo.webp" alt="Logo Energy Terra" style="max-width: 150px;">
+      <div style="background-color: white;">
+        <img src="resources/imgs/dji-logo.png" alt="Logo DJI Enterprise" style="max-width: 120px; ">
+      </div>
     </td>
     <td>
-    <img src="resources/imgs/logo-geodrone.svg" alt="Logo Geodrone" style="max-width: 150px;">
+      <div style="background-color: white;">
+        <img src="resources/imgs/logo-geodrone.png" alt="Logo Geodrone" style="max-width: 120px; ">
+      </div>
     </td>
   </tr>
 
   <tr>
   <th rowspan = "2">Perfil</th>
     <th>Overview</th>
-    <td>
+    <td>Plataforma de gestión y configuración de rutinas de vuelo para drones capaces de generar escaneos en terrenos agrícolas
     </td>
-    <td>
+    <td>Plataforma de venta de licencias de software para la obtención de datos, el análisis de cultivos, creación de mapas y guardado en la nube.
     </td>
-    <td>
+    <td>Plataforma de venta de drones y de licencias de software apto para la agricultura, capaz de evaluar la salud de cultivos y generar mapas de vegetación.
     </td>
-    <td>
+    <td>Plataforma de servicios de drones para la generación de mapas del terreno, seguimiento de cultivos y elaboración de informes agrícolas.
     </td>
   </tr>
   <tr>

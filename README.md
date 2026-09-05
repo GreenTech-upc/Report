@@ -346,9 +346,48 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
 
 ### 2.1.2. Estrategias y tácticas frente a competidores. 
 
+
+
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
+
+Las entrevistas consistirán de una serie de preguntas principales dirigidas a los segmentos objetivos junto con otras preguntas complementarias que nos brinden información adicional. 
+Antes de que comience la entrevista, explicaremos nuestra solución a los entrevistados con el fin de brindar contexto.
+Al comenzar la entrevista, se realizarán preguntas cortas para recaudar información básica del entrevistado, como su nombre, edad y distrito de residencia. Luego de esto, se realizarán las preguntas principales.
+
+**Preguntas para el segmento 1: Agricultores**
+
+1. ¿Cómo es el terreno donde cultiva? ¿Cómo lo monitorea?
+2. ¿Qué herramientas suele usar para el monitoreo? ¿Qué información obtienes?
+3. ¿Cuál es la mayor dificultad que enfrenta al realizar el monitoreo? ¿Qué otras dificultades encuentra? 
+4. ¿Qué problemas suele encontrar en su cultivo? Cuéntenos como los suele resolver.
+5. ¿Qué información de sus cultivos le gustaría conocer de forma sencilla?
+6. ¿Alguna vez ha usado drones agrícolas u otras tecnologías? Cuéntenos sobre su experiencia y como las ha usado.
+7. ¿Qué piensa que debería ser capaz de hacer un dron agrícola para que le sea útil en su trabajo?
+8. Imagina un sistema que gestione a los drones que podría haber en tu terreno, ¿Qué espera que pudiera hacer tal sistema?
+9. En este caso, el sistema obtiene información de los drones que realizan escaneos de sus cultivos, ¿Cómo le gustaría recibir y visualizar aquella información?
+10. ¿Qué problemas piensa que tendría ese sistema en su terreno?
+11. ¿Qué funcionalidades piensa que debería tener aquel sistema para que usted pague por ella para usarla en su trabajo?
+
+**Preguntas para el segmento 2: Ingenieros Agrónomos**
+
+1. ¿Qué cultivos y terrenos suele asesorar? Cuéntenos sobre ellos.
+2. ¿Cómo monitorea los cultivos? ¿Qué información obtiene?
+3. ¿Qué datos o indicadores considera importantes a la hora de evaluar un cultivo?
+4. ¿Qué dificultades en su trabajo suele encontrar al asesorar cultivos o terrenos?
+5. ¿Qué problemas del cultivo considera que se deberían detectar a tiempo? ¿Usted como los detecta?
+6. ¿Qué información le gustaría obtener mediante drones agrícolas? ¿Cómo le ayudaría tal información?
+7. ¿Cómo le gustaría que se le presente la información obtenida?
+8. Imagine un sistema que controle a tales drones agrícolas, le ayude a planificar rutinas de vuelo y muestre la información recogida, ¿Qué factores tendría en cuenta para decidir si lo usaría en su trabajo?
+9. ¿Qué trabajos dejaría que el sistema hiciera automáticamente y cuáles los haría manualmente?
+10. ¿Qué funcionalidades piensa que debería tener el sistema para que pague por él y lo incorpore en su trabajo?
+
+
+
+
+
+
 
 ### 2.2.2. Registro de entrevistas. 
 

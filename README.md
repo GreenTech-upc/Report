@@ -175,7 +175,7 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
 
 - **Pix4D**: Es una empresa de software de fotogrametría, ofrece varios programas bajo licencia para usarse en varias industrias como en la agricultura. Uno de sus productos es Pix4D fields, un software híbrido de mapeo con drones para el análisis de cultivos y agricultura precisa. 
 - **DJI Enterprise**: Es una empresa que ofrece drones y software para drones. Uno de sus programas es DJI Terra, el cual consiste en la reconstrucción de terrenos para la adquisición y procesamiento de datos. Este programa es aplicable a la agricultura, permitiendo programar rutas de vuelo y generar mapas de vegetación para obtener información sobre la salud y crecimiento de los cultivos.
-- **Geodrone**: Es una empresa perteneciente al grupo RCP que se basa en la provisión de servicios con drones para inspecciones, limpiezas, captura de datos, agricultura, entre otros. Esta empresa además permite fabricar drones personalizados basándose en necesidades operativas. En su servicio de agricultura, la empresa ofrece la generación de mapas NDVI, de cobertura vegetal o de elevación. Además ofrece vuelos de seguimiento, detección de plagas e informes agrícolas.
+- **Geodrone**: Es una empresa perteneciente al grupo RCP que se basa en la provisión de servicios con drones para inspecciones, limpiezas, captura de datos, agricultura, entre otros. Esta empresa además permite fabricar drones personalizados basándose en necesidades operativas. En su servicio de agricultura, la empresa ofrece análisis de cultivos para la generación de mapas NDVI, de cobertura vegetal o de elevación. Además ofrece riego, control de plagas o cosechas mediante drones.
 
 
 ### 2.1.1. Análisis competitivo. 
@@ -221,11 +221,11 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
       </div>
     </td>
   </tr>
-
+  
   <tr>
   <th rowspan = "2">Perfil</th>
     <th>Overview</th>
-    <td>Plataforma de gestión y configuración de rutinas de vuelo para drones capaces de generar escaneos en terrenos agrícolas
+    <td>Plataforma de gestión y configuración de rutinas de vuelo para drones capaces de generar escaneos en terrenos agrícolas.
     </td>
     <td>Plataforma de venta de licencias de software para la obtención de datos, el análisis de cultivos, creación de mapas y guardado en la nube.
     </td>
@@ -236,118 +236,118 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
   </tr>
   <tr>
     <th>Ventaja Competitiva</th>
-    <td>
+    <td>Enfoque en la agricultura, compatibilidad con la mayoría de drones y almacenamiento de datos históricos y de reportes avanzados.
     </td>
-    <td>
+    <td>Alta compatibilidad con la mayoría de drones y análisis avanzado a partir de imagenes para generar prescripciones.
     </td>
-    <td>
+    <td>Elaboración y venta de drones especializados en la agricultura junto con un programa de análisis y procesamiento.
     </td>
-    <td>
+    <td>Servicios realizados con operadores altamente capacitados, generando varios resultados de alta calidad.
     </td>
   </tr>
 
   <tr>
   <th rowspan = "2">Perfil de Marketing</th>
     <th>Mercado Objetivo</th>
-    <td>
+    <td>Agricultores e Ingenieros agrónomos.
     </td>
-    <td>
+    <td>Arquitectos, agricultores, topógrafos, ingenieros, entre otros.
     </td>
-    <td>
+    <td>Personal de seguridad pública, agricultores, mineros, arquitectos, entre otros.
     </td>
-    <td>
+    <td>Ingenieros civiles, agricultores, inspectores, personal de seguridad, entre otros.
     </td>
   </tr>
   <tr>
     <th>Estrategias de Marketing</th>
-    <td>
+    <td>Publicación del producto en redes sociales, demostración de casos de exito y alianzas con agrónomos y empresas.
     </td>
-    <td>
+    <td>Demostraciones del software y sus resultados, además del ofrecimiento de pruebas gratuitas.
     </td>
-    <td>
+    <td>Presentación de casos de uso, publicación de noticias en redes sociales y ofrecimiento de pruebas gratuitas.
     </td>
-    <td>
+    <td>Demostraciones de servicios y sus beneficios, publicación de casos de exito y participación en eventos industriales.
     </td>
   </tr>
 
   <tr>
   <th rowspan = "3">Perfil de Producto</th>
     <th>Productos & Servicios</th>
-    <td>
+    <td>Plataforma que programa rutinas de vuelo, escaneos del terreno y emisión de alertas. Se acompaña de un servicio de guardado en la nube para registrar datos históricos y reportes.
     </td>
-    <td>
+    <td>Aplicación de escaneo y mapeo del terreno para el análisis de los cultivos. Permite compartir y guardar datos o informes mediante un servicio en la nube.
     </td>
-    <td>
+    <td>Software integrable en drones para la reconstruccion de terrenos en 3D y la generación de mapas de indices de vegetación como NDVI o NDRE.
     </td>
-    <td>
+    <td>Servicio de análisis de cultivos, generación de mapas, riego, control de plagas o cosecha mediante drones.
     </td>
   </tr>
   <tr>
     <th>Precios & Costos</th>
-    <td>
+    <td>Subscripciones mensuales y anuales a partir de $40.
     </td>
-    <td>
+    <td>Prueba gratuita y subscripciones mensuales o anuales a partir de $165.
     </td>
-    <td>
+    <td>Prueba gratuita y planes anuales a partir de $300.
     </td>
-    <td>
+    <td>Cotizable segun servicio.
     </td>
   </tr>
     <tr>
     <th>Canales de Distribución</th>
-    <td>
+    <td>Mediante aplicación web y aplicación movil
     </td>
-    <td>
+    <td>Mediante sitio web
     </td>
-    <td>
+    <td>Mediante sitio web y aplicación movil
     </td>
-    <td>
+    <td>Mediante sitio web
     </td>
   </tr>
 
   <tr>
   <th rowspan = "4">Análisis SWOT</th>
     <th>Fortalezas</th>
-    <td>
+    <td>Plataforma web accesible desde cualquier dispositivo, guardado de datos históricos en la nube y alta compatibilidad con drones.
     </td>
-    <td>
+    <td>Software especializado para diferentes industrias como en la agricultura. Además, tiene un alto rango de sistemas compatibles.
     </td>
-    <td>
+    <td>Amplio ecosistema de drones y softwares, además de programas de alta tecnología.
     </td>
-    <td>
+    <td>Servicios de alta calidad adaptables a las necesidades de los clientes y alta experiencia en el mercado
     </td>
   </tr>
   <tr>
     <th>Debilidades</th>
-    <td>
+    <td>Dependencia de conectividad a la nube para el procesamiento y falta de reconocimiento de la startup.
     </td>
-    <td>
+    <td>Alto precio de la aplicación y necesidad de capacitación.
     </td>
-    <td>
+    <td>Alto precio de la aplicación y menor enfoque en cuanto a agricultura.
     </td>
-    <td>
+    <td>Costo recurrente para los clientes que requieran monitoreo constante.
     </td>
   </tr>
     <tr>
     <th>Oportunidades</th>
-    <td>
+    <td>Plataforma diseñada para ser accesible y con mayor enfoque en la agricultura.
     </td>
-    <td>
+    <td>Aprovechamiento de las funciones offline en campos de cultivo sin internet o señal, así como el uso eficiente de los insumos ante posibles subidas de precio.
     </td>
-    <td>
+    <td>Gran reconocimiento en diferentes industrias y posibles ventas cruzadas con dron y software.
     </td>
-    <td>
+    <td>Ahorro para el agricultor al eliminar el costo de adquisición de drones cuyo precio va en aumento.
     </td>
   </tr>
     <tr>
     <th>Amenazas</th>
-    <td>
+    <td>Competencia con plataformas similares con mayor experiencia en el mercado.
     </td>
-    <td>
+    <td>Las subscripciones de alto precio que ofrece pueden alejar a empresas agricolas pequeñas.
     </td>
-    <td>
+    <td>Sus planes de alto precio, así como la complejidad del software, pueden alejar a empresas agricolas pequeñas.
     </td>
-    <td>
+    <td>Posibles problemas con la disponibilidad de los proveedores de servicios.
     </td>
   </tr>
 </table>

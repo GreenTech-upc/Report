@@ -14,7 +14,7 @@
 
 **Código del Curso**: 1ASI0730
 
-**Curso:** Desarrollo de Aplicaciones Open Source
+**Curso:** Aplicaciones Web
 
 **NRC:** 8093
 
@@ -29,13 +29,13 @@
 
 #### Relación de integrantes
 
-| Integrante                              | Código         |
-|-----------------------------------------|----------------|
-|                                         |   U            |
-| Cano Gomez, Yam Antony                  |   U202423775   |
-|                                         |   U            |
-|                                         |   U            |
-|                                         |   U            |
+| Integrante                             | Código         |
+|----------------------------------------|----------------|
+|                                        |   U            |
+| Cano Gomezgit status Yam Antony                  |   U202423775   |
+|                                        |   U            |
+|                                        |   U            |
+|                                        |   U            |
 
 <div align="center"><h3>Setiembre 2026</h3></div><br>
 
@@ -293,8 +293,43 @@ Lean UX Canvas — SkyCrop
 
 ## 1.3. Segmentos objetivo. 
 
+**Segmento Objetivo 1: Agricultores**
+**Aspectos demográficos:**
+- **Edad:** 25 - 55 años.
+- **Nivel socioeconómico:** Media - Baja.
+- **Tipo de productor:** Pequeños y medianos productores agrícolas, independientes o asociados a cooperativas.
+- **Rubro:** Cultivo de productos agrícolas.
+- **Nivel de necesidad:** Alta dependencia del monitoreo constante de sus parcelas para prevenir pérdidas.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Rural.
+
+**Aspectos psicográficos:**
+- **Motivación:** Evitar pérdidas de cosecha por detección tardía de plagas, estrés hídrico o deficiencias de fertilizante; reducir el esfuerzo físico de la inspección manual.
+- **Valores:** La productividad, el ahorro de recursos y la sostenibilidad de sus cultivos.
+- **Intereses:** Adopción de tecnología accesible que no requiera grandes inversiones ni conocimientos técnicos avanzados.
+
+---------------
+
+**Segmento Objetivo 2: Ingenieros agrónomos**
+**Aspectos demográficos:**
+- **Edad:** 23 - 45 años.
+- **Nivel socioeconómico:** Media - Alta.
+- **Tipo de perfil:** Profesionales independientes o vinculados a cooperativas u asociaciones agrarias.
+- **Rubro:** Asesoría técnica y gestión agronómica de cultivos.
+- **Nivel de necesidad:** Alta demanda de herramientas de diagnóstico eficientes para atender múltiples parcelas o clientes.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Rural / semi-urbana.
 
 
+**Aspectos psicográficos:**
+- **Motivación:** Optimizar su tiempo de supervisión en campo, mejorar la precisión de sus diagnósticos y la calidad de su asesoría técnica.
+- **Valores:** El rigor técnico, la eficiencia y la toma de decisiones basada en datos.
+- **Intereses:** Herramientas digitales que centralicen información de múltiples parcelas y faciliten diagnósticos visuales confiables.
+  
 # Capítulo II: Requirements Elicitation & Analysis 
 
 ## 2.1. Competidores. 

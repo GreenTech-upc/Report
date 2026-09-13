@@ -29,13 +29,13 @@
 
 #### Relación de integrantes
 
-| Integrante                  | Código     |
-|-----------------------------|------------|
-|                             | U          |
-| Cano Gomez,Yam Antony       | U202423775 |
-|                             | U          |
-|                             | U          |
-| Rubio Ortiz, Luis Sebastián | U202310349 |
+| Integrante                              | Código         |
+|-----------------------------------------|----------------|
+|                                         |   U            |
+| Cano Gomez,Yam Antony                   |   U202423775   |
+| Sunio Danilo Landa Sánchez              |   U202423973   |
+|                                         |   U            |
+|                                         |   U            |
 
 <div align="center"><h3>Setiembre 2026</h3></div><br>
 
@@ -62,10 +62,6 @@
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [| **Foto** | |](#-foto--)
-  - [| **Foto** | |](#-foto---1)
-  - [| **Foto** | |](#-foto---2)
-  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -329,21 +325,246 @@ Lean UX Canvas — SkyCrop
 - **Motivación:** Optimizar su tiempo de supervisión en campo, mejorar la precisión de sus diagnósticos y la calidad de su asesoría técnica.
 - **Valores:** El rigor técnico, la eficiencia y la toma de decisiones basada en datos.
 - **Intereses:** Herramientas digitales que centralicen información de múltiples parcelas y faciliten diagnósticos visuales confiables.
-  
+
+
+
 # Capítulo II: Requirements Elicitation & Analysis 
 
 ## 2.1. Competidores. 
 
+Hemos identificado a tres empresas con ofertas similares a la de nuestra startup:
+
+- **Pix4D**: Es una empresa de software de fotogrametría, ofrece varios programas bajo licencia para usarse en varias industrias como en la agricultura. Uno de sus productos es Pix4D fields, un software híbrido de mapeo con drones para el análisis de cultivos y agricultura precisa. 
+- **DJI Enterprise**: Es una empresa que ofrece drones y software para drones. Uno de sus programas es DJI Terra, el cual consiste en la reconstrucción de terrenos para la adquisición y procesamiento de datos. Este programa es aplicable a la agricultura, permitiendo programar rutas de vuelo y generar mapas de vegetación para obtener información sobre la salud y crecimiento de los cultivos.
+- **Geodrone**: Es una empresa perteneciente al grupo RCP que se basa en la provisión de servicios con drones para inspecciones, limpiezas, captura de datos, agricultura, entre otros. Esta empresa además permite fabricar drones personalizados basándose en necesidades operativas. En su servicio de agricultura, la empresa ofrece análisis de cultivos para la generación de mapas NDVI, de cobertura vegetal o de elevación. Además ofrece riego, control de plagas o cosechas mediante drones.
+
+
 ### 2.1.1. Análisis competitivo. 
 
+<table border="1">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="4">
+      El objetivo de este analisis es conocer más sobre lo que ofrece nuestra competencia para, en base a ello, identificar en que aspectos podemos diferenciarnos y como podemos mejorar nuestro producto. Con estos avances podremos tener un mejor puesto en el mercado.
+    </td>
+  </tr>
+  
+  <tr>
+  <tr>
+    <th colspan="2" rowspan="2">Empresa</th>
+    <th>SkyCrop</th>
+    <th>Pix4D</th>
+    <th>DJI Enterprise</th>
+    <th>Geodrone</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="" alt="Logo SkyCrop" style="max-width: 150px;">
+    </td>
+    <td>
+      <img src="resources/imgs/pix4d-logo.png" alt="Logo Pix4D" style="max-width: 120px;">
+    </td>
+    <td>
+      <img src="resources/imgs/dji-logo.png" alt="Logo DJI Enterprise" style="max-width: 120px; ">
+    </td>
+    <td>
+      <img src="resources/imgs/logo-geodrone.png" alt="Logo Geodrone" style="max-width: 120px; ">
+    </td>
+  </tr>
+  
+  <tr>
+  <th rowspan = "2">Perfil</th>
+    <th>Overview</th>
+    <td>Plataforma de gestión y configuración de rutinas de vuelo para drones capaces de generar escaneos en terrenos agrícolas.
+    </td>
+    <td>Plataforma de venta de licencias de software para la obtención de datos, el análisis de cultivos, creación de mapas y guardado en la nube.
+    </td>
+    <td>Plataforma de venta de drones y de licencias de software apto para la agricultura, capaz de evaluar la salud de cultivos y generar mapas de vegetación.
+    </td>
+    <td>Plataforma de servicios de drones para la generación de mapas del terreno, seguimiento de cultivos y elaboración de informes agrícolas.
+    </td>
+  </tr>
+  <tr>
+    <th>Ventaja Competitiva</th>
+    <td>Enfoque en la agricultura, compatibilidad con la mayoría de drones y almacenamiento de datos históricos y de reportes avanzados.
+    </td>
+    <td>Alta compatibilidad con la mayoría de drones y análisis avanzado a partir de imagenes para generar prescripciones.
+    </td>
+    <td>Elaboración y venta de drones especializados en la agricultura junto con un programa de análisis y procesamiento.
+    </td>
+    <td>Servicios realizados con operadores altamente capacitados, generando varios resultados de alta calidad.
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "2">Perfil de Marketing</th>
+    <th>Mercado Objetivo</th>
+    <td>Agricultores e Ingenieros agrónomos.
+    </td>
+    <td>Arquitectos, agricultores, topógrafos, ingenieros, entre otros.
+    </td>
+    <td>Personal de seguridad pública, agricultores, mineros, arquitectos, entre otros.
+    </td>
+    <td>Ingenieros civiles, agricultores, inspectores, personal de seguridad, entre otros.
+    </td>
+  </tr>
+  <tr>
+    <th>Estrategias de Marketing</th>
+    <td>Publicación del producto en redes sociales, demostración de casos de exito y alianzas con agrónomos y empresas.
+    </td>
+    <td>Demostraciones del software y sus resultados, además del ofrecimiento de pruebas gratuitas.
+    </td>
+    <td>Presentación de casos de uso, publicación de noticias en redes sociales y ofrecimiento de pruebas gratuitas.
+    </td>
+    <td>Demostraciones de servicios y sus beneficios, publicación de casos de exito y participación en eventos industriales.
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "3">Perfil de Producto</th>
+    <th>Productos & Servicios</th>
+    <td>Plataforma que programa rutinas de vuelo, escaneos del terreno y emisión de alertas. Se acompaña de un servicio de guardado en la nube para registrar datos históricos y reportes.
+    </td>
+    <td>Aplicación de escaneo y mapeo del terreno para el análisis de los cultivos. Permite compartir y guardar datos o informes mediante un servicio en la nube.
+    </td>
+    <td>Software integrable en drones para la reconstruccion de terrenos en 3D y la generación de mapas de indices de vegetación como NDVI o NDRE.
+    </td>
+    <td>Servicio de análisis de cultivos, generación de mapas, riego, control de plagas o cosecha mediante drones.
+    </td>
+  </tr>
+  <tr>
+    <th>Precios & Costos</th>
+    <td>Subscripciones mensuales y anuales a partir de $40.
+    </td>
+    <td>Prueba gratuita y subscripciones mensuales o anuales a partir de $165.
+    </td>
+    <td>Prueba gratuita y planes anuales a partir de $300.
+    </td>
+    <td>Cotizable segun servicio.
+    </td>
+  </tr>
+    <tr>
+    <th>Canales de Distribución</th>
+    <td>Mediante aplicación web y aplicación movil
+    </td>
+    <td>Mediante sitio web
+    </td>
+    <td>Mediante sitio web y aplicación movil
+    </td>
+    <td>Mediante sitio web
+    </td>
+  </tr>
+
+  <tr>
+  <th rowspan = "4">Análisis SWOT</th>
+    <th>Fortalezas</th>
+    <td>Plataforma web accesible desde cualquier dispositivo, guardado de datos históricos en la nube y alta compatibilidad con drones.
+    </td>
+    <td>Software especializado para diferentes industrias como en la agricultura. Además, tiene un alto rango de sistemas compatibles.
+    </td>
+    <td>Amplio ecosistema de drones y softwares, además de programas de alta tecnología.
+    </td>
+    <td>Servicios de alta calidad adaptables a las necesidades de los clientes y alta experiencia en el mercado
+    </td>
+  </tr>
+  <tr>
+    <th>Debilidades</th>
+    <td>Dependencia de conectividad a la nube para el procesamiento y falta de reconocimiento de la startup.
+    </td>
+    <td>Alto precio de la aplicación y necesidad de capacitación.
+    </td>
+    <td>Alto precio de la aplicación y menor enfoque en cuanto a agricultura.
+    </td>
+    <td>Costo recurrente para los clientes que requieran monitoreo constante.
+    </td>
+  </tr>
+    <tr>
+    <th>Oportunidades</th>
+    <td>Plataforma diseñada para ser accesible y con mayor enfoque en la agricultura.
+    </td>
+    <td>Aprovechamiento de las funciones offline en campos de cultivo sin internet o señal, así como el uso eficiente de los insumos ante posibles subidas de precio.
+    </td>
+    <td>Gran reconocimiento en diferentes industrias y posibles ventas cruzadas con dron y software.
+    </td>
+    <td>Ahorro para el agricultor al eliminar el costo de adquisición de drones cuyo precio va en aumento.
+    </td>
+  </tr>
+    <tr>
+    <th>Amenazas</th>
+    <td>Competencia con plataformas similares con mayor experiencia en el mercado.
+    </td>
+    <td>Las subscripciones de alto precio que ofrece pueden alejar a empresas agricolas pequeñas.
+    </td>
+    <td>Sus planes de alto precio, así como la complejidad del software, pueden alejar a empresas agricolas pequeñas.
+    </td>
+    <td>Posibles problemas con la disponibilidad de los proveedores de servicios.
+    </td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores. 
+
+Luego de realizar el análisis de nuestra competencia, nos proponemos las siguientes estrategias para tener un mejor puesto en el mercado:
+
+- **Mayor enfoque en la agricultura:** Mientras que las empresas de nuestros competidores abarcan diferentes ámbitos como en construcciones, seguridad pública o inspecciones, nuestro producto estará enfocado en la agricultura, por lo cual realizaremos un mayor esfuerzo conociendo las necesidades que haya en este ámbito para proponer soluciones valiosas para nuestro segmento objetivo.
+- **Ofrecer diferentes tipos de subscripciones:** Los productos de Pix4D y DJI Enterprise cuentan con una subscripción costosa para acceder a todas las funcionalidades que tienen para ofrecer. Un agricultor o ingeniero agrónomo que no haya usado tales aplicaciones previamente habría pagado un precio adicional por funciones sin utilizar. Frente a esto, consideramos dividir nuestras futuras funcionalidades en diferentes tipos de subscripciones, con el fin de ofrecer lo más básico, útil y utilizado a un precio accesible y ofrecer lo más avanzado pero igual de útil a mayores precios.
+- **Desarrollar funciones sin conexión:** Para que nuestra solución no pierda su valor ante los inconvenientes presentes en campos agrícolas, como la falta de conexión, vemos esencial que la aplicación SkyCrop tenga una serie de funciones utiles accesibles sin conexión. Esto lo identificamos al observar las soluciones ofrecidas por Pix4D y DJI Enterprise, las cuales cuentan con funciones similares, y al analizar los problemas que pueden tener los servicios de Geodrone respecto a disponibilidad.
 
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
 
-### 2.2.2. Registro de entrevistas. 
+Las entrevistas consistirán de una serie de preguntas principales dirigidas a los segmentos objetivos junto con otras preguntas complementarias que nos brinden información adicional. 
+Antes de que comience la entrevista, explicaremos nuestra solución a los entrevistados con el fin de brindar contexto.
+Al comenzar la entrevista, se realizarán preguntas cortas para recaudar información básica del entrevistado, como su nombre, edad y distrito de residencia. Luego de esto, se realizarán las preguntas principales.
 
+**Preguntas para el segmento 1: Agricultores**
+
+1. ¿Cómo es el terreno donde cultiva? ¿Cómo lo monitorea?
+2. ¿Qué herramientas suele usar para el monitoreo? ¿Qué información obtienes?
+3. ¿Cuál es la mayor dificultad que enfrenta al realizar el monitoreo? ¿Qué otras dificultades encuentra? 
+4. ¿Qué problemas suele encontrar en su cultivo? Cuéntenos como los suele resolver.
+5. ¿Qué información de sus cultivos le gustaría conocer de forma sencilla?
+6. ¿Alguna vez ha usado drones agrícolas u otras tecnologías? Cuéntenos sobre su experiencia y como las ha usado.
+7. ¿Qué piensa que debería ser capaz de hacer un dron agrícola para que le sea útil en su trabajo?
+8. Imagina un sistema que gestione a los drones que podría haber en tu terreno, ¿Qué espera que pudiera hacer tal sistema?
+9. En este caso, el sistema obtiene información de los drones que realizan escaneos de sus cultivos, ¿Cómo le gustaría recibir y visualizar aquella información?
+10. ¿Qué problemas piensa que tendría ese sistema en su terreno?
+11. ¿Qué funcionalidades piensa que debería tener aquel sistema para que usted pague por ella para usarla en su trabajo?
+
+**Preguntas para el segmento 2: Ingenieros Agrónomos**
+
+1. ¿Qué cultivos y terrenos suele asesorar? Cuéntenos sobre ellos.
+2. ¿Cómo monitorea los cultivos? ¿Qué información obtiene?
+3. ¿Qué datos o indicadores considera importantes a la hora de evaluar un cultivo?
+4. ¿Qué dificultades en su trabajo suele encontrar al asesorar cultivos o terrenos?
+5. ¿Qué problemas del cultivo considera que se deberían detectar a tiempo? ¿Usted como los detecta?
+6. ¿Qué información le gustaría obtener mediante drones agrícolas? ¿Cómo le ayudaría tal información?
+7. ¿Cómo le gustaría que se le presente la información obtenida?
+8. Imagine un sistema que controle a tales drones agrícolas, le ayude a planificar rutinas de vuelo y muestre la información recogida, ¿Qué factores tendría en cuenta para decidir si lo usaría en su trabajo?
+9. ¿Qué trabajos dejaría que el sistema hiciera automáticamente y cuáles los haría manualmente?
+10. ¿Qué funcionalidades piensa que debería tener el sistema para que pague por él y lo incorpore en su trabajo?
+
+### 2.2.2. Registro de entrevistas. 
+*Registro de entrevistas — Segmento 1*
+
+
+| Número de registro | Datos del entrevistado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Captura                                                                                                                                                                                               |
+  |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1** | **Nombre:** Drago Duarte<br> **Edad:** 26 años <br> **Departamento:** Huancayo <br> **Duración de la entrevista:** 6 minutos y 56 segundos <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAXsnyxt41iwhNIo2_tRaX5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZanvTh <br> **Resumen:** En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una zona rural, comparte los desafíos diarios del campo. Destaca que el mayor problema actual es el alto costo de tiempo y el gran esfuerzo físico que requiere el monitoreo manual, lo que provoca que detecte problemas críticos como el estrés hídrico, plagas y falta de fertilizantes cuando el daño ya es irreversible. También menciona que no aprovecha los drones por su falta de conocimientos en programación y porque el software comercial es muy costoso e inflexible. Explica que le gustaría visualizar la salud de su cultivo de forma rápida y comprensible desde una pantalla para evitar recorrer el terreno a ciegas. Finalmente, describe su sistema ideal y afirma que pagaría una suscripción por una plataforma que genere rutas de vuelo automatizadas y mapas visuales de anomalías, resaltando que la herramienta debe estar preparada para lidiar con la conectividad intermitente a internet propia de las zonas rurales. | <br>*Entrevista 1 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia.  |
+| **2** | **Nombre:**  <br> **Edad:**  años <br> **Departamento:**  <br> **Duración de la entrevista:**  <br> **Enlace:**  <br> **Resumen:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | <br> *Entrevista 2 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista2_segmento1.png" alt="Entrevista 2 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia. |
+| **3** | **Nombre:**  <br> **Edad:**  años <br> **Departamento:**  <br> **Duración de la entrevista:**  <br> **Enlace:**  <br> **Resumen:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | <br> *Entrevista 3 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia. |
+
+*Registro de entrevistas — Segmento 2*
+
+| Número de registro | Datos del entrevistado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Captura                                                                                                                                                                                               |
+  |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1** | **Nombre:** Yamil Tejada<br> **Edad:** 25 años <br> **Departamento:** Apurimac <br> **Duración de la entrevista:** 4 minutos y 53 segundos <br> **Enlace:**https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8fSvNj <br> **Resumen:** Yamil, un ingeniero agrónomo de 25 años, comparte sus conocimientos y desafíos al asesorar parcelas agrícolas y cooperativas. Destaca que su mayor dificultad es el tiempo que toma supervisar físicamente el campo para poder realizar diagnósticos agronómicos a tiempo, buscando identificar problemas como el estrés hídrico y las plagas. Menciona que las tecnologías modernas, como el análisis de imágenes aéreas, suelen tener precios prohibitivos o están restringidas a hardware específico, limitando su adopción. Explica que le gustaría usar un sistema que le permita trazar rutas de vuelo automáticas para drones estándar y cruzar datos visuales de las anomalías para optimizar sus tiempos de revisión. Finalmente, describe un plan ideal por el cual pagaría de forma profesional, el cual debería incluir reportes estacionales en la nube, un historial para comparar ciclos y una herramienta administrativa para gestionar el monitoreo colaborativo en múltiples terrenos. | <br>*Entrevista 1 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia.  |
+| **2** | **Nombre:**  <br> **Edad:**  años <br> **Departamento:**  <br> **Duración de la entrevista:**  <br> **Enlace:**  <br> **Resumen:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | <br> *Entrevista 2 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista2_segmento1.png" alt="Entrevista 2 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia. |
+| **3** | **Nombre:**  <br> **Edad:**  años <br> **Departamento:**  <br> **Duración de la entrevista:**  <br> **Enlace:**  <br> **Resumen:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | <br> *Entrevista 3 — Segmento 1* <div align="center"> <img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 — Segmento 1" width="4000"> </div> *Nota.* Elaboración propia. |
 ### 2.2.3. Análisis de entrevistas. 
 
 ## 2.3. Needfinding. 

@@ -14,7 +14,7 @@
 
 **Código del Curso**: 1ASI0730
 
-**Curso:** Desarrollo de Aplicaciones Open Source
+**Curso:** Aplicaciones Web
 
 **NRC:** 8093
 
@@ -62,6 +62,10 @@
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** | |](#-foto---1)
+  - [| **Foto** | |](#-foto---2)
+  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -145,28 +149,187 @@
 
 ## 1.1. Startup Profile 
 
-### 1.1.1. Descripción de la Startup 
+### 1.1.1. Descripción de la Startup
+**GreenTech** es una pequeña empresa de reciente creación dentro del sector *AgTech* , destacada por su alto potencial innovador y tecnológico. Ya que nuestro modelo de negocio es altamente escalable y nuestro crecimiento está proyectado para ser exponencial, abarcando desde pequeños productores independientes hasta grandes asociaciones agrarias. 
+
+Nacemos con el firme propósito de democratizar el acceso a la agricultura de precisión. Actualmente, el sector agrícola enfrenta un desafío crítico que es el monitoreo manual de las parcelas,ya que requiere una inversión insostenible de tiempo y esfuerzo físico, y suele detectar problemas cuando el daño en los cultivos es irreversible. Por otro lado, las tecnologías modernas que podrían solucionar esto se caracterizan por ser ecosistemas cerrados, de costos prohibitivos y sin opciones de modificación, dejando a gran parte de los productores en desventaja tecnológica y competitiva.
+
+Ante este panorama, **GreenTech** se enfoca en el desarrollo de plataformas de software accesibles, automatizadas y personalizables que rompen con los monopolios del software comercial tradicional. Buscamos transformar la gestión del campo reemplazando las inspecciones manuales por recolección y análisis de datos de vanguardia. Nuestro objetivo es empoderar a los agricultores, ingenieros agrónomos y cooperativas, brindándoles las capacidades tecnológicas necesarias para identificar de manera temprana amenazas como el estrés hídrico, las plagas o las deficiencias de fertilizantes. Al impulsar la toma de decisiones basadas en datos precisos y diagnósticos visuales, no solo ayudamos a incrementar la rentabilidad de las cosechas, sino que promovemos prácticas agrícolas mucho más eficientes y sostenibles a largo plazo.
+
+**Misión :**
+Proveer a los productores agrícolas de soluciones tecnológicas accesibles y automatizadas para el monitoreo inteligente de sus parcelas, facilitando la detección temprana de anomalías y optimizando el uso de recursos críticos para lograr una agricultura más rentable y sostenible.
+
+**Visión :**
+Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empoderando a agricultores y cooperativas de todos los tamaños mediante tecnología innovadora que elimine las barreras de entrada a la agricultura de precisión.
 
 ### 1.1.2. Perfiles de integrantes del equipo 
+
+| **Integrante** | |
+| :--- | :--- |
+| **Código del Estudiante** | |
+| **Carrera** | |
+| **Descripción** | |
+| **Foto** | |
+--------------
+
+
+| **Integrante** | Cano Gomez Yam Antony Gabriel |
+| :--- | :--- |
+| **Código del Estudiante** | U202423775 |
+| **Carrera** | Ingeniería de Software |
+| **Descripción** | |
+| **Foto** | |
+----------------------
+
+| **Integrante** | |
+| :--- | :--- |
+| **Código del Estudiante** | |
+| **Carrera** | |
+| **Descripción** | |
+| **Foto** | |
+---------------------
+
+| **Integrante** | |
+| :--- | :--- |
+| **Código del Estudiante** | |
+| **Carrera** | |
+| **Descripción** | |
+| **Foto** | |
+---------------------
+
+| **Integrante** | |
+| :--- | :--- |
+| **Código del Estudiante** | |
+| **Carrera** | |
+| **Descripción** | |
+| **Foto** | |
 
 ## 1.2. Solution Profile 
 
 ### 1.2.1 Antecedentes y problemática 
 
+| 5w & 2H | Descripcion|
+|---------|------------|
+| **What: ¿Cuál es el problema?**| El monitoreo agrícola manual requiere un alto costo de tiempo y esfuerzo físico, debido a la necesidad de supervisar extensas áreas de cultivo de manera constante. A esto se suma la falta de acceso a software comercial de automatización de vuelos de drones y análisis de imágenes agrícolas, debido a su alto costo y naturaleza cerrada, lo que limita la posibilidad de contar con soluciones personalizables y obliga a los agricultores a depender de procesos manuales poco eficientes.|
+| **When: ¿Cuándo sucede este problema?**| Durante las revisiones periódicas del terreno, siendo especialmente crítico cuando las plagas, el estrés hídrico o las deficiencias de fertilizante avanzan rápidamente sin ser detectados a tiempo.|
+| **Where: ¿Dónde se produce este suceso?** | A lo largo de parcelas y grandes extensiones de terrenos agrícolas, donde la escala del campo hace que las inspecciones humanas sean logísticamente ineficientes.|
+| **Who: ¿Quiénes están involucrados?** | Los productores y agricultores que deben gestionar los cultivos, así como el personal encargado de la inspección física en el campo.|
+| **Why: ¿Cuál es la causa del problema?** | Las alternativas tecnológicas actuales operan como ecosistemas cerrados y rígidos. Al no integrarse con las dinámicas y necesidades agronómicas específicas de cada cultivo, resultan inoperantes para el entorno real del productor, forzándolo a depender de las inspecciones físicas tradicionales. |
+| **How: ¿Qué llevó a la persona a llegar a esta situación?** | Se manifiesta a través del monitoreo manual de las parcelas agrícolas, un proceso que requiere de mucho tiempo y esfuerzo físico, y que a menudo no detecta problemas hasta que están muy avanzados|
+| **How Much: ¿Cuánto es el impacto financiero?** | Representa grandes pérdidas de cultivos por la identificación tardía de anomalías, además de los altos costos incurridos en la cantidad de horas  necesarias de un trabajador para recorrer la parcela físicamente.|
+
 ### 1.2.2 Lean UX Process. 
 
 #### 1.2.2.1. Lean UX Problem Statements. 
+*The current state of the agricultural monitoring domain has focused mainly on slow, labor-intensive manual inspections. What existing products/services fail to address is the lack of flexible, customizable, and automated drone flight routing and image processing adapted for the specific agronomic needs of small to medium producers. Our product/service will address this gap by providing subscriptions to our platform that automates flights and generates visual terrain maps to early identify crop stress. Our initial focus will be independent farmers and agricultural cooperatives. We’ll know we are successful when we see a 25% conversion rate to our paid subscriptions (Basic, Professional, or Cooperative) and a recurring usage of the mapping tool within the first 6 months.*
 
 #### 1.2.2.2. Lean UX Assumptions. 
 
+**Business Assumptions:**
+* Creemos que los agricultores y cooperativas agrarias están dispuestos a pagar suscripciones (Básico, Profesional y Cooperativa) por una plataforma que sea verdaderamente flexible y se adapte a las necesidades agronómicas específicas de sus terrenos.
+* Creemos que nuestro modelo de negocio será altamente escalable al integrarse con drones comerciales estándar, evitando la necesidad de fabricar hardware propio.
+
+**Business Outcome Assumptions:**
+* Creemos que lograremos una tasa de conversión del 25% hacia nuestras suscripciones de pago durante los primeros 6 meses.
+* Creemos que alcanzaremos un uso recurrente de la plataforma, convirtiéndonos en una herramienta indispensable a lo largo de todo el ciclo de vida del cultivo.
+
+**User Assumptions:**
+* Creemos que nuestros usuarios (productores independientes, ingenieros agrónomos y gestores de cooperativas) cuentan con drones, pero carecen de los conocimientos técnicos en programación o de herramientas de software abiertas para automatizarlos.
+* Creemos que los usuarios prefieren revisar datos consolidados desde una pantalla antes que realizar inspecciones físicas extenuantes y propensas a errores humanos.
+
+**User Outcome and Benefit Assumptions:**
+* Creemos que los usuarios ahorrarán un tiempo masivo y evitarán el gran esfuerzo físico que antes dedicaban a recorrer las parcelas de forma manual.
+* Creemos que los usuarios mitigarán la pérdida económica en sus cosechas al identificar de manera temprana amenazas como el estrés hídrico, plagas o deficiencias de fertilizante.
+
+**Feature Assumptions:**
+* Creemos que la funcionalidad **Automated drone flight routing** solucionará la necesidad de trazar y personalizar el recorrido del dron sobre áreas delimitadas sin requerir control manual intensivo.
+* Creemos que la funcionalidad **Visual terrain map generation** satisfará la necesidad de procesar imágenes aéreas para resaltar anomalías y la salud general del cultivo.
+* Creemos que la funcionalidad **Advanced image analysis** cruzará datos visuales de forma automatizada para diagnosticar problemas agronómicos específicos en los planes superiores.
+* Creemos que la funcionalidad **Crop history and reporting** respaldará la toma de decisiones mediante el almacenamiento seguro en la nube para comparar ciclos agrícolas estacionales.
+* Creemos que la consola **Multi-plot and multi-user management** ayudará a las cooperativas a organizar de forma colaborativa grandes extensiones de tierra y múltiples equipos de trabajo.
+  
 #### 1.2.2.3. Lean UX Hypothesis Statements. 
 
+**Hypothesis 1**
+
+*We believe we will achieve* a higher recurring usage of the platform for agricultural monitoring
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* a reduction in the time and manual effort required to plan drone flights over their plots
+*With* the Automated Drone Flight Routing feature, which allows users to delimit areas and automatically generate customized flight routes.
+
+**Hypothesis 2**
+
+*We believe we will achieve* a higher recurring usage of the mapping tool
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* a faster and more understandable visualization of the condition of their crops and terrain
+*With* the Visual Terrain Map Generation feature, which processes aerial images and generates visual maps highlighting potential crop anomalies.
+
+**Hypothesis 3**
+
+*We believe we will achieve* greater perceived value of the Professional and Cooperative subscriptions
+*If* agricultural engineers and cooperative managers
+*Attain* earlier identification of potential agronomic problems such as crop stress, pests, and fertilizer deficiencies
+*With* the Advanced Image Analysis feature, which automatically analyzes aerial images to identify relevant visual anomalies.
+
+**Hypothesis 4**
+
+*We believe we will achieve* higher retention and recurring usage of the platform throughout the crop lifecycle
+*If* independent farmers, agricultural engineers, and cooperative managers
+*Attain* the ability to compare historical crop conditions and use previous monitoring information to support their decisions
+*With* the Crop History and Reporting feature, which securely stores monitoring information in the cloud and enables comparison between agricultural cycles.
+
+**Hypothesis 5**
+
+*We believe we will achieve* a higher conversion rate to the Cooperative subscription
+*If* cooperative managers and their agricultural teams
+*Attain* more efficient collaborative management of multiple plots and users
+*With* the Multi-Plot and Multi-User Management console, which allows cooperatives to organize multiple agricultural areas and work collaboratively with different team members.
+
 #### 1.2.2.4. Lean UX Canvas. 
+Figura 1
+Lean UX Canvas — SkyCrop
+
+![Lean UX Canvas - SkyCrop](resources/imgs/Lean_UX_Canvas-SkyCrop.png)
 
 ## 1.3. Segmentos objetivo. 
 
+**Segmento Objetivo 1: Agricultores**
+**Aspectos demográficos:**
+- **Edad:** 25 - 55 años.
+- **Nivel socioeconómico:** Media - Baja.
+- **Tipo de productor:** Pequeños y medianos productores agrícolas, independientes o asociados a cooperativas.
+- **Rubro:** Cultivo de productos agrícolas.
+- **Nivel de necesidad:** Alta dependencia del monitoreo constante de sus parcelas para prevenir pérdidas.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Rural.
+
+**Aspectos psicográficos:**
+- **Motivación:** Evitar pérdidas de cosecha por detección tardía de plagas, estrés hídrico o deficiencias de fertilizante; reducir el esfuerzo físico de la inspección manual.
+- **Valores:** La productividad, el ahorro de recursos y la sostenibilidad de sus cultivos.
+- **Intereses:** Adopción de tecnología accesible que no requiera grandes inversiones ni conocimientos técnicos avanzados.
+
+---------------
+
+**Segmento Objetivo 2: Ingenieros agrónomos**
+**Aspectos demográficos:**
+- **Edad:** 23 - 45 años.
+- **Nivel socioeconómico:** Media - Alta.
+- **Tipo de perfil:** Profesionales independientes o vinculados a cooperativas u asociaciones agrarias.
+- **Rubro:** Asesoría técnica y gestión agronómica de cultivos.
+- **Nivel de necesidad:** Alta demanda de herramientas de diagnóstico eficientes para atender múltiples parcelas o clientes.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Rural / semi-urbana.
 
 
+**Aspectos psicográficos:**
+- **Motivación:** Optimizar su tiempo de supervisión en campo, mejorar la precisión de sus diagnósticos y la calidad de su asesoría técnica.
+- **Valores:** El rigor técnico, la eficiencia y la toma de decisiones basada en datos.
+- **Intereses:** Herramientas digitales que centralicen información de múltiples parcelas y faciliten diagnósticos visuales confiables.
+  
 # Capítulo II: Requirements Elicitation & Analysis 
 
 ## 2.1. Competidores. 

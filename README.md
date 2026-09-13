@@ -29,13 +29,13 @@
 
 #### Relación de integrantes
 
-| Integrante            | Código         |
-|-----------------------|----------------|
-|                       |   U            |
-| Cano Gomez Yam Antony |   U202423775   |
-|                       |   U            |
-|                       |   U            |
-|                       |   U            |
+| Integrante                  | Código     |
+|-----------------------------|------------|
+|                             | U          |
+| Cano Gomez,Yam Antony       | U202423775 |
+|                             | U          |
+|                             | U          |
+| Rubio Ortiz, Luis Sebastián | U202310349 |
 
 <div align="center"><h3>Setiembre 2026</h3></div><br>
 

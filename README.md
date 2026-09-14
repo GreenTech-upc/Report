@@ -639,10 +639,53 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 
 ## 3.1. User Stories. 
 
+## E01 - Gestión de cuentas y autentificación
+
+**Descripción:** Como usuario, requiero de un sistema de autentificación que me permita registrarme, iniciar sesión, mantener mi perfil actualizado y cerrar sesión, para acceder de manera segura a la plataforma.<br>
+<br> **Objetivo:** Proveer al usuario con un sistema sencillo, capaz y seguro para ingresar.<br>
+<br> **Criterios de aceptación:** <br>
+- Registro con validación de correo y contraseña.
+- Actualización de información del perfil.
+- Cierre de sesión seguro con validación de tokens.
+
+ ## E02 - Pago de suscripción
+
+**Descripción:** Como usuario, requiero de un sistema de pagos simple que me permita ingresar mis datos bancarios de manera segura, para pagar mi suscripción de la plataforma <br>
+<br> **Objetivo:** Proveer al usuario de un sistema fácil de utilizar para realizar un pago. <br>
+<br> **Criterios de aceptación:** <br> 
+- Pago por medio de diversos procesadores de pago.
+- Verificación del estado del pago.
+
+## E03 - Gestión del terreno y dron
+
+**Descripción:** Como usuario, deseo un sistema de registro y configuración que me permita registrar mi terreno, conectar mi dron y configurar una rutina de vuelo. <br>
+<br> **Objetivo:** Brindar al usuario diversas herramientas digitales que faciliten todo el proceso. <br>
+<br> **Criterios de aceptación:** <br> 
+- Registrar un terreno mediante su tamaño.
+- Conexión del dron.
+- Gestión de la rutina de vuelo.
+
+## E04 - Diagnóstico y Notificaciones
+
+**Descripción:** Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envie una notificación de los puntos más importantes diagnostico. <br>
+<br> **Objetivo:** Crear un sistema que realice un diagnóstico y envie una notificación al dispositivo del usuario. <br>
+<br> **Criterios de aceptación:** <br> 
+- Creación de un diagnóstico.
+- Notificación de resultados obtenidos.
+- Notificación especial en el caso de una anomalia.
+
+## E05 - Reporte y Análisis
+
+**Descripción:** Como usuario, necesito recibir un reporte de todos los diagnosticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo pdf. <br>
+<br> **Objetivo:** Crear un sistema que genere los reportes necesarios para el usuario, además de permitirle descargarlo cómo un archivo pdf. <br>
+<br> **Criterios de aceptación:** <br>
+- Creación de un reporte de cada diagnostico.
+- Creación de un reporte de cada diagnostico según la estación del año.
+- Boton para descargar cada diagnostico y reporte como un pdf.
+
 |Epic / Story ID|Título|Descripción|Criterios de aceptación|Relacionado con|
 |:--------------|:-----|:----------|:----------------------|:--------------|
-||||||
-
+|     US01      |Registrar la cuenta de un Usuario| Como Usuario, deseo registrarme en la plataforma para poder acceder a la funcionalidad de como configurar un dron|**Scenario: Registro exitoso de un usuario**<br> *Given* el usuario está en el formulario de registro <br>*When* ingresa su nombre, correo y contraseña (≥ 8 carácteres) y acepta los terminos <br> *Then* el sistema guarda la información y envia una confirmacion por correo | E01|
 ## 3.2. Impact Mapping. 
 
 

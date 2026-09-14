@@ -1,47 +1,57 @@
 <div align="center" style="margin-top: -5px;">
 
 <img src="resources/imgs/UPC_logo_transparente.png"
-     alt="UPC_logo_transparente"
-     style="width: 18%; height: auto; margin-bottom: -40px;">
-  
-## Universidad Peruana de Ciencias Aplicadas
+alt="UPC_logo_transparente"
+style="width: 18%; height: auto; margin-bottom: -40px;">
 
-**Facultad:** Ingeniería
+<br>
+Universidad Peruana de Ciencias Aplicadas
 
-**Carrera:** Ingeniería de Software
+Carrera de Ingeniería de Software
 
-**Periodo:** 2026-20
+**1ASI0730**
 
-**Código del Curso**: 1ASI0730
+**Aplicaciones Web**
 
-**Curso:** Aplicaciones Web
+NRC
 
-**NRC:** 8093
+**8093**
 
-**Profesor:** Efraín Ricardo Bautista Ubillús
+**Informe del Trabajo Final**
 
-### Informe de Trabajo Final
+Docente
 
-**Startup:** GreenTech
+**Bautista Ubillús, Efrain Ricardo**
 
-**Nombre del producto:** SkyCrop
+Equipo
 
+**GreenTech**
 
-#### Relación de integrantes
+Proyecto
 
-| Integrante                              | Código         |
-|-----------------------------------------|----------------|
-|                                         |   U            |
-| Cano Gomez,Yam Antony                   |   U202423775   |
-| Sunio Danilo Landa Sánchez              |   U202423973   |
-|                                         |   U            |
-|                                         |   U            |
+**SkyCrop**
 
-<div align="center"><h3>Setiembre 2026</h3></div><br>
+#### Integrantes
+
+<div align="left" style="display: inline-block;">
+
+**Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Apellidos y Nombres**
+
+U202423973&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Landa Sánchez, Sunio Danilo<br>
+U202423775&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cano Gomez, Yam Antony<br>
+U202312912&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jonseck Choque, Oliver<br>
+U202310349&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rubio Ortiz, Luis Sebastián<br>
+U202219266&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pumahualcca Garcia, Diego Rodrigo
+
+</div>
+
+**Período 202620**
+<h3>Setiembre 2026</h3>
 
 </div>
 
 ---
+
 # Registro de Versiones del Informe 
 
 |Versión|Fecha|Autor|Fecha de modificación|
@@ -62,6 +72,10 @@
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** | |](#-foto---1)
+  - [| **Foto** | |](#-foto---2)
+  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)

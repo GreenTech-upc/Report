@@ -31,14 +31,13 @@ Proyecto
 
 **SkyCrop**
 
-#### Integrantes
 
 #### Integrantes
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/imgs/integrantes-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="resources/imgs/integrantes-light.png">
-  <img src="resources/imgs/integrantes-light.png" alt="Integrantes" width="%">
+  <img src="resources/imgs/integrantes-light.png" alt="Integrantes" width="55%">
 </picture>
 
 **Período 202620**

@@ -644,6 +644,8 @@ En esta sección se encontrarán las tarjetas de User Personas elaboradas a part
 
 ### 2.3.2. User Task Matrix. 
 
+En esta sección se encuentra la matriz de tareas de cada usuario, donde se evalúan la frecuencia y la importancia de las tareas que realizan los User Personas basados en los segmentos objetivos que hemos definido. En esta tabla, el User Persona asociada al segmento de agricultores es Alfonso Román, y el User Persona asociado al segmento de ingenieros agrónomos es Ignacio Rojas.
+
 <table border="1">
   <tr>
     <th rowspan="2">Tareas</th>
@@ -660,64 +662,76 @@ En esta sección se encontrarán las tarjetas de User Personas elaboradas a part
 
   <tr>
     <td>Monitoreo general del campo</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Alta</td><td>Media</td>
+    <td>Media</td><td>Media</td>
   </tr>
 
   <tr>
     <td>Mantenimiento de los cultivos</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Alta</td><td>Alta</td>
+    <td>Baja</td><td>Media</td>
   </tr>
 
   <tr>
     <td>Evaluación de la humedad del suelo</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Media</td><td>Media</td>
+    <td>Alta</td><td>Media</td>
   </tr>
 
   <tr>
     <td>Revisión del crecimiento de los cultivos</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Alta</td><td>Media</td>
+    <td>Alta</td><td>Media</td>
   </tr>
 
   <tr>
     <td>Monitoreo de la presencia de plagas</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Alta</td><td>Alta</td>
+    <td>Alta</td><td>Alta</td>
   </tr>
 
   <tr>
     <td>Identificación de problemas en los cultivos</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Baja</td><td>Alta</td>
+    <td>Media</td><td>Alta</td>
   </tr>
 
   <tr>
     <td>Registro de información del estado de los cultivos</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Baja</td><td>Baja</td>
+    <td>Alta</td><td>Media</td>
   </tr>
 
   <tr>
     <td>Planificación del uso de insumos</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Media</td><td>Alta</td>
+    <td>Alta</td><td>Alta</td>
   </tr>
 
   <tr>
     <td>Análisis del cultivo y toma de decisiones</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Media</td><td>Media</td>
+    <td>Alta</td><td>Alta</td>
   </tr>
 
   <tr>
     <td>Uso de tecnología para el monitoreo</td>
-    <td></td><td></td>
-    <td></td><td></td>
+    <td>Baja</td><td>Media</td>
+    <td>Media</td><td>Media</td>
   </tr>
 </table>
+
+**Tareas con más frecuencia**  
+Entre las tareas más frecuentes identificadas en la tabla, se encuentran aquellas enfocadas en el monitoreo y mantenimiento de las plantas, así como la revisión de su crecimiento y la identificación de plagas.
+
+**Tareas con más importancia**  
+Entre las tareas más importantes identificadas en la tabla, se encuentran aquellas relacionadas con el monitoreo y evaluación de los problemas que pueden afectar a los cultivos, la planificación del uso de insumos y el análisis de lo identificado para la toma de decisiones.
+
+**Principales diferencias**  
+En la tabla se pudo identificar como los agricultores realizan tareas de monitoreo más frecuentemente y como los ingenieros agrónomos realizan tareas de registro y análisis más seguido. Además, se identificó como la tarea del mantenimiento de los cultivos es más importante para los agricultores y como la tarea de análisis para la toma de decisiones es más importante para los agricultores.
+
+**Coincidencias encontradas**  
+Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y el como uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
 
 ### 2.3.3. User Journey Mapping. 
 

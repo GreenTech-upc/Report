@@ -640,7 +640,7 @@ En esta sección se encontrarán las tarjetas de User Personas elaboradas a part
 
 **User Persona 2 - Segmento: Ingenieros Agronomos**
 
-![User Persona Ingeniero Agronomo](resources/imgs/user-persona-ignacio.png)
+![User Persona Ingeniero Agrónomo](resources/imgs/user-persona-ignacio.png)
 
 ### 2.3.2. User Task Matrix. 
 
@@ -731,11 +731,19 @@ Entre las tareas más importantes identificadas en la tabla, se encuentran aquel
 En la tabla se pudo identificar como los agricultores realizan tareas de monitoreo más frecuentemente y como los ingenieros agrónomos realizan tareas de registro y análisis más seguido. Además, se identificó como la tarea del mantenimiento de los cultivos es más importante para los agricultores y como la tarea de análisis para la toma de decisiones es más importante para los agricultores.
 
 **Coincidencias encontradas**  
-Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y el como uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
+Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y como el uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
 
 ### 2.3.3. User Journey Mapping. 
 
+En esta sección se encuentran los User Journey Map para cada User Persona. El camino que seguirá cada mapa busca reflejar las actividades que realiza cada segmento en cuanto a la revisión y mantenimiento de los cultivos, lo cual es aquello que nuestro producto busca mejorar.
 
+**User Journey Map 1 - Alfonso - Segmento: Agricultores**
+
+![User Journey Map Agricultores](resources/imgs/journey-map-agricultores.png)
+
+**User Journey Map 2 - Ignacio - Segmento: Ingenieros agrónomos**
+
+![User Journey Map Ingenieros Agrónomos](resources/imgs/journey-map-ingenieros-agronomos.png)
 
 ### 2.3.4. Empathy Mapping. 
 

@@ -632,7 +632,15 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 
 ### 2.3.1. User Personas. 
 
+En esta sección se encontrarán las tarjetas de User Personas elaboradas a partir de la información que obtuvimos de las entrevistas. Para estas tarjetas se tuvo en consideración la manera en la que los ingenieros agrónomos y los agricultores realizan su trabajo, las dificultades que tienen al realizarlo y lo que ellos piensan que les sería conveniente.
 
+**User Persona 1 - Segmento: Agricultores**
+
+![User Persona Agricultor](resources/imgs/user-persona-alfonso.png)
+
+**User Persona 2 - Segmento: Ingenieros Agronomos**
+
+![User Persona Ingeniero Agronomo](resources/imgs/user-persona-ignacio.png)
 
 ### 2.3.2. User Task Matrix. 
 
@@ -699,7 +707,7 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
   </tr>
 
   <tr>
-    <td>Análisis del cultivo y toma de decisiones/td>
+    <td>Análisis del cultivo y toma de decisiones</td>
     <td></td><td></td>
     <td></td><td></td>
   </tr>

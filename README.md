@@ -632,11 +632,92 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 
 ### 2.3.1. User Personas. 
 
+
+
 ### 2.3.2. User Task Matrix. 
+
+<table border="1">
+  <tr>
+    <th rowspan="2">Tareas</th>
+    <th colspan="2">Alfonso Román</th>
+    <th colspan="2">Ignacio Rojas</th>
+  </tr>
+
+  <tr>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+
+  <tr>
+    <td>Monitoreo general del campo</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Mantenimiento de los cultivos</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Evaluación de la humedad del suelo</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Revisión del crecimiento de los cultivos</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Monitoreo de la presencia de plagas</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Identificación de problemas en los cultivos</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Registro de información del estado de los cultivos</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Planificación del uso de insumos</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Análisis del cultivo y toma de decisiones/td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+
+  <tr>
+    <td>Uso de tecnología para el monitoreo</td>
+    <td></td><td></td>
+    <td></td><td></td>
+  </tr>
+</table>
 
 ### 2.3.3. User Journey Mapping. 
 
+
+
 ### 2.3.4. Empathy Mapping. 
+
+
 
 ## 2.4. Big Picture EventStorming. 
 

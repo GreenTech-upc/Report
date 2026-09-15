@@ -786,6 +786,15 @@ En esta sección se encuentran los Empathy Maps realizados para cada User Person
 
 ## 2.5. Ubiquitous Language. 
 
+|Termino    |Definición             |
+|:----------|:----------------------|
+|User (Usuario)                       |Persona en general que haga uso de la plataforma SkyCrop y de sus servicios|
+|Farmer (Agricultor)                  |Persona perteneciente al segmento de agricultores que haya creado una cuenta de agricultor en la plataforma SkyCrop|
+|Agronomist (Agrónomo)                |Persona perteneciente al segmento de ingenieros agrónomos que haya creado una cuenta de agrónomo en la plataforma SkyCrop|
+|Subscription (Subscripción)          |Licencia de uso de la aplicación y servicios de la plataforma SkyCrop|
+|Agricultural Plot (Parcela Agrícola) |Zona registrada en la plataforma SkyCrop y monitoreada por cuentas de agricultores y agrónomos con los permisos suficientes|
+|Drone (Dron)                         |Equipo registrado en la plataforma SkyCrop y gestionado por cuentas de agricultores y agrónomos con los permisos suficientes|
+
 
 
 # Capítulo III: Requirements Specification 

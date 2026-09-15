@@ -747,9 +747,19 @@ En esta sección se encuentran los User Journey Map para cada User Persona. El c
 
 ### 2.3.4. Empathy Mapping. 
 
+En esta sección se encuentran los Empathy Maps realizados para cada User Persona. Estos mapas fueron elaborados en base a la situación que hemos identificado de los segmentos objetivos, así como lo que necesitan hacer, aquello que los frustra y lo que desean.
 
+**Empathy Map 1 - Alfonso - Segmento: Agricultores**
+
+![Empathy Map Agricultores](resources/imgs/empathy-map-agricultor.png)
+
+**Empathy Map 2 - Ignacio - Segmento: Ingenieros Agrónomos**
+
+![Empathy Map Ingenieros Agronomos](resources/imgs/empathy-map-agronomo.png)
 
 ## 2.4. Big Picture EventStorming. 
+
+
 
 ## 2.5. Ubiquitous Language. 
 

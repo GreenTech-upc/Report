@@ -574,7 +574,8 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 <img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una zona rural, comparte los desafíos diarios del campo. Destaca que el mayor problema actual es el alto costo de tiempo y el gran esfuerzo físico que requiere el monitoreo manual, lo que provoca que detecte problemas críticos como el estrés hídrico, plagas y falta de fertilizantes cuando el daño ya es irreversible. También menciona que no aprovecha los drones por su falta de conocimientos en programación y porque el software comercial es muy costoso e inflexible. Explica que le gustaría visualizar la salud de su cultivo de forma rápida y comprensible desde una pantalla para evitar recorrer el terreno a ciegas. Finalmente, describe su sistema ideal y afirma que pagaría una suscripción por una plataforma que genere rutas de vuelo automatizadas y mapas visuales de anomalías, resaltando que la herramienta debe estar preparada para lidiar con la conectividad intermitente a internet propia de las zonas rurales.
+**Resumen**:  
+En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una zona rural, comparte los desafíos diarios del campo. Destaca que el mayor problema actual es el alto costo de tiempo y el gran esfuerzo físico que requiere el monitoreo manual, lo que provoca que detecte problemas críticos como el estrés hídrico, plagas y falta de fertilizantes cuando el daño ya es irreversible. También menciona que no aprovecha los drones por su falta de conocimientos en programación y porque el software comercial es muy costoso e inflexible. Explica que le gustaría visualizar la salud de su cultivo de forma rápida y comprensible desde una pantalla para evitar recorrer el terreno a ciegas. Finalmente, describe su sistema ideal y afirma que pagaría una suscripción por una plataforma que genere rutas de vuelo automatizadas y mapas visuales de anomalías, resaltando que la herramienta debe estar preparada para lidiar con la conectividad intermitente a internet propia de las zonas rurales.
 
 ---
 **Entrevista 2**
@@ -602,7 +603,8 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 <img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
 </div>
 
-**Resumen**:Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus conocimientos y desafíos al asesorar parcelas agrícolas y cooperativas. Destaca que su mayor dificultad es el tiempo que toma supervisar físicamente el campo para poder realizar diagnósticos agronómicos a tiempo, buscando identificar problemas como el estrés hídrico y las plagas. Menciona que las tecnologías modernas, como el análisis de imágenes aéreas, suelen tener precios prohibitivos o están restringidas a hardware específico, limitando su adopción. Explica que le gustaría usar un sistema que le permita trazar rutas de vuelo automáticas para drones estándar y cruzar datos visuales de las anomalías para optimizar sus tiempos de revisión. Finalmente, describe un plan ideal por el cual pagaría de forma profesional, el cual debería incluir reportes estacionales en la nube, un historial para comparar ciclos y una herramienta administrativa para gestionar el monitoreo colaborativo en múltiples terrenos.
+**Resumen**:  
+Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus conocimientos y desafíos al asesorar parcelas agrícolas y cooperativas. Destaca que su mayor dificultad es el tiempo que toma supervisar físicamente el campo para poder realizar diagnósticos agronómicos a tiempo, buscando identificar problemas como el estrés hídrico y las plagas. Menciona que las tecnologías modernas, como el análisis de imágenes aéreas, suelen tener precios prohibitivos o están restringidas a hardware específico, limitando su adopción. Explica que le gustaría usar un sistema que le permita trazar rutas de vuelo automáticas para drones estándar y cruzar datos visuales de las anomalías para optimizar sus tiempos de revisión. Finalmente, describe un plan ideal por el cual pagaría de forma profesional, el cual debería incluir reportes estacionales en la nube, un historial para comparar ciclos y una herramienta administrativa para gestionar el monitoreo colaborativo en múltiples terrenos.
 
 ---
 **Entrevista 2**
@@ -619,14 +621,35 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 <img src="resources/imgs/chapter_ii/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
-**Resumen**:En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años residente en Cusco, comparte sus desafíos al brindar asesoría técnica a pequeños productores y cooperativas agrarias. Destaca que su mayor frustración es la imposibilidad de estar en todas las parcelas a la vez y el gran desgaste físico que supone realizar inspecciones a pie bajo el sol, ya que solo puede procesar realmente la información cuando llega a su laptop. También menciona que, si bien conoce tecnologías para detectar problemas como el estrés hídrico o plagas a tiempo, las opciones comerciales actuales son ecosistemas cerrados con licencias carísimas. Explica que le urge una herramienta digital que funcione con drones estándar, que sea capaz de operar sin conexión a internet por la mala señal rural y que automatice la generación de mapas visuales, permitiéndole a ella enfocarse exclusivamente en tomar las decisiones. Finalmente, describe un sistema ideal por el cual pagaría un plan corporativo, el cual debe incluir un historial en la nube para comparar ciclos estacionales y una consola para gestionar colaborativamente múltiples parcelas y usuarios.
+**Resumen**:  
+En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años residente en Cusco, comparte sus desafíos al brindar asesoría técnica a pequeños productores y cooperativas agrarias. Destaca que su mayor frustración es la imposibilidad de estar en todas las parcelas a la vez y el gran desgaste físico que supone realizar inspecciones a pie bajo el sol, ya que solo puede procesar realmente la información cuando llega a su laptop. También menciona que, si bien conoce tecnologías para detectar problemas como el estrés hídrico o plagas a tiempo, las opciones comerciales actuales son ecosistemas cerrados con licencias carísimas. Explica que le urge una herramienta digital que funcione con drones estándar, que sea capaz de operar sin conexión a internet por la mala señal rural y que automatice la generación de mapas visuales, permitiéndole a ella enfocarse exclusivamente en tomar las decisiones. Finalmente, describe un sistema ideal por el cual pagaría un plan corporativo, el cual debe incluir un historial en la nube para comparar ciclos estacionales y una consola para gestionar colaborativamente múltiples parcelas y usuarios.
 
 ---
 **Entrevista 3**
 
+| Campo            | Detalle              |
+|:-----------------|:---------------------|
+| **Nombre**       | Suzy Vásquez Navarro |
+| **Edad**         | 48 años              |
+| **Departamento** | Ate                  |
+| **Duración**     | 14:26 min            |
+| **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
+</div>
+
+**Resumen**:  
+Suzy Vásquez, de 48 años, es una ingeniera agrónoma que en esta entrevista nos cuenta sobre su trabajo. En su trabajo ella asesora a productores y agroexportadores, revisando varios cultivos con diferentes hortalizas de invierno o de verano.
+Ella cuenta que el monitoreo de los cultivos que realiza depende de los clientes que asesora y del cultivo, algunos procesos que realiza es la toma de muestras, recorridos por el campo en diferentes formas, el control de plantas al azar por hectárea y la colocación de trampas para plagas. Los datos que suele recolectar son la humedad del suelo, la concentración de nutrientes, el pH, la etapa de desarrollo de los cultivos y el ambiente.
+Nos cuenta también sus dificultades, tales como la resistencia de los clientes agricultores por sus costumbres, los casos donde no se realiza un estudio del suelo y lo largo que puede ser un monitoreo al trabajar con varias hectáreas.
+La entrevistada no trabajó mucho con drones, pero contó que le gustaría que el sistema pueda capturar imágenes del campo con gran resolución, precisión y claridad, además de que pueda moverse a través de 10 o más hectáreas para tomar imágenes automáticamente y contar con otras funciones como aplicación de fertilizantes o riego.
+En tales imágenes ella espera que se noten los manchados en los cultivos generados por diversos factores como el ambiente, estrés o plagas. Además, espera que se pueda visualizar como es el desarrollo de las plantas, su densidad por hectárea y la homogeneidad del riego.
 
 ---
 ### 2.2.3. Análisis de entrevistas. 
+
+
 
 ## 2.3. Needfinding. 
 

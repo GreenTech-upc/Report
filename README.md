@@ -901,9 +901,18 @@ A partir de este proceso, identificamos lo siguiente:
 
 ### 4.6.2. Software Architecture Context Diagram. 
 
+<img src="resources/imgs/Software Architecture Diagram/Context Diagram.png"
+alt="Context-Diagram">
+
 ### 4.6.3. Software Architecture Container Diagrams. 
 
+<img src="resources/imgs/Software Architecture Diagram/Container Diagram.png"
+alt="Context-Diagram">
+
 ### 4.6.4. Software Architecture Components Diagrams. 
+
+<img src="resources/imgs/Software Architecture Diagram/Component Diagram.png"
+alt="Component-Diagram">
 
 ## 4.7. Software Object-Oriented Design. 
 
@@ -973,6 +982,7 @@ Se utilizó la estrategia GitHub Flow para la colaboración y el control de vers
 Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
 
 <br>
+
 ### 5.1.2. Source Code Management. 
 
 ### 5.1.3. Source Code Style Guide & Conventions. 

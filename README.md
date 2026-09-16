@@ -571,7 +571,7 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
+<img src="resources/imgs/chapter_2/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
 </div>
 
 **Resumen**:  
@@ -600,7 +600,7 @@ En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una
 | **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD|
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_2/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
 </div>
 
 **Resumen**:  
@@ -618,7 +618,7 @@ Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus 
 | **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_2/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
 **Resumen**:  
@@ -636,7 +636,7 @@ En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años res
 | **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_2/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
 **Resumen**:  
@@ -787,22 +787,22 @@ En esta sección se presenta el tablero del Big Picture EventStorming elaborado 
 **1- Colocación de eventos del dominio**  
 En esta primera fase los integrantes del equipo colocaron eventos que se relacionen al dominio del negocio, denotados por tarjetas naranjas.
 
-![Big Picture Event Storming - Eventos](resources/imgs/chapter_ii/big-picture-eventstorming-1.jpg)
+![Big Picture Event Storming - Eventos](resources/imgs/chapter_2/big-picture-eventstorming-1.jpg)
 
 **2- Ordenamiento de los eventos**  
 En esta fase los integrantes del equipo ordenaron los eventos hasta formar una secuencia cronológica.
 
-![Big Picture Event Storming - Orden](resources/imgs/chapter_ii/big-picture-eventstorming-2.jpg)
+![Big Picture Event Storming - Orden](resources/imgs/chapter_2/big-picture-eventstorming-2.jpg)
 
 **3- Colocación de actores y sistemas externos**  
 En esta fase los integrantes del grupo agregaron a los eventos unas tarjetas de color amarillo que representan a los actores de algunas series de eventos y otras tarjetas azules que representan a los sistemas externos involucrados.
 
-![Big Picture Event Storming - Actores y Sistemas](resources/imgs/chapter_ii/big-picture-eventstorming-3.jpg)
+![Big Picture Event Storming - Actores y Sistemas](resources/imgs/chapter_2/big-picture-eventstorming-3.jpg)
 
 **4- Identificación de problemas en la secuencia**  
 En esta última fase los integrantes identificaron problemas que podrían ocurrir durante la secuencia de eventos y representaron tales problemas mediante tarjetas rosadas.
 
-![Big Picture Event Storming - Problemas](resources/imgs/chapter_ii/big-picture-eventstorming-4.jpg)
+![Big Picture Event Storming - Problemas](resources/imgs/chapter_2/big-picture-eventstorming-4.jpg)
 
 A partir de este proceso, identificamos lo siguiente:
 

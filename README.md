@@ -186,11 +186,11 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Foto** | |
 ----------------------
 
-| **Integrante** | |
+| **Integrante** | Jonseck Choque Oliver |
 | :--- | :--- |
-| **Código del Estudiante** | |
-| **Carrera** | |
-| **Descripción** | |
+| **Código del Estudiante** | U202312912 |
+| **Carrera** | Ingenieria de Software |
+| **Descripción** | Estudiante de la universidad peruana de ciencias aplicadas (UPC), soy un alumno con conocimiento en Java, C#, html, javascript y python. Poseo 21 años. Soy una persona algo distraida, pero sin embargo siempre trato de dar lo mejor que puedo. Soy autodidacta, alegre y llego a ser responsable. |
 | **Foto** | |
 ---------------------
 

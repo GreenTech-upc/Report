@@ -782,7 +782,50 @@ En esta sección se encuentran los Empathy Maps realizados para cada User Person
 
 ## 2.4. Big Picture EventStorming. 
 
+En esta sección se presenta el tablero del Big Picture EventStorming elaborado por el equipo GreenTech, el cual servirá como una vista general del dominio del negocio. Se presentarán los pasos seguidos para su elaboración.
 
+**1- Colocación de eventos del dominio**  
+En esta primera fase los integrantes del equipo colocaron eventos que se relacionen al dominio del negocio, denotados por tarjetas naranjas.
+
+![Big Picture Event Storming - Eventos](resources/imgs/chapter_ii/big-picture-eventstorming-1.jpg)
+
+**2- Ordenamiento de los eventos**  
+En esta fase los integrantes del equipo ordenaron los eventos hasta formar una secuencia cronológica.
+
+![Big Picture Event Storming - Orden](resources/imgs/chapter_ii/big-picture-eventstorming-2.jpg)
+
+**3- Colocación de actores y sistemas externos**  
+En esta fase los integrantes del grupo agregaron a los eventos unas tarjetas de color amarillo que representan a los actores de algunas series de eventos y otras tarjetas azules que representan a los sistemas externos involucrados.
+
+![Big Picture Event Storming - Actores y Sistemas](resources/imgs/chapter_ii/big-picture-eventstorming-3.jpg)
+
+**4- Identificación de problemas en la secuencia**  
+En esta última fase los integrantes identificaron problemas que podrían ocurrir durante la secuencia de eventos y representaron tales problemas mediante tarjetas rosadas.
+
+![Big Picture Event Storming - Problemas](resources/imgs/chapter_ii/big-picture-eventstorming-4.jpg)
+
+A partir de este proceso, identificamos lo siguiente:
+
+**Procesos clave:**
+
+-Creación de cuenta y perfil de los usuarios de la plataforma
+-Selección de subscripción y pago
+-Configuración y planificación del vuelo de los drones
+-Recolección y envío de datos
+-Procesamiento y presentación de datos
+-Envío de notificaciones a partir de lo procesado
+
+**Problemas:**
+
+-La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
+-Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
+-Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
+
+**Oportunidades:**
+
+-La automatización de vuelos de drones para la recolección de información.
+-La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
+-Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
 
 ## 2.5. Ubiquitous Language. 
 
@@ -794,7 +837,7 @@ En esta sección se encuentran los Empathy Maps realizados para cada User Person
 |Subscription (Subscripción)          |Licencia de uso de la aplicación y servicios de la plataforma SkyCrop|
 |Agricultural Plot (Parcela Agrícola) |Zona registrada en la plataforma SkyCrop y monitoreada por cuentas de agricultores y agrónomos con los permisos suficientes|
 |Drone (Dron)                         |Equipo registrado en la plataforma SkyCrop y gestionado por cuentas de agricultores y agrónomos con los permisos suficientes|
-
+|||
 
 
 # Capítulo III: Requirements Specification 

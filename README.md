@@ -637,66 +637,38 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 
 # Capítulo III: Requirements Specification 
 
-## 3.1. User Stories. 
-
-## E01 - Gestión de cuentas y autentificación
-
-**Descripción:** Como usuario, requiero de un sistema de autentificación que me permita registrarme, iniciar sesión, mantener mi perfil actualizado y cerrar sesión, para acceder de manera segura a la plataforma.<br>
-<br> **Objetivo:** Proveer al usuario con un sistema sencillo, capaz y seguro para ingresar.<br>
-<br> **Criterios de aceptación:** <br>
-- Registro con validación de correo y contraseña.
-- Actualización de información del perfil.
-- Cierre de sesión seguro con validación de tokens.
-
- ## E02 - Pago de suscripción
-
-**Descripción:** Como usuario, requiero de un sistema de pagos simple que me permita ingresar mis datos bancarios de manera segura, para pagar mi suscripción de la plataforma <br>
-<br> **Objetivo:** Proveer al usuario de un sistema fácil de utilizar para realizar un pago. <br>
-<br> **Criterios de aceptación:** <br> 
-- Pago por medio de diversos procesadores de pago.
-- Verificación del estado del pago.
-
-## E03 - Gestión del terreno y dron
-
-**Descripción:** Como usuario, deseo un sistema de registro y configuración que me permita registrar mi terreno, conectar mi dron y configurar una rutina de vuelo. <br>
-<br> **Objetivo:** Brindar al usuario diversas herramientas digitales que faciliten todo el proceso. <br>
-<br> **Criterios de aceptación:** <br> 
-- Registrar un terreno mediante su tamaño.
-- Conexión del dron.
-- Gestión de la rutina de vuelo.
-
-## E04 - Diagnóstico y Notificaciones
-
-**Descripción:** Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envie una notificación de los puntos más importantes diagnostico. <br>
-<br> **Objetivo:** Crear un sistema que realice un diagnóstico y envie una notificación al dispositivo del usuario. <br>
-<br> **Criterios de aceptación:** <br> 
-- Creación de un diagnóstico.
-- Notificación de resultados obtenidos.
-- Notificación especial en el caso de una anomalia.
-
 ## E05 - Reporte y Análisis
 
-**Descripción:** Como usuario, necesito recibir un reporte de todos los diagnosticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo pdf. <br>
-<br> **Objetivo:** Crear un sistema que genere los reportes necesarios para el usuario, además de permitirle descargarlo cómo un archivo pdf. <br>
-<br> **Criterios de aceptación:** <br>
-- Creación de un reporte de cada diagnostico.
-- Creación de un reporte de cada diagnostico según la estación del año.
-- Boton para descargar cada diagnostico y reporte como un pdf.
 
 |Epic / Story ID|Título|Descripción|Criterios de aceptación|Relacionado con|
 |:--------------|:-----|:----------|:----------------------|:--------------|
-| US01 |Registrar la cuenta de un Usuario| Como Usuario, deseo registrarme en la plataforma para poder acceder a la funcionalidad de como configurar un dron|**Scenario: Registro exitoso de un usuario**<br> *Given* el usuario está en el formulario de registro <br>*When* ingresa su nombre, correo y contraseña (≥ 8 caracteres) y acepta los términos <br> *Then* el sistema guarda la información y envía una confirmación por correo | E01|
-| US02 | Inicio de Sesión |  Como Usuario, deseo iniciar sesión mediante mis credenciales para ingresar al aplicativo | **Scenario 1: Inicio de Sesión exitoso** <br> *Given* El usuario ingresa los datos correctos <br> *When* Presiona el botón de iniciar sesión <br> *Then* El usuario ingresa a su cuenta. <br> **Scenario 2: El usuario ingresa datos erróneos**<br> *Given* El usuario ingresa datos erróneos <br> *When* Presiona el botón de iniciar sesión <br> *Then* La página mostrará el mensaje de "Usuario o contraseña incorrecto" | E01|
-| US03 | Cambiar la información del perfil | Como usuario, deseo ser capaz de cambiar la información de mi perfil | **Scenario: Perfil actualizado** <br> *Given* el usuario accede a su perfil <br> *When* edita información y guarda cambios *Then* el sistema actualiza los datos visibles a los jugadores| E01 |
-| US04 | Pagar la suscripción con tarjeta | Como usuario, deseo pagar mi suscripción con tarjeta, de manera rápida y segura| **Scenario 1: Pago exitoso** <br> *Given* El usuario ingresa sus datos bancarios <br> *When* El usuario presiona el boton de realizar pago y el procesador de pago aprueba el pago. <br> *Then* La página mostrará el mensaje "El pago fue exitoso" <br> **Scenario 2: Se ingresan datos bancarios no validos** <br> *Given* El usuario ingresa datos bancarios no válidos <br> *When* El usuario presiona el botón de realizar pago y el procesador de pago rechaza el pago. <br> *Then* La página mostrará el mensaje "Error al realizar el pago"  | E02 |
-| US05 | Registrar el terreno | Como usuario, deseo registrar el terreno por el cual el dron va a volar | **Scenario: Registrar el tamaño del terreno* <br> *Given* El usuario registra la dimensiones del terreno en una pestaña <br> *When* el usuario presiona el botón de "registrar terreno" <br> *Then* La página mostrará el mensaje "Terreno Registrado" | E03 |
-| US06 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | E03 |
-| US07 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | E03 |
-| US08 | Notificar cuando se realice el diagnóstico | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | E04 |
-| US09 | Notificar cuando se detecta una anomalía | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envia la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | E04 |
-| US10 | Crear un diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | E05 |
-| US11 | Crear un diagnóstico según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | E05 |
-| US12 | Descargar los reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | E05 |
+| **EP-01** | Gestión de cuentas y autentificación|Como usuario de la plataforma SkyCrop, quiero registrar una cuenta, iniciar sesión en ella, mantener mi perfil actualizado y cerrar sesión, para acceder de manera segura a la plataforma.|- Registro con validación de correo y contraseña. <br> - Actualización de información del perfil. <br> - Cierre de sesión seguro.|-----|
+| US-01 | Registrar la cuenta de un Usuario| Como Usuario, deseo registrarme en la plataforma para poder acceder a la funcionalidad de como configurar un dron|**Scenario: Registro exitoso de un usuario**<br> *Given* el usuario está en el formulario de registro <br>*When* ingresa su nombre, correo y contraseña (≥ 8 caracteres) y acepta los términos <br> *Then* el sistema guarda la información y envía una confirmación por correo | EP-01|
+| US-02 | Inicio de Sesión |  Como Usuario, deseo iniciar sesión mediante mis credenciales para ingresar al aplicativo | **Scenario 1: Inicio de Sesión exitoso** <br> *Given* El usuario ingresa los datos correctos <br> *When* Presiona el botón de iniciar sesión <br> *Then* El usuario ingresa a su cuenta. <br> **Scenario 2: El usuario ingresa datos erróneos**<br> *Given* El usuario ingresa datos erróneos <br> *When* Presiona el botón de iniciar sesión <br> *Then* La página mostrará el mensaje de "Usuario o contraseña incorrecto" | EP-01|
+| US-03 | Cambiar la información del perfil | Como usuario, deseo ser capaz de cambiar la información de mi perfil | **Scenario: Perfil actualizado** <br> *Given* el usuario accede a su perfil <br> *When* edita información y guarda cambios *Then* el sistema actualiza los datos visibles a los jugadores| EP-01 |
+||||||
+| **EP-02** | Pago de subscripción|Como usuario, requiero de un sistema de pagos simple que me permita ingresar mis datos bancarios de manera segura, para pagar mi suscripción de la plataforma|- Pago por medio de diversos procesadores de pago.<br>- Verificación del estado del pago.|-----|
+| US-04 | Pagar la suscripción con tarjeta | Como usuario, deseo pagar mi suscripción con tarjeta, de manera rápida y segura| **Scenario 1: Pago exitoso** <br> *Given* El usuario ingresa sus datos bancarios <br> *When* El usuario presiona el boton de realizar pago y el procesador de pago aprueba el pago. <br> *Then* La página mostrará el mensaje "El pago fue exitoso" <br> **Scenario 2: Se ingresan datos bancarios no validos** <br> *Given* El usuario ingresa datos bancarios no válidos <br> *When* El usuario presiona el botón de realizar pago y el procesador de pago rechaza el pago. <br> *Then* La página mostrará el mensaje "Error al realizar el pago"  | EP-02 |
+||||||
+| **EP-03** | Gestión de terrenos|Como usuario de la plataforma SkyCrop, deseo un sistema de registro y gestión que me permita registrar mi terreno para |- Registrar un terreno mediante su tamaño.<br>- Revisión del estado del terreno y sus cultivos.|-----|
+| US-05 | Registrar el terreno | Como usuario, deseo registrar el terreno por el cual el dron va a volar | **Scenario: Registrar el tamaño del terreno* <br> *Given* El usuario registra la dimensiones del terreno en una pestaña <br> *When* el usuario presiona el botón de "registrar terreno" <br> *Then* La página mostrará el mensaje "Terreno Registrado" | EP-03 |
+||||||
+| **EP-04** | Gestión de drones|Como usuario de la plataforma SkyCrop, quiero un sistema de registro y configuración de drones conectar mi dron y configurar una rutina de vuelo.|-Conexión del dron.<br>- Gestión de la rutina de vuelo.||
+| US-06 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | EP-04 |
+| US-07 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | EP-04 |
+| **EP-05** | Diagnóstico y notificaciones|Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envíe una notificación de los puntos más importantes.|- Creación de un diagnóstico.<br>- Notificación de resultados obtenidos.<br>- Notificación especial en el caso de una anomalía.|-----|
+| US-08 | Notificar cuando se realice el diagnóstico | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | EP-05 |
+| US-09 | Notificar cuando se detecta una anomalía | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envia la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | EP-05 |
+| US-10 | Crear un diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | EP-05 |
+||||||
+| **EP-06** | Reporte y análisis |Como usuario, necesito recibir un reporte de todos los diagnósticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo PDF.|- Creación de un reporte de cada diagnóstico.<br>- Creación de un reporte de cada diagnóstico según la estación del año. <br>- Botón para descargar cada diagnóstico y reporte como un PDF.|-----|
+| US-11 | Crear un diagnóstico según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | EP-06 |
+| US-12 | Descargar los reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | EP-06 |
+||||||
+| **EP-07** | Landing Page | Como visitante, quiero conocer lo que la plataforma SkyCrop ofrece y los beneficios que puede brindarme para decidir si debería registrarme|- Visualización del proposito de la plataforma.<br>- Visualización de las funcionalidades y beneficios que ofrece.<br>- Visualización de los planes y precios.|-----|
+||||||
+| **EP-08** | RESTful API | Como desarrollador, quiero que el proyecto cuente con una RESTful API para permitir la manipulación de datos desde otros sistemas|  -Consulta de datos de la plataforma. <br>- Actualización de datos de la plataforma. <br>- Procesamiento de datos ingresados. |-----|
+||||||
 
 ## 3.2. Impact Mapping. 
 

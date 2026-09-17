@@ -860,22 +860,37 @@ A partir de este proceso, identificamos lo siguiente:
 # Capítulo IV: Product Design 
 
 ## 4.1. Style Guidelines. 
-
 ### 4.1.1. General Style Guidelines. 
+- **Identidad de Marca:** El diseño visual debe reflejar la misión de GreenTech: fusionar la tecnología de vanguardia (AgTech) con la agricultura eficiente y sostenible.
+- **Tono de Comunicación:** El lenguaje en toda la plataforma debe ser directo, profesional y agronómico, evitando el uso de tecnicismos informáticos complejos, dado que el segmento objetivo (agricultores y gestores) carece de conocimientos en programación.
+- **Paleta de Colores:** Se utilizarán colores con un alto nivel de contraste, teniendo en cuenta que la aplicación será utilizada al aire libre y bajo la luz solar intensa en zonas rurales y semi-urbanas.
 
 ### 4.1.2. Web Style Guidelines. 
+- **Diseño Responsivo (Responsive Design):** La interfaz debe estar completamente adaptada para funcionar de manera óptima tanto en navegadores web como en dispositivos móviles, ya que estos serán los principales canales de distribución del software.
+- **Indicadores Visuales (Feedback):** Se diseñarán interfaces que destaquen visualmente de forma rápida y comprensible las anomalías encontradas tras el procesamiento de imágenes aéreas, tales como el estrés hídrico, las plagas o la deficiencia de fertilizantes.
+- **Diseño para Modo Offline:** Teniendo en cuenta la estrategia frente a los competidores, la interfaz web y móvil debe identificar claramente a los usuarios qué funcionalidades y reportes se encuentran disponibles sin conexión, previendo los inconvenientes de conectividad a internet en los campos de cultivo.
 
 ## 4.2. Information Architecture. 
-
 ### 4.2.1. Organization Systems. 
+- **Organización Estructural:** El sistema se estructurará alrededor de una consola de gestión multi-parcela y multi-usuario, permitiendo a las cooperativas organizar de forma colaborativa múltiples extensiones de tierra y equipos de trabajo.
+- **Organización Cronológica:** Se utilizará un sistema de orden cronológico para el módulo de "Historial de cultivos y reportes", permitiendo a los ingenieros agrónomos visualizar datos almacenados en la nube para comparar las condiciones entre distintos ciclos agrícolas estacionales.
 
 ### 4.2.2. Labeling Systems. 
+- **Lenguaje Ubicuo:** Todas las etiquetas de navegación utilizarán términos exactos extraídos del dominio del usuario, tales como "Mapas NDVI", "Estrés hídrico", y "Rutas de vuelo".
+- **Nomenclatura de Funcionalidades:** Las secciones principales llevarán etiquetas autoexplicativas como "Planificación de Vuelos", "Mapas Visuales del Terreno", "Análisis de Imágenes" y "Gestión de Cooperativas".
 
 ### 4.2.3. SEO Tags and Meta Tags 
+- **Title Tags:** Se configurarán títulos optimizados como "SkyCrop - Monitoreo Agrícola Automatizado" o "GreenTech - Agricultura de Precisión y Drones Comerciales".
+- **Meta Descriptions:** Se redactarán descripciones centradas en el valor del producto, por ejemplo: "Plataforma de software accesible y automatizada para gestionar rutinas de vuelo de drones y generar mapas visuales que detectan anomalías tempranas en cultivos".
+- **Keywords:** Se incluirán palabras clave relevantes como: agricultura de precisión, sector AgTech, monitoreo de parcelas, automatización de vuelos de drones, fotogrametría agrícola, mapas NDVI y salud de cultivos.
 
 ### 4.2.4. Searching Systems. 
+- **Búsqueda Global:** Se implementará una barra de búsqueda general que permita a los ingenieros agrónomos y gestores de cooperativas encontrar rápidamente parcelas específicas o miembros de su equipo de trabajo.
+- **Filtros de Búsqueda:** Dentro del historial de cultivos, los usuarios contarán con herramientas para filtrar los reportes en la nube según parámetros específicos como: fecha del ciclo agrícola y tipo de problema diagnosticado (plagas, estrés hídrico, etc.).
 
 ### 4.2.5. Navigation Systems. 
+- **Navegación Principal:** Un menú lateral fijo o colapsable que brindará acceso a las herramientas principales: delimitación de rutas de vuelo personalizadas, visor de mapas procesados, reportes históricos y la configuración de suscripciones (Básico, Profesional, Cooperativa).
+- **Navegación Contextual (Cross-linking):** Se colocarán atajos dentro de los mapas visuales del terreno que permitan al usuario saltar directamente de un área con anomalías recién detectadas hacia el historial de reportes de esa misma ubicación exacta para hacer comparaciones rápidas.
 
 ## 4.3. Landing Page UI Design. 
 

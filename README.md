@@ -67,10 +67,6 @@ Proyecto
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [| **Foto** | |](#-foto--)
-  - [| **Foto** | |](#-foto---1)
-  - [| **Foto** | |](#-foto---2)
-  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -571,10 +567,11 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
+<img src="resources/imgs/chapter_2/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una zona rural, comparte los desafíos diarios del campo. Destaca que el mayor problema actual es el alto costo de tiempo y el gran esfuerzo físico que requiere el monitoreo manual, lo que provoca que detecte problemas críticos como el estrés hídrico, plagas y falta de fertilizantes cuando el daño ya es irreversible. También menciona que no aprovecha los drones por su falta de conocimientos en programación y porque el software comercial es muy costoso e inflexible. Explica que le gustaría visualizar la salud de su cultivo de forma rápida y comprensible desde una pantalla para evitar recorrer el terreno a ciegas. Finalmente, describe su sistema ideal y afirma que pagaría una suscripción por una plataforma que genere rutas de vuelo automatizadas y mapas visuales de anomalías, resaltando que la herramienta debe estar preparada para lidiar con la conectividad intermitente a internet propia de las zonas rurales.
+**Resumen**:  
+En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una zona rural, comparte los desafíos diarios del campo. Destaca que el mayor problema actual es el alto costo de tiempo y el gran esfuerzo físico que requiere el monitoreo manual, lo que provoca que detecte problemas críticos como el estrés hídrico, plagas y falta de fertilizantes cuando el daño ya es irreversible. También menciona que no aprovecha los drones por su falta de conocimientos en programación y porque el software comercial es muy costoso e inflexible. Explica que le gustaría visualizar la salud de su cultivo de forma rápida y comprensible desde una pantalla para evitar recorrer el terreno a ciegas. Finalmente, describe su sistema ideal y afirma que pagaría una suscripción por una plataforma que genere rutas de vuelo automatizadas y mapas visuales de anomalías, resaltando que la herramienta debe estar preparada para lidiar con la conectividad intermitente a internet propia de las zonas rurales.
 
 ---
 **Entrevista 2**
@@ -599,10 +596,11 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD|
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_2/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
 </div>
 
-**Resumen**:Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus conocimientos y desafíos al asesorar parcelas agrícolas y cooperativas. Destaca que su mayor dificultad es el tiempo que toma supervisar físicamente el campo para poder realizar diagnósticos agronómicos a tiempo, buscando identificar problemas como el estrés hídrico y las plagas. Menciona que las tecnologías modernas, como el análisis de imágenes aéreas, suelen tener precios prohibitivos o están restringidas a hardware específico, limitando su adopción. Explica que le gustaría usar un sistema que le permita trazar rutas de vuelo automáticas para drones estándar y cruzar datos visuales de las anomalías para optimizar sus tiempos de revisión. Finalmente, describe un plan ideal por el cual pagaría de forma profesional, el cual debería incluir reportes estacionales en la nube, un historial para comparar ciclos y una herramienta administrativa para gestionar el monitoreo colaborativo en múltiples terrenos.
+**Resumen**:  
+Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus conocimientos y desafíos al asesorar parcelas agrícolas y cooperativas. Destaca que su mayor dificultad es el tiempo que toma supervisar físicamente el campo para poder realizar diagnósticos agronómicos a tiempo, buscando identificar problemas como el estrés hídrico y las plagas. Menciona que las tecnologías modernas, como el análisis de imágenes aéreas, suelen tener precios prohibitivos o están restringidas a hardware específico, limitando su adopción. Explica que le gustaría usar un sistema que le permita trazar rutas de vuelo automáticas para drones estándar y cruzar datos visuales de las anomalías para optimizar sus tiempos de revisión. Finalmente, describe un plan ideal por el cual pagaría de forma profesional, el cual debería incluir reportes estacionales en la nube, un historial para comparar ciclos y una herramienta administrativa para gestionar el monitoreo colaborativo en múltiples terrenos.
 
 ---
 **Entrevista 2**
@@ -616,32 +614,226 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_2/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
-**Resumen**:En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años residente en Cusco, comparte sus desafíos al brindar asesoría técnica a pequeños productores y cooperativas agrarias. Destaca que su mayor frustración es la imposibilidad de estar en todas las parcelas a la vez y el gran desgaste físico que supone realizar inspecciones a pie bajo el sol, ya que solo puede procesar realmente la información cuando llega a su laptop. También menciona que, si bien conoce tecnologías para detectar problemas como el estrés hídrico o plagas a tiempo, las opciones comerciales actuales son ecosistemas cerrados con licencias carísimas. Explica que le urge una herramienta digital que funcione con drones estándar, que sea capaz de operar sin conexión a internet por la mala señal rural y que automatice la generación de mapas visuales, permitiéndole a ella enfocarse exclusivamente en tomar las decisiones. Finalmente, describe un sistema ideal por el cual pagaría un plan corporativo, el cual debe incluir un historial en la nube para comparar ciclos estacionales y una consola para gestionar colaborativamente múltiples parcelas y usuarios.
+**Resumen**:  
+En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años residente en Cusco, comparte sus desafíos al brindar asesoría técnica a pequeños productores y cooperativas agrarias. Destaca que su mayor frustración es la imposibilidad de estar en todas las parcelas a la vez y el gran desgaste físico que supone realizar inspecciones a pie bajo el sol, ya que solo puede procesar realmente la información cuando llega a su laptop. También menciona que, si bien conoce tecnologías para detectar problemas como el estrés hídrico o plagas a tiempo, las opciones comerciales actuales son ecosistemas cerrados con licencias carísimas. Explica que le urge una herramienta digital que funcione con drones estándar, que sea capaz de operar sin conexión a internet por la mala señal rural y que automatice la generación de mapas visuales, permitiéndole a ella enfocarse exclusivamente en tomar las decisiones. Finalmente, describe un sistema ideal por el cual pagaría un plan corporativo, el cual debe incluir un historial en la nube para comparar ciclos estacionales y una consola para gestionar colaborativamente múltiples parcelas y usuarios.
 
 ---
 **Entrevista 3**
 
+| Campo            | Detalle              |
+|:-----------------|:---------------------|
+| **Nombre**       | Suzy Vásquez Navarro |
+| **Edad**         | 48 años              |
+| **Departamento** | Ate                  |
+| **Duración**     | 14:26 min            |
+| **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
+
+<div align="center">
+<img src="resources/imgs/chapter_2/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
+</div>
+
+**Resumen**:  
+Suzy Vásquez, de 48 años, es una ingeniera agrónoma que en esta entrevista nos cuenta sobre su trabajo. En su trabajo ella asesora a productores y agroexportadores, revisando varios cultivos con diferentes hortalizas de invierno o de verano.
+Ella cuenta que el monitoreo de los cultivos que realiza depende de los clientes que asesora y del cultivo, algunos procesos que realiza es la toma de muestras, recorridos por el campo en diferentes formas, el control de plantas al azar por hectárea y la colocación de trampas para plagas. Los datos que suele recolectar son la humedad del suelo, la concentración de nutrientes, el pH, la etapa de desarrollo de los cultivos y el ambiente.
+Nos cuenta también sus dificultades, tales como la resistencia de los clientes agricultores por sus costumbres, los casos donde no se realiza un estudio del suelo y lo largo que puede ser un monitoreo al trabajar con varias hectáreas.
+La entrevistada no trabajó mucho con drones, pero contó que le gustaría que el sistema pueda capturar imágenes del campo con gran resolución, precisión y claridad, además de que pueda moverse a través de 10 o más hectáreas para tomar imágenes automáticamente y contar con otras funciones como aplicación de fertilizantes o riego.
+En tales imágenes ella espera que se noten los manchados en los cultivos generados por diversos factores como el ambiente, estrés o plagas. Además, espera que se pueda visualizar como es el desarrollo de las plantas, su densidad por hectárea y la homogeneidad del riego.
 
 ---
 ### 2.2.3. Análisis de entrevistas. 
+
+
 
 ## 2.3. Needfinding. 
 
 ### 2.3.1. User Personas. 
 
+En esta sección se encontrarán las tarjetas de User Personas elaboradas a partir de la información que obtuvimos de las entrevistas. Para estas tarjetas se tuvo en consideración la manera en la que los ingenieros agrónomos y los agricultores realizan su trabajo, las dificultades que tienen al realizarlo y lo que ellos piensan que les sería conveniente.
+
+**User Persona 1 - Segmento: Agricultores**
+
+![User Persona Agricultor](resources/imgs/user-persona-alfonso.png)
+
+**User Persona 2 - Segmento: Ingenieros Agronomos**
+
+![User Persona Ingeniero Agrónomo](resources/imgs/user-persona-ignacio.png)
+
 ### 2.3.2. User Task Matrix. 
+
+En esta sección se encuentra la matriz de tareas de cada usuario, donde se evalúan la frecuencia y la importancia de las tareas que realizan los User Personas basados en los segmentos objetivos que hemos definido. En esta tabla, el User Persona asociada al segmento de agricultores es Alfonso Román, y el User Persona asociado al segmento de ingenieros agrónomos es Ignacio Rojas.
+
+<table border="1">
+  <tr>
+    <th rowspan="2">Tareas</th>
+    <th colspan="2">Alfonso Román</th>
+    <th colspan="2">Ignacio Rojas</th>
+  </tr>
+
+  <tr>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+
+  <tr>
+    <td>Monitoreo general del campo</td>
+    <td>Alta</td><td>Media</td>
+    <td>Media</td><td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Mantenimiento de los cultivos</td>
+    <td>Alta</td><td>Alta</td>
+    <td>Baja</td><td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Evaluación de la humedad del suelo</td>
+    <td>Media</td><td>Media</td>
+    <td>Alta</td><td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Revisión del crecimiento de los cultivos</td>
+    <td>Alta</td><td>Media</td>
+    <td>Alta</td><td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Monitoreo de la presencia de plagas</td>
+    <td>Alta</td><td>Alta</td>
+    <td>Alta</td><td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Identificación de problemas en los cultivos</td>
+    <td>Baja</td><td>Alta</td>
+    <td>Media</td><td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Registro de información del estado de los cultivos</td>
+    <td>Baja</td><td>Baja</td>
+    <td>Alta</td><td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Planificación del uso de insumos</td>
+    <td>Media</td><td>Alta</td>
+    <td>Alta</td><td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Análisis del cultivo y toma de decisiones</td>
+    <td>Media</td><td>Media</td>
+    <td>Alta</td><td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Uso de tecnología para el monitoreo</td>
+    <td>Baja</td><td>Media</td>
+    <td>Media</td><td>Media</td>
+  </tr>
+</table>
+
+**Tareas con más frecuencia**  
+Entre las tareas más frecuentes identificadas en la tabla, se encuentran aquellas enfocadas en el monitoreo y mantenimiento de las plantas, así como la revisión de su crecimiento y la identificación de plagas.
+
+**Tareas con más importancia**  
+Entre las tareas más importantes identificadas en la tabla, se encuentran aquellas relacionadas con el monitoreo y evaluación de los problemas que pueden afectar a los cultivos, la planificación del uso de insumos y el análisis de lo identificado para la toma de decisiones.
+
+**Principales diferencias**  
+En la tabla se pudo identificar como los agricultores realizan tareas de monitoreo más frecuentemente y como los ingenieros agrónomos realizan tareas de registro y análisis más seguido. Además, se identificó como la tarea del mantenimiento de los cultivos es más importante para los agricultores y como la tarea de análisis para la toma de decisiones es más importante para los agricultores.
+
+**Coincidencias encontradas**  
+Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y como el uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
 
 ### 2.3.3. User Journey Mapping. 
 
+En esta sección se encuentran los User Journey Map para cada User Persona. El camino que seguirá cada mapa busca reflejar las actividades que realiza cada segmento en cuanto a la revisión y mantenimiento de los cultivos, lo cual es aquello que nuestro producto busca mejorar.
+
+**User Journey Map 1 - Alfonso - Segmento: Agricultores**
+
+![User Journey Map Agricultores](resources/imgs/journey-map-agricultores.png)
+
+**User Journey Map 2 - Ignacio - Segmento: Ingenieros agrónomos**
+
+![User Journey Map Ingenieros Agrónomos](resources/imgs/journey-map-ingenieros-agronomos.png)
+
 ### 2.3.4. Empathy Mapping. 
+
+En esta sección se encuentran los Empathy Maps realizados para cada User Persona. Estos mapas fueron elaborados en base a la situación que hemos identificado de los segmentos objetivos, así como lo que necesitan hacer, aquello que los frustra y lo que desean.
+
+**Empathy Map 1 - Alfonso - Segmento: Agricultores**
+
+![Empathy Map Agricultores](resources/imgs/empathy-map-agricultor.png)
+
+**Empathy Map 2 - Ignacio - Segmento: Ingenieros Agrónomos**
+
+![Empathy Map Ingenieros Agronomos](resources/imgs/empathy-map-agronomo.png)
 
 ## 2.4. Big Picture EventStorming. 
 
+En esta sección se presenta el tablero del Big Picture EventStorming elaborado por el equipo GreenTech, el cual servirá como una vista general del dominio del negocio. Se presentarán los pasos seguidos para su elaboración.
+
+**1- Colocación de eventos del dominio**  
+En esta primera fase los integrantes del equipo colocaron eventos que se relacionen al dominio del negocio, denotados por tarjetas naranjas.
+
+![Big Picture Event Storming - Eventos](resources/imgs/chapter_2/big-picture-eventstorming-1.jpg)
+
+**2- Ordenamiento de los eventos**  
+En esta fase los integrantes del equipo ordenaron los eventos hasta formar una secuencia cronológica.
+
+![Big Picture Event Storming - Orden](resources/imgs/chapter_2/big-picture-eventstorming-2.jpg)
+
+**3- Colocación de actores y sistemas externos**  
+En esta fase los integrantes del grupo agregaron a los eventos unas tarjetas de color amarillo que representan a los actores de algunas series de eventos y otras tarjetas azules que representan a los sistemas externos involucrados.
+
+![Big Picture Event Storming - Actores y Sistemas](resources/imgs/chapter_2/big-picture-eventstorming-3.jpg)
+
+**4- Identificación de problemas en la secuencia**  
+En esta última fase los integrantes identificaron problemas que podrían ocurrir durante la secuencia de eventos y representaron tales problemas mediante tarjetas rosadas.
+
+![Big Picture Event Storming - Problemas](resources/imgs/chapter_2/big-picture-eventstorming-4.jpg)
+
+A partir de este proceso, identificamos lo siguiente:
+
+**Procesos clave:**
+
+-Creación de cuenta y perfil de los usuarios de la plataforma
+-Selección de subscripción y pago
+-Configuración y planificación del vuelo de los drones
+-Recolección y envío de datos
+-Procesamiento y presentación de datos
+-Envío de notificaciones a partir de lo procesado
+
+**Problemas:**
+
+-La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
+-Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
+-Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
+
+**Oportunidades:**
+
+-La automatización de vuelos de drones para la recolección de información.
+-La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
+-Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
+
 ## 2.5. Ubiquitous Language. 
 
+|Termino    |Definición             |
+|:----------|:----------------------|
+|User (Usuario)                       |Persona en general que haga uso de la plataforma SkyCrop y de sus servicios|
+|Farmer (Agricultor)                  |Persona perteneciente al segmento de agricultores que haya creado una cuenta de agricultor en la plataforma SkyCrop|
+|Agronomist (Agrónomo)                |Persona perteneciente al segmento de ingenieros agrónomos que haya creado una cuenta de agrónomo en la plataforma SkyCrop|
+|Subscription (Subscripción)          |Licencia de uso de la aplicación y servicios de la plataforma SkyCrop|
+|Agricultural Plot (Parcela Agrícola) |Zona registrada en la plataforma SkyCrop y monitoreada por cuentas de agricultores y agrónomos con los permisos suficientes|
+|Drone (Dron)                         |Equipo registrado en la plataforma SkyCrop y gestionado por cuentas de agricultores y agrónomos con los permisos suficientes|
+|||
 
 
 # Capítulo III: Requirements Specification 

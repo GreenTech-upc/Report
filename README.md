@@ -987,8 +987,41 @@ TODO: Agregar meta tags para páginas adicionales (no app). Blog, Casos de Éxit
 
 
 ### 4.2.4. Searching Systems. 
-- **Búsqueda Global:** Se implementará una barra de búsqueda general que permita a los ingenieros agrónomos y gestores de cooperativas encontrar rápidamente parcelas específicas o miembros de su equipo de trabajo.
-- **Filtros de Búsqueda:** Dentro del historial de cultivos, los usuarios contarán con herramientas para filtrar los reportes en la nube según parámetros específicos como: fecha del ciclo agrícola y tipo de problema diagnosticado (plagas, estrés hídrico, etc.).
+Para optimizar la capacidad de búsqueda dentro de la plataforma web y móvil de SkyCrop, se implementarán sistemas directos y basados en filtros paramétricos, diseñados para agilizar el flujo de trabajo diario de agricultores, ingenieros agrónomos y gestores de cooperativas.  
+
+**Tipos de búsqueda ofrecidos**
+- Búsqueda Directa Global (Header Search Box):
+
+  - Visible en la cabecera de todas las vistas principales de la consola de gestión.
+  - Permite ubicar rápidamente parcelas específicas, rutinas de vuelo automatizadas previamente guardadas o perfiles de los miembros del equipo de la cooperativa.
+  - Incluye autocompletado con sugerencias relevantes al contexto agrícola (ejemplo: "Parcela Norte", "Historial Octubre", "Juan Pérez").
+  
+- Sistema de Filtros Avanzados (Módulo de Historial y Mapas): Dentro del módulo de historial de cultivos y reportes en la nube, los ingenieros agrónomos contarán con filtros paramétricos para cruzar datos y refinar la búsqueda de diagnósticos:
+
+  - Estado de la parcela: Saludable, en riesgo, crítica.
+  - Tipo de anomalía detectada: Presencia de plagas, estrés hídrico, deficiencia de nutrientes.
+  - Fechas de escaneo: "Últimos 30 días", "Ciclo estacional anterior" o rangos de fechas personalizados.
+ 
+- Búsqueda específica en "Gestión de Cooperativa":
+  - Por nombre del ingeniero o agricultor asignado.
+  - Por rol dentro del equipo de trabajo.
+ 
+**Presentación de resultados**
+- Resultados dinámicos e integrados al modo Offline: El listado se actualizará en tiempo real al aplicar filtros. Si el usuario está en el campo con conectividad intermitente, el sistema priorizará mostrar los reportes y mapas cacheados disponibles sin conexión.
+
+- Organización matricial (Tarjetas/Cards): Cada resultado de parcela o reporte se mostrará en forma de tarjeta incluyendo:
+
+  - Miniatura del mapa visual o mapa NDVI generado.
+  - Nombre de la parcela, fecha del escaneo y métricas clave.
+  - Indicador visual de semaforización (rojo, amarillo, verde) resaltando la salud general del cultivo.
+  - Botón de acción principal ("Ver diagnóstico detallado", "Ejecutar ruta de vuelo").
+
+- Resultados ordenables: Los usuarios podrán ordenar el listado por:
+  - Fecha del reporte (cronológico).
+  - Nivel de criticidad del estado de la parcela (de mayor a menor riesgo).
+  - Nombre de la parcela (alfabético).
+
+Con este sistema, SkyCrop garantiza búsquedas rápidas, comparaciones claras entre ciclos agrícolas y filtros relevantes que permiten a los agricultores identificar problemas en sus terrenos de forma inmediata y sin complicaciones técnicas.  
 
 ### 4.2.5. Navigation Systems. 
 - **Navegación Principal:** Un menú lateral fijo o colapsable que brindará acceso a las herramientas principales: delimitación de rutas de vuelo personalizadas, visor de mapas procesados, reportes históricos y la configuración de suscripciones (Básico, Profesional, Cooperativa).

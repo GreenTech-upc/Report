@@ -973,7 +973,43 @@ Se utilizó la estrategia GitHub Flow para la colaboración y el control de vers
 Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
 
 <br>
-### 5.1.2. Source Code Management. 
+
+### 5.1.2. Source Code Management.
+
+En esta sección, el equipo establece los medios y esquemas de organización para el seguimiento de modificaciones durante el ciclo de vida del proyecto. Para ello, se utiliza **GitHub** como plataforma y sistema de control de versiones.
+
+**Repositorios del Proyecto:**
+*   **Organización:** https://github.com/GreenTech-upc
+*   **Informe (Report):** https://github.com/GreenTech-upc/Report
+*   **Landing Page:** https://github.com/GreenTech-upc/Landing-Page
+
+**Flujo de Trabajo (Workflow): GitFlow**
+Se implementa la estrategia **GitFlow** como modelo de control de versiones, definiendo las siguientes ramas principales para proteger el código de producción:
+*   `main`: Contiene el código de producción final. Siempre estable y listo para el público.
+*   `develop`: Rama de integración o desarrollo. Aquí se une todo el código nuevo de las características terminadas antes de preparar un lanzamiento.
+
+**Convenciones de Nomenclatura de Ramas (En inglés):**
+Para las ramas de apoyo temporales que se derivan de `develop` o `main`, se aplican las siguientes convenciones:
+
+| Tipo | Prefijo | Formato | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Característica (Feature)** | `feature/` | `feature/descriptive-name` | `feature/hero-section` |
+| **Lanzamiento (Release)** | `release/` | `release/x.y.z` | `release/1.0.0` |
+| **Corrección urgente (Hotfix)** | `hotfix/` | `hotfix/x.y.z-description` | `hotfix/1.0.1-navbar-fix` |
+
+**Convenciones de Commits (Conventional Commits 1.0.0):**
+Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el estándar **Conventional Commits** para los mensajes de los commits en todos los repositorios, utilizando el idioma inglés de forma predeterminada. Basándonos en la Convención Angular, se emplearán los siguientes prefijos estandarizados:
+
+*   `feat:` Introduce una nueva característica a la base de código.
+*   `fix:` Corrige un error (bug) en el código.
+*   `docs:` Actualizaciones exclusivas de documentación.
+*   `style:` Cambios que no afectan el significado del código (espacios, formato, etc.).
+*   `refactor:` Cambio de código que ni corrige un error ni añade una característica.
+*   `perf:` Mejora de rendimiento.
+*   `test:` Adición o corrección de pruebas.
+*   `build:` Cambios en el sistema de construcción o dependencias externas.
+*   `ci:` Cambios en archivos de configuración y scripts de CI.
+*   `chore:` Mantenimiento general, sin cambios en el código de producción.
 
 ### 5.1.3. Source Code Style Guide & Conventions. 
 

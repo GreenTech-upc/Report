@@ -948,8 +948,30 @@ Según el tipo de contenido y el módulo de la plataforma, se aplicarán distint
 - **Alfabético:** Para el listado de miembros del equipo de trabajo o la búsqueda rápida de parcelas guardadas por nombre dentro de la barra de búsqueda global.
 
 ### 4.2.2. Labeling Systems. 
-- **Lenguaje Ubicuo:** Todas las etiquetas de navegación utilizarán términos exactos extraídos del dominio del usuario, tales como "Mapas NDVI", "Estrés hídrico", y "Rutas de vuelo".
-- **Nomenclatura de Funcionalidades:** Las secciones principales llevarán etiquetas autoexplicativas como "Planificación de Vuelos", "Mapas Visuales del Terreno", "Análisis de Imágenes" y "Gestión de Cooperativas".
+La representación de los datos en la plataforma SkyCrop busca ser clara, intuitiva y sin ambigüedades, empleando el lenguaje ubicuo recopilado de nuestros usuarios. Para ello se establecen las siguientes directrices de etiquetado:
+
+**Principios de Etiquetado**
+- Utilizar un mínimo número de palabras para agilizar la lectura, especialmente en exteriores.
+- Preferir términos comunes en el ámbito agronómico y fáciles de comprender, evitando tecnicismos informáticos o de programación.
+- Mantener consistencia en la terminología a lo largo de toda la aplicación web y móvil.
+
+**Etiquetas principales propuestas**
+
+| Área                    | Etiqueta asignada          | Propósito                           |
+| ----------------------- | -------------------------- | ----------------------------------- |
+| Gestión de terrenos     |      "Mis Parcelas"        | Visualizar y administrar las áreas de cultivo registradas en el sistema.|
+| Vuelos automatizados    |    "Planificar Vuelo"      | Configurar las rutas de los drones adaptadas al tipo de cultivo.|
+| Visor de resultados     |     "Mapas de Salud"       | Visualizar el terreno escaneado y la semaforización de anomalías detectadas. |
+| Reportes en la nube     |  "Historial de Cultivos"   | Ver diagnósticos y cruzar datos de diferentes ciclos agrícolas estacionales.|
+| Equipo y cuentas        |  "Gestión de Cooperativa"  | Administrar múltiples usuarios, permisos y suscripciones (Básico, Profesional, Cooperativa).|
+
+Dentro de los filtros (especialmente en los módulos de mapas y reportes) se emplearán palabras clave simples y técnicas del sector como:
+- "Estado" (saludable, en riesgo, crítica).
+- "Anomalía" (estrés hídrico, plagas, deficiencia de nutrientes, maleza).
+- "Fecha de escaneo" (últimos 30 días, ciclo estacional anterior).
+- "Índice de vegetación" (NDVI, NDRE).
+
+Esto facilita que tanto agricultores como ingenieros agrónomos interpreten de inmediato la información de sus terrenos y las opciones de la interfaz, agilizando la toma de decisiones para mitigar pérdidas económicas sin necesidad de explicaciones adicionales.
 
 ### 4.2.3. SEO Tags and Meta Tags 
 - **Title Tags:** Se configurarán títulos optimizados como "SkyCrop - Monitoreo Agrícola Automatizado" o "GreenTech - Agricultura de Precisión y Drones Comerciales".

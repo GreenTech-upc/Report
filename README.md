@@ -974,9 +974,17 @@ Dentro de los filtros (especialmente en los módulos de mapas y reportes) se emp
 Esto facilita que tanto agricultores como ingenieros agrónomos interpreten de inmediato la información de sus terrenos y las opciones de la interfaz, agilizando la toma de decisiones para mitigar pérdidas económicas sin necesidad de explicaciones adicionales.
 
 ### 4.2.3. SEO Tags and Meta Tags 
-- **Title Tags:** Se configurarán títulos optimizados como "SkyCrop - Monitoreo Agrícola Automatizado" o "GreenTech - Agricultura de Precisión y Drones Comerciales".
-- **Meta Descriptions:** Se redactarán descripciones centradas en el valor del producto, por ejemplo: "Plataforma de software accesible y automatizada para gestionar rutinas de vuelo de drones y generar mapas visuales que detectan anomalías tempranas en cultivos".
-- **Keywords:** Se incluirán palabras clave relevantes como: agricultura de precisión, sector AgTech, monitoreo de parcelas, automatización de vuelos de drones, fotogrametría agrícola, mapas NDVI y salud de cultivos.
+Para optimizar la visibilidad y accesibilidad de SkyCrop en motores de búsqueda, se establecen los siguientes SEO Tags y Meta Tags que serán implementados tanto en la Landing Page como en la Web Application:
+
+TODO: Agregar meta tags para páginas adicionales (no app). Blog, Casos de Éxito, Precios, Log In, Sign Up, etc.
+
+| Página                           | Title                                            | Meta Description            | Meta Keywords            | Author         |
+| -------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------- |
+| Landing Page                     | Agricultura de Precisión y Automatización de Drones - SkyCrop         | SkyCrop es la plataforma digital de GreenTech para automatizar vuelos de drones y monitorear cultivos. Detecta a tiempo plagas, estrés hídrico y deficiencias mediante mapas NDVI accesibles y precisos. | agricultura de precisión, software AgTech, drones agrícolas, automatización de vuelos, monitoreo de cultivos, fotogrametría agrícola, mapas NDVI, estrés hídrico | Equipo GreenTech |
+| Web Application - Home           | SkyCrop App - Gestión de Parcelas a tu Alcance | Con SkyCrop administra tus terrenos, gestiona de forma colaborativa los equipos de tu cooperativa y supervisa el estado general de múltiples cultivos en un solo lugar.| gestión de parcelas, monitoreo agrícola online, cooperativas agrarias, software agrícola, administración de cultivos, AgTech | Equipo GreenTech |
+| Web Application - Historial y Mapas | SkyCrop - Mapas de Salud y Reportes Agrícolas| Visualiza mapas de salud del terreno, cruza datos visuales y compara diferentes ciclos agrícolas estacionales almacenados de forma segura en la nube.| mapas de salud agrícola, diagnóstico agronómico, historial de cultivos, detección de plagas, análisis de cultivos en la nube|Equipo GreenTech|
+| Página de reporte de parcela | Reporte de Salud: [[Nombre de la Parcela]] - [[Fecha]] - SkyCrop | Revisa el diagnóstico detallado de la parcela [[Nombre de la Parcela]]. Identifica tempranamente áreas con [[Tipo de Anomalía]] y optimiza el uso de recursos para evitar pérdidas. | reporte agrícola [[Nombre de la Parcela]], análisis NDVI [[Cultivo]], anomalías agrícolas, reporte agronómico, mapa visual de terreno|Equipo GreenTech|
+
 
 ### 4.2.4. Searching Systems. 
 - **Búsqueda Global:** Se implementará una barra de búsqueda general que permita a los ingenieros agrónomos y gestores de cooperativas encontrar rápidamente parcelas específicas o miembros de su equipo de trabajo.

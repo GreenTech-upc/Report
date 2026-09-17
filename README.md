@@ -1024,8 +1024,39 @@ Para optimizar la capacidad de búsqueda dentro de la plataforma web y móvil de
 Con este sistema, SkyCrop garantiza búsquedas rápidas, comparaciones claras entre ciclos agrícolas y filtros relevantes que permiten a los agricultores identificar problemas en sus terrenos de forma inmediata y sin complicaciones técnicas.  
 
 ### 4.2.5. Navigation Systems. 
-- **Navegación Principal:** Un menú lateral fijo o colapsable que brindará acceso a las herramientas principales: delimitación de rutas de vuelo personalizadas, visor de mapas procesados, reportes históricos y la configuración de suscripciones (Básico, Profesional, Cooperativa).
-- **Navegación Contextual (Cross-linking):** Se colocarán atajos dentro de los mapas visuales del terreno que permitan al usuario saltar directamente de un área con anomalías recién detectadas hacia el historial de reportes de esa misma ubicación exacta para hacer comparaciones rápidas.
+El sistema de navegación de SkyCrop está diseñado para guiar a los usuarios (agricultores, ingenieros agrónomos y gestores de cooperativas) de manera fluida. El objetivo es asegurar que encuentren las herramientas que buscan de forma natural, rápida e intuitiva, considerando especialmente el uso de la aplicación en el campo.
+
+**Principios de navegación**
+
+- Navegación principal fija: Un menú lateral (sidebar) colapsable o fijo estará presente en todo momento. Este será accesible desde cualquier parte de la consola de gestión, tanto en web como en móvil.
+- Accesos rápidos: Se priorizarán los accesos a las secciones principales y de mayor uso: Mis Parcelas, Planificar Vuelo, Mapas de Salud y Gestión de Cooperativa.
+- Navegación contextual (Cross-linking): Se colocarán atajos directamente dentro de los mapas visuales del terreno. Esto permitirá al usuario saltar de un "área anómala detectada" directamente hacia el historial de reportes de esa ubicación exacta para hacer comparaciones rápidas.
+- Pistas visuales: Se utilizará un sistema de semaforización (rojo, amarillo, verde) y estados activos en los menús para indicar claramente la sección actual y resaltar alertas críticas urgentes.
+- Breadcrumbs (Navegación estructural): Se implementarán en procesos secuenciales y módulos profundos para que el usuario siempre sepa en qué nivel del sistema está. Se utilizarán esquemas como: Inicio > Mis Parcelas > Parcela Norte > Reporte Estacional Octubre.
+
+**Flujo de navegación en la Landing Page**
+
+- El visitante accede a la Landing Page de SkyCrop.
+
+- Puede navegar rápidamente a:
+
+  - Conocer más sobre la tecnología AgTech y la compatibilidad con drones comerciales estándar.
+  - Explorar las opciones de suscripción (Básico, Profesional, Cooperativa).
+  - Registrarse como productor independiente o como entidad cooperativa.
+
+- Se invita a la acción con CTA (Call to Action) claros como:
+
+  - "Optimiza tus cultivos con SkyCrop".
+  - "Inicia tu prueba gratuita".  
+
+**Flujo de navegación en la Web / Mobile Application**
+
+- Menú principal: Organizado con íconos de gran tamaño y texto claro para facilitar la operación en exteriores (Mis Parcelas, Planificar Vuelo, Mapas de Salud, Historial de Cultivos, Gestión de Cooperativa).
+- En Mis Parcelas: Se visualiza el listado de terrenos registrados y se revisa rápidamente su estado general de salud.
+- En Planificar Vuelo: El usuario configura de manera secuencial las rutas automatizadas de los drones delimitando áreas sobre el mapa.
+- En Mapas de Salud: Se revisan los resultados de los escaneos fotogramétricos (mapas NDVI) y las alertas visuales por estrés hídrico, plagas o falta de nutrientes.
+- En Historial de Cultivos: Se cruzan y comparan datos visuales de diferentes ciclos agrícolas estacionales mediante paneles organizados cronológicamente y almacenados en la nube.
+- En Gestión de Cooperativa: El administrador delega tareas, supervisa múltiples equipos de trabajo y administra los permisos de su suscripción.  
 
 ## 4.3. Landing Page UI Design. 
 

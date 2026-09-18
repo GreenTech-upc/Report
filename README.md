@@ -655,28 +655,59 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | US-09 | Consulta de detalles de la subscripción actual | Como usuario suscrito en la plataforma SkyCrop, quiero consultar los detalles de mi subscripción actual para conocer hasta cuando es vigente y a que funciones tengo acceso| **Scenario: Consulta de subscripción activa** <br> *Given* El usuario cuenta con una subscripción vigente *And* Se encuentra en su perfil. <br> *When* El usuario ingresa a la sección de subscripciones. <br> *Then* El sistema muestra el tipo de subscripción vigente *And* Muestra detalles como la fecha de vigencia y funcionalidades disponibles.| EP-02|
 | US-10 | Cancelación de subscripciones| Como usuario suscrito en la plataforma SkyCrop, quiero ser capaz de cancelar mi subscripción en la plataforma para evitar gastos accidentales.|**Scenario: Cancelación de subscripción vigente** <br> *Given> El usuario se encuentra en la sección de subscripciones en su perfil. <br> *When* Solicita la cancelación de una subscripción. <br> *Then* El sistema marca a la subscripción como cancelada *And* Revoca al usuario los permisos asociados a tal subscripción| EP-02|
 
+| **EP-03** | Gestión de parcelas agrícolas|Como usuario de la plataforma SkyCrop, deseo un sistema de registro y gestión que me permita registrar mis parcelas agrícolas para poder gestionarlas y monitorearlas.|- Registro de un terreno.<br>- Revisión del estado del terreno y sus cultivos.|-----|
+| US-11 | Registro de parcela | Como usuario, deseo registrar el terreno por el cual el dron va a volar | **Scenario: Registrar el tamaño del terreno* <br> *Given* El usuario registra la dimensiones del terreno en una pestaña <br> *When* el usuario presiona el botón de "registrar terreno" <br> *Then* La página mostrará el mensaje "Terreno Registrado" | EP-03 |
+| US-12 | Consulta de estado de una parcela||||
+| US-13 | Visualización del mapa de una parcela||||
+| US-14 | Registro de cultivos en una parcela||||
+| US-15 | Consulta de información de los cultivos||||
 
-
-
-| **EP-03** | Gestión de terrenos|Como usuario de la plataforma SkyCrop, deseo un sistema de registro y gestión que me permita registrar mi terreno para |- Registrar un terreno mediante su tamaño.<br>- Revisión del estado del terreno y sus cultivos.|-----|
-| US-05 | Registrar el terreno | Como usuario, deseo registrar el terreno por el cual el dron va a volar | **Scenario: Registrar el tamaño del terreno* <br> *Given* El usuario registra la dimensiones del terreno en una pestaña <br> *When* el usuario presiona el botón de "registrar terreno" <br> *Then* La página mostrará el mensaje "Terreno Registrado" | EP-03 |
-||||||
 | **EP-04** | Gestión de drones|Como usuario de la plataforma SkyCrop, quiero un sistema de registro y configuración de drones conectar mi dron y configurar una rutina de vuelo.|-Conexión del dron.<br>- Gestión de la rutina de vuelo.||
-| US-06 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | EP-04 |
-| US-07 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | EP-04 |
-| **EP-05** | Diagnóstico y notificaciones|Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envíe una notificación de los puntos más importantes.|- Creación de un diagnóstico.<br>- Notificación de resultados obtenidos.<br>- Notificación especial en el caso de una anomalía.|-----|
-| US-08 | Notificar cuando se realice el diagnóstico | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | EP-05 |
-| US-09 | Notificar cuando se detecta una anomalía | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envia la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | EP-05 |
-| US-10 | Crear un diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | EP-05 |
-||||||
-| **EP-06** | Reporte y análisis |Como usuario, necesito recibir un reporte de todos los diagnósticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo PDF.|- Creación de un reporte de cada diagnóstico.<br>- Creación de un reporte de cada diagnóstico según la estación del año. <br>- Botón para descargar cada diagnóstico y reporte como un PDF.|-----|
-| US-11 | Crear un diagnóstico según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | EP-06 |
-| US-12 | Descargar los reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | EP-06 |
-||||||
-| **EP-07** | Landing Page | Como visitante, quiero conocer lo que la plataforma SkyCrop ofrece y los beneficios que puede brindarme para decidir si debería registrarme|- Visualización del proposito de la plataforma.<br>- Visualización de las funcionalidades y beneficios que ofrece.<br>- Visualización de los planes y precios.|-----|
-||||||
-| **EP-08** | RESTful API | Como desarrollador, quiero que el proyecto cuente con una RESTful API para permitir la manipulación de datos desde otros sistemas|  -Consulta de datos de la plataforma. <br>- Actualización de datos de la plataforma. <br>- Procesamiento de datos ingresados. |-----|
-||||||
+| US-16 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | EP-04 |
+| US-17 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | EP-04 |
+| US-18 | Captura de imágenes mediante dron ||||
+| US-19 | Parametrización de vuelo del dron ||||
+| US-20 | Envío de imágenes tomadas por el dron ||||
+| US-21 | Visualización de imágenes tomadas por el dron ||||
+
+| **EP-05** | Diagnósticos |Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envíe una notificación de los puntos más importantes.|- Creación de un diagnóstico.<br>- Manejo de dignósticos|-----|
+| US-21 | Generación de diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | EP-05 |
+| US-22 | Generación de mapa según diagnóstico ||||
+| US-23 | Historial de diagnósticos ||||
+| US-24 | Actualización de una parcela mediante diagnóstico||||
+
+| **EP-06** | Notificaciones | Como usuario, quiero que el sistema me envíe notificaciones cuando ocurran eventos importantes para enterarme a tiempo sobre lo ocurrido |- Notificación de resultados obtenidos.<br>- Notificación especial en el caso de una anomalía.|-----|
+| US-25 | Notificación de diagnóstico realizado | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | EP-05 |
+| US-26 | Notificación de anomalía detectada | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envía la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | EP-05 |
+| US-27 | Notificación de fallo del dron||||
+| US-28 | Recordatorio de renovación de subscripción||||
+
+| **EP-07** | Generación de reportes |Como usuario, necesito recibir un reporte de todos los diagnósticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo PDF.|- Creación de un reporte de cada diagnóstico.<br>- Creación de un reporte de cada diagnóstico según la estación del año. <br>- Botón para descargar cada diagnóstico y reporte como un PDF.|-----|
+| US-29 | Creación de reporte según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | EP-06 |
+| US-30 | Compartir ||||
+| US-31 | Guardado de reportes en la nube||||
+| US-32 | Comparación entre reportes||||
+| US-33 | Guardado de reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | EP-06 |
+
+
+| **EP-08** | Landing Page | Como visitante, quiero conocer lo que la plataforma SkyCrop ofrece y los beneficios que puede brindarme para decidir si debería registrarme|- Visualización del proposito de la plataforma.<br>- Visualización de las funcionalidades y beneficios que ofrece.<br>- Visualización de los planes y precios.|-----|
+| US-34 | Presentación de SkyCrop ||||
+| US-35 | Demostración de funcionalidades de SkyCrop ||||
+| US-36 | Muestra de beneficios para agricultores ||||
+| US-37 | Muestra de beneficios para agrónomos ||||
+| US-38 | Planes de subscripciones y precios||||
+| US-39 | Explicación del funcionamiento de la plataforma||||
+| US-40 | Navegación rápida por la Landing Page ||||
+| US-41 | Pie de página informativo ||||
+
+| **EP-09** | RESTful API | Como desarrollador, quiero que el proyecto cuente con una RESTful API para permitir la manipulación de datos y el acceso a otras funciones desde otros sistemas|  -Consulta de datos de la plataforma. <br>- Actualización de datos de la plataforma. <br>- Procesamiento de datos ingresados. |-----|
+| TS-01 |Manejo de datos de usuarios||||
+| TS-02 |Manejo de datos de parcelas||||
+| TS-03 |Manejo de reportes||||
+| TS-04 |Manejo de datos de drones||||
+| TS-05 |Llamados para procesamientos||||
+| TS-06 |Gestión de notificaciones||||
+| TS-07 |Servicio de autenticación||||
 
 ## 3.2. Impact Mapping. 
 

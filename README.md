@@ -576,6 +576,20 @@ En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una
 ---
 **Entrevista 2**
 
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Masaru Nikaido |
+| **Edad** | 27 |
+| **Distrito** | Huaral |
+| **Duración** | Por completar |
+| **Enlace** | Por completar |
+
+<div align="center">
+<img src="resources/imgs/chapter_2/entrevista2_segmento1.jpeg" alt="Entrevista 2 - Segmento 1" width="600">
+</div>
+
+**Resumen**:
+En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de sus cultivos, que realiza principalmente mediante recorridos presenciales y observación directa para identificar problemas de riego, plagas y enfermedades. Señala que una de sus principales dificultades es el tiempo que requiere revisar todo el terreno y detectar los problemas antes de que se agraven. Muestra interés en el uso de drones agrícolas que recorran el terreno automáticamente, recopilen información de los cultivos e identifiquen las zonas que necesitan atención. Asimismo, considera que un sistema de gestión de drones debería permitir programar recorridos, visualizar la información en un mapa sencillo, recibir alertas y consultar un historial del estado de los cultivos. Finalmente, indica que estaría dispuesto a pagar por una solución de este tipo si le permite ahorrar tiempo, detectar problemas de manera temprana y reducir posibles pérdidas en su producción.
 
 ---
 **Entrevista 3**

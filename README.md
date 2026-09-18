@@ -661,44 +661,45 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | US-13 | Visualización del mapa de una parcela||||
 | US-14 | Registro de cultivos en una parcela||||
 | US-15 | Consulta de información de los cultivos||||
+| US-16 | Invitación de compañeros||||
 
 | **EP-04** | Gestión de drones|Como usuario de la plataforma SkyCrop, quiero un sistema de registro y configuración de drones conectar mi dron y configurar una rutina de vuelo.|-Conexión del dron.<br>- Gestión de la rutina de vuelo.||
-| US-16 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | EP-04 |
-| US-17 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | EP-04 |
-| US-18 | Captura de imágenes mediante dron ||||
-| US-19 | Parametrización de vuelo del dron ||||
-| US-20 | Envío de imágenes tomadas por el dron ||||
-| US-21 | Visualización de imágenes tomadas por el dron ||||
+| US-17 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron | **Scenario 1: La conexion es exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron funciona adecuadamente y esta suficientemente cerca del dispositivo con el aplicativo <br> *Then* Se mostrara el mensaje "Conexión exitosa" <br> **Scenario 2: La conexión es no exitosa** <br> *Given* El usuario presiona el botón "Conectar Dron" <br> *When* El dron no funciona adecuadamente y/o está lejos del dispositivo con el aplicativo <br> *Then* Se mostrará el mensaje "Conexión fallida" | EP-04 |
+| US-18 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a patrullar | **Scenario 1: Se ingresa la rutina dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina registrada exitosamente". <br> **Scenario 2: La rutina no se encuentra dentro de los parámetros permitidos** <br> *Given* el usuario ingresa la rutina de vuelo <br> *When* la rutina de vuelo no se encuentra dentro de los parámetros <br> *Then* Se mostrará el mensaje "Rutina debe encontrarse en los parámetros permitidos". <br> | EP-04 |
+| US-19 | Captura de imágenes mediante dron ||||
+| US-20 | Parametrización de vuelo del dron ||||
+| US-21 | Envío de imágenes tomadas por el dron ||||
+| US-22 | Visualización de imágenes tomadas por el dron ||||
 
 | **EP-05** | Diagnósticos |Como usuario, deseo que el sistema realice un diagnóstico de la información que recolecto y envíe una notificación de los puntos más importantes.|- Creación de un diagnóstico.<br>- Manejo de dignósticos|-----|
-| US-21 | Generación de diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | EP-05 |
-| US-22 | Generación de mapa según diagnóstico ||||
-| US-23 | Historial de diagnósticos ||||
-| US-24 | Actualización de una parcela mediante diagnóstico||||
+| US-23 | Generación de diagnóstico | Como usuario, deseo que se cree un diagnóstico y se guarde como un registro cuando culmine la rutina del dron | **Escenario: Se crea un diagnóstico** <br> *Given* Que se crea un diagnóstico <br> *When* Acaba la rutina del dron <br> *Then* Se guarda como un registro aparte | EP-05 |
+| US-24 | Generación de mapa según diagnóstico ||||
+| US-25 | Historial de diagnósticos ||||
+| US-26 | Actualización de una parcela mediante diagnóstico||||
 
 | **EP-06** | Notificaciones | Como usuario, quiero que el sistema me envíe notificaciones cuando ocurran eventos importantes para enterarme a tiempo sobre lo ocurrido |- Notificación de resultados obtenidos.<br>- Notificación especial en el caso de una anomalía.|-----|
-| US-25 | Notificación de diagnóstico realizado | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | EP-05 |
-| US-26 | Notificación de anomalía detectada | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envía la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | EP-05 |
-| US-27 | Notificación de fallo del dron||||
-| US-28 | Recordatorio de renovación de subscripción||||
+| US-27 | Notificación de diagnóstico realizado | Como usuario, deseo que me notifiquen a mi dispositivo cuando culmine el diagnóstico del terreno | **Scenario: Se envía el diagnóstico** <br> *Given* Que el dron termina su rutina de vuelo <br> *When* Acaba de realizar su diagnóstico <br> *Then* Se envia un mensaje al dispositivo del usuario. | EP-05 |
+| US-28 | Notificación de anomalía detectada | Como usuario, deseo que se me envíe una notificación especial en el caso de que se detecte una anomalía | **Scenario: Se envía la notificación de emergencia** <br> *Given* Que se detecte una anomalía <br> *When* Se realiza el diagnóstico <br> *Then* Se envía una notificación acerca de la anomalía | EP-05 |
+| US-29 | Notificación de fallo del dron||||
+| US-30 | Recordatorio de renovación de subscripción||||
 
 | **EP-07** | Generación de reportes |Como usuario, necesito recibir un reporte de todos los diagnósticos realizados y un informe estacional, todo esto disponible para descargar cómo un archivo PDF.|- Creación de un reporte de cada diagnóstico.<br>- Creación de un reporte de cada diagnóstico según la estación del año. <br>- Botón para descargar cada diagnóstico y reporte como un PDF.|-----|
-| US-29 | Creación de reporte según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | EP-06 |
-| US-30 | Compartir ||||
-| US-31 | Guardado de reportes en la nube||||
-| US-32 | Comparación entre reportes||||
-| US-33 | Guardado de reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | EP-06 |
+| US-31 | Creación de reporte según la estación | Como usuario, deseo que se cree un reporte estacional utilizando los diversos reportes generados | **Scenario: Se crea un reporte estacional** <br> *Given* Que se generen suficientes reportes en durante una estación (mínimo 5) <br> *When* El calendario estacional indique que se esta a mitad de una estación <br> *Then* Se crea el reporte estacional | EP-06 |
+| US-32 | Compartir ||||
+| US-33 | Guardado de reportes en la nube||||
+| US-34 | Comparación entre reportes||||
+| US-35 | Guardado de reportes como PDF | Como usuario, deseo descargar cada uno de los reportes cómo un archivo PDF. | **Scenario: Se descarga un reporte** <br> *Given* Que se tenga un reporte ya generado <br> *When* El usuario presione el botón de "descargar" al lado del reporte <br> *Then* Se descarga automáticamente ese reporte como un PDF en el dispositivo del usuario. | EP-06 |
 
 
 | **EP-08** | Landing Page | Como visitante, quiero conocer lo que la plataforma SkyCrop ofrece y los beneficios que puede brindarme para decidir si debería registrarme|- Visualización del proposito de la plataforma.<br>- Visualización de las funcionalidades y beneficios que ofrece.<br>- Visualización de los planes y precios.|-----|
-| US-34 | Presentación de SkyCrop ||||
-| US-35 | Demostración de funcionalidades de SkyCrop ||||
-| US-36 | Muestra de beneficios para agricultores ||||
-| US-37 | Muestra de beneficios para agrónomos ||||
-| US-38 | Planes de subscripciones y precios||||
-| US-39 | Explicación del funcionamiento de la plataforma||||
-| US-40 | Navegación rápida por la Landing Page ||||
-| US-41 | Pie de página informativo ||||
+| US-36 | Presentación de SkyCrop ||||
+| US-37 | Demostración de funcionalidades de SkyCrop ||||
+| US-38 | Muestra de beneficios para agricultores ||||
+| US-39 | Muestra de beneficios para agrónomos ||||
+| US-40 | Planes de subscripciones y precios||||
+| US-41 | Explicación del funcionamiento de la plataforma||||
+| US-42 | Navegación rápida por la Landing Page ||||
+| US-43 | Pie de página informativo ||||
 
 | **EP-09** | RESTful API | Como desarrollador, quiero que el proyecto cuente con una RESTful API para permitir la manipulación de datos y el acceso a otras funciones desde otros sistemas|  -Consulta de datos de la plataforma. <br>- Actualización de datos de la plataforma. <br>- Procesamiento de datos ingresados. |-----|
 | TS-01 |Manejo de datos de usuarios||||

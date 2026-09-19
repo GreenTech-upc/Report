@@ -1261,7 +1261,7 @@ En esta sección, el equipo establece los medios y esquemas de organización par
 *   **Landing Page:** https://github.com/GreenTech-upc/Landing-Page
 
 **Flujo de Trabajo (Workflow): GitFlow**
-Se implementa la estrategia **GitFlow** como modelo de control de versiones, definiendo las siguientes ramas principales para proteger el código de producción:
+Se adopta como referencia el modelo [GitFlow de Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/) como esquema de control de versiones, definiendo las siguientes ramas principales para proteger el código de producción:
 *   `main`: Contiene el código de producción final. Siempre estable y listo para el público.
 *   `develop`: Rama de integración o desarrollo. Aquí se une todo el código nuevo de las características terminadas antes de preparar un lanzamiento.
 
@@ -1274,8 +1274,12 @@ Para las ramas de apoyo temporales que se derivan de `develop` o `main`, se apli
 | **Lanzamiento (Release)** | `release/` | `release/x.y.z` | `release/1.0.0` |
 | **Corrección urgente (Hotfix)** | `hotfix/` | `hotfix/x.y.z-description` | `hotfix/1.0.1-navbar-fix` |
 
+**Versionado de releases:**
+
+Los releases de software seguirán [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html), con el formato `MAJOR.MINOR.PATCH`. Una vez establecida la API pública en `1.0.0`, se incrementará `MAJOR` ante cambios incompatibles, `MINOR` al agregar funcionalidades compatibles y `PATCH` al corregir errores sin romper compatibilidad. Durante el desarrollo inicial se utilizará `0.y.z`. Estos números corresponden a releases de software; el registro de versiones del informe identifica sus revisiones mediante commits.
+
 **Convenciones de Commits (Conventional Commits 1.0.0):**
-Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el estándar **Conventional Commits** para los mensajes de los commits en todos los repositorios, utilizando el idioma inglés de forma predeterminada. Basándonos en la Convención Angular, se emplearán los siguientes prefijos estandarizados:
+Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el estándar [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) para los mensajes de los commits en todos los repositorios, utilizando el idioma inglés de forma predeterminada. Basándonos en la Convención Angular, se emplearán los siguientes prefijos estandarizados:
 
 *   `feat:` Introduce una nueva característica a la base de código.
 *   `fix:` Corrige un error (bug) en el código.
@@ -1357,13 +1361,19 @@ El despliegue en GitHub Pages requiere que los archivos estén organizados de un
 
 # Bibliografía
 
+Conventional Commits. (s. f.). *[Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)*.
+
 Cucumber. (2026, 15 de septiembre). *[Gherkin reference](https://cucumber.io/docs/gherkin/reference/)*.
+
+Driessen, V. (2010, 5 de enero). *[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)*. nvie.com.
 
 Google. (s. f.-a). *[Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html)*. Recuperado el 19 de septiembre de 2026.
 
 Google. (s. f.-b). *[Google JavaScript style guide](https://google.github.io/styleguide/jsguide.html)*. Recuperado el 19 de septiembre de 2026.
 
 Microsoft. (s. f.). *[C# identifier naming rules and conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)*. Microsoft Learn. Recuperado el 19 de septiembre de 2026.
+
+Preston-Werner, T. (s. f.). *[Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html)*.
 
 Vue.js. (s. f.). *[Style guide](https://vuejs.org/style-guide/)*. Recuperado el 19 de septiembre de 2026.
 

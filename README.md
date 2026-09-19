@@ -49,30 +49,30 @@ Proyecto
 
 # Registro de Versiones del Informe
 
-Se registran cambios principales del informe usando el commit como identificador de versión. Las fechas y los autores corresponden al historial de Git; el registro completo permanece en el repositorio.
+Se registran cambios principales del informe grupal usando el commit como identificador de versión. Las fechas corresponden al historial de Git. La autoría del documento se presenta a nombre del equipo GreenTech.
 
 | Versión (commit) | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| [cec5325](https://github.com/GreenTech-upc/Report/commit/cec5325) | 2026-08-31 | Yam Cano Gomez | Estructura inicial del informe y recursos de imagen. |
-| [2c87943](https://github.com/GreenTech-upc/Report/commit/2c87943) | 2026-09-04 | Danilo | Desarrollo de la tabla de análisis competitivo. |
-| [bc6eb7c](https://github.com/GreenTech-upc/Report/commit/bc6eb7c) | 2026-09-10 | Yam Cano Gomez | Incorporación de registros e imágenes de entrevistas. |
-| [73cdf85](https://github.com/GreenTech-upc/Report/commit/73cdf85) | 2026-09-14 | Danilo | Desarrollo y análisis de la matriz de tareas. |
-| [ce65d09](https://github.com/GreenTech-upc/Report/commit/ce65d09) | 2026-09-15 | Danilo | Documentación del Big Picture EventStorming con imágenes. |
-| [76dd380](https://github.com/GreenTech-upc/Report/commit/76dd380) | 2026-09-18 | Luis Sebastián Rubio Ortiz | Registro de la segunda entrevista de agricultores. |
-| [88e9191](https://github.com/GreenTech-upc/Report/commit/88e9191) | 2026-09-18 | notoriussxd | Documentación del avance parcial de fundamentos visuales en Figma. |
-| [0908eb9](https://github.com/GreenTech-upc/Report/commit/0908eb9) | 2026-09-19 | Olizzy-upc | Ampliación de las User Stories. |
-| [9fa32e4](https://github.com/GreenTech-upc/Report/commit/9fa32e4) | 2026-09-19 | Yam Cano Gomez | Actualización de las hipótesis Lean UX. |
-| [4519a4a](https://github.com/GreenTech-upc/Report/commit/4519a4a) | 2026-09-19 | DiegoPumahualcca | Actualización de los registros de entrevistas. |
-| [b7a4291](https://github.com/GreenTech-upc/Report/commit/b7a4291) | 2026-09-19 | notoriussxd | Corrección de listas de EventStorming y ampliación del glosario. |
-| [2252774](https://github.com/GreenTech-upc/Report/commit/2252774) | 2026-09-19 | Yam Cano Gomez | Documentación de la configuración de despliegue. |
-| [cbbef45](https://github.com/GreenTech-upc/Report/commit/cbbef45) | 2026-09-19 | notoriussxd | Desarrollo de las historias de diagnósticos US-24, US-25 y US-26. |
-| [d3c3f1a](https://github.com/GreenTech-upc/Report/commit/d3c3f1a) | 2026-09-19 | notoriussxd | Ajuste de los segmentos objetivo según las entrevistas. |
+| [cec5325](https://github.com/GreenTech-upc/Report/commit/cec5325) | 2026-08-31 | Equipo GreenTech | Estructura inicial del informe y recursos de imagen. |
+| [2c87943](https://github.com/GreenTech-upc/Report/commit/2c87943) | 2026-09-04 | Equipo GreenTech | Desarrollo de la tabla de análisis competitivo. |
+| [bc6eb7c](https://github.com/GreenTech-upc/Report/commit/bc6eb7c) | 2026-09-10 | Equipo GreenTech | Incorporación de registros e imágenes de entrevistas. |
+| [73cdf85](https://github.com/GreenTech-upc/Report/commit/73cdf85) | 2026-09-14 | Equipo GreenTech | Desarrollo y análisis de la matriz de tareas. |
+| [ce65d09](https://github.com/GreenTech-upc/Report/commit/ce65d09) | 2026-09-15 | Equipo GreenTech | Documentación del Big Picture EventStorming con imágenes. |
+| [76dd380](https://github.com/GreenTech-upc/Report/commit/76dd380) | 2026-09-18 | Equipo GreenTech | Registro de la segunda entrevista de agricultores. |
+| [88e9191](https://github.com/GreenTech-upc/Report/commit/88e9191) | 2026-09-18 | Equipo GreenTech | Documentación del avance parcial de fundamentos visuales en Figma. |
+| [0908eb9](https://github.com/GreenTech-upc/Report/commit/0908eb9) | 2026-09-19 | Equipo GreenTech | Ampliación de las User Stories. |
+| [9fa32e4](https://github.com/GreenTech-upc/Report/commit/9fa32e4) | 2026-09-19 | Equipo GreenTech | Actualización de las hipótesis Lean UX. |
+| [4519a4a](https://github.com/GreenTech-upc/Report/commit/4519a4a) | 2026-09-19 | Equipo GreenTech | Actualización de los registros de entrevistas. |
+| [b7a4291](https://github.com/GreenTech-upc/Report/commit/b7a4291) | 2026-09-19 | Equipo GreenTech | Corrección de listas de EventStorming y ampliación del glosario. |
+| [2252774](https://github.com/GreenTech-upc/Report/commit/2252774) | 2026-09-19 | Equipo GreenTech | Documentación de la configuración de despliegue. |
+| [cbbef45](https://github.com/GreenTech-upc/Report/commit/cbbef45) | 2026-09-19 | Equipo GreenTech | Desarrollo de las historias de diagnósticos US-24, US-25 y US-26. |
+| [d3c3f1a](https://github.com/GreenTech-upc/Report/commit/d3c3f1a) | 2026-09-19 | Equipo GreenTech | Ajuste de los segmentos objetivo según las entrevistas. |
 
 # Project Report Collaboration Insights
 
 El informe se mantiene en el [repositorio Report de GreenTech](https://github.com/GreenTech-upc/Report). Los aportes se registran mediante commits y se integran en `develop` desde ramas de trabajo. El historial muestra integraciones de bloques como el análisis de entrevistas, las historias de diagnósticos y la configuración de despliegue. Esta organización permite revisar los cambios por tema y conservar las versiones anteriores del documento.
 
-Los commits del Registro de Versiones permiten identificar aportes a distintas secciones: Yam Cano Gomez en la estructura, Lean UX y configuración; Danilo en análisis competitivo y Needfinding; Olizzy-upc en User Stories; DiegoPumahualcca en entrevistas; y Luis Sebastián Rubio Ortiz en el registro de entrevistas. También aparecen cambios de análisis, diseño y revisión documental bajo el nombre `notoriussxd`. Estos son los nombres registrados en Git y no necesariamente cuentas de personas distintas. La relación de commits documenta modificaciones del repositorio, pero no representa por sí sola todo el trabajo realizado por cada integrante.
+El desarrollo del informe reúne el trabajo del equipo en investigación, requisitos, diseño y documentación. Las integraciones permiten reunir estos avances en una versión común y mantener la coherencia entre las secciones.
 
 El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
 
@@ -223,11 +223,11 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 
 ---------------------
 
-| **Integrante** | |
+| **Integrante** | Luis Sebastián Rubio Ortiz |
 | :--- | :--- |
-| **Código del Estudiante** | |
-| **Carrera** | |
-| **Descripción** | |
+| **Código del Estudiante** | U202310349 |
+| **Carrera** | Ingeniería de Software |
+| **Descripción** | Soy Sebastián, soy estudiante de la carrera de ingenieria de software, tengo 20 años y me gusta lograr grandes cosas programando, suelo interesarme mucho por aprender cosas nuevas en el mundo de la programacián más que nada. Me gusta apoyar a mis compañeros para los trabajos, considero que soy de trabajar en equipo. Tengo conocimientos en C#, C++, JavaScript, Python y TypeScript. |
 | **Foto** | |
 
 ## 1.2. Solution Profile 

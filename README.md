@@ -1288,8 +1288,17 @@ Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el
 *   `ci:` Cambios en archivos de configuración y scripts de CI.
 *   `chore:` Mantenimiento general, sin cambios en el código de producción.
 
-### 5.1.3. Source Code Style Guide & Conventions. 
+### 5.1.3. Source Code Style Guide & Conventions.
 
+El equipo utilizará nombres en inglés para archivos, variables, funciones, clases y componentes. Los nombres describirán su propósito dentro del dominio, como `plotId`, `flightRoute` o `DiagnosisReport`. Estas convenciones se aplicarán durante el desarrollo y la revisión de cambios.
+
+**HTML y CSS.** Se utilizará indentación de dos espacios, etiquetas y atributos HTML en minúsculas y elementos semánticos según su función. Las clases CSS tendrán nombres descriptivos separados por guiones, como `plot-card`. La estructura, los estilos y el comportamiento se mantendrán separados. Se toma como referencia la [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html).
+
+**JavaScript y Vue.** Se utilizará indentación de dos espacios, `camelCase` para variables y funciones y `PascalCase` para clases. Se preferirá `const` y se usará `let` cuando sea necesario reasignar un valor. Los componentes Vue tendrán nombres de varias palabras y archivos como `PlotCard.vue`; sus propiedades se declararán explícitamente y las listas usarán una clave estable. Se toman como referencia la [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) y las reglas de nomenclatura y componentes de la [Vue Style Guide](https://vuejs.org/style-guide/), cuya documentación advierte que requiere actualización.
+
+**C# y ASP.NET Core.** Se utilizará indentación de cuatro espacios y llaves en líneas separadas. Las clases, métodos y propiedades usarán `PascalCase`; los parámetros y variables locales, `camelCase`; y las interfaces tendrán el prefijo `I`, como `IReportService`. Los archivos se nombrarán según su tipo principal, como `ReportService.cs`. Para la nomenclatura se seguirá la [guía de identificadores de C# de Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names); la indentación y organización indicadas se adoptan como reglas del proyecto.
+
+**Gherkin.** Los criterios describirán una condición inicial con `Given`, una acción o evento con `When` y un resultado comprobable con `Then`. Se usarán `And` y `But` para continuar los pasos sin mezclar escenarios distintos. El informe mantendrá las palabras clave en inglés y las descripciones en español, conforme al formato de sus historias. La referencia será la [documentación de Gherkin](https://cucumber.io/docs/gherkin/reference/).
 
 ### 5.1.4. Software Deployment Configuration.
 Para poder publicar nuestra landing page, seguimos una serie de pasos específicos utilizando GitHub Pages, que permite alojar sitios web estáticos directamente desde un repositorio.

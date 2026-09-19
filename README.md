@@ -1106,7 +1106,37 @@ Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el
 ### 5.1.3. Source Code Style Guide & Conventions. 
 
 
-### 5.1.4. Software Deployment Configuration. 
+### 5.1.4. Software Deployment Configuration.
+Para poder publicar nuestra landing page, seguimos una serie de pasos específicos utilizando GitHub Pages, que permite alojar sitios web estáticos directamente desde un repositorio.
+
+El despliegue en GitHub Pages requiere que los archivos estén organizados de una manera particular para que la plataforma los reconozca y los sirva correctamente.
+
+**1. Organización del Repositorio:**
+
+- Los archivos principales deben estar en la carpeta raíz del repositorio.
+
+- Los nombres de los archivos deben seguir la convención establecida: index.html para la página principal, styles.css para los estilos, y script.js para los scripts.
+
+- Las imágenes se guardan en una carpeta llamada assets/images.
+
+
+**2. Subida de Archivos:**
+
+- Una vez que los archivos están correctamente organizados, se suben al repositorio a través de un commit.
+
+**3. Configuración en GitHub Pages:**
+
+- Se navega a Settings > Pages dentro del repositorio.
+
+- Se selecciona la rama main como la fuente de despliegue.
+
+- Se configura la carpeta raíz (/root) para el origen de la página.
+
+**4. Despliegue Automático:**
+
+- GitHub Pages inicia un proceso de verificación y despliegue automático.
+
+- Al finalizar, se genera una URL pública para acceder a la landing page.
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 

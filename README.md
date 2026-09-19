@@ -895,6 +895,15 @@ A partir de este proceso, identificamos lo siguiente:
 
 ## 4.4. Web Applications UX/UI Design. 
 
+La propuesta visual de la aplicación web SkyCrop se desarrolla en Figma para los segmentos de agricultores e ingenieros agrónomos. Como primer avance, se crearon fundamentos visuales editables: paleta de colores, variables semánticas, estilos tipográficos Roboto, espaciado, radios y elevaciones. Estos recursos se incorporaron en una página nueva para preservar los diseños existentes del equipo.
+
+El diseño adopta Material Design como referencia, los verdes y azules definidos para SkyCrop, controles amplios y una jerarquía de información orientada al monitoreo de cultivos. Las pantallas previstas cubrirán acceso, parcelas, drones, reportes, diagnósticos y colaboración, con adaptación a escritorio y móvil e inglés predeterminado con soporte para español latinoamericano.
+
+**Estado del avance:** fundamentos creados; componentes reutilizables, pantallas, flujos y prototipos pendientes. La cuota de la integración de Figma impidió completar la revisión visual y exportar las capturas de este primer bloque. No se presenta este avance como un prototipo terminado.
+
+- [Fundamentos visuales en Figma](https://www.figma.com/design/1nlenowk3dSY0qdNiG6hYD/Diseno-UX-UI---SkyCrop?node-id=45-3).
+- [Detalle de la entrega incremental y sus verificaciones](resources/design/web-app/README.md).
+
 ### 4.4.1. Web Applications Wireframes. 
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 

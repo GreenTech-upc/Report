@@ -1,0 +1,730 @@
+{
+  "version": 1,
+  "status": "Foundations created; visual verification and components pending due to Figma MCP quota",
+  "fontFamily": "Roboto",
+  "primitive": {
+    "green/lime": {
+      "type": "COLOR",
+      "value": "#A4D65E",
+      "css": "--skycrop-primitive-green-lime"
+    },
+    "green/soft": {
+      "type": "COLOR",
+      "value": "#66BB6A",
+      "css": "--skycrop-primitive-green-soft"
+    },
+    "green/primary": {
+      "type": "COLOR",
+      "value": "#2E7D32",
+      "css": "--skycrop-primitive-green-primary"
+    },
+    "neutral/background": {
+      "type": "COLOR",
+      "value": "#F4F7F5",
+      "css": "--skycrop-primitive-neutral-background"
+    },
+    "neutral/ink": {
+      "type": "COLOR",
+      "value": "#17221C",
+      "css": "--skycrop-primitive-neutral-ink"
+    },
+    "neutral/slate": {
+      "type": "COLOR",
+      "value": "#607D8B",
+      "css": "--skycrop-primitive-neutral-slate"
+    },
+    "blue/info": {
+      "type": "COLOR",
+      "value": "#1976A8",
+      "css": "--skycrop-primitive-blue-info"
+    },
+    "blue/deep": {
+      "type": "COLOR",
+      "value": "#0B3954",
+      "css": "--skycrop-primitive-blue-deep"
+    },
+    "neutral/white": {
+      "type": "COLOR",
+      "value": "#FFFFFF",
+      "css": "--skycrop-primitive-neutral-white"
+    },
+    "neutral/border": {
+      "type": "COLOR",
+      "value": "#CFD9D2",
+      "css": "--skycrop-primitive-neutral-border"
+    },
+    "neutral/muted": {
+      "type": "COLOR",
+      "value": "#42564A",
+      "css": "--skycrop-primitive-neutral-muted"
+    },
+    "neutral/disabled": {
+      "type": "COLOR",
+      "value": "#E5EBE7",
+      "css": "--skycrop-primitive-neutral-disabled"
+    },
+    "green/tint": {
+      "type": "COLOR",
+      "value": "#EAF4EB",
+      "css": "--skycrop-primitive-green-tint"
+    },
+    "blue/tint": {
+      "type": "COLOR",
+      "value": "#EAF4FA",
+      "css": "--skycrop-primitive-blue-tint"
+    },
+    "red/error": {
+      "type": "COLOR",
+      "value": "#B3261E",
+      "css": "--skycrop-primitive-red-error"
+    },
+    "red/tint": {
+      "type": "COLOR",
+      "value": "#FCECEA",
+      "css": "--skycrop-primitive-red-tint"
+    },
+    "amber/warning": {
+      "type": "COLOR",
+      "value": "#805600",
+      "css": "--skycrop-primitive-amber-warning"
+    },
+    "amber/tint": {
+      "type": "COLOR",
+      "value": "#FFF4D6",
+      "css": "--skycrop-primitive-amber-tint"
+    },
+    "green/hover": {
+      "type": "COLOR",
+      "value": "#245F28",
+      "css": "--skycrop-primitive-green-hover"
+    },
+    "green/pressed": {
+      "type": "COLOR",
+      "value": "#1B4A20",
+      "css": "--skycrop-primitive-green-pressed"
+    },
+    "size/0": {
+      "type": "FLOAT",
+      "value": 0,
+      "css": "--skycrop-primitive-size-0"
+    },
+    "size/2": {
+      "type": "FLOAT",
+      "value": 2,
+      "css": "--skycrop-primitive-size-2"
+    },
+    "size/4": {
+      "type": "FLOAT",
+      "value": 4,
+      "css": "--skycrop-primitive-size-4"
+    },
+    "size/8": {
+      "type": "FLOAT",
+      "value": 8,
+      "css": "--skycrop-primitive-size-8"
+    },
+    "size/12": {
+      "type": "FLOAT",
+      "value": 12,
+      "css": "--skycrop-primitive-size-12"
+    },
+    "size/16": {
+      "type": "FLOAT",
+      "value": 16,
+      "css": "--skycrop-primitive-size-16"
+    },
+    "size/20": {
+      "type": "FLOAT",
+      "value": 20,
+      "css": "--skycrop-primitive-size-20"
+    },
+    "size/24": {
+      "type": "FLOAT",
+      "value": 24,
+      "css": "--skycrop-primitive-size-24"
+    },
+    "size/32": {
+      "type": "FLOAT",
+      "value": 32,
+      "css": "--skycrop-primitive-size-32"
+    },
+    "size/40": {
+      "type": "FLOAT",
+      "value": 40,
+      "css": "--skycrop-primitive-size-40"
+    },
+    "size/48": {
+      "type": "FLOAT",
+      "value": 48,
+      "css": "--skycrop-primitive-size-48"
+    },
+    "size/56": {
+      "type": "FLOAT",
+      "value": 56,
+      "css": "--skycrop-primitive-size-56"
+    },
+    "size/64": {
+      "type": "FLOAT",
+      "value": 64,
+      "css": "--skycrop-primitive-size-64"
+    },
+    "size/80": {
+      "type": "FLOAT",
+      "value": 80,
+      "css": "--skycrop-primitive-size-80"
+    },
+    "size/999": {
+      "type": "FLOAT",
+      "value": 999,
+      "css": "--skycrop-primitive-size-999"
+    }
+  },
+  "semantic": {
+    "color/bg/canvas": {
+      "type": "COLOR",
+      "reference": "neutral/background",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-canvas"
+    },
+    "color/bg/surface": {
+      "type": "COLOR",
+      "reference": "neutral/white",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-surface"
+    },
+    "color/bg/selected": {
+      "type": "COLOR",
+      "reference": "green/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-selected"
+    },
+    "color/bg/info": {
+      "type": "COLOR",
+      "reference": "blue/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-info"
+    },
+    "color/bg/error": {
+      "type": "COLOR",
+      "reference": "red/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-error"
+    },
+    "color/bg/warning": {
+      "type": "COLOR",
+      "reference": "amber/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-warning"
+    },
+    "color/bg/disabled": {
+      "type": "COLOR",
+      "reference": "neutral/disabled",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-disabled"
+    },
+    "color/bg/brand": {
+      "type": "COLOR",
+      "reference": "green/primary",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-brand"
+    },
+    "color/bg/brand-hover": {
+      "type": "COLOR",
+      "reference": "green/hover",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-brand-hover"
+    },
+    "color/bg/brand-pressed": {
+      "type": "COLOR",
+      "reference": "green/pressed",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-brand-pressed"
+    },
+    "color/bg/sidebar": {
+      "type": "COLOR",
+      "reference": "blue/deep",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-bg-sidebar"
+    },
+    "color/text/primary": {
+      "type": "COLOR",
+      "reference": "neutral/ink",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-primary"
+    },
+    "color/text/secondary": {
+      "type": "COLOR",
+      "reference": "neutral/muted",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-secondary"
+    },
+    "color/text/inverse": {
+      "type": "COLOR",
+      "reference": "neutral/white",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-inverse"
+    },
+    "color/text/brand": {
+      "type": "COLOR",
+      "reference": "green/primary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-brand"
+    },
+    "color/text/link": {
+      "type": "COLOR",
+      "reference": "blue/info",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-link"
+    },
+    "color/text/error": {
+      "type": "COLOR",
+      "reference": "red/error",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-error"
+    },
+    "color/text/warning": {
+      "type": "COLOR",
+      "reference": "amber/warning",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-warning"
+    },
+    "color/text/disabled": {
+      "type": "COLOR",
+      "reference": "neutral/muted",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "css": "--skycrop-color-text-disabled"
+    },
+    "color/border/default": {
+      "type": "COLOR",
+      "reference": "neutral/border",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-border-default"
+    },
+    "color/border/control": {
+      "type": "COLOR",
+      "reference": "neutral/slate",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-border-control"
+    },
+    "color/border/focus": {
+      "type": "COLOR",
+      "reference": "blue/info",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-border-focus"
+    },
+    "color/border/error": {
+      "type": "COLOR",
+      "reference": "red/error",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-border-error"
+    },
+    "color/status/success": {
+      "type": "COLOR",
+      "reference": "green/primary",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-status-success"
+    },
+    "color/status/info": {
+      "type": "COLOR",
+      "reference": "blue/info",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-status-info"
+    },
+    "color/status/warning": {
+      "type": "COLOR",
+      "reference": "amber/warning",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-status-warning"
+    },
+    "color/status/error": {
+      "type": "COLOR",
+      "reference": "red/error",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-status-error"
+    },
+    "color/accent/lime": {
+      "type": "COLOR",
+      "reference": "green/lime",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-accent-lime"
+    },
+    "color/accent/soft": {
+      "type": "COLOR",
+      "reference": "green/soft",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-accent-soft"
+    },
+    "color/accent/slate": {
+      "type": "COLOR",
+      "reference": "neutral/slate",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "css": "--skycrop-color-accent-slate"
+    },
+    "spacing/0": {
+      "type": "FLOAT",
+      "reference": "size/0",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-0"
+    },
+    "spacing/2": {
+      "type": "FLOAT",
+      "reference": "size/2",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-2"
+    },
+    "spacing/4": {
+      "type": "FLOAT",
+      "reference": "size/4",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-4"
+    },
+    "spacing/8": {
+      "type": "FLOAT",
+      "reference": "size/8",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-8"
+    },
+    "spacing/12": {
+      "type": "FLOAT",
+      "reference": "size/12",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-12"
+    },
+    "spacing/16": {
+      "type": "FLOAT",
+      "reference": "size/16",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-16"
+    },
+    "spacing/20": {
+      "type": "FLOAT",
+      "reference": "size/20",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-20"
+    },
+    "spacing/24": {
+      "type": "FLOAT",
+      "reference": "size/24",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-24"
+    },
+    "spacing/32": {
+      "type": "FLOAT",
+      "reference": "size/32",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-32"
+    },
+    "spacing/40": {
+      "type": "FLOAT",
+      "reference": "size/40",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-40"
+    },
+    "spacing/48": {
+      "type": "FLOAT",
+      "reference": "size/48",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-48"
+    },
+    "spacing/56": {
+      "type": "FLOAT",
+      "reference": "size/56",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-56"
+    },
+    "spacing/64": {
+      "type": "FLOAT",
+      "reference": "size/64",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-64"
+    },
+    "spacing/80": {
+      "type": "FLOAT",
+      "reference": "size/80",
+      "scopes": [
+        "GAP"
+      ],
+      "css": "--skycrop-spacing-80"
+    },
+    "radius/sm": {
+      "type": "FLOAT",
+      "reference": "size/4",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "css": "--skycrop-radius-sm"
+    },
+    "radius/md": {
+      "type": "FLOAT",
+      "reference": "size/8",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "css": "--skycrop-radius-md"
+    },
+    "radius/lg": {
+      "type": "FLOAT",
+      "reference": "size/16",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "css": "--skycrop-radius-lg"
+    },
+    "radius/xl": {
+      "type": "FLOAT",
+      "reference": "size/24",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "css": "--skycrop-radius-xl"
+    },
+    "radius/full": {
+      "type": "FLOAT",
+      "reference": "size/999",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "css": "--skycrop-radius-full"
+    },
+    "dimension/touch": {
+      "type": "FLOAT",
+      "reference": "size/48",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "css": "--skycrop-dimension-touch"
+    },
+    "dimension/field": {
+      "type": "FLOAT",
+      "reference": "size/56",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "css": "--skycrop-dimension-field"
+    },
+    "dimension/icon": {
+      "type": "FLOAT",
+      "reference": "size/24",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "css": "--skycrop-dimension-icon"
+    }
+  },
+  "typography": {
+    "Display": {
+      "family": "Roboto",
+      "weight": "Bold",
+      "fontSize": 48,
+      "lineHeight": 56
+    },
+    "Heading/H1": {
+      "family": "Roboto",
+      "weight": "Bold",
+      "fontSize": 32,
+      "lineHeight": 40
+    },
+    "Heading/H2": {
+      "family": "Roboto",
+      "weight": "Medium",
+      "fontSize": 24,
+      "lineHeight": 32
+    },
+    "Heading/H3": {
+      "family": "Roboto",
+      "weight": "Medium",
+      "fontSize": 20,
+      "lineHeight": 28
+    },
+    "Body": {
+      "family": "Roboto",
+      "weight": "Regular",
+      "fontSize": 16,
+      "lineHeight": 24
+    },
+    "Body/Small": {
+      "family": "Roboto",
+      "weight": "Regular",
+      "fontSize": 14,
+      "lineHeight": 20
+    },
+    "Label": {
+      "family": "Roboto",
+      "weight": "Medium",
+      "fontSize": 14,
+      "lineHeight": 20
+    },
+    "Caption": {
+      "family": "Roboto",
+      "weight": "Regular",
+      "fontSize": 12,
+      "lineHeight": 16
+    }
+  },
+  "elevation": {
+    "Card": {
+      "x": 0,
+      "y": 2,
+      "blur": 8,
+      "spread": 0,
+      "color": {
+        "r": 0.09,
+        "g": 0.13,
+        "b": 0.11,
+        "a": 0.06
+      }
+    },
+    "Dialog": {
+      "x": 0,
+      "y": 12,
+      "blur": 40,
+      "spread": 0,
+      "color": {
+        "r": 0.09,
+        "g": 0.13,
+        "b": 0.11,
+        "a": 0.16
+      }
+    }
+  }
+}

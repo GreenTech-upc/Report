@@ -1,0 +1,125 @@
+{
+  "method": "sRGB relative luminance; (Llighter + 0.05) / (Ldarker + 0.05)",
+  "scope": "Local color values only; not a complete screen accessibility audit",
+  "checks": [
+    {
+      "name": "Primary text on canvas",
+      "foreground": "#17221C",
+      "background": "#F4F7F5",
+      "ratio": 15.19,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Secondary text on canvas",
+      "foreground": "#42564A",
+      "background": "#F4F7F5",
+      "ratio": 7.31,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "White on primary action",
+      "foreground": "#FFFFFF",
+      "background": "#2E7D32",
+      "ratio": 5.13,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "White on hover action",
+      "foreground": "#FFFFFF",
+      "background": "#245F28",
+      "ratio": 7.66,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "White on pressed action",
+      "foreground": "#FFFFFF",
+      "background": "#1B4A20",
+      "ratio": 10.26,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "White on sidebar",
+      "foreground": "#FFFFFF",
+      "background": "#0B3954",
+      "ratio": 12.16,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Green on selected surface",
+      "foreground": "#2E7D32",
+      "background": "#EAF4EB",
+      "ratio": 4.55,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Information link on white",
+      "foreground": "#1976A8",
+      "background": "#FFFFFF",
+      "ratio": 5.0,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Error text on error tint",
+      "foreground": "#B3261E",
+      "background": "#FCECEA",
+      "ratio": 5.7,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Warning text on warning tint",
+      "foreground": "#805600",
+      "background": "#FFF4D6",
+      "ratio": 5.9,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Dark text on lime",
+      "foreground": "#17221C",
+      "background": "#A4D65E",
+      "ratio": 9.64,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Dark text on soft green",
+      "foreground": "#17221C",
+      "background": "#66BB6A",
+      "ratio": 6.93,
+      "minimum": 4.5,
+      "passes": true
+    },
+    {
+      "name": "Control border on white",
+      "foreground": "#607D8B",
+      "background": "#FFFFFF",
+      "ratio": 4.37,
+      "minimum": 3,
+      "passes": true
+    },
+    {
+      "name": "Focus ring on white",
+      "foreground": "#1976A8",
+      "background": "#FFFFFF",
+      "ratio": 5.0,
+      "minimum": 3,
+      "passes": true
+    }
+  ],
+  "allPass": true,
+  "excludedTextPair": {
+    "foreground": "#607D8B",
+    "background": "#F4F7F5",
+    "ratio": 4.05,
+    "reason": "Do not use this pair for small body text; use secondary text #42564A."
+  }
+}

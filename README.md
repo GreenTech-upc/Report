@@ -47,11 +47,26 @@ Proyecto
 
 ---
 
-# Registro de Versiones del Informe 
+# Registro de Versiones del Informe
 
-|Versión|Fecha|Autor|Fecha de modificación|
-|:------|:----|:----|:--------------------|
-|||||
+Se registran cambios principales del informe usando el commit como identificador de versión. Las fechas y los autores corresponden al historial de Git; el registro completo permanece en el repositorio.
+
+| Versión (commit) | Fecha | Autor | Descripción de modificación |
+| :--- | :--- | :--- | :--- |
+| [cec5325](https://github.com/GreenTech-upc/Report/commit/cec5325) | 2026-08-31 | Yam Cano Gomez | Estructura inicial del informe y recursos de imagen. |
+| [2c87943](https://github.com/GreenTech-upc/Report/commit/2c87943) | 2026-09-04 | Danilo | Desarrollo de la tabla de análisis competitivo. |
+| [bc6eb7c](https://github.com/GreenTech-upc/Report/commit/bc6eb7c) | 2026-09-10 | Yam Cano Gomez | Incorporación de registros e imágenes de entrevistas. |
+| [73cdf85](https://github.com/GreenTech-upc/Report/commit/73cdf85) | 2026-09-14 | Danilo | Desarrollo y análisis de la matriz de tareas. |
+| [ce65d09](https://github.com/GreenTech-upc/Report/commit/ce65d09) | 2026-09-15 | Danilo | Documentación del Big Picture EventStorming con imágenes. |
+| [76dd380](https://github.com/GreenTech-upc/Report/commit/76dd380) | 2026-09-18 | Luis Sebastián Rubio Ortiz | Registro de la segunda entrevista de agricultores. |
+| [88e9191](https://github.com/GreenTech-upc/Report/commit/88e9191) | 2026-09-18 | notoriussxd | Documentación del avance parcial de fundamentos visuales en Figma. |
+| [0908eb9](https://github.com/GreenTech-upc/Report/commit/0908eb9) | 2026-09-19 | Olizzy-upc | Ampliación de las User Stories. |
+| [9fa32e4](https://github.com/GreenTech-upc/Report/commit/9fa32e4) | 2026-09-19 | Yam Cano Gomez | Actualización de las hipótesis Lean UX. |
+| [4519a4a](https://github.com/GreenTech-upc/Report/commit/4519a4a) | 2026-09-19 | DiegoPumahualcca | Actualización de los registros de entrevistas. |
+| [b7a4291](https://github.com/GreenTech-upc/Report/commit/b7a4291) | 2026-09-19 | notoriussxd | Corrección de listas de EventStorming y ampliación del glosario. |
+| [2252774](https://github.com/GreenTech-upc/Report/commit/2252774) | 2026-09-19 | Yam Cano Gomez | Documentación de la configuración de despliegue. |
+| [cbbef45](https://github.com/GreenTech-upc/Report/commit/cbbef45) | 2026-09-19 | notoriussxd | Desarrollo de las historias de diagnósticos US-24, US-25 y US-26. |
+| [d3c3f1a](https://github.com/GreenTech-upc/Report/commit/d3c3f1a) | 2026-09-19 | notoriussxd | Ajuste de los segmentos objetivo según las entrevistas. |
 
 # Project Report Collaboration Insights 
 

@@ -313,9 +313,11 @@ Lean UX Canvas — SkyCrop
 
 ## 1.3. Segmentos objetivo. 
 
+Los segmentos se distinguen por su actividad y sus necesidades de monitoreo. Las características descritas son una propuesta inicial que se contrasta con las entrevistas del capítulo II; estas no permiten establecer la distribución demográfica o socioeconómica del mercado.
+
 **Segmento Objetivo 1: Agricultores**
 **Aspectos demográficos:**
-- **Edad:** 25 - 55 años.
+- **Edad:** Sin un rango validado como criterio de segmentación. Los agricultores entrevistados tienen 26, 27 y 61 años.
 - **Nivel socioeconómico:** Media - Baja.
 - **Tipo de productor:** Pequeños y medianos productores agrícolas, independientes o asociados a cooperativas.
 - **Rubro:** Cultivo de productos agrícolas.
@@ -334,7 +336,7 @@ Lean UX Canvas — SkyCrop
 
 **Segmento Objetivo 2: Ingenieros agrónomos**
 **Aspectos demográficos:**
-- **Edad:** 23 - 45 años.
+- **Edad:** Sin un rango validado como criterio de segmentación. Los agrónomos entrevistados tienen 25, 25 y 48 años.
 - **Nivel socioeconómico:** Media - Alta.
 - **Tipo de perfil:** Profesionales independientes o vinculados a cooperativas u asociaciones agrarias.
 - **Rubro:** Asesoría técnica y gestión agronómica de cultivos.
@@ -718,7 +720,7 @@ Los resultados describen únicamente estos resúmenes y no constituyen estimacio
 
 **Segmento 1: agricultores — tres registros disponibles**
 
-Los participantes registrados tienen 26, 27 y 61 años y proceden de Huancayo, Huaral y Villa María del Triunfo, respectivamente. Dos de los tres registros (66,7 %) corresponden a personas de 26 y 27 años y uno de tres (33,3 %) a una persona de 61 años. Esta última edad se encuentra fuera del rango inicial de 25 a 55 años indicado en la descripción del segmento, por lo que ese rango debe revisarse o justificarse sin excluir el testimonio de A3. Las edades y ubicaciones caracterizan a los participantes disponibles; no permiten establecer por sí solas el perfil demográfico de todos los agricultores a los que se dirige SkyCrop.
+Los participantes registrados tienen 26, 27 y 61 años y proceden de Huancayo, Huaral y Villa María del Triunfo, respectivamente. Dos de los tres registros (66,7 %) corresponden a personas de 26 y 27 años y uno de tres (33,3 %) a una persona de 61 años. La edad de A3 supera el límite de 55 años planteado inicialmente. Por ello, en 1.3 se retira ese rango como criterio de segmentación y se mantiene el énfasis en la actividad agrícola y las necesidades de monitoreo. Las edades y ubicaciones caracterizan a los participantes disponibles; no permiten establecer por sí solas el perfil demográfico de todos los agricultores a los que se dirige SkyCrop.
 
 | Dimensión | Hallazgo identificado en los resúmenes | Registros de sustento | Frecuencia y porcentaje |
 | :--- | :--- | :--- | :--- |
@@ -742,7 +744,7 @@ A3 amplía las necesidades identificadas con el control de aves, el riego y la f
 
 **Segmento 2: ingenieros agrónomos — tres registros disponibles**
 
-Dos participantes tienen 25 años, equivalentes a 2 de 3 registros (66,7 %), y una participante tiene 48 años, equivalente a 1 de 3 (33,3 %). Las procedencias consignadas son Apurímac, Cusco y Ate. La inclusión de una participante de 48 años muestra que el rango inicial de 23 a 45 años indicado en la descripción del segmento debe revisarse o justificarse; no corresponde excluir sus respuestas del análisis por esa diferencia.
+Dos participantes tienen 25 años, equivalentes a 2 de 3 registros (66,7 %), y una participante tiene 48 años, equivalente a 1 de 3 (33,3 %). Las procedencias consignadas son Apurímac, Cusco y Ate. La edad de G3 supera el límite de 45 años planteado inicialmente. Por ello, en 1.3 se retira ese rango como criterio de segmentación y se mantiene el énfasis en la asesoría agronómica y las necesidades de información.
 
 | Dimensión | Hallazgo identificado en los resúmenes | Registros de sustento | Frecuencia y porcentaje |
 | :--- | :--- | :--- | :--- |
@@ -778,7 +780,7 @@ Los resúmenes no permiten identificar marcas, navegadores, sistemas operativos 
 
 Ambos segmentos comparten dificultades por el tiempo de monitoreo e interés en obtener información del cultivo con apoyo de drones. En los registros de agricultores, el énfasis está en conocer el estado de sus cultivos y detectar problemas; A3 añade la consulta desde el celular y actividades adicionales que requieren delimitar el alcance. En los de agrónomos, se incorpora el contexto de asesorar a distintos productores y, en G1 y G2, comparar información histórica y colaborar en varios terrenos. Estas diferencias orientan la organización de las vistas y de la información, pero no bastan por sí solas para definir permisos exclusivos de cada rol.
 
-La tercera entrevista de agricultores ya está incorporada y las frecuencias se calcularon sobre tres registros por segmento. Para cerrar la documentación de AV1 se deben completar los metadatos pendientes —entre ellos, la duración y el enlace de Masaru— y verificar los enlaces y tiempos de las grabaciones, incluido el enlace compartido por los registros de Ana y Suzy. También es necesario revisar los rangos de edad iniciales y ampliar los resúmenes con los datos realmente recogidos que sustenten los atributos aún no respaldados de las personas. Las conclusiones se mantienen como una síntesis de los registros textuales disponibles, sin afirmar representatividad del mercado ni resultados de validación del producto.
+La tercera entrevista de agricultores ya está incorporada y las frecuencias se calcularon sobre tres registros por segmento. Para cerrar la documentación de AV1 se deben completar los metadatos pendientes —entre ellos, la duración y el enlace de Masaru— y verificar los enlaces y tiempos de las grabaciones, incluido el enlace compartido por los registros de Ana y Suzy. También es necesario ampliar los resúmenes con los datos realmente recogidos que sustenten los atributos aún no respaldados de las personas. Las conclusiones se mantienen como una síntesis de los registros textuales disponibles, sin afirmar representatividad del mercado ni resultados de validación del producto.
 
 ## 2.3. Needfinding. 
 

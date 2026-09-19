@@ -68,7 +68,13 @@ Se registran cambios principales del informe usando el commit como identificador
 | [cbbef45](https://github.com/GreenTech-upc/Report/commit/cbbef45) | 2026-09-19 | notoriussxd | Desarrollo de las historias de diagnósticos US-24, US-25 y US-26. |
 | [d3c3f1a](https://github.com/GreenTech-upc/Report/commit/d3c3f1a) | 2026-09-19 | notoriussxd | Ajuste de los segmentos objetivo según las entrevistas. |
 
-# Project Report Collaboration Insights 
+# Project Report Collaboration Insights
+
+El informe se mantiene en el [repositorio Report de GreenTech](https://github.com/GreenTech-upc/Report). Los aportes se registran mediante commits y se integran en `develop` desde ramas de trabajo. El historial muestra integraciones de bloques como el análisis de entrevistas, las historias de diagnósticos y la configuración de despliegue. Esta organización permite revisar los cambios por tema y conservar las versiones anteriores del documento.
+
+Los commits del Registro de Versiones permiten identificar aportes a distintas secciones: Yam Cano Gomez en la estructura, Lean UX y configuración; Danilo en análisis competitivo y Needfinding; Olizzy-upc en User Stories; DiegoPumahualcca en entrevistas; y Luis Sebastián Rubio Ortiz en el registro de entrevistas. También aparecen cambios de análisis, diseño y revisión documental bajo el nombre `notoriussxd`. Estos son los nombres registrados en Git y no necesariamente cuentas de personas distintas. La relación de commits documenta modificaciones del repositorio, pero no representa por sí sola todo el trabajo realizado por cada integrante.
+
+El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
 
 # Contenido 
 

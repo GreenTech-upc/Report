@@ -231,27 +231,36 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 #### 1.2.2.2. Lean UX Assumptions. 
 
 **Business Assumptions:**
-* Creemos que los agricultores y cooperativas agrarias están dispuestos a pagar suscripciones (Básico, Profesional y Cooperativa) por una plataforma que sea verdaderamente flexible y se adapte a las necesidades agronómicas específicas de sus terrenos.
+* Creemos que los pequeños y medianos productores agrícolas y las cooperativas agrarias están dispuestos a pagar suscripciones (Básico, Profesional y Cooperativa) por una plataforma accesible que se adapte a las necesidades agronómicas específicas de sus terrenos.
 * Creemos que nuestro modelo de negocio será altamente escalable al integrarse con drones comerciales estándar, evitando la necesidad de fabricar hardware propio.
+* Creemos que existe un espacio en el mercado para una alternativa abierta, personalizable y de menor costo frente a otras soluciones comerciales
+* Creemos que nuestro equipo cuenta con las capacidades técnicas necesarias para desarrollar la planificación automática de vuelos y el procesamiento de imágenes aéreas.
 
 **Business Outcome Assumptions:**
 * Creemos que lograremos una tasa de conversión del 25% hacia nuestras suscripciones de pago durante los primeros 6 meses.
-* Creemos que alcanzaremos un uso recurrente de la plataforma, convirtiéndonos en una herramienta indispensable a lo largo de todo el ciclo de vida del cultivo.
+* Creemos que al menos el 60% de los suscriptores de pago generará como mínimo un mapa del terreno al mes durante los primeros 6 meses, evidenciando un uso recurrente de la plataforma.
+* Creemos que retendremos al menos al 70% de los suscriptores de pago después de los primeros 6 meses.
 
 **User Assumptions:**
-* Creemos que nuestros usuarios (productores independientes, ingenieros agrónomos y gestores de cooperativas) cuentan con drones, pero carecen de los conocimientos técnicos en programación o de herramientas de software abiertas para automatizarlos.
+* Creemos que los agricultores (pequeños y medianos productores, independientes o asociados a cooperativas) supervisan sus parcelas mediante recorridos físicos y no cuentan con herramientas digitales de monitoreo.
+* Creemos que los usuarios tienen acceso a drones comerciales (propios, de la cooperativa o de su ingeniero agrónomo), pero carecen de los conocimientos técnicos o de herramientas de software abiertas para automatizar sus vuelos.
+* Creemos que los ingenieros agrónomos atienden varias parcelas o clientes a la vez y necesitan centralizar la información de todas ellas para diagnosticar con mayor rapidez.
+* Creemos que los gestores de cooperativas coordinan a varios productores y equipos de trabajo sobre grandes extensiones de terreno.
 * Creemos que los usuarios prefieren revisar datos consolidados desde una pantalla antes que realizar inspecciones físicas extenuantes y propensas a errores humanos.
 
 **User Outcome and Benefit Assumptions:**
-* Creemos que los usuarios ahorrarán un tiempo masivo y evitarán el gran esfuerzo físico que antes dedicaban a recorrer las parcelas de forma manual.
-* Creemos que los usuarios mitigarán la pérdida económica en sus cosechas al identificar de manera temprana amenazas como el estrés hídrico, plagas o deficiencias de fertilizante.
+* Creemos que los usuarios desean detectar a tiempo el estrés hídrico, las plagas o las deficiencias de fertilizante, y que al lograrlo mitigarán la pérdida económica en sus cosechas.
+* Creemos que los agricultores desean reducir el tiempo y el esfuerzo físico que dedican a recorrer sus parcelas, y que la plataforma les permitirá supervisarlas desde una pantalla.
+* Creemos que los ingenieros agrónomos desean mejorar la precisión de sus diagnósticos y atender más parcelas en menos tiempo, apoyándose en mapas visuales e información histórica.
+* Creemos que los gestores de cooperativas desean coordinar de forma colaborativa múltiples parcelas y equipos de trabajo, obteniendo una visión consolidada de toda la extensión.
+
 
 **Feature Assumptions:**
-* Creemos que la funcionalidad **Automated drone flight routing** solucionará la necesidad de trazar y personalizar el recorrido del dron sobre áreas delimitadas sin requerir control manual intensivo.
-* Creemos que la funcionalidad **Visual terrain map generation** satisfará la necesidad de procesar imágenes aéreas para resaltar anomalías y la salud general del cultivo.
-* Creemos que la funcionalidad **Advanced image analysis** cruzará datos visuales de forma automatizada para diagnosticar problemas agronómicos específicos en los planes superiores.
-* Creemos que la funcionalidad **Crop history and reporting** respaldará la toma de decisiones mediante el almacenamiento seguro en la nube para comparar ciclos agrícolas estacionales.
-* Creemos que la consola **Multi-plot and multi-user management** ayudará a las cooperativas a organizar de forma colaborativa grandes extensiones de tierra y múltiples equipos de trabajo.
+* Creemos que la funcionalidad de **Planificación automatizada de rutas de vuelo** solucionará la necesidad de trazar y personalizar el recorrido del dron sobre áreas delimitadas sin requerir control manual intensivo.
+* Creemos que la funcionalidad de **Generación de mapas visuales del terreno** satisfará la necesidad de procesar imágenes aéreas para resaltar anomalías y la salud general del cultivo.
+* Creemos que la funcionalidad de **Análisis avanzado de imágenes** cruzará datos visuales de forma automatizada para diagnosticar problemas agronómicos específicos en los planes superiores.
+* Creemos que la funcionalidad de **Historial de cultivos y reportes** respaldará la toma de decisiones mediante el almacenamiento seguro en la nube para comparar ciclos agrícolas estacionales.
+* Creemos que la consola de **Gestión multiparcela y multiusuario** ayudará a las cooperativas a organizar de forma colaborativa grandes extensiones de tierra y múltiples equipos de trabajo.
   
 #### 1.2.2.3. Lean UX Hypothesis Statements. 
 

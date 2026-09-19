@@ -264,40 +264,40 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
   
 #### 1.2.2.3. Lean UX Hypothesis Statements. 
 
-**Hypothesis 1**
+**Hipótesis 1**
 
-*We believe we will achieve* a higher recurring usage of the platform for agricultural monitoring
-*If* independent farmers, agricultural engineers, and cooperative managers
-*Attain* a reduction in the time and manual effort required to plan drone flights over their plots
-*With* the Automated Drone Flight Routing feature, which allows users to delimit areas and automatically generate customized flight routes.
+*Creemos que lograremos* una tasa de conversión del 25% hacia nuestras suscripciones de pago durante los primeros 6 meses
+*Si* los agricultores, los ingenieros agrónomos y los gestores de cooperativas
+*Alcanzan* una reducción del tiempo y del esfuerzo manual necesarios para planificar vuelos de drones sobre sus parcelas
+*Con* la funcionalidad de Planificación automatizada de rutas de vuelo, que permite delimitar áreas y generar automáticamente rutas de vuelo personalizadas.
 
-**Hypothesis 2**
+**Hipótesis 2**
 
-*We believe we will achieve* a higher recurring usage of the mapping tool
-*If* independent farmers, agricultural engineers, and cooperative managers
-*Attain* a faster and more understandable visualization of the condition of their crops and terrain
-*With* the Visual Terrain Map Generation feature, which processes aerial images and generates visual maps highlighting potential crop anomalies.
+*Creemos que lograremos* un uso mensual recurrente de la herramienta de mapeo por parte de al menos el 60% de nuestros suscriptores de pago
+*Si* los agricultores, los ingenieros agrónomos y los gestores de cooperativas
+*Alcanzan* una visualización más rápida y comprensible del estado de sus cultivos y del terreno
+*Con* la funcionalidad de Generación de mapas visuales del terreno, que procesa imágenes aéreas y genera mapas visuales que resaltan anomalías en los cultivos.
 
-**Hypothesis 3**
+**Hipótesis 3**
 
-*We believe we will achieve* greater perceived value of the Professional and Cooperative subscriptions
-*If* agricultural engineers and cooperative managers
-*Attain* earlier identification of potential agronomic problems such as crop stress, pests, and fertilizer deficiencies
-*With* the Advanced Image Analysis feature, which automatically analyzes aerial images to identify relevant visual anomalies.
+*Creemos que lograremos* una mayor adopción de las suscripciones Profesional y Cooperativa
+*Si* los ingenieros agrónomos y los gestores de cooperativas
+*Alcanzan* una identificación más temprana de problemas agronómicos como el estrés de los cultivos, las plagas y las deficiencias de fertilizante
+*Con* la funcionalidad de Análisis avanzado de imágenes, que analiza automáticamente las imágenes aéreas para identificar anomalías visuales relevantes.
 
-**Hypothesis 4**
+**Hipótesis 4**
 
-*We believe we will achieve* higher retention and recurring usage of the platform throughout the crop lifecycle
-*If* independent farmers, agricultural engineers, and cooperative managers
-*Attain* the ability to compare historical crop conditions and use previous monitoring information to support their decisions
-*With* the Crop History and Reporting feature, which securely stores monitoring information in the cloud and enables comparison between agricultural cycles.
+*Creemos que lograremos* una tasa de retención del 70% de los suscriptores de pago después de los primeros 6 meses
+*Si* los agricultores, los ingenieros agrónomos y los gestores de cooperativas
+*Alcanzan* decisiones mejor informadas al comparar las condiciones históricas de los cultivos con la información de monitoreos anteriores
+*Con* la funcionalidad de Historial de cultivos y reportes, que almacena de forma segura la información de monitoreo en la nube y permite comparar entre ciclos agrícolas.
 
-**Hypothesis 5**
+**Hipótesis 5**
 
-*We believe we will achieve* a higher conversion rate to the Cooperative subscription
-*If* cooperative managers and their agricultural teams
-*Attain* more efficient collaborative management of multiple plots and users
-*With* the Multi-Plot and Multi-User Management console, which allows cooperatives to organize multiple agricultural areas and work collaboratively with different team members.
+*Creemos que lograremos* una mayor tasa de conversión hacia la suscripción Cooperativa
+*Si* los gestores de cooperativas y sus equipos
+*Alcanzan* una gestión colaborativa más eficiente de múltiples parcelas y usuarios
+*Con* la consola de Gestión multiparcela y multiusuario, que permite a las cooperativas organizar múltiples áreas agrícolas y trabajar de forma colaborativa con distintos miembros del equipo.
 
 #### 1.2.2.4. Lean UX Canvas. 
 Figura 1

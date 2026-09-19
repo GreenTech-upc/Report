@@ -223,6 +223,12 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **How: ¿Qué llevó a la persona a llegar a esta situación?** | Se manifiesta a través del monitoreo manual de las parcelas agrícolas, un proceso que requiere de mucho tiempo y esfuerzo físico, y que a menudo no detecta problemas hasta que están muy avanzados|
 | **How Much: ¿Cuánto es el impacto financiero?** | Representa grandes pérdidas de cultivos por la identificación tardía de anomalías, además de los altos costos incurridos en la cantidad de horas  necesarias de un trabajador para recorrer la parcela físicamente.|
 
+**Objetivo y alcance de la solución**
+
+SkyCrop busca facilitar el monitoreo de parcelas y la consulta de información sobre los cultivos para agricultores e ingenieros agrónomos. La propuesta comprende el registro de parcelas y cultivos, la planificación de vuelos con drones, el análisis de imágenes y la consulta de mapas, diagnósticos y reportes históricos. Incluye la colaboración entre usuarios con acceso a las parcelas, según las historias del capítulo III.
+
+El proyecto se centra en el software, sin fabricar drones propios. La integración con equipos comerciales depende de sus capacidades y debe verificarse; no se presupone compatibilidad con cualquier modelo. El análisis también depende de la calidad de las imágenes y de los datos disponibles, mientras que la transferencia de información requiere contemplar la conectividad del campo. Las solicitudes de riego, fumigación y control de aves recogidas en las entrevistas quedan sujetas a evaluación y no forman parte del alcance comprometido. Los diagnósticos se plantean como apoyo a la evaluación agronómica.
+
 ### 1.2.2 Lean UX Process. 
 
 #### 1.2.2.1. Lean UX Problem Statements. 

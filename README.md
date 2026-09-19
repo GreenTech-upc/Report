@@ -939,15 +939,19 @@ Los mapas son una síntesis de los arquetipos. Sus pensamientos y emociones son 
 
 ### 2.3.4. Empathy Mapping. 
 
-En esta sección se encuentran los Empathy Maps realizados para cada User Persona. Estos mapas fueron elaborados en base a la situación que hemos identificado de los segmentos objetivos, así como lo que necesitan hacer, aquello que los frustra y lo que desean.
+Los mapas de empatía organizan las necesidades y el contexto de Alfonso e Ignacio en lo que ven, escuchan, dicen, hacen, piensan y sienten. Las dificultades se agrupan como *Pains* y los beneficios que buscan como *Gains*. Para explicar estos puntos, se relaciona el contenido de los mapas con los resúmenes del [análisis de entrevistas](#223-análisis-de-entrevistas). Las frases y emociones atribuidas a los arquetipos son interpretaciones que aún requieren validación.
 
 **Empathy Map 1 - Alfonso - Segmento: Agricultores**
 
 ![Empathy Map Agricultores](resources/imgs/empathy-map-agricultor.png)
 
+En Alfonso destacan el esfuerzo del monitoreo manual y la dificultad de detectar problemas a tiempo. Drago, Masaru e Higidio describen limitaciones de tiempo para supervisar sus terrenos; Drago también menciona barreras de costo y conocimientos para aprovechar la tecnología. Estos puntos se relacionan con el interés del mapa en acceder a herramientas asequibles y conocer el estado del cultivo de forma sencilla. La mejora de ingresos que aparece entre sus *Gains* representa una expectativa, no un resultado comprobado.
+
 **Empathy Map 2 - Ignacio - Segmento: Ingenieros Agrónomos**
 
 ![Empathy Map Ingenieros Agronomos](resources/imgs/empathy-map-agronomo.png)
+
+En Ignacio destacan el tiempo dedicado a supervisar parcelas y la necesidad de información útil para evaluar cultivos. Yamil, Ana y Suzy mencionan estas dificultades, mientras que Yamil y Ana señalan costos y restricciones de las herramientas disponibles. La toma de muestras descrita por Suzy se relaciona con las actividades del mapa. Sus *Gains* apuntan a apoyar las decisiones y mejorar el seguimiento de los cultivos; para SkyCrop, esto orienta la consulta de reportes e información histórica como apoyo al trabajo del agrónomo.
 
 ## 2.4. Big Picture EventStorming. 
 

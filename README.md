@@ -981,28 +981,28 @@ A partir de este proceso, identificamos lo siguiente:
 
 **Procesos clave:**
 
--Creación de cuenta y perfil de los usuarios de la plataforma
--Selección de subscripción y pago
--Configuración y planificación del vuelo de los drones
--Recolección y envío de datos
--Procesamiento y presentación de datos
--Envío de notificaciones a partir de lo procesado
+- Creación de cuenta y perfil de los usuarios de la plataforma
+- Selección de subscripción y pago
+- Configuración y planificación del vuelo de los drones
+- Recolección y envío de datos
+- Procesamiento y presentación de datos
+- Envío de notificaciones a partir de lo procesado
 
 **Problemas:**
 
--La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
--Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
--Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
+- La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
+- Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
+- Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
 
 **Oportunidades:**
 
--La automatización de vuelos de drones para la recolección de información.
--La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
--Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
+- La automatización de vuelos de drones para la recolección de información.
+- La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
+- Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
 
 ## 2.5. Ubiquitous Language. 
 
-|Termino    |Definición             |
+|Término    |Definición             |
 |:----------|:----------------------|
 |User (Usuario)                       |Persona en general que haga uso de la plataforma SkyCrop y de sus servicios|
 |Farmer (Agricultor)                  |Persona perteneciente al segmento de agricultores que haya creado una cuenta de agricultor en la plataforma SkyCrop|
@@ -1010,7 +1010,13 @@ A partir de este proceso, identificamos lo siguiente:
 |Subscription (Subscripción)          |Licencia de uso de la aplicación y servicios de la plataforma SkyCrop|
 |Agricultural Plot (Parcela Agrícola) |Zona registrada en la plataforma SkyCrop y monitoreada por cuentas de agricultores y agrónomos con los permisos suficientes|
 |Drone (Dron)                         |Equipo registrado en la plataforma SkyCrop y gestionado por cuentas de agricultores y agrónomos con los permisos suficientes|
-|||
+|Crop (Cultivo) |Tipo o variedad de planta registrada en una parcela para su monitoreo.|
+|Monitoring (Monitoreo) |Seguimiento del estado de los cultivos mediante observaciones, imágenes y datos de la parcela.|
+|Flight Route (Ruta de vuelo) |Recorrido planificado que sigue un dron para capturar imágenes de una parcela.|
+|Anomaly (Anomalía) |Señal de un posible problema en el cultivo que requiere evaluación para determinar su causa.|
+|Diagnosis (Diagnóstico) |Resultado del análisis de la información de una parcela que describe su estado y los problemas identificados.|
+|Report (Reporte) |Documento que reúne resultados del monitoreo de una parcela para su consulta, seguimiento o comparación.|
+|Alert (Alerta) |Aviso que comunica una condición que requiere atención, como una anomalía en el cultivo o un fallo del dron.|
 
 
 # Capítulo III: Requirements Specification 

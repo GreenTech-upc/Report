@@ -177,11 +177,11 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Foto** | |
 ----------------------
 
-| **Integrante** | |
+| **Integrante** | Jonseck Choque Oliver |
 | :--- | :--- |
-| **Código del Estudiante** | |
-| **Carrera** | |
-| **Descripción** | |
+| **Código del Estudiante** | U202312912 |
+| **Carrera** | Ingeniería de Software |
+| **Descripción** | Mi nombre es Oliver, poseo 21 años. Poseo mucho interés en la programación y llevo haciendo varios proyectos personales desde que ingrese a la universidad. No trabajo bajo contrato actualmente, pero trabajo cómo freelancer por periodos de tiempo. |
 | **Foto** | |
 ---------------------
 

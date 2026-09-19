@@ -380,7 +380,7 @@ Hemos identificado a tres empresas con ofertas similares a la de nuestra startup
   </tr>
   <tr>
     <td>
-      <img src="" alt="Logo SkyCrop" style="max-width: 150px;">
+      <img src="resources/imgs/SkyCrop-Logo.png" alt="Logo SkyCrop" style="max-width: 120px;">
     </td>
     <td>
       <img src="resources/imgs/pix4d-logo.png" alt="Logo Pix4D" style="max-width: 120px;">

@@ -577,7 +577,7 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Edad** | 26 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Distrito** | Huancayo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Duración** | 6:56 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
@@ -607,6 +607,23 @@ En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de su
 ---
 **Entrevista 3**
 
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Higidio Pumahualcca |
+| **Edad** | 61 |
+| **Distrito** | Villa Maria del Triunfo |
+| **Duración** | 7:22 min |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/IQBZNqpJc52rQZjZbGbruBF3AXx6UrRnUWbUXMzME_DsSGM?e=tnRr3J&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+<div align="center">
+<img src="resources/imgs/chapter_2/entrevista3_segmento1.jpg" alt="Entrevista 3 - Segmento 1" width="600">
+</div>
+
+**Resumen**:
+En esta entrevista, Higidio Pumahualcca comparte su experiencia y las formas que utiliza para realizar el monitoreo de sus cultivos. Actualmente, realiza principalmente recorridos presenciales y observación directa del terreno para identificar posibles problemas relacionados con las plagas y el riego. A partir de estas observaciones, verifica el estado de los cultivos y busca solucionar los problemas de acuerdo con su experiencia. Sin embargo, señala que esta actividad puede resultar cansada y que, en algunas ocasiones, presenta dificultades debido a la falta de tiempo para supervisar constantemente todo el terreno.
+Asimismo, menciona que otro problema frecuente es la presencia de aves en determinadas zonas, ya que estas pueden alimentarse de los cultivos y ocasionar pérdidas en la producción. Ante esta situación, considera que sería de gran utilidad contar con un sistema que permita realizar un monitoreo constante de los cultivos mediante drones. También muestra interés en que los drones puedan contribuir a la seguridad de los cultivos, por ejemplo, detectando y ahuyentando a las aves cuando se aproximen a determinadas zonas.
+Además, considera beneficioso que los drones puedan realizar otras actividades de manera automatizada, como el riego y la fumigación, especialmente cuando detecten que los cultivos requieren atención. Respecto al acceso a la información, señala que el celular sería el medio más conveniente para consultar el estado de sus cultivos y recibir información del sistema. También considera importante que los drones puedan funcionar sin conexión a Internet, debido a que en las zonas de cultivo suele existir poca o nula disponibilidad de Wi-Fi.
+Finalmente, Higidio Pumahualcca manifiesta que estaría dispuesto a pagar por una solución que integre funciones de monitoreo, riego, fumigación y seguridad de los cultivos, especialmente si el sistema también permite detectar posibles pérdidas o problemas de manera anticipada. En general, muestra interés en una herramienta que le permita reducir el esfuerzo del monitoreo presencial, ahorrar tiempo y mejorar el control de sus cultivos.
 
 ---
 
@@ -620,7 +637,7 @@ En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de su
 | **Edad**         | 25 años                                                                                                                                                                                                                                                                                                                      |
 | **Departamento** | Apurtimac                                                                                                                                                                                                                                                                                                                    |
 | **Duración**     | 4:53 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD|
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD)|
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
@@ -638,7 +655,7 @@ Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus 
 | **Edad**         | 25 años                                                                                                                                                                                                                                                                                                                      |
 | **Departamento** | Cusco                                                                                                                                                                                                                                                                                                                        |
 | **Duración**     | 5:06 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
@@ -656,7 +673,7 @@ En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años res
 | **Edad**         | 48 años              |
 | **Departamento** | Ate                  |
 | **Duración**     | 14:26 min            |
-| **Enlace**       | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
@@ -672,25 +689,148 @@ En tales imágenes ella espera que se noten los manchados en los cultivos genera
 ---
 ### 2.2.3. Análisis de entrevistas. 
 
+El análisis se elabora a partir de los datos y resúmenes del [registro de entrevistas](#222-registro-de-entrevistas), agrupados en los dos segmentos objetivo de SkyCrop: agricultores e ingenieros agrónomos. Se identifican características demográficas, prácticas actuales, dificultades, necesidades y expectativas para sustentar los arquetipos y orientar las decisiones de diseño.
 
+**Base de análisis y criterio de interpretación**
+
+Se consideran seis registros con resumen: tres de agricultores y tres de ingenieros agrónomos. Esta actualización incorpora la entrevista de Higidio Pumahualcca al análisis del primer segmento. Los códigos de la siguiente tabla permiten identificar la fuente de cada hallazgo dentro de esta sección; no representan entrevistas adicionales.
+
+| Código | Segmento y registro de origen | Participante | Edad | Ubicación consignada en el registro |
+| :--- | :--- | :--- | :--- | :--- |
+| A1 | Agricultores, entrevista 1 | Drago Duarte | 26 años | Huancayo |
+| A2 | Agricultores, entrevista 2 | Masaru Nikaido | 27 años | Huaral |
+| A3 | Agricultores, entrevista 3 | Higidio Pumahualcca | 61 años | Villa María del Triunfo |
+| G1 | Ingenieros agrónomos, entrevista 1 | Yamil Tejada | 25 años | Apurímac |
+| G2 | Ingenieros agrónomos, entrevista 2 | Ana Patricio, nombrada Ana Camila Patricio en el resumen | 25 años | Cusco |
+| G3 | Ingenieros agrónomos, entrevista 3 | Suzy Vásquez Navarro | 48 años | Ate |
+
+Las ubicaciones se presentan como procedencia registrada, sin asumir que todas corresponden al mismo nivel geográfico. Es necesario precisar el distrito de los registros que solo identifican un departamento.
+
+Para cada hallazgo se cuenta una sola vez cada registro cuyo resumen lo menciona explícitamente. El porcentaje se calcula como **registros que mencionan el hallazgo / registros disponibles del segmento × 100**, redondeado a un decimal cuando corresponde. Un mismo registro puede sustentar varios hallazgos, por lo que los porcentajes de las filas no se suman. La ausencia de una mención no se interpreta como rechazo, desconocimiento o ausencia de la necesidad.
+
+Los resultados describen únicamente estos resúmenes y no constituyen estimaciones del mercado ni una revisión directa de las grabaciones. Con la incorporación de A3 se dispone de tres registros con resumen por segmento, alcanzando el mínimo solicitado para el análisis. Esto no cierra la verificación de las evidencias: siguen pendientes metadatos, enlaces y tiempos de las grabaciones.
+
+**Segmento 1: agricultores — tres registros disponibles**
+
+Los participantes registrados tienen 26, 27 y 61 años y proceden de Huancayo, Huaral y Villa María del Triunfo, respectivamente. Dos de los tres registros (66,7 %) corresponden a personas de 26 y 27 años y uno de tres (33,3 %) a una persona de 61 años. Esta última edad se encuentra fuera del rango inicial de 25 a 55 años indicado en la descripción del segmento, por lo que ese rango debe revisarse o justificarse sin excluir el testimonio de A3. Las edades y ubicaciones caracterizan a los participantes disponibles; no permiten establecer por sí solas el perfil demográfico de todos los agricultores a los que se dirige SkyCrop.
+
+| Dimensión | Hallazgo identificado en los resúmenes | Registros de sustento | Frecuencia y porcentaje |
+| :--- | :--- | :--- | :--- |
+| Hábitos actuales | El monitoreo se realiza manualmente o mediante recorridos presenciales del terreno. | A1, A2, A3 | 3 de 3 (100 %) |
+| Dificultades y frustraciones | El tiempo que requiere supervisar el terreno constituye una dificultad para el monitoreo. | A1, A2, A3 | 3 de 3 (100 %) |
+| Necesidades de información | Se busca visualizar el estado del cultivo de forma sencilla para reconocer las zonas que necesitan atención. | A1, A2 | 2 de 3 (66,7 %) |
+| Expectativas tecnológicas | Se expresa interés en automatizar recorridos o rutas de drones para monitorear los cultivos. | A1, A2 | 2 de 3 (66,7 %) |
+| Barreras de adopción | El costo y la rigidez del software, junto con la falta de conocimientos de programación, limitan el aprovechamiento de drones. | A1 | 1 de 3 (33,3 %) |
+| Conectividad | Se señala conectividad limitada en las zonas de cultivo y se solicita que la solución contemple esa condición. | A1, A3 | 2 de 3 (66,7 %) |
+| Seguimiento | Se solicita recibir alertas y consultar un historial del estado de los cultivos. | A2 | 1 de 3 (33,3 %) |
+| Dispositivo de consulta | Se identifica el celular como el medio más conveniente para consultar el estado de los cultivos y recibir información. | A3 | 1 de 3 (33,3 %) |
+| Riesgos del cultivo | Se identifica la presencia de aves como causa de pérdidas y se propone detectarlas y ahuyentarlas con drones. | A3 | 1 de 3 (33,3 %) |
+| Actividades adicionales | Se solicita automatizar riego y fumigación mediante drones. | A3 | 1 de 3 (33,3 %) |
+| Disposición declarada de pago | Se manifiesta disposición a pagar por una solución con las capacidades descritas en cada resumen; en A3, la propuesta incluye monitoreo, riego, fumigación y seguridad. | A1, A2, A3 | 3 de 3 (100 %) |
+
+El patrón compartido es la necesidad de reducir el tiempo de supervisión y conocer los problemas del cultivo oportunamente (A1, A2, A3). Para el diseño, esto orienta a presentar primero el estado de la parcela y la información que ayude a decidir dónde intervenir. A1 y A2 solicitan visualizaciones sencillas y automatización de recorridos; A3 aporta una preferencia explícita por consultar desde el celular. Su resumen no especifica mapas ni planificación de rutas, por lo que no se lo contabiliza en esas dos filas. Tampoco se puede concluir que los tres participantes sean propietarios de drones o tengan la misma experiencia tecnológica.
+
+Las barreras de costo y conocimientos técnicos están documentadas en A1; el interés en alertas e historial, en A2. A1 y A3 mencionan problemas de conectividad, pero sus solicitudes tienen distinto alcance: A1 plantea que la herramienta contemple una conexión intermitente y A3 pide que los drones funcionen sin Internet. Esto no demuestra que exista una implementación offline ni que ambos describan el mismo funcionamiento técnico.
+
+A3 amplía las necesidades identificadas con el control de aves, el riego y la fumigación. Estas solicitudes requieren evaluación de alcance y no se incorporan automáticamente como capacidades comprometidas de SkyCrop. Aunque los tres registros expresan disposición de pago, A3 la refiere a una solución que reúne esas funciones adicionales; no se puede asumir que pagaría por una oferta limitada al monitoreo. Ninguna de estas declaraciones acredita una compra, un precio aceptado o una tasa de conversión.
+
+**Segmento 2: ingenieros agrónomos — tres registros disponibles**
+
+Dos participantes tienen 25 años, equivalentes a 2 de 3 registros (66,7 %), y una participante tiene 48 años, equivalente a 1 de 3 (33,3 %). Las procedencias consignadas son Apurímac, Cusco y Ate. La inclusión de una participante de 48 años muestra que el rango inicial de 23 a 45 años indicado en la descripción del segmento debe revisarse o justificarse; no corresponde excluir sus respuestas del análisis por esa diferencia.
+
+| Dimensión | Hallazgo identificado en los resúmenes | Registros de sustento | Frecuencia y porcentaje |
+| :--- | :--- | :--- | :--- |
+| Ocupación y contexto | Se asesora a productores agrícolas, cooperativas o agroexportadores en el seguimiento de cultivos. | G1, G2, G3 | 3 de 3 (100 %) |
+| Dificultades de trabajo | El tiempo necesario para supervisar parcelas o extensiones de cultivo dificulta el monitoreo. | G1, G2, G3 | 3 de 3 (100 %) |
+| Necesidades de información | Se expresa interés en imágenes o mapas que permitan identificar anomalías o evaluar el estado del cultivo. | G1, G2, G3 | 3 de 3 (100 %) |
+| Barreras de adopción | Se señalan costos elevados o restricciones de las tecnologías disponibles para el análisis agrícola. | G1, G2 | 2 de 3 (66,7 %) |
+| Automatización | Se solicita automatizar rutas, generación de mapas o captura de imágenes mediante drones. | G1, G2, G3 | 3 de 3 (100 %) |
+| Seguimiento histórico | Se solicita un historial para comparar ciclos o información estacional de los cultivos. | G1, G2 | 2 de 3 (66,7 %) |
+| Colaboración | Se plantea gestionar de manera colaborativa varios terrenos o usuarios. | G1, G2 | 2 de 3 (66,7 %) |
+| Conectividad | Se solicita operar sin conexión ante la mala señal disponible en zonas rurales. | G2 | 1 de 3 (33,3 %) |
+| Dispositivos | Se menciona el uso de laptop para procesar la información obtenida durante el trabajo de campo. | G2 | 1 de 3 (33,3 %) |
+| Prácticas técnicas | Se describen toma de muestras, revisión de plantas, trampas para plagas y recolección de datos del suelo y del cultivo. | G3 | 1 de 3 (33,3 %) |
+| Frustraciones de adopción | Se menciona la resistencia de algunos agricultores a modificar sus prácticas habituales. | G3 | 1 de 3 (33,3 %) |
+| Disposición declarada de pago | Se expresa disposición a pagar por un plan con las capacidades descritas en el resumen. | G1, G2 | 2 de 3 (66,7 %) |
+
+El objetivo compartido es contar con información que facilite la evaluación de cultivos atendidos profesionalmente (G1, G2, G3). Los reportes históricos y la colaboración entre usuarios reciben sustento específico de G1 y G2, por lo que orientan la propuesta de seguimiento de varias parcelas. El uso de laptop y la necesidad de operación sin conexión están documentados en G2; no se generalizan a todos los agrónomos entrevistados.
+
+G3 aporta prácticas de observación y medición que ayudan a precisar qué información resulta útil: humedad del suelo, nutrientes, pH, etapa de desarrollo, manchas en plantas y homogeneidad del riego. Estas menciones expresan necesidades de evaluación agronómica; no prueban que todas esas variables puedan obtenerse de una imagen aérea ni que ya sean capacidades implementadas de SkyCrop. Su solicitud adicional de fertilización o riego mediante drones requiere evaluación de alcance y no se asume como un compromiso del producto.
+
+**Relación de los hallazgos con los User Personas**
+
+Los resultados permiten sustentar parte de las metas y dificultades de [Alfonso Román e Ignacio Rojas](#231-user-personas). Ambos son arquetipos utilizados para el diseño, no participantes adicionales de las entrevistas. La siguiente relación distingue los atributos respaldados de aquellos que todavía requieren evidencia.
+
+| Arquetipo | Características que encuentran sustento en los registros | Fuentes | Aspectos de la ficha pendientes de sustento |
+| :--- | :--- | :--- | :--- |
+| Alfonso Román — agricultor | Necesidad de conocer el estado del cultivo y detectar riesgos oportunamente; dificultad por el tiempo de monitoreo; barreras de costo y conocimientos técnicos. El uso de celular para consultar información encuentra sustento en A3. | A1, A2 y A3 para monitoreo y detección; A1 para costo y conocimientos; A3 para consulta desde celular. | Edad de 36 años, procedencia de Huánuco, estado civil, composición familiar, ingreso de S/ 1500, marcas, navegadores, sistemas operativos, otros canales y puntuaciones de habilidades. La preferencia por celular está documentada solo en A3 y no valida el resto de los dispositivos o canales de la ficha. |
+| Ignacio Rojas — ingeniero agrónomo | Asesoría a productores, necesidad de información para evaluar cultivos, dificultades por el tiempo de supervisión, barreras de acceso a tecnología y resistencia de algunos clientes a cambiar prácticas. | G1, G2 y G3 para asesoría e información; G1 y G2 para barreras tecnológicas; G3 para resistencia al cambio. | Edad de 26 años, procedencia de Áncash, estado civil, ingreso de S/ 2500, marcas, navegadores, sistemas operativos, preferencia general por canales y puntuaciones de habilidades. El uso de laptop solo está documentado en G2. |
+
+Los resúmenes no permiten identificar marcas, navegadores, sistemas operativos o canales digitales predominantes en ninguno de los dos segmentos. El celular aparece como dispositivo de consulta preferido en A3 y la laptop como herramienta de trabajo en G2; ninguna mención demuestra una preferencia general del segmento ni el uso de aplicaciones concretas como WhatsApp. Tampoco se respaldan las etiquetas de personalidad ni los porcentajes de habilidades de las fichas. Esos atributos deben confirmarse mediante información recogida en las entrevistas o identificarse como decisiones de modelado pendientes de validación. La cifra «Mercado 50 %» de ambas fichas no se deriva de este análisis: disponer de tres registros por segmento tampoco demuestra una participación de mercado equivalente.
+
+**Síntesis y actualización del análisis**
+
+Ambos segmentos comparten dificultades por el tiempo de monitoreo e interés en obtener información del cultivo con apoyo de drones. En los registros de agricultores, el énfasis está en conocer el estado de sus cultivos y detectar problemas; A3 añade la consulta desde el celular y actividades adicionales que requieren delimitar el alcance. En los de agrónomos, se incorpora el contexto de asesorar a distintos productores y, en G1 y G2, comparar información histórica y colaborar en varios terrenos. Estas diferencias orientan la organización de las vistas y de la información, pero no bastan por sí solas para definir permisos exclusivos de cada rol.
+
+La tercera entrevista de agricultores ya está incorporada y las frecuencias se calcularon sobre tres registros por segmento. Para cerrar la documentación de AV1 se deben completar los metadatos pendientes —entre ellos, la duración y el enlace de Masaru— y verificar los enlaces y tiempos de las grabaciones, incluido el enlace compartido por los registros de Ana y Suzy. También es necesario revisar los rangos de edad iniciales y ampliar los resúmenes con los datos realmente recogidos que sustenten los atributos aún no respaldados de las personas. Las conclusiones se mantienen como una síntesis de los registros textuales disponibles, sin afirmar representatividad del mercado ni resultados de validación del producto.
 
 ## 2.3. Needfinding. 
 
 ### 2.3.1. User Personas. 
 
-En esta sección se encontrarán las tarjetas de User Personas elaboradas a partir de la información que obtuvimos de las entrevistas. Para estas tarjetas se tuvo en consideración la manera en la que los ingenieros agrónomos y los agricultores realizan su trabajo, las dificultades que tienen al realizarlo y lo que ellos piensan que les sería conveniente.
+Se presentan los arquetipos Alfonso Román, para agricultores, e Ignacio Rojas, para ingenieros agrónomos. Su propósito es orientar las decisiones de diseño según las actividades, metas y dificultades de ambos segmentos. Son representaciones compuestas para el proyecto y no corresponden a dos entrevistados adicionales.
+
+La trazabilidad de sus características se establece a partir del [análisis de las seis entrevistas registradas](#223-análisis-de-entrevistas). Se utilizan los códigos A1–A3 para Drago Duarte, Masaru Nikaido e Higidio Pumahualcca, y G1–G3 para Yamil Tejada, Ana Patricio y Suzy Vásquez Navarro. Las menciones individuales se mantienen identificadas para evitar atribuir a todo un segmento una preferencia expresada por una sola persona.
+
+**Relación con el análisis de la competencia**
+
+La comparación de Pix4D, DJI Enterprise y Geodrone documentada en [2.1.1. Análisis competitivo](#211-análisis-competitivo) y las [estrategias propuestas en 2.1.2](#212-estrategias-y-tácticas-frente-a-competidores) aportan ejes para evaluar la propuesta: enfoque agrícola, costo de acceso, complejidad de uso, información del cultivo y continuidad ante conectividad limitada. Estos ejes se contrastan con los testimonios: A1 menciona barreras de costo y conocimientos; G1 y G2, costos y restricciones tecnológicas; A1, A3 y G2, dificultades de conectividad con solicitudes de distinto alcance.
+
+Esta relación orienta propuestas de diseño, como presentar información comprensible, explicar las capacidades de cada plan y distinguir qué operaciones requieren conexión. No demuestra que los entrevistados usen las marcas comparadas ni valida precios, compatibilidad de equipos o ventajas comerciales de SkyCrop. Las características personales se sustentan en los registros de entrevistas; la comparación competitiva ayuda a evaluar cómo responder a sus necesidades.
+
+**Estado de las fichas**
+
+Las capturas de UXPressia corresponden a la versión de trabajo existente. Las tablas siguientes explican qué necesidades encuentran sustento y qué decisiones se proponen a partir de ellas; estas decisiones aún deben validarse con usuarios. Los atributos sin respaldo identificados en 2.2.3 —edades y ubicaciones asignadas a los arquetipos, ingresos, estado civil, datos familiares, marcas, navegadores, sistemas operativos, personalidad y puntuaciones de habilidades— quedan pendientes de confirmación o corrección en las fichas. Las frases representativas tampoco se consideran citas textuales de los participantes sin una referencia verificable.
+
+**La indicación «Mercado 50 %» de ambas imágenes no tiene sustento documentado y debe retirarse de su próxima versión.** Tener tres entrevistas por segmento no permite estimar su participación de mercado. Esa cifra se excluye de las conclusiones y de la priorización del producto.
 
 **User Persona 1 - Segmento: Agricultores**
 
+Alfonso representa al agricultor que supervisa sus cultivos y necesita reconocer problemas oportunamente, con menor esfuerzo y tiempo de revisión. Los registros A1, A2 y A3 respaldan ese contexto de trabajo. Las barreras de conocimientos técnicos se apoyan específicamente en A1 y no se generalizan a los tres agricultores.
+
+| Necesidad representada o aporte para el arquetipo | Sustento en entrevistas | Implicación propuesta para el diseño |
+| :--- | :--- | :--- |
+| Conocer el estado del cultivo y detectar problemas oportunamente. | A1, A2 y A3 describen monitoreo presencial y dificultades de tiempo; A1 y A2 solicitan información visual sencilla. | Priorizar el estado de la parcela y la información que ayude a decidir qué zona revisar. |
+| Acceder a herramientas comprensibles y considerar el costo de adopción. | A1 identifica limitaciones por costos, rigidez del software y falta de conocimientos de programación. | Usar lenguaje agrícola, explicar los pasos de cada tarea y comunicar las capacidades incluidas en cada plan. |
+| Consultar información desde el celular. | A3 lo identifica como el medio más conveniente para conocer el estado de sus cultivos. | Diseñar una experiencia web adaptable al celular; esta mención no acredita una marca, sistema operativo o navegador preferido. |
+| Dar seguimiento a cambios del cultivo. | A2 solicita alertas e historial. | Facilitar la revisión cronológica de información y distinguir las novedades que requieren atención. |
+
+Las solicitudes de A3 sobre control de aves, riego y fumigación amplían los temas que deben evaluarse con el segmento, pero no se convierten automáticamente en funciones comprometidas de SkyCrop. Su disposición de pago está vinculada a esa propuesta más amplia.
+
 ![User Persona Agricultor](resources/imgs/user-persona-alfonso.png)
 
-**User Persona 2 - Segmento: Ingenieros Agronomos**
+**User Persona 2 - Segmento: Ingenieros agrónomos**
+
+Ignacio representa al profesional que asesora a productores y necesita información para evaluar cultivos y fundamentar sus decisiones. G1, G2 y G3 respaldan ese contexto. La dificultad para supervisar extensiones de cultivo orienta a organizar la información por parcela; la resistencia de algunos clientes a cambiar prácticas es un hallazgo específico de G3.
+
+| Necesidad representada o aporte para el arquetipo | Sustento en entrevistas | Implicación propuesta para el diseño |
+| :--- | :--- | :--- |
+| Reunir información útil para evaluar el estado de los cultivos. | G1, G2 y G3 solicitan imágenes o mapas para apoyar la evaluación; G3 describe observaciones y mediciones de campo. | Mostrar el contexto de la parcela y los hallazgos disponibles, diferenciando observaciones, mediciones y resultados del procesamiento de imágenes. |
+| Comparar información entre ciclos y coordinar el seguimiento de varios terrenos. | G1 y G2 solicitan historial y gestión colaborativa. | Proponer reportes por parcela y fecha, junto con identificación de los usuarios que participan en su seguimiento. |
+| Reducir barreras para incorporar tecnología al trabajo. | G1 y G2 mencionan costos o restricciones tecnológicas; G3 describe resistencia de algunos clientes a nuevas prácticas. | Explicar el propósito y los resultados de cada función, con información comprensible que pueda comunicarse al productor. |
+| Consultar y procesar información considerando el contexto de trabajo. | G2 menciona uso de laptop y necesidad de operación sin conexión. | Diseñar vistas legibles en escritorio y estados que indiquen la disponibilidad de información; no se asume que todos los agrónomos usen el mismo equipo. |
+
+Las necesidades de estos arquetipos orientan la organización de contenidos y la evaluación posterior de los flujos. No acreditan por sí solas resultados de ahorro, precisión diagnóstica o adopción, ni sustituyen la definición de permisos por rol en los requisitos del producto.
 
 ![User Persona Ingeniero Agrónomo](resources/imgs/user-persona-ignacio.png)
 
 ### 2.3.2. User Task Matrix. 
 
-En esta sección se encuentra la matriz de tareas de cada usuario, donde se evalúan la frecuencia y la importancia de las tareas que realizan los User Personas basados en los segmentos objetivos que hemos definido. En esta tabla, el User Persona asociada al segmento de agricultores es Alfonso Román, y el User Persona asociado al segmento de ingenieros agrónomos es Ignacio Rojas.
+La matriz compara las tareas del trabajo agrícola de Alfonso Román, arquetipo del segmento de agricultores, e Ignacio Rojas, arquetipo del segmento de ingenieros agrónomos. Para cada tarea se distinguen dos dimensiones: la frecuencia con la que se realiza y su importancia para los objetivos del arquetipo. Las tareas describen actividades del dominio que existen independientemente de SkyCrop.
+
+Las categorías **Alta, Media y Baja** se presentan como valoraciones cualitativas de la propuesta de diseño, pendientes de validación. Los resúmenes disponibles no incluyen una medición uniforme de periodicidad ni una escala de importancia aplicada a todos los participantes; por ello, estos valores no se interpretan como frecuencias estadísticas ni como calificaciones expresadas directamente por los entrevistados.
+
+El [análisis de entrevistas](#223-análisis-de-entrevistas) aporta sustento para identificar las actividades: A1 y A2 describen la supervisión de cultivos y las dificultades para detectar problemas; G1 y G2 señalan necesidades de evaluación, seguimiento histórico y gestión de varios terrenos; G3 detalla observación de plantas, evaluación de humedad y nutrientes y monitoreo de plagas. Esa evidencia respalda la selección de tareas, pero no determina por sí sola el nivel asignado a cada celda.
 
 <table border="1">
   <tr>
@@ -768,40 +908,50 @@ En esta sección se encuentra la matriz de tareas de cada usuario, donde se eval
 </table>
 
 **Tareas con más frecuencia**  
-Entre las tareas más frecuentes identificadas en la tabla, se encuentran aquellas enfocadas en el monitoreo y mantenimiento de las plantas, así como la revisión de su crecimiento y la identificación de plagas.
+Para Alfonso, la matriz asigna frecuencia alta al monitoreo general del campo, mantenimiento de los cultivos, revisión de su crecimiento y monitoreo de plagas. Para Ignacio, la frecuencia alta corresponde a la evaluación de humedad del suelo, revisión del crecimiento, monitoreo de plagas, registro de información, planificación de insumos y análisis del cultivo para la toma de decisiones. La revisión del crecimiento y el monitoreo de plagas son las tareas que ambos comparten con frecuencia alta.
 
 **Tareas con más importancia**  
-Entre las tareas más importantes identificadas en la tabla, se encuentran aquellas relacionadas con el monitoreo y evaluación de los problemas que pueden afectar a los cultivos, la planificación del uso de insumos y el análisis de lo identificado para la toma de decisiones.
+Ambos arquetipos tienen importancia alta en el monitoreo de plagas, la identificación de problemas y la planificación del uso de insumos. Además, el mantenimiento de los cultivos tiene importancia alta para Alfonso y media para Ignacio, mientras que el análisis del cultivo y la toma de decisiones tienen importancia alta para Ignacio y media para Alfonso. La importancia debe leerse separadamente de la frecuencia: por ejemplo, identificar problemas tiene importancia alta para ambos, aunque su frecuencia está clasificada como baja para Alfonso y media para Ignacio.
 
 **Principales diferencias**  
-En la tabla se pudo identificar como los agricultores realizan tareas de monitoreo más frecuentemente y como los ingenieros agrónomos realizan tareas de registro y análisis más seguido. Además, se identificó como la tarea del mantenimiento de los cultivos es más importante para los agricultores y como la tarea de análisis para la toma de decisiones es más importante para los agricultores.
+La propuesta distingue el seguimiento operativo de Alfonso del trabajo de evaluación y asesoría de Ignacio. Alfonso presenta mayor frecuencia en el monitoreo general del campo y el mantenimiento de los cultivos. Ignacio presenta mayor frecuencia en evaluación de humedad, identificación de problemas, registro de información, planificación de insumos, análisis para tomar decisiones y uso de tecnología. En importancia, las diferencias se concentran en mantenimiento, registro de información y análisis del cultivo: el primero tiene mayor valoración para Alfonso; los dos últimos, para Ignacio. Estas diferencias describen la matriz propuesta y deben contrastarse con los participantes antes de generalizarse a los segmentos.
 
 **Coincidencias encontradas**  
-Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y como el uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
+El monitoreo de plagas es la única tarea con frecuencia e importancia altas para ambos arquetipos. La revisión del crecimiento también tiene frecuencia alta en ambos, pero su importancia es media. Coinciden asimismo en la importancia alta de identificar problemas y planificar insumos, aunque con frecuencias diferentes. El monitoreo general, la evaluación de humedad y el uso de tecnología tienen importancia media para ambos. Por tanto, la matriz no asigna importancia alta a todas las actividades de monitoreo y permite distinguir las prioridades propuestas de cada arquetipo.
 
 ### 2.3.3. User Journey Mapping. 
 
-En esta sección se encuentran los User Journey Map para cada User Persona. El camino que seguirá cada mapa busca reflejar las actividades que realiza cada segmento en cuanto a la revisión y mantenimiento de los cultivos, lo cual es aquello que nuestro producto busca mejorar.
+Los siguientes mapas As-Is representan las actividades de Alfonso e Ignacio al revisar y atender sus cultivos o los de sus clientes. Se relacionan con las necesidades descritas en el [análisis de entrevistas](#223-análisis-de-entrevistas) y permiten reconocer dificultades durante el monitoreo y el seguimiento.
 
 **User Journey Map 1 - Alfonso - Segmento: Agricultores**
 
 ![User Journey Map Agricultores](resources/imgs/journey-map-agricultores.png)
 
+El recorrido de Alfonso comprende monitoreo, detección, acción y seguimiento. La principal dificultad es el tiempo y esfuerzo que requiere recorrer el terreno, una situación mencionada por Drago, Masaru e Higidio. Drago y Masaru también señalan la necesidad de identificar problemas a tiempo y consultar información sencilla sobre sus cultivos. Para SkyCrop, estos hallazgos orientan la presentación del estado de cada parcela y de las zonas que requieren atención. El interés de Masaru en alertas e historial también respalda la propuesta de consultar cómo cambia el cultivo entre revisiones.
+
 **User Journey Map 2 - Ignacio - Segmento: Ingenieros agrónomos**
 
 ![User Journey Map Ingenieros Agrónomos](resources/imgs/journey-map-ingenieros-agronomos.png)
 
+El recorrido de Ignacio comprende monitoreo, análisis, prescripción y evaluación. El mapa destaca el trabajo de recoger información, interpretarla y explicar recomendaciones al agricultor. Las entrevistas de Yamil, Ana y Suzy describen dificultades por el tiempo de supervisión; Suzy añade la toma de muestras y la resistencia de algunos clientes a cambiar sus prácticas. Por su parte, Yamil y Ana solicitan información histórica para comparar cultivos. Esto orienta la propuesta de organizar reportes por parcela y fecha, facilitando la evaluación y el seguimiento profesional.
+
+Los mapas son una síntesis de los arquetipos. Sus pensamientos y emociones son interpretaciones del escenario, no citas textuales ni resultados medidos. El orden exacto de las actividades y los detalles de las intervenciones representadas todavía deben contrastarse con usuarios.
+
 ### 2.3.4. Empathy Mapping. 
 
-En esta sección se encuentran los Empathy Maps realizados para cada User Persona. Estos mapas fueron elaborados en base a la situación que hemos identificado de los segmentos objetivos, así como lo que necesitan hacer, aquello que los frustra y lo que desean.
+Los mapas de empatía organizan las necesidades y el contexto de Alfonso e Ignacio en lo que ven, escuchan, dicen, hacen, piensan y sienten. Las dificultades se agrupan como *Pains* y los beneficios que buscan como *Gains*. Para explicar estos puntos, se relaciona el contenido de los mapas con los resúmenes del [análisis de entrevistas](#223-análisis-de-entrevistas). Las frases y emociones atribuidas a los arquetipos son interpretaciones que aún requieren validación.
 
 **Empathy Map 1 - Alfonso - Segmento: Agricultores**
 
 ![Empathy Map Agricultores](resources/imgs/empathy-map-agricultor.png)
 
+En Alfonso destacan el esfuerzo del monitoreo manual y la dificultad de detectar problemas a tiempo. Drago, Masaru e Higidio describen limitaciones de tiempo para supervisar sus terrenos; Drago también menciona barreras de costo y conocimientos para aprovechar la tecnología. Estos puntos se relacionan con el interés del mapa en acceder a herramientas asequibles y conocer el estado del cultivo de forma sencilla. La mejora de ingresos que aparece entre sus *Gains* representa una expectativa, no un resultado comprobado.
+
 **Empathy Map 2 - Ignacio - Segmento: Ingenieros Agrónomos**
 
 ![Empathy Map Ingenieros Agronomos](resources/imgs/empathy-map-agronomo.png)
+
+En Ignacio destacan el tiempo dedicado a supervisar parcelas y la necesidad de información útil para evaluar cultivos. Yamil, Ana y Suzy mencionan estas dificultades, mientras que Yamil y Ana señalan costos y restricciones de las herramientas disponibles. La toma de muestras descrita por Suzy se relaciona con las actividades del mapa. Sus *Gains* apuntan a apoyar las decisiones y mejorar el seguimiento de los cultivos; para SkyCrop, esto orienta la consulta de reportes e información histórica como apoyo al trabajo del agrónomo.
 
 ## 2.4. Big Picture EventStorming. 
 
@@ -831,28 +981,28 @@ A partir de este proceso, identificamos lo siguiente:
 
 **Procesos clave:**
 
--Creación de cuenta y perfil de los usuarios de la plataforma
--Selección de subscripción y pago
--Configuración y planificación del vuelo de los drones
--Recolección y envío de datos
--Procesamiento y presentación de datos
--Envío de notificaciones a partir de lo procesado
+- Creación de cuenta y perfil de los usuarios de la plataforma
+- Selección de subscripción y pago
+- Configuración y planificación del vuelo de los drones
+- Recolección y envío de datos
+- Procesamiento y presentación de datos
+- Envío de notificaciones a partir de lo procesado
 
 **Problemas:**
 
--La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
--Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
--Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
+- La mala conexión a internet puede afectar a varios usuarios con mala conectividad, dificultando la recepción de notificaciones importantes.
+- Puede haber dependencia en la calidad de las imágenes capturadas por el dron para el análisis de los cultivos.
+- Los drones pueden verse limitados por su batería o alcance, lo cual pone en riesgo la recolección y envío de imágenes capturadas.
 
 **Oportunidades:**
 
--La automatización de vuelos de drones para la recolección de información.
--La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
--Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
+- La automatización de vuelos de drones para la recolección de información.
+- La generación de notificaciones y reportes puede resultar convenientes para los agricultores.
+- Contar con un sistema de perfiles puede facilitar el traslado de la configuración de un dron a otro.
 
 ## 2.5. Ubiquitous Language. 
 
-|Termino    |Definición             |
+|Término    |Definición             |
 |:----------|:----------------------|
 |User (Usuario)                       |Persona en general que haga uso de la plataforma SkyCrop y de sus servicios|
 |Farmer (Agricultor)                  |Persona perteneciente al segmento de agricultores que haya creado una cuenta de agricultor en la plataforma SkyCrop|
@@ -860,7 +1010,13 @@ A partir de este proceso, identificamos lo siguiente:
 |Subscription (Subscripción)          |Licencia de uso de la aplicación y servicios de la plataforma SkyCrop|
 |Agricultural Plot (Parcela Agrícola) |Zona registrada en la plataforma SkyCrop y monitoreada por cuentas de agricultores y agrónomos con los permisos suficientes|
 |Drone (Dron)                         |Equipo registrado en la plataforma SkyCrop y gestionado por cuentas de agricultores y agrónomos con los permisos suficientes|
-|||
+|Crop (Cultivo) |Tipo o variedad de planta registrada en una parcela para su monitoreo.|
+|Monitoring (Monitoreo) |Seguimiento del estado de los cultivos mediante observaciones, imágenes y datos de la parcela.|
+|Flight Route (Ruta de vuelo) |Recorrido planificado que sigue un dron para capturar imágenes de una parcela.|
+|Anomaly (Anomalía) |Señal de un posible problema en el cultivo que requiere evaluación para determinar su causa.|
+|Diagnosis (Diagnóstico) |Resultado del análisis de la información de una parcela que describe su estado y los problemas identificados.|
+|Report (Reporte) |Documento que reúne resultados del monitoreo de una parcela para su consulta, seguimiento o comparación.|
+|Alert (Alerta) |Aviso que comunica una condición que requiere atención, como una anomalía en el cultivo o un fallo del dron.|
 
 
 # Capítulo III: Requirements Specification 

@@ -921,15 +921,21 @@ El monitoreo de plagas es la única tarea con frecuencia e importancia altas par
 
 ### 2.3.3. User Journey Mapping. 
 
-En esta sección se encuentran los User Journey Map para cada User Persona. El camino que seguirá cada mapa busca reflejar las actividades que realiza cada segmento en cuanto a la revisión y mantenimiento de los cultivos, lo cual es aquello que nuestro producto busca mejorar.
+Los siguientes mapas As-Is representan las actividades de Alfonso e Ignacio al revisar y atender sus cultivos o los de sus clientes. Se relacionan con las necesidades descritas en el [análisis de entrevistas](#223-análisis-de-entrevistas) y permiten reconocer dificultades durante el monitoreo y el seguimiento.
 
 **User Journey Map 1 - Alfonso - Segmento: Agricultores**
 
 ![User Journey Map Agricultores](resources/imgs/journey-map-agricultores.png)
 
+El recorrido de Alfonso comprende monitoreo, detección, acción y seguimiento. La principal dificultad es el tiempo y esfuerzo que requiere recorrer el terreno, una situación mencionada por Drago, Masaru e Higidio. Drago y Masaru también señalan la necesidad de identificar problemas a tiempo y consultar información sencilla sobre sus cultivos. Para SkyCrop, estos hallazgos orientan la presentación del estado de cada parcela y de las zonas que requieren atención. El interés de Masaru en alertas e historial también respalda la propuesta de consultar cómo cambia el cultivo entre revisiones.
+
 **User Journey Map 2 - Ignacio - Segmento: Ingenieros agrónomos**
 
 ![User Journey Map Ingenieros Agrónomos](resources/imgs/journey-map-ingenieros-agronomos.png)
+
+El recorrido de Ignacio comprende monitoreo, análisis, prescripción y evaluación. El mapa destaca el trabajo de recoger información, interpretarla y explicar recomendaciones al agricultor. Las entrevistas de Yamil, Ana y Suzy describen dificultades por el tiempo de supervisión; Suzy añade la toma de muestras y la resistencia de algunos clientes a cambiar sus prácticas. Por su parte, Yamil y Ana solicitan información histórica para comparar cultivos. Esto orienta la propuesta de organizar reportes por parcela y fecha, facilitando la evaluación y el seguimiento profesional.
+
+Los mapas son una síntesis de los arquetipos. Sus pensamientos y emociones son interpretaciones del escenario, no citas textuales ni resultados medidos. El orden exacto de las actividades y los detalles de las intervenciones representadas todavía deben contrastarse con usuarios.
 
 ### 2.3.4. Empathy Mapping. 
 

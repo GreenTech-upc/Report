@@ -754,7 +754,11 @@ En esta sección se encontrarán las tarjetas de User Personas elaboradas a part
 
 ### 2.3.2. User Task Matrix. 
 
-En esta sección se encuentra la matriz de tareas de cada usuario, donde se evalúan la frecuencia y la importancia de las tareas que realizan los User Personas basados en los segmentos objetivos que hemos definido. En esta tabla, el User Persona asociada al segmento de agricultores es Alfonso Román, y el User Persona asociado al segmento de ingenieros agrónomos es Ignacio Rojas.
+La matriz compara las tareas del trabajo agrícola de Alfonso Román, arquetipo del segmento de agricultores, e Ignacio Rojas, arquetipo del segmento de ingenieros agrónomos. Para cada tarea se distinguen dos dimensiones: la frecuencia con la que se realiza y su importancia para los objetivos del arquetipo. Las tareas describen actividades del dominio que existen independientemente de SkyCrop.
+
+Las categorías **Alta, Media y Baja** se presentan como valoraciones cualitativas de la propuesta de diseño, pendientes de validación. Los resúmenes disponibles no incluyen una medición uniforme de periodicidad ni una escala de importancia aplicada a todos los participantes; por ello, estos valores no se interpretan como frecuencias estadísticas ni como calificaciones expresadas directamente por los entrevistados.
+
+El [análisis de entrevistas](#223-análisis-de-entrevistas) aporta sustento para identificar las actividades: A1 y A2 describen la supervisión de cultivos y las dificultades para detectar problemas; G1 y G2 señalan necesidades de evaluación, seguimiento histórico y gestión de varios terrenos; G3 detalla observación de plantas, evaluación de humedad y nutrientes y monitoreo de plagas. Esa evidencia respalda la selección de tareas, pero no determina por sí sola el nivel asignado a cada celda.
 
 <table border="1">
   <tr>
@@ -832,16 +836,16 @@ En esta sección se encuentra la matriz de tareas de cada usuario, donde se eval
 </table>
 
 **Tareas con más frecuencia**  
-Entre las tareas más frecuentes identificadas en la tabla, se encuentran aquellas enfocadas en el monitoreo y mantenimiento de las plantas, así como la revisión de su crecimiento y la identificación de plagas.
+Para Alfonso, la matriz asigna frecuencia alta al monitoreo general del campo, mantenimiento de los cultivos, revisión de su crecimiento y monitoreo de plagas. Para Ignacio, la frecuencia alta corresponde a la evaluación de humedad del suelo, revisión del crecimiento, monitoreo de plagas, registro de información, planificación de insumos y análisis del cultivo para la toma de decisiones. La revisión del crecimiento y el monitoreo de plagas son las tareas que ambos comparten con frecuencia alta.
 
 **Tareas con más importancia**  
-Entre las tareas más importantes identificadas en la tabla, se encuentran aquellas relacionadas con el monitoreo y evaluación de los problemas que pueden afectar a los cultivos, la planificación del uso de insumos y el análisis de lo identificado para la toma de decisiones.
+Ambos arquetipos tienen importancia alta en el monitoreo de plagas, la identificación de problemas y la planificación del uso de insumos. Además, el mantenimiento de los cultivos tiene importancia alta para Alfonso y media para Ignacio, mientras que el análisis del cultivo y la toma de decisiones tienen importancia alta para Ignacio y media para Alfonso. La importancia debe leerse separadamente de la frecuencia: por ejemplo, identificar problemas tiene importancia alta para ambos, aunque su frecuencia está clasificada como baja para Alfonso y media para Ignacio.
 
 **Principales diferencias**  
-En la tabla se pudo identificar como los agricultores realizan tareas de monitoreo más frecuentemente y como los ingenieros agrónomos realizan tareas de registro y análisis más seguido. Además, se identificó como la tarea del mantenimiento de los cultivos es más importante para los agricultores y como la tarea de análisis para la toma de decisiones es más importante para los agricultores.
+La propuesta distingue el seguimiento operativo de Alfonso del trabajo de evaluación y asesoría de Ignacio. Alfonso presenta mayor frecuencia en el monitoreo general del campo y el mantenimiento de los cultivos. Ignacio presenta mayor frecuencia en evaluación de humedad, identificación de problemas, registro de información, planificación de insumos, análisis para tomar decisiones y uso de tecnología. En importancia, las diferencias se concentran en mantenimiento, registro de información y análisis del cultivo: el primero tiene mayor valoración para Alfonso; los dos últimos, para Ignacio. Estas diferencias describen la matriz propuesta y deben contrastarse con los participantes antes de generalizarse a los segmentos.
 
 **Coincidencias encontradas**  
-Ambos segmentos coinciden en la revisión y monitoreo de los cultivos, tareas que tienen alta frecuencia e importancia, además de como la planificación de recursos les resulta importante a ambos y como el uso de tecnologías para monitorear el estado de los cultivos puede tener algo de importancia.
+El monitoreo de plagas es la única tarea con frecuencia e importancia altas para ambos arquetipos. La revisión del crecimiento también tiene frecuencia alta en ambos, pero su importancia es media. Coinciden asimismo en la importancia alta de identificar problemas y planificar insumos, aunque con frecuencias diferentes. El monitoreo general, la evaluación de humedad y el uso de tecnología tienen importancia media para ambos. Por tanto, la matriz no asigna importancia alta a todas las actividades de monitoreo y permite distinguir las prioridades propuestas de cada arquetipo.
 
 ### 2.3.3. User Journey Mapping. 
 

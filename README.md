@@ -1185,16 +1185,16 @@ En la fase inicial, se emplearon herramientas para la recolección y organizaci�
 
 | Plataforma | Descripción                                                                                                                                                                                                     | Enlace                 |
 | :--------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- |
-| UXPressia  | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.  | https://uxpressia.com/ |
+| UXPressia | Se utilizó para elaborar las User Personas, los Journey Maps y los Empathy Maps incluidos en el capítulo II. | https://uxpressia.com/ |
 | Miro       | Esta herramienta se usó para visualizar y desarrollar los escenarios "As-Is" (estado actual) y "To-Be" (estado futuro), lo que ayudó a planificar la evolución del proyecto.                                    | https://miro.com/es/   |
 
-**Product UX/UI Desing**
+**Product UX/UI Design**
 
 Para el diseño de la experiencia y la interfaz de usuario, se usó una plataforma colaborativa que simplificó el flujo de trabajo.
 
-| Plataforma | Descripción        																																															  |						  |
+| Plataforma | Descripción | Enlace |
 | :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Figma      | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo. | https://www.figma.com |
+| Figma | Herramienta de diseño para wireframes, mockups y prototipos. El avance de fundamentos visuales de SkyCrop y los diseños pendientes se documentan en 4.4. | https://www.figma.com |
 
 **Software Development**
 
@@ -1217,7 +1217,7 @@ La documentación y la publicación del proyecto se manejaron con herramientas q
 | GitHub     | Gestión de la documentación en función a repositorios y organizaciones | https://github.com      |
 | Markdown   | Formato base para la presentación y documentación del proyecto | https://markdown.es/                     |
 
-Se utilizó la estrategia GitHub Flow para la colaboración y el control de versiones, usando ramas específicas para cada funcionalidad. Esto mantuvo el proyecto organizado. También sirvió como repositorio central para toda la documentación.
+El equipo sigue el esquema GitFlow descrito en 5.1.2. Los cambios del informe se trabajan en ramas específicas y se integran en `develop`; GitHub aloja el repositorio y su historial de versiones.
 Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
 
 <br>

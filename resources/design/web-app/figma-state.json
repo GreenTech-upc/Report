@@ -1,0 +1,2264 @@
+{
+  "runId": "skycrop-web-block-1",
+  "fileKey": "1nlenowk3dSY0qdNiG6hYD",
+  "protectedPages": [
+    "0:1",
+    "5:2"
+  ],
+  "baseline": {
+    "0:1": {
+      "page": {
+        "id": "0:1",
+        "name": "Landing Page (Desktop / Mobile browser)"
+      },
+      "snapshot": [
+        {
+          "id": "0:1",
+          "name": "Landing Page (Desktop / Mobile browser)",
+          "hash": "db952d7a"
+        },
+        {
+          "id": "1:2",
+          "name": "Landing Page - Desktop - Wireframe",
+          "hash": "ec521b88"
+        },
+        {
+          "id": "18:2",
+          "name": "Rectangle 9",
+          "hash": "8757d331"
+        },
+        {
+          "id": "19:3",
+          "name": "Rectangle 10",
+          "hash": "f49acd25"
+        },
+        {
+          "id": "19:12",
+          "name": "Rectangle 13",
+          "hash": "fe97f5b6"
+        },
+        {
+          "id": "19:15",
+          "name": "Rectangle 14",
+          "hash": "1855e1ad"
+        },
+        {
+          "id": "19:6",
+          "name": "Rectangle 12",
+          "hash": "e876677"
+        },
+        {
+          "id": "19:7",
+          "name": "Make monitoring your crops more manageable",
+          "hash": "e5e28cda"
+        },
+        {
+          "id": "19:13",
+          "name": "SkyCrop",
+          "hash": "f6bfc9b7"
+        },
+        {
+          "id": "19:8",
+          "name": "TEXTO INFORMATIVOOOO LOREM LOREM LOREM LOREM",
+          "hash": "514a3e15"
+        },
+        {
+          "id": "19:23",
+          "name": "Features",
+          "hash": "95638033"
+        },
+        {
+          "id": "19:34",
+          "name": "Benefits",
+          "hash": "740d75e7"
+        },
+        {
+          "id": "19:47",
+          "name": "Pricing",
+          "hash": "903e9bba"
+        },
+        {
+          "id": "20:53",
+          "name": "Contact us",
+          "hash": "10247537"
+        },
+        {
+          "id": "21:54",
+          "name": "Let us know your questions",
+          "hash": "ff73a9b9"
+        },
+        {
+          "id": "21:55",
+          "name": "Choose the plan that best suits your needs",
+          "hash": "83b8028c"
+        },
+        {
+          "id": "25:59",
+          "name": "See how SkyCrop can help you",
+          "hash": "d57f5e36"
+        },
+        {
+          "id": "25:68",
+          "name": "Discover our tools designed to help you",
+          "hash": "7b0e9268"
+        },
+        {
+          "id": "19:35",
+          "name": "For Agronomists",
+          "hash": "88d46aea"
+        },
+        {
+          "id": "19:45",
+          "name": "For Farmers",
+          "hash": "1305537f"
+        },
+        {
+          "id": "19:36",
+          "name": "Frustraciones",
+          "hash": "c491340d"
+        },
+        {
+          "id": "19:46",
+          "name": "Frustraciones",
+          "hash": "64bf1fe8"
+        },
+        {
+          "id": "19:14",
+          "name": "Access Platform",
+          "hash": "8d0cc4bf"
+        },
+        {
+          "id": "19:19",
+          "name": "Features",
+          "hash": "a7051680"
+        },
+        {
+          "id": "19:20",
+          "name": "Benefits",
+          "hash": "37354c28"
+        },
+        {
+          "id": "19:21",
+          "name": "Pricing",
+          "hash": "be0fa552"
+        },
+        {
+          "id": "19:22",
+          "name": "Contact us",
+          "hash": "90a91b9f"
+        },
+        {
+          "id": "19:9",
+          "name": "Create an account today",
+          "hash": "33c0e23d"
+        },
+        {
+          "id": "19:24",
+          "name": "Rectangle 16",
+          "hash": "601fde55"
+        },
+        {
+          "id": "20:48",
+          "name": "Rectangle 30",
+          "hash": "1e211ef"
+        },
+        {
+          "id": "20:50",
+          "name": "Rectangle 31",
+          "hash": "c1e4efc3"
+        },
+        {
+          "id": "21:56",
+          "name": "Rectangle 33",
+          "hash": "2adc6f47"
+        },
+        {
+          "id": "21:57",
+          "name": "Rectangle 34",
+          "hash": "e845f2cc"
+        },
+        {
+          "id": "20:51",
+          "name": "Rectangle 32",
+          "hash": "3bcca47b"
+        },
+        {
+          "id": "19:26",
+          "name": "Rectangle 18",
+          "hash": "dd9201a5"
+        },
+        {
+          "id": "19:25",
+          "name": "Rectangle 17",
+          "hash": "688ee98b"
+        },
+        {
+          "id": "19:37",
+          "name": "Rectangle 24",
+          "hash": "9530ab84"
+        },
+        {
+          "id": "19:42",
+          "name": "Rectangle 27",
+          "hash": "e85a113f"
+        },
+        {
+          "id": "19:38",
+          "name": "Rectangle 25",
+          "hash": "f93c2c4c"
+        },
+        {
+          "id": "19:43",
+          "name": "Rectangle 28",
+          "hash": "45be7c88"
+        },
+        {
+          "id": "19:39",
+          "name": "Rectangle 26",
+          "hash": "54d5d57d"
+        },
+        {
+          "id": "19:44",
+          "name": "Rectangle 29",
+          "hash": "7e3fca9b"
+        },
+        {
+          "id": "19:27",
+          "name": "Rectangle 19",
+          "hash": "73c3ea59"
+        },
+        {
+          "id": "19:28",
+          "name": "Rectangle 20",
+          "hash": "c1279aa2"
+        },
+        {
+          "id": "19:31",
+          "name": "Rectangle 22",
+          "hash": "95d21c42"
+        },
+        {
+          "id": "19:30",
+          "name": "Rectangle 21",
+          "hash": "ac149134"
+        },
+        {
+          "id": "19:32",
+          "name": "Rectangle 23",
+          "hash": "1241e216"
+        },
+        {
+          "id": "19:33",
+          "name": "Feature",
+          "hash": "f7970de6"
+        },
+        {
+          "id": "20:52",
+          "name": "S/. 30",
+          "hash": "3995b44d"
+        },
+        {
+          "id": "25:72",
+          "name": "S/. 50",
+          "hash": "abee057f"
+        },
+        {
+          "id": "25:69",
+          "name": "Basic",
+          "hash": "e0868c71"
+        },
+        {
+          "id": "25:70",
+          "name": "Professional",
+          "hash": "95461604"
+        },
+        {
+          "id": "25:71",
+          "name": "Corporate",
+          "hash": "71b5a5ff"
+        },
+        {
+          "id": "25:60",
+          "name": "Rectangle 35",
+          "hash": "412d3bc7"
+        },
+        {
+          "id": "25:73",
+          "name": "Rectangle 39",
+          "hash": "35c7e1ad"
+        },
+        {
+          "id": "25:61",
+          "name": "Rectangle 36",
+          "hash": "66ef6e89"
+        },
+        {
+          "id": "25:62",
+          "name": "Rectangle 37",
+          "hash": "b3de984c"
+        },
+        {
+          "id": "25:63",
+          "name": "Rectangle 38",
+          "hash": "811e6bb7"
+        },
+        {
+          "id": "25:64",
+          "name": "Your name",
+          "hash": "cc85e864"
+        },
+        {
+          "id": "25:65",
+          "name": "Your email",
+          "hash": "a1cd9c26"
+        },
+        {
+          "id": "25:66",
+          "name": "Your message",
+          "hash": "53d12f64"
+        },
+        {
+          "id": "25:67",
+          "name": "Send",
+          "hash": "edb4a4af"
+        },
+        {
+          "id": "25:74",
+          "name": "Learn More",
+          "hash": "1b00f862"
+        },
+        {
+          "id": "25:75",
+          "name": "© 2026 GreenTech",
+          "hash": "b6900360"
+        },
+        {
+          "id": "25:76",
+          "name": "Privacy - Terms and Conditions - Contact",
+          "hash": "ad5d2ba9"
+        },
+        {
+          "id": "16:2",
+          "name": "Landing Page - Desktop - Mockup",
+          "hash": "945e4164"
+        },
+        {
+          "id": "16:3",
+          "name": "Rectangle 1",
+          "hash": "a300ffe"
+        },
+        {
+          "id": "16:4",
+          "name": "Rectangle 2",
+          "hash": "3d787e92"
+        },
+        {
+          "id": "16:5",
+          "name": "Rectangle 3",
+          "hash": "74092c36"
+        },
+        {
+          "id": "16:6",
+          "name": "Rectangle 4",
+          "hash": "8945b912"
+        },
+        {
+          "id": "16:7",
+          "name": "Rectangle 5",
+          "hash": "89581934"
+        },
+        {
+          "id": "16:8",
+          "name": "Rectangle 6",
+          "hash": "3ee5fab6"
+        },
+        {
+          "id": "16:9",
+          "name": "Rectangle 7",
+          "hash": "22d40817"
+        },
+        {
+          "id": "16:10",
+          "name": "Rectangle 8",
+          "hash": "4e18e5c2"
+        }
+      ],
+      "topLevel": [
+        {
+          "id": "1:2",
+          "name": "Landing Page - Desktop - Wireframe",
+          "type": "FRAME"
+        },
+        {
+          "id": "16:2",
+          "name": "Landing Page - Desktop - Mockup",
+          "type": "FRAME"
+        }
+      ]
+    },
+    "5:2": {
+      "page": {
+        "id": "5:2",
+        "name": "Web Applications (Desktop / Mobile)"
+      },
+      "snapshot": [
+        {
+          "id": "5:2",
+          "name": "Web Applications (Desktop / Mobile)",
+          "hash": "df83f7c9"
+        },
+        {
+          "id": "21:58",
+          "name": "Wireframe Login Desktop",
+          "hash": "57be61d1"
+        },
+        {
+          "id": "31:89",
+          "name": "Rectangle 2",
+          "hash": "9a4ae1c8"
+        },
+        {
+          "id": "31:90",
+          "name": "Rectangle 3",
+          "hash": "8afb4287"
+        },
+        {
+          "id": "31:91",
+          "name": "Welcome to SkyCrop",
+          "hash": "c66be8ee"
+        },
+        {
+          "id": "33:4",
+          "name": "SkyCrop Logo",
+          "hash": "5aec5842"
+        },
+        {
+          "id": "31:111",
+          "name": "Email:",
+          "hash": "5b14662a"
+        },
+        {
+          "id": "31:114",
+          "name": "Access your account to continue",
+          "hash": "aa97cc2"
+        },
+        {
+          "id": "31:112",
+          "name": "Password:",
+          "hash": "f9d1aff9"
+        },
+        {
+          "id": "31:113",
+          "name": "Don’t have an account? Sign Up",
+          "hash": "157c41b4"
+        },
+        {
+          "id": "31:93",
+          "name": "Rectangle 21",
+          "hash": "5c248999"
+        },
+        {
+          "id": "31:109",
+          "name": "Rectangle 22",
+          "hash": "82fae6e1"
+        },
+        {
+          "id": "31:110",
+          "name": "Rectangle 23",
+          "hash": "f25d9297"
+        },
+        {
+          "id": "33:6",
+          "name": "Sign In",
+          "hash": "b1ed21ec"
+        },
+        {
+          "id": "31:103",
+          "name": "Mockup Login Desktop",
+          "hash": "cec52b75"
+        },
+        {
+          "id": "31:94",
+          "name": "Rectangle 1",
+          "hash": "a083e11d"
+        },
+        {
+          "id": "31:95",
+          "name": "Rectangle 2",
+          "hash": "f99997da"
+        },
+        {
+          "id": "31:96",
+          "name": "Rectangle 3",
+          "hash": "8feb7322"
+        },
+        {
+          "id": "31:97",
+          "name": "Rectangle 4",
+          "hash": "514b483a"
+        },
+        {
+          "id": "31:98",
+          "name": "Rectangle 5",
+          "hash": "6c3e663"
+        },
+        {
+          "id": "31:99",
+          "name": "Rectangle 6",
+          "hash": "bc78a85f"
+        },
+        {
+          "id": "31:100",
+          "name": "Rectangle 7",
+          "hash": "93fc6560"
+        },
+        {
+          "id": "31:101",
+          "name": "Rectangle 8",
+          "hash": "487ae8a8"
+        },
+        {
+          "id": "29:77",
+          "name": "Wireframe Subscriptions Desktop",
+          "hash": "9ec9d237"
+        },
+        {
+          "id": "31:116",
+          "name": "Rectangle 24",
+          "hash": "595ef36"
+        },
+        {
+          "id": "32:124",
+          "name": "Rectangle 26",
+          "hash": "68b63c6d"
+        },
+        {
+          "id": "33:2",
+          "name": "Subscription details",
+          "hash": "8649e9a"
+        },
+        {
+          "id": "34:97",
+          "name": "Basic Subscription",
+          "hash": "daacbab6"
+        },
+        {
+          "id": "34:99",
+          "name": "-",
+          "hash": "b7674f11"
+        },
+        {
+          "id": "34:100",
+          "name": "Monthly cost: S/30.00",
+          "hash": "244f9fe7"
+        },
+        {
+          "id": "34:103",
+          "name": "Full name:",
+          "hash": "308033f0"
+        },
+        {
+          "id": "34:104",
+          "name": "Email:",
+          "hash": "36bf5484"
+        },
+        {
+          "id": "34:106",
+          "name": "Card Number:",
+          "hash": "58fa78fb"
+        },
+        {
+          "id": "34:109",
+          "name": "MM/YY:",
+          "hash": "e40d2d6f"
+        },
+        {
+          "id": "34:110",
+          "name": "CVV:",
+          "hash": "a9dc13af"
+        },
+        {
+          "id": "34:101",
+          "name": "Validity until: 17/10/2026",
+          "hash": "95c894c4"
+        },
+        {
+          "id": "33:3",
+          "name": "Payment",
+          "hash": "b1fdd559"
+        },
+        {
+          "id": "32:123",
+          "name": "Rectangle 24",
+          "hash": "932f3577"
+        },
+        {
+          "id": "33:12",
+          "name": "Component 1",
+          "hash": "13b3a57"
+        },
+        {
+          "id": "31:115",
+          "name": "Rectangle 24",
+          "hash": "e847ce10"
+        },
+        {
+          "id": "31:117",
+          "name": "Rectangle 13",
+          "hash": "fdf169d6"
+        },
+        {
+          "id": "33:9",
+          "name": "Rectangle 27",
+          "hash": "71c5e9e3"
+        },
+        {
+          "id": "31:121",
+          "name": "Rectangle 25",
+          "hash": "658aed0"
+        },
+        {
+          "id": "31:119",
+          "name": "SkyCrop",
+          "hash": "ee491c90"
+        },
+        {
+          "id": "31:122",
+          "name": "User",
+          "hash": "9f7851d1"
+        },
+        {
+          "id": "33:5",
+          "name": "SkyCrop Logo",
+          "hash": "5f7f4dd"
+        },
+        {
+          "id": "33:11",
+          "name": "Photo",
+          "hash": "cceefbe0"
+        },
+        {
+          "id": "33:10",
+          "name": "Menu",
+          "hash": "1373dec4"
+        },
+        {
+          "id": "33:7",
+          "name": "SkyCrop Logo",
+          "hash": "6819e8c6"
+        },
+        {
+          "id": "33:8",
+          "name": "Adquire a subscription",
+          "hash": "66489504"
+        },
+        {
+          "id": "34:102",
+          "name": "Rectangle 24",
+          "hash": "9a6c7a25"
+        },
+        {
+          "id": "34:105",
+          "name": "Rectangle 27",
+          "hash": "f0cf972c"
+        },
+        {
+          "id": "34:107",
+          "name": "Rectangle 28",
+          "hash": "5af69fe9"
+        },
+        {
+          "id": "34:108",
+          "name": "Rectangle 29",
+          "hash": "16a32dc6"
+        },
+        {
+          "id": "34:112",
+          "name": "Rectangle 31",
+          "hash": "d1a32bbb"
+        },
+        {
+          "id": "34:111",
+          "name": "Rectangle 30",
+          "hash": "dd8bdc1d"
+        },
+        {
+          "id": "34:113",
+          "name": "Proceed payment",
+          "hash": "4cacaab2"
+        },
+        {
+          "id": "29:78",
+          "name": "Wireframe Homepage Desktop",
+          "hash": "565d8b22"
+        },
+        {
+          "id": "33:13",
+          "name": "Component 2",
+          "hash": "6bbeb78"
+        },
+        {
+          "id": "I33:13;31:115",
+          "name": "Rectangle 24",
+          "hash": "a613f071"
+        },
+        {
+          "id": "I33:13;31:117",
+          "name": "Rectangle 13",
+          "hash": "6a895443"
+        },
+        {
+          "id": "I33:13;33:9",
+          "name": "Rectangle 27",
+          "hash": "d21950ac"
+        },
+        {
+          "id": "I33:13;31:121",
+          "name": "Rectangle 25",
+          "hash": "bfcca04b"
+        },
+        {
+          "id": "I33:13;31:119",
+          "name": "SkyCrop",
+          "hash": "99fbbf3d"
+        },
+        {
+          "id": "I33:13;31:122",
+          "name": "User",
+          "hash": "f149b6fa"
+        },
+        {
+          "id": "I33:13;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "6bd57894"
+        },
+        {
+          "id": "I33:13;33:11",
+          "name": "Photo",
+          "hash": "e00ee1d1"
+        },
+        {
+          "id": "I33:13;33:10",
+          "name": "Menu",
+          "hash": "653db2ef"
+        },
+        {
+          "id": "34:96",
+          "name": "Rectangle 28",
+          "hash": "81d9377c"
+        },
+        {
+          "id": "34:114",
+          "name": "Menu",
+          "hash": "fae35104"
+        },
+        {
+          "id": "34:115",
+          "name": "Home",
+          "hash": "80b07fbd"
+        },
+        {
+          "id": "34:116",
+          "name": "My plots",
+          "hash": "826bb559"
+        },
+        {
+          "id": "34:117",
+          "name": "My drones",
+          "hash": "66188a59"
+        },
+        {
+          "id": "34:118",
+          "name": "Home",
+          "hash": "7d9eb76e"
+        },
+        {
+          "id": "34:119",
+          "name": "Settings",
+          "hash": "22252102"
+        },
+        {
+          "id": "29:79",
+          "name": "Wireframe Plots Desktop",
+          "hash": "34515890"
+        },
+        {
+          "id": "33:23",
+          "name": "Component 3",
+          "hash": "dba126a8"
+        },
+        {
+          "id": "I33:23;31:115",
+          "name": "Rectangle 24",
+          "hash": "30ed1d0f"
+        },
+        {
+          "id": "I33:23;31:117",
+          "name": "Rectangle 13",
+          "hash": "2f22aae9"
+        },
+        {
+          "id": "I33:23;33:9",
+          "name": "Rectangle 27",
+          "hash": "fe98f10a"
+        },
+        {
+          "id": "I33:23;31:121",
+          "name": "Rectangle 25",
+          "hash": "b2fcb541"
+        },
+        {
+          "id": "I33:23;31:119",
+          "name": "SkyCrop",
+          "hash": "fbe3f76f"
+        },
+        {
+          "id": "I33:23;31:122",
+          "name": "User",
+          "hash": "dfaec1ae"
+        },
+        {
+          "id": "I33:23;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "1c5b7948"
+        },
+        {
+          "id": "I33:23;33:11",
+          "name": "Photo",
+          "hash": "188c32f5"
+        },
+        {
+          "id": "I33:23;33:10",
+          "name": "Menu",
+          "hash": "3cc6f5a1"
+        },
+        {
+          "id": "29:80",
+          "name": "Wireframe Drones Desktop",
+          "hash": "90e45b6a"
+        },
+        {
+          "id": "33:33",
+          "name": "Component 4",
+          "hash": "18f413a1"
+        },
+        {
+          "id": "I33:33;31:115",
+          "name": "Rectangle 24",
+          "hash": "cf2c1031"
+        },
+        {
+          "id": "I33:33;31:117",
+          "name": "Rectangle 13",
+          "hash": "92caed97"
+        },
+        {
+          "id": "I33:33;33:9",
+          "name": "Rectangle 27",
+          "hash": "571baaf8"
+        },
+        {
+          "id": "I33:33;31:121",
+          "name": "Rectangle 25",
+          "hash": "7cb7c323"
+        },
+        {
+          "id": "I33:33;31:119",
+          "name": "SkyCrop",
+          "hash": "320903ed"
+        },
+        {
+          "id": "I33:33;31:122",
+          "name": "User",
+          "hash": "ae0f4516"
+        },
+        {
+          "id": "I33:33;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "9826300c"
+        },
+        {
+          "id": "I33:33;33:11",
+          "name": "Photo",
+          "hash": "931860e9"
+        },
+        {
+          "id": "I33:33;33:10",
+          "name": "Menu",
+          "hash": "9969739b"
+        },
+        {
+          "id": "29:81",
+          "name": "Wireframe Plot Form Desktop",
+          "hash": "7dfae115"
+        },
+        {
+          "id": "33:43",
+          "name": "Component 5",
+          "hash": "7631315"
+        },
+        {
+          "id": "I33:43;31:115",
+          "name": "Rectangle 24",
+          "hash": "bc5c453b"
+        },
+        {
+          "id": "I33:43;31:117",
+          "name": "Rectangle 13",
+          "hash": "4f7a2af9"
+        },
+        {
+          "id": "I33:43;33:9",
+          "name": "Rectangle 27",
+          "hash": "c071bf22"
+        },
+        {
+          "id": "I33:43;31:121",
+          "name": "Rectangle 25",
+          "hash": "3a31dbed"
+        },
+        {
+          "id": "I33:43;31:119",
+          "name": "SkyCrop",
+          "hash": "c9406b4b"
+        },
+        {
+          "id": "I33:43;31:122",
+          "name": "User",
+          "hash": "3ed476a2"
+        },
+        {
+          "id": "I33:43;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "3a7e2180"
+        },
+        {
+          "id": "I33:43;33:11",
+          "name": "Photo",
+          "hash": "e6119dfd"
+        },
+        {
+          "id": "I33:43;33:10",
+          "name": "Menu",
+          "hash": "60ffdff1"
+        },
+        {
+          "id": "29:82",
+          "name": "Wireframe Drone details Desktop",
+          "hash": "a3001eab"
+        },
+        {
+          "id": "33:53",
+          "name": "Component 6",
+          "hash": "c07e14b1"
+        },
+        {
+          "id": "I33:53;31:115",
+          "name": "Rectangle 24",
+          "hash": "d4283119"
+        },
+        {
+          "id": "I33:53;31:117",
+          "name": "Rectangle 13",
+          "hash": "9ced05d3"
+        },
+        {
+          "id": "I33:53;33:9",
+          "name": "Rectangle 27",
+          "hash": "9cd4bcfc"
+        },
+        {
+          "id": "I33:53;31:121",
+          "name": "Rectangle 25",
+          "hash": "a1fa4a9b"
+        },
+        {
+          "id": "I33:53;31:119",
+          "name": "SkyCrop",
+          "hash": "7e8f02a5"
+        },
+        {
+          "id": "I33:53;31:122",
+          "name": "User",
+          "hash": "5f8110ea"
+        },
+        {
+          "id": "I33:53;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "af0fb57c"
+        },
+        {
+          "id": "I33:53;33:11",
+          "name": "Photo",
+          "hash": "e73d0381"
+        },
+        {
+          "id": "I33:53;33:10",
+          "name": "Menu",
+          "hash": "e056ee57"
+        },
+        {
+          "id": "29:83",
+          "name": "Wireframe Report history Desktop",
+          "hash": "253b375b"
+        },
+        {
+          "id": "33:63",
+          "name": "Component 7",
+          "hash": "5fe19eb5"
+        },
+        {
+          "id": "I33:63;31:115",
+          "name": "Rectangle 24",
+          "hash": "f302817f"
+        },
+        {
+          "id": "I33:63;31:117",
+          "name": "Rectangle 13",
+          "hash": "4ce70979"
+        },
+        {
+          "id": "I33:63;33:9",
+          "name": "Rectangle 27",
+          "hash": "9fc883f2"
+        },
+        {
+          "id": "I33:63;31:121",
+          "name": "Rectangle 25",
+          "hash": "3512eb79"
+        },
+        {
+          "id": "I33:63;31:119",
+          "name": "SkyCrop",
+          "hash": "72dbca7f"
+        },
+        {
+          "id": "I33:63;31:122",
+          "name": "User",
+          "hash": "7a064496"
+        },
+        {
+          "id": "I33:63;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "7abda468"
+        },
+        {
+          "id": "I33:63;33:11",
+          "name": "Photo",
+          "hash": "49e6e48d"
+        },
+        {
+          "id": "I33:63;33:10",
+          "name": "Menu",
+          "hash": "be07e379"
+        },
+        {
+          "id": "29:84",
+          "name": "Wireframe Report dashboard Desktop",
+          "hash": "65ce5a31"
+        },
+        {
+          "id": "33:73",
+          "name": "Component 8",
+          "hash": "24471869"
+        },
+        {
+          "id": "I33:73;31:115",
+          "name": "Rectangle 24",
+          "hash": "d88db949"
+        },
+        {
+          "id": "I33:73;31:117",
+          "name": "Rectangle 13",
+          "hash": "5e9ec6df"
+        },
+        {
+          "id": "I33:73;33:9",
+          "name": "Rectangle 27",
+          "hash": "885762c0"
+        },
+        {
+          "id": "I33:73;31:121",
+          "name": "Rectangle 25",
+          "hash": "599fe863"
+        },
+        {
+          "id": "I33:73;31:119",
+          "name": "SkyCrop",
+          "hash": "fa7b62d5"
+        },
+        {
+          "id": "I33:73;31:122",
+          "name": "User",
+          "hash": "529954ae"
+        },
+        {
+          "id": "I33:73;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "cf3c64b4"
+        },
+        {
+          "id": "I33:73;33:11",
+          "name": "Photo",
+          "hash": "5cb4db59"
+        },
+        {
+          "id": "I33:73;33:10",
+          "name": "Menu",
+          "hash": "744c446b"
+        },
+        {
+          "id": "29:85",
+          "name": "Wireframe Diagnoses history Desktop",
+          "hash": "dc3ae7e9"
+        },
+        {
+          "id": "33:83",
+          "name": "Component 9",
+          "hash": "e34d3fa5"
+        },
+        {
+          "id": "I33:83;31:115",
+          "name": "Rectangle 24",
+          "hash": "ebf25c53"
+        },
+        {
+          "id": "I33:83;31:117",
+          "name": "Rectangle 13",
+          "hash": "6fac41e9"
+        },
+        {
+          "id": "I33:83;33:9",
+          "name": "Rectangle 27",
+          "hash": "e5295f3a"
+        },
+        {
+          "id": "I33:83;31:121",
+          "name": "Rectangle 25",
+          "hash": "9663f08d"
+        },
+        {
+          "id": "I33:83;31:119",
+          "name": "SkyCrop",
+          "hash": "d77fe8f3"
+        },
+        {
+          "id": "I33:83;31:122",
+          "name": "User",
+          "hash": "46e4e8f2"
+        },
+        {
+          "id": "I33:83;33:5",
+          "name": "SkyCrop Logo",
+          "hash": "70b88880"
+        },
+        {
+          "id": "I33:83;33:11",
+          "name": "Photo",
+          "hash": "43a6fa85"
+        },
+        {
+          "id": "I33:83;33:10",
+          "name": "Menu",
+          "hash": "d8eec149"
+        },
+        {
+          "id": "33:94",
+          "name": "Wireframe Login Mobile",
+          "hash": "247d10a0"
+        },
+        {
+          "id": "33:95",
+          "name": "Wireframe Subscriptions Mobile",
+          "hash": "59b654fb"
+        }
+      ],
+      "topLevel": [
+        {
+          "id": "21:58",
+          "name": "Wireframe Login Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "31:103",
+          "name": "Mockup Login Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:77",
+          "name": "Wireframe Subscriptions Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:78",
+          "name": "Wireframe Homepage Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:79",
+          "name": "Wireframe Plots Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:80",
+          "name": "Wireframe Drones Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:81",
+          "name": "Wireframe Plot Form Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:82",
+          "name": "Wireframe Drone details Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:83",
+          "name": "Wireframe Report history Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:84",
+          "name": "Wireframe Report dashboard Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "29:85",
+          "name": "Wireframe Diagnoses history Desktop",
+          "type": "FRAME"
+        },
+        {
+          "id": "33:94",
+          "name": "Wireframe Login Mobile",
+          "type": "FRAME"
+        },
+        {
+          "id": "33:95",
+          "name": "Wireframe Subscriptions Mobile",
+          "type": "FRAME"
+        }
+      ]
+    }
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:39:74",
+      "name": "SkyCrop Web / Primitives",
+      "modeIds": {
+        "Value": "39:0"
+      }
+    },
+    {
+      "id": "VariableCollectionId:39:75",
+      "name": "SkyCrop Web / Semantic",
+      "modeIds": {
+        "Light": "39:1"
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "id": "VariableID:40:2",
+      "name": "green/lime",
+      "type": "COLOR",
+      "value": "#A4D65E"
+    },
+    {
+      "id": "VariableID:40:3",
+      "name": "green/soft",
+      "type": "COLOR",
+      "value": "#66BB6A"
+    },
+    {
+      "id": "VariableID:40:4",
+      "name": "green/primary",
+      "type": "COLOR",
+      "value": "#2E7D32"
+    },
+    {
+      "id": "VariableID:40:5",
+      "name": "neutral/background",
+      "type": "COLOR",
+      "value": "#F4F7F5"
+    },
+    {
+      "id": "VariableID:40:6",
+      "name": "neutral/ink",
+      "type": "COLOR",
+      "value": "#17221C"
+    },
+    {
+      "id": "VariableID:40:7",
+      "name": "neutral/slate",
+      "type": "COLOR",
+      "value": "#607D8B"
+    },
+    {
+      "id": "VariableID:40:8",
+      "name": "blue/info",
+      "type": "COLOR",
+      "value": "#1976A8"
+    },
+    {
+      "id": "VariableID:40:9",
+      "name": "blue/deep",
+      "type": "COLOR",
+      "value": "#0B3954"
+    },
+    {
+      "id": "VariableID:40:10",
+      "name": "neutral/white",
+      "type": "COLOR",
+      "value": "#FFFFFF"
+    },
+    {
+      "id": "VariableID:40:11",
+      "name": "neutral/border",
+      "type": "COLOR",
+      "value": "#CFD9D2"
+    },
+    {
+      "id": "VariableID:40:12",
+      "name": "neutral/muted",
+      "type": "COLOR",
+      "value": "#42564A"
+    },
+    {
+      "id": "VariableID:40:13",
+      "name": "neutral/disabled",
+      "type": "COLOR",
+      "value": "#E5EBE7"
+    },
+    {
+      "id": "VariableID:40:14",
+      "name": "green/tint",
+      "type": "COLOR",
+      "value": "#EAF4EB"
+    },
+    {
+      "id": "VariableID:40:15",
+      "name": "blue/tint",
+      "type": "COLOR",
+      "value": "#EAF4FA"
+    },
+    {
+      "id": "VariableID:40:16",
+      "name": "red/error",
+      "type": "COLOR",
+      "value": "#B3261E"
+    },
+    {
+      "id": "VariableID:40:17",
+      "name": "red/tint",
+      "type": "COLOR",
+      "value": "#FCECEA"
+    },
+    {
+      "id": "VariableID:40:18",
+      "name": "amber/warning",
+      "type": "COLOR",
+      "value": "#805600"
+    },
+    {
+      "id": "VariableID:40:19",
+      "name": "amber/tint",
+      "type": "COLOR",
+      "value": "#FFF4D6"
+    },
+    {
+      "id": "VariableID:40:20",
+      "name": "green/hover",
+      "type": "COLOR",
+      "value": "#245F28"
+    },
+    {
+      "id": "VariableID:40:21",
+      "name": "green/pressed",
+      "type": "COLOR",
+      "value": "#1B4A20"
+    },
+    {
+      "id": "VariableID:40:22",
+      "name": "size/0",
+      "type": "FLOAT",
+      "value": 0
+    },
+    {
+      "id": "VariableID:40:23",
+      "name": "size/2",
+      "type": "FLOAT",
+      "value": 2
+    },
+    {
+      "id": "VariableID:40:24",
+      "name": "size/4",
+      "type": "FLOAT",
+      "value": 4
+    },
+    {
+      "id": "VariableID:40:25",
+      "name": "size/8",
+      "type": "FLOAT",
+      "value": 8
+    },
+    {
+      "id": "VariableID:40:26",
+      "name": "size/12",
+      "type": "FLOAT",
+      "value": 12
+    },
+    {
+      "id": "VariableID:40:27",
+      "name": "size/16",
+      "type": "FLOAT",
+      "value": 16
+    },
+    {
+      "id": "VariableID:40:28",
+      "name": "size/20",
+      "type": "FLOAT",
+      "value": 20
+    },
+    {
+      "id": "VariableID:40:29",
+      "name": "size/24",
+      "type": "FLOAT",
+      "value": 24
+    },
+    {
+      "id": "VariableID:40:30",
+      "name": "size/32",
+      "type": "FLOAT",
+      "value": 32
+    },
+    {
+      "id": "VariableID:40:31",
+      "name": "size/40",
+      "type": "FLOAT",
+      "value": 40
+    },
+    {
+      "id": "VariableID:40:32",
+      "name": "size/48",
+      "type": "FLOAT",
+      "value": 48
+    },
+    {
+      "id": "VariableID:40:33",
+      "name": "size/56",
+      "type": "FLOAT",
+      "value": 56
+    },
+    {
+      "id": "VariableID:40:34",
+      "name": "size/64",
+      "type": "FLOAT",
+      "value": 64
+    },
+    {
+      "id": "VariableID:40:35",
+      "name": "size/80",
+      "type": "FLOAT",
+      "value": 80
+    },
+    {
+      "id": "VariableID:40:36",
+      "name": "size/999",
+      "type": "FLOAT",
+      "value": 999
+    }
+  ],
+  "semantic": [
+    {
+      "id": "VariableID:41:2",
+      "name": "color/bg/canvas",
+      "type": "COLOR",
+      "ref": "neutral/background",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:3",
+      "name": "color/bg/surface",
+      "type": "COLOR",
+      "ref": "neutral/white",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:4",
+      "name": "color/bg/selected",
+      "type": "COLOR",
+      "ref": "green/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:5",
+      "name": "color/bg/info",
+      "type": "COLOR",
+      "ref": "blue/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:6",
+      "name": "color/bg/error",
+      "type": "COLOR",
+      "ref": "red/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:7",
+      "name": "color/bg/warning",
+      "type": "COLOR",
+      "ref": "amber/tint",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:8",
+      "name": "color/bg/disabled",
+      "type": "COLOR",
+      "ref": "neutral/disabled",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:9",
+      "name": "color/bg/brand",
+      "type": "COLOR",
+      "ref": "green/primary",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:10",
+      "name": "color/bg/brand-hover",
+      "type": "COLOR",
+      "ref": "green/hover",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:11",
+      "name": "color/bg/brand-pressed",
+      "type": "COLOR",
+      "ref": "green/pressed",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:12",
+      "name": "color/bg/sidebar",
+      "type": "COLOR",
+      "ref": "blue/deep",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:13",
+      "name": "color/text/primary",
+      "type": "COLOR",
+      "ref": "neutral/ink",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:14",
+      "name": "color/text/secondary",
+      "type": "COLOR",
+      "ref": "neutral/muted",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:15",
+      "name": "color/text/inverse",
+      "type": "COLOR",
+      "ref": "neutral/white",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:16",
+      "name": "color/text/brand",
+      "type": "COLOR",
+      "ref": "green/primary",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:17",
+      "name": "color/text/link",
+      "type": "COLOR",
+      "ref": "blue/info",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:18",
+      "name": "color/text/error",
+      "type": "COLOR",
+      "ref": "red/error",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:19",
+      "name": "color/text/warning",
+      "type": "COLOR",
+      "ref": "amber/warning",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:20",
+      "name": "color/text/disabled",
+      "type": "COLOR",
+      "ref": "neutral/muted",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:41:21",
+      "name": "color/border/default",
+      "type": "COLOR",
+      "ref": "neutral/border",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:22",
+      "name": "color/border/control",
+      "type": "COLOR",
+      "ref": "neutral/slate",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:23",
+      "name": "color/border/focus",
+      "type": "COLOR",
+      "ref": "blue/info",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:24",
+      "name": "color/border/error",
+      "type": "COLOR",
+      "ref": "red/error",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:25",
+      "name": "color/status/success",
+      "type": "COLOR",
+      "ref": "green/primary",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:26",
+      "name": "color/status/info",
+      "type": "COLOR",
+      "ref": "blue/info",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:27",
+      "name": "color/status/warning",
+      "type": "COLOR",
+      "ref": "amber/warning",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:28",
+      "name": "color/status/error",
+      "type": "COLOR",
+      "ref": "red/error",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:29",
+      "name": "color/accent/lime",
+      "type": "COLOR",
+      "ref": "green/lime",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:30",
+      "name": "color/accent/soft",
+      "type": "COLOR",
+      "ref": "green/soft",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:31",
+      "name": "color/accent/slate",
+      "type": "COLOR",
+      "ref": "neutral/slate",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:41:32",
+      "name": "spacing/0",
+      "type": "FLOAT",
+      "ref": "size/0",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:33",
+      "name": "spacing/2",
+      "type": "FLOAT",
+      "ref": "size/2",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:34",
+      "name": "spacing/4",
+      "type": "FLOAT",
+      "ref": "size/4",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:35",
+      "name": "spacing/8",
+      "type": "FLOAT",
+      "ref": "size/8",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:36",
+      "name": "spacing/12",
+      "type": "FLOAT",
+      "ref": "size/12",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:37",
+      "name": "spacing/16",
+      "type": "FLOAT",
+      "ref": "size/16",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:38",
+      "name": "spacing/20",
+      "type": "FLOAT",
+      "ref": "size/20",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:39",
+      "name": "spacing/24",
+      "type": "FLOAT",
+      "ref": "size/24",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:40",
+      "name": "spacing/32",
+      "type": "FLOAT",
+      "ref": "size/32",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:41",
+      "name": "spacing/40",
+      "type": "FLOAT",
+      "ref": "size/40",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:42",
+      "name": "spacing/48",
+      "type": "FLOAT",
+      "ref": "size/48",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:43",
+      "name": "spacing/56",
+      "type": "FLOAT",
+      "ref": "size/56",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:44",
+      "name": "spacing/64",
+      "type": "FLOAT",
+      "ref": "size/64",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:45",
+      "name": "spacing/80",
+      "type": "FLOAT",
+      "ref": "size/80",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:41:46",
+      "name": "radius/sm",
+      "type": "FLOAT",
+      "ref": "size/4",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:41:47",
+      "name": "radius/md",
+      "type": "FLOAT",
+      "ref": "size/8",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:41:48",
+      "name": "radius/lg",
+      "type": "FLOAT",
+      "ref": "size/16",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:41:49",
+      "name": "radius/xl",
+      "type": "FLOAT",
+      "ref": "size/24",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:41:50",
+      "name": "radius/full",
+      "type": "FLOAT",
+      "ref": "size/999",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:41:51",
+      "name": "dimension/touch",
+      "type": "FLOAT",
+      "ref": "size/48",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "VariableID:41:52",
+      "name": "dimension/field",
+      "type": "FLOAT",
+      "ref": "size/56",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "VariableID:41:53",
+      "name": "dimension/icon",
+      "type": "FLOAT",
+      "ref": "size/24",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "S:a9c018c6a6cd58fc703370a9c90f01437c45ead0,",
+      "name": "SkyCrop Web/Display",
+      "size": 48,
+      "lineHeight": 56,
+      "weight": "Bold"
+    },
+    {
+      "id": "S:ee5b0aaf2172a063e77c2b4a49e64245e64c4f2e,",
+      "name": "SkyCrop Web/Heading/H1",
+      "size": 32,
+      "lineHeight": 40,
+      "weight": "Bold"
+    },
+    {
+      "id": "S:98e1492b660ab79899b900f9d6a3ed2dc742a222,",
+      "name": "SkyCrop Web/Heading/H2",
+      "size": 24,
+      "lineHeight": 32,
+      "weight": "Medium"
+    },
+    {
+      "id": "S:9bc1ab44c7cc35854782801f8eb6905e0e14d80b,",
+      "name": "SkyCrop Web/Heading/H3",
+      "size": 20,
+      "lineHeight": 28,
+      "weight": "Medium"
+    },
+    {
+      "id": "S:9fb7d5907b3292b18abc54746944ca3a9649f64b,",
+      "name": "SkyCrop Web/Body",
+      "size": 16,
+      "lineHeight": 24,
+      "weight": "Regular"
+    },
+    {
+      "id": "S:a5cdf64de89a58cfde411af82e3a40faa860d25d,",
+      "name": "SkyCrop Web/Body/Small",
+      "size": 14,
+      "lineHeight": 20,
+      "weight": "Regular"
+    },
+    {
+      "id": "S:f17f1d2fb8c81b26ec1caf3ba4f8bc01e50ec7b3,",
+      "name": "SkyCrop Web/Label",
+      "size": 14,
+      "lineHeight": 20,
+      "weight": "Medium"
+    },
+    {
+      "id": "S:e6a5c296e15f5a07a6636eb670499ceb693deb20,",
+      "name": "SkyCrop Web/Caption",
+      "size": 12,
+      "lineHeight": 16,
+      "weight": "Regular"
+    }
+  ],
+  "effectStyles": [
+    {
+      "id": "S:490a19b259f9b040c61bf0a9c3f56e6ed2556b47,",
+      "name": "SkyCrop Web/Elevation/Card"
+    },
+    {
+      "id": "S:169325a331f10e882752c284aa7a7f20c928bc40,",
+      "name": "SkyCrop Web/Elevation/Dialog"
+    }
+  ],
+  "pages": [
+    {
+      "id": "45:2",
+      "name": "Web App — Foundations"
+    }
+  ],
+  "overview": "45:3",
+  "createdNodeIds": [
+    "45:2",
+    "45:3",
+    "45:4",
+    "45:5",
+    "45:6",
+    "45:7",
+    "45:8",
+    "45:9",
+    "45:10",
+    "45:11",
+    "45:12",
+    "45:13",
+    "45:14",
+    "45:15",
+    "45:16",
+    "45:17",
+    "45:18",
+    "45:19",
+    "45:20",
+    "45:21",
+    "45:22",
+    "45:23",
+    "45:24",
+    "45:25",
+    "45:26",
+    "45:27",
+    "45:28",
+    "45:29",
+    "45:30",
+    "45:31",
+    "45:32",
+    "45:33",
+    "45:34",
+    "45:35",
+    "45:36",
+    "45:37",
+    "45:38",
+    "45:39",
+    "45:40",
+    "45:41",
+    "45:42",
+    "45:43",
+    "45:44",
+    "45:45",
+    "45:46",
+    "45:47",
+    "45:48",
+    "45:49",
+    "45:50",
+    "45:51",
+    "45:52",
+    "45:53",
+    "46:2",
+    "46:3",
+    "46:4",
+    "46:5",
+    "46:6",
+    "46:7",
+    "46:8",
+    "46:9",
+    "46:10",
+    "46:11",
+    "46:12",
+    "46:13",
+    "46:14",
+    "46:15",
+    "46:16",
+    "46:17",
+    "46:18",
+    "46:19",
+    "46:20",
+    "46:21",
+    "46:22",
+    "46:23",
+    "46:24",
+    "46:25",
+    "46:26",
+    "46:27",
+    "46:28",
+    "46:29",
+    "46:30",
+    "46:31",
+    "46:32",
+    "46:33",
+    "46:34",
+    "46:35",
+    "46:36",
+    "46:37",
+    "46:38",
+    "46:39",
+    "46:40",
+    "46:41",
+    "46:42",
+    "46:43",
+    "46:44",
+    "46:45",
+    "46:46",
+    "46:47",
+    "46:48",
+    "46:49",
+    "46:50",
+    "46:51",
+    "46:52",
+    "46:53",
+    "46:54",
+    "46:55",
+    "46:56",
+    "46:57",
+    "46:58",
+    "46:59",
+    "46:60",
+    "46:61",
+    "46:62",
+    "46:63",
+    "46:64",
+    "46:65",
+    "46:66",
+    "46:67",
+    "46:68"
+  ],
+  "status": "blocked-by-figma-mcp-starter-quota",
+  "completed": [
+    "87 variables in 2 local collections",
+    "8 Roboto text styles",
+    "2 effect styles",
+    "Foundations page and documentation board"
+  ],
+  "pending": [
+    "Organization choice after Starter 3-page limit",
+    "Visual screenshot and final existing-content comparison",
+    "Reusable components",
+    "Blocks 2-6"
+  ],
+  "organization": {
+    "requestedPages": [
+      "Web App — Foundations",
+      "Web App — Wireframes",
+      "Web App — Mockups & Prototype"
+    ],
+    "createdPages": [
+      {
+        "id": "45:2",
+        "name": "Web App — Foundations"
+      }
+    ],
+    "starterPageLimit": 3,
+    "proposedFallback": "Separate sections in the new page; user preference pending"
+  },
+  "lastValidation": {
+    "variables": {
+      "primitive": 35,
+      "semantic": 52,
+      "brokenAliases": 0,
+      "missingWebSyntax": 0,
+      "allScopes": 0,
+      "textStyles": 8
+    },
+    "visual": "not performed: screenshot and use_figma both blocked by MCP quota",
+    "existingContent": "before snapshots recorded; no writes targeted pre-existing nodes; after comparison pending"
+  },
+  "baselineMethod": {
+    "algorithm": "FNV-1a 32-bit over JSON.stringify of selected node properties; non-cryptographic change detection",
+    "fields": [
+      "id",
+      "type",
+      "name",
+      "parent",
+      "x",
+      "y",
+      "width",
+      "height",
+      "fills",
+      "strokes",
+      "opacity",
+      "visible",
+      "locked",
+      "characters",
+      "fontName",
+      "fontSize",
+      "reactions",
+      "textStyleId",
+      "layoutMode",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "itemSpacing",
+      "children"
+    ],
+    "note": "Reinspect before resume; teammate changes must not be overwritten."
+  }
+}

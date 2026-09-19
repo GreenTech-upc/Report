@@ -778,13 +778,49 @@ La tercera entrevista de agricultores ya está incorporada y las frecuencias se 
 
 ### 2.3.1. User Personas. 
 
-En esta sección se encontrarán las tarjetas de User Personas elaboradas a partir de la información que obtuvimos de las entrevistas. Para estas tarjetas se tuvo en consideración la manera en la que los ingenieros agrónomos y los agricultores realizan su trabajo, las dificultades que tienen al realizarlo y lo que ellos piensan que les sería conveniente.
+Se presentan los arquetipos Alfonso Román, para agricultores, e Ignacio Rojas, para ingenieros agrónomos. Su propósito es orientar las decisiones de diseño según las actividades, metas y dificultades de ambos segmentos. Son representaciones compuestas para el proyecto y no corresponden a dos entrevistados adicionales.
+
+La trazabilidad de sus características se establece a partir del [análisis de las seis entrevistas registradas](#223-análisis-de-entrevistas). Se utilizan los códigos A1–A3 para Drago Duarte, Masaru Nikaido e Higidio Pumahualcca, y G1–G3 para Yamil Tejada, Ana Patricio y Suzy Vásquez Navarro. Las menciones individuales se mantienen identificadas para evitar atribuir a todo un segmento una preferencia expresada por una sola persona.
+
+**Relación con el análisis de la competencia**
+
+La comparación de Pix4D, DJI Enterprise y Geodrone documentada en [2.1.1. Análisis competitivo](#211-análisis-competitivo) y las [estrategias propuestas en 2.1.2](#212-estrategias-y-tácticas-frente-a-competidores) aportan ejes para evaluar la propuesta: enfoque agrícola, costo de acceso, complejidad de uso, información del cultivo y continuidad ante conectividad limitada. Estos ejes se contrastan con los testimonios: A1 menciona barreras de costo y conocimientos; G1 y G2, costos y restricciones tecnológicas; A1, A3 y G2, dificultades de conectividad con solicitudes de distinto alcance.
+
+Esta relación orienta propuestas de diseño, como presentar información comprensible, explicar las capacidades de cada plan y distinguir qué operaciones requieren conexión. No demuestra que los entrevistados usen las marcas comparadas ni valida precios, compatibilidad de equipos o ventajas comerciales de SkyCrop. Las características personales se sustentan en los registros de entrevistas; la comparación competitiva ayuda a evaluar cómo responder a sus necesidades.
+
+**Estado de las fichas**
+
+Las capturas de UXPressia corresponden a la versión de trabajo existente. Las tablas siguientes explican qué necesidades encuentran sustento y qué decisiones se proponen a partir de ellas; estas decisiones aún deben validarse con usuarios. Los atributos sin respaldo identificados en 2.2.3 —edades y ubicaciones asignadas a los arquetipos, ingresos, estado civil, datos familiares, marcas, navegadores, sistemas operativos, personalidad y puntuaciones de habilidades— quedan pendientes de confirmación o corrección en las fichas. Las frases representativas tampoco se consideran citas textuales de los participantes sin una referencia verificable.
+
+**La indicación «Mercado 50 %» de ambas imágenes no tiene sustento documentado y debe retirarse de su próxima versión.** Tener tres entrevistas por segmento no permite estimar su participación de mercado. Esa cifra se excluye de las conclusiones y de la priorización del producto.
 
 **User Persona 1 - Segmento: Agricultores**
 
+Alfonso representa al agricultor que supervisa sus cultivos y necesita reconocer problemas oportunamente, con menor esfuerzo y tiempo de revisión. Los registros A1, A2 y A3 respaldan ese contexto de trabajo. Las barreras de conocimientos técnicos se apoyan específicamente en A1 y no se generalizan a los tres agricultores.
+
+| Necesidad representada o aporte para el arquetipo | Sustento en entrevistas | Implicación propuesta para el diseño |
+| :--- | :--- | :--- |
+| Conocer el estado del cultivo y detectar problemas oportunamente. | A1, A2 y A3 describen monitoreo presencial y dificultades de tiempo; A1 y A2 solicitan información visual sencilla. | Priorizar el estado de la parcela y la información que ayude a decidir qué zona revisar. |
+| Acceder a herramientas comprensibles y considerar el costo de adopción. | A1 identifica limitaciones por costos, rigidez del software y falta de conocimientos de programación. | Usar lenguaje agrícola, explicar los pasos de cada tarea y comunicar las capacidades incluidas en cada plan. |
+| Consultar información desde el celular. | A3 lo identifica como el medio más conveniente para conocer el estado de sus cultivos. | Diseñar una experiencia web adaptable al celular; esta mención no acredita una marca, sistema operativo o navegador preferido. |
+| Dar seguimiento a cambios del cultivo. | A2 solicita alertas e historial. | Facilitar la revisión cronológica de información y distinguir las novedades que requieren atención. |
+
+Las solicitudes de A3 sobre control de aves, riego y fumigación amplían los temas que deben evaluarse con el segmento, pero no se convierten automáticamente en funciones comprometidas de SkyCrop. Su disposición de pago está vinculada a esa propuesta más amplia.
+
 ![User Persona Agricultor](resources/imgs/user-persona-alfonso.png)
 
-**User Persona 2 - Segmento: Ingenieros Agronomos**
+**User Persona 2 - Segmento: Ingenieros agrónomos**
+
+Ignacio representa al profesional que asesora a productores y necesita información para evaluar cultivos y fundamentar sus decisiones. G1, G2 y G3 respaldan ese contexto. La dificultad para supervisar extensiones de cultivo orienta a organizar la información por parcela; la resistencia de algunos clientes a cambiar prácticas es un hallazgo específico de G3.
+
+| Necesidad representada o aporte para el arquetipo | Sustento en entrevistas | Implicación propuesta para el diseño |
+| :--- | :--- | :--- |
+| Reunir información útil para evaluar el estado de los cultivos. | G1, G2 y G3 solicitan imágenes o mapas para apoyar la evaluación; G3 describe observaciones y mediciones de campo. | Mostrar el contexto de la parcela y los hallazgos disponibles, diferenciando observaciones, mediciones y resultados del procesamiento de imágenes. |
+| Comparar información entre ciclos y coordinar el seguimiento de varios terrenos. | G1 y G2 solicitan historial y gestión colaborativa. | Proponer reportes por parcela y fecha, junto con identificación de los usuarios que participan en su seguimiento. |
+| Reducir barreras para incorporar tecnología al trabajo. | G1 y G2 mencionan costos o restricciones tecnológicas; G3 describe resistencia de algunos clientes a nuevas prácticas. | Explicar el propósito y los resultados de cada función, con información comprensible que pueda comunicarse al productor. |
+| Consultar y procesar información considerando el contexto de trabajo. | G2 menciona uso de laptop y necesidad de operación sin conexión. | Diseñar vistas legibles en escritorio y estados que indiquen la disponibilidad de información; no se asume que todos los agrónomos usen el mismo equipo. |
+
+Las necesidades de estos arquetipos orientan la organización de contenidos y la evaluación posterior de los flujos. No acreditan por sí solas resultados de ahorro, precisión diagnóstica o adopción, ni sustituyen la definición de permisos por rol en los requisitos del producto.
 
 ![User Persona Ingeniero Agrónomo](resources/imgs/user-persona-ignacio.png)
 

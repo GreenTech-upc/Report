@@ -603,7 +603,7 @@ En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de su
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/IQBZNqpJc52rQZjZbGbruBF3AXx6UrRnUWbUXMzME_DsSGM?e=tnRr3J&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 <div align="center">
-<img src="resources/imgs/chapter_2/entrevista3_segmento1.png" alt="Entrevista 3 - Segmento 1" width="600">
+<img src="resources/imgs/chapter_2/entrevista3_segmento1.jpg" alt="Entrevista 3 - Segmento 1" width="600">
 </div>
 
 **Resumen**:

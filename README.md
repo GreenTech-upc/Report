@@ -1355,6 +1355,16 @@ El despliegue en GitHub Pages requiere que los archivos estén organizados de un
 
 # Conclusiones 
 
-# Bibliografía 
+# Bibliografía
+
+Cucumber. (2026, 15 de septiembre). *[Gherkin reference](https://cucumber.io/docs/gherkin/reference/)*.
+
+Google. (s. f.-a). *[Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html)*. Recuperado el 19 de septiembre de 2026.
+
+Google. (s. f.-b). *[Google JavaScript style guide](https://google.github.io/styleguide/jsguide.html)*. Recuperado el 19 de septiembre de 2026.
+
+Microsoft. (s. f.). *[C# identifier naming rules and conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)*. Microsoft Learn. Recuperado el 19 de septiembre de 2026.
+
+Vue.js. (s. f.). *[Style guide](https://vuejs.org/style-guide/)*. Recuperado el 19 de septiembre de 2026.
 
 # Anexos

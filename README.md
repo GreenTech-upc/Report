@@ -67,10 +67,6 @@ Proyecto
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [| **Foto** | |](#-foto--)
-  - [| **Foto** | |](#-foto---1)
-  - [| **Foto** | |](#-foto---2)
-  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -114,8 +110,8 @@ Proyecto
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
@@ -175,6 +171,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Carrera** | |
 | **Descripción** | |
 | **Foto** | |
+
 --------------
 
 
@@ -184,6 +181,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | |
 | **Foto** | |
+
 ----------------------
 
 | **Integrante** | Jonseck Choque Oliver |
@@ -192,6 +190,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Mi nombre es Oliver, poseo 21 años. Poseo mucho interés en la programación y llevo haciendo varios proyectos personales desde que ingrese a la universidad. No trabajo bajo contrato actualmente, pero trabajo cómo freelancer por periodos de tiempo. |
 | **Foto** | |
+
 ---------------------
 
 | **Integrante** | |
@@ -200,6 +199,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Carrera** | |
 | **Descripción** | |
 | **Foto** | |
+
 ---------------------
 
 | **Integrante** | |
@@ -1137,9 +1137,9 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
-### 4.4.2. Web Applications Mock-ups. 
+### 4.4.3. Web Applications Mock-ups.
 
-### 4.4.3. Web Applications User Flow Diagrams. 
+### 4.4.4. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping. 
 

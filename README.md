@@ -67,6 +67,10 @@ Proyecto
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** | |](#-foto---1)
+  - [| **Foto** | |](#-foto---2)
+  - [| **Foto** | |](#-foto---3)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -91,7 +95,7 @@ Proyecto
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories.](#31-user-stories)
+  - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -222,7 +226,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 ### 1.2.2 Lean UX Process. 
 
 #### 1.2.2.1. Lean UX Problem Statements. 
-*The current state of the agricultural monitoring domain has focused mainly on slow, labor-intensive manual inspections. What existing products/services fail to address is the lack of flexible, customizable, and automated drone flight routing and image processing adapted for the specific agronomic needs of small to medium producers. Our product/service will address this gap by providing subscriptions to our platform that automates flights and generates visual terrain maps to early identify crop stress. Our initial focus will be independent farmers and agricultural cooperatives. We’ll know we are successful when we see a 25% conversion rate to our paid subscriptions (Basic, Professional, or Cooperative) and a recurring usage of the mapping tool within the first 6 months.*
+*El estado actual del dominio del monitoreo agrícola se ha centrado principalmente en inspecciones manuales lentas y que demandan mucha mano de obra, realizadas sobre las parcelas por pequeños y medianos productores y los ingenieros agrónomos que los asesoran, y que a menudo detectan los problemas cuando el daño ya es irreversible. Lo que los productos existentes no logran abordar es la necesidad de una automatización de vuelos de drones y un análisis de imágenes accesibles, abiertos y personalizables, adaptados a las necesidades agronómicas específicas de estos usuarios, ya que las soluciones comerciales actuales son ecosistemas costosos y cerrados. Nuestro producto abordará esta brecha ofreciendo una plataforma por suscripción, compatible con drones comerciales estándar, que automatiza las rutas de vuelo y genera mapas visuales del terreno para identificar tempranamente el estrés de los cultivos, las plagas y las deficiencias de fertilizante. Nuestro enfoque inicial serán los agricultores independientes, las cooperativas agrarias y los ingenieros agrónomos que trabajan con ellos. Sabremos que hemos tenido éxito cuando observemos una tasa de conversión del 25 % a nuestras suscripciones de pago (Básica, Profesional o Cooperativa) y un uso recurrente de la herramienta de mapeo durante los primeros 6 meses.*
 
 #### 1.2.2.2. Lean UX Assumptions. 
 

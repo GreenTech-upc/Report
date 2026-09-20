@@ -157,8 +157,9 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.X.8. Team Collaboration Insights during Sprint.](#52x8-team-collaboration-insights-during-sprint)
+  - [](#)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -1610,57 +1611,61 @@ Enlace: https://trello.com/b/v9IDjQLu/sprint-backlog-1
 Muestra el logo, el menú de navegación, el selector de idioma y el botón de acceso
 a la plataforma, junto con la propuesta de valor principal y el llamado a la acción.
 
-![Inicio_Landing](assets/chapter_05/Inicio_Landing.png)
+![Inicio_Landing](resources/imgs/chapter_5/Inicio_Landing.png)
 
 **Benefits**
 Explica los beneficios diferenciados para agricultores y agrónomos.
 
-![Benefits_Landing](assets/chapter_05/Benefits_Landing.png)
+![Benefits_Landing](resources/imgs/chapter_5/Benefits_Landing.png)
 
 **Pricing**
 Detalla los planes Basic, Professional y Corporate, con sus alcances y precios
 ilustrativos.
 
-![Pricing_Landing](assets/chapter_05/Pricing_Landing.png)
+![Pricing_Landing](resources/imgs/chapter_5/Pricing_Landing.png)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review. 
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
 
 **Inicio**
 
-![Inicio_Landing](assets/chapter_05/Inicio_Landing.png)
+![Inicio_Landing](resources/imgs/chapter_5/Inicio_Landing.png)
 
 **Features**
 
-![Features_Landing](assets/chapter_05/Features_Landing.png)
+![Features_Landing](resources/imgs/chapter_5/Features_Landing.png)
 
 **Benefits**
 
-![Benefits_Landing](assets/chapter_05/Benefits_Landing.png)
+![Benefits_Landing](resources/imgs/chapter_5/Benefits_Landing.png)
 
 **Pricing**
 
-![Pricing_Landing](assets/chapter_05/Pricing_Landing.png)
+![Pricing_Landing](resources/imgs/chapter_5/Pricing_Landing.png)
 
 **Contact us**
 
-![Contact_us_Landing](assets/chapter_05/Contact_us_Landing.png)
+![Contact_us_Landing](resources/imgs/chapter_5/Contact_us_Landing.png)
 
 **Cambio de idioma**
 
-![Español_Landing](assets/chapter_05/Español_Landing.png)
+![Español_Landing](resources/imgs/chapter_5/Español_Landing.png)
 
 **Diseño responsive**
 
-![Responsive_Landing](assets/chapter_05/Responsive_Landing.png)
+![Responsive_Landing](resources/imgs/chapter_5/Responsive_Landing.png)
 
 **URL del Landing Page desplegado:**https://greentech-upc.github.io/Landing-Page/
 
 #### 5.2.X.8. Team Collaboration Insights during Sprint. 
 
+![Insights-LP.png](resources/imgs/chapter_5/Insights-LP.png)
+---
+
+![Contributors.png](resources/imgs/chapter_5/Contributors.png)
 
 # Conclusiones 
 

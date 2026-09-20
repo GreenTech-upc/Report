@@ -1597,6 +1597,50 @@ Enlace al video de presentación del prototipo: [https://upcedupe-my.sharepoint.
 
 ### 4.6.1. Design-Level EventStorming. 
 
+Para la elaboración del Design Level EventStorming nos hemos basado en los eventos del Big Picture Eventstorming, agregando mayor detalle entre ellos. A continuación se presenta el proceso seguido para su elaboración.
+
+Paso 1: Agregar eventos de dominio
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-1.png" alt="Eventstorming paso 1" width="600">
+</div>
+
+Paso 2: Agregar comandos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-2.png" alt="Eventstorming paso 2" width="600">
+</div>
+
+Paso 3: Agregar actores y politicas
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-3.png" alt="Eventstorming paso 3" width="600">
+</div>
+
+Paso 4: Agregar Read Models
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-4.png" alt="Eventstorming paso 4" width="600">
+</div>
+
+Paso 6: Agregar sistemas externos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-5.png" alt="Eventstorming paso 5" width="600">
+</div>
+
+Paso 6: Escribir reglas de negocio
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-6.png" alt="Eventstorming paso 6" width="600">
+</div>
+
+Paso 7: Juntar reglas de negocio (Aggregates)
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-7.png" alt="Eventstorming paso 7" width="600">
+</div>
+
 ### 4.6.2. Software Architecture Context Diagram. 
 
 ### 4.6.3. Software Architecture Container Diagrams. 

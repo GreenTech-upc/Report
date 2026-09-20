@@ -1332,14 +1332,38 @@ El sistema de navegación de SkyCrop está diseñado para guiar a los usuarios (
 
 A continuación se presentan los Wireframes realizados para la Landing Page. El diseño buscó seguir la heuristica de la usabilidad de 'Diseño estético y minimalista' mediante el uso de una estructura y figuras simples para la pagina. Además, la barra de navegación superior ayuda a que se cumpla la heuristica de 'Flexibilidad y eficiencia en el uso' al brindar atajos a ciertas partes de la pagina.
 
-![Landing Page Wireframe - Parte 1](resources/imgs/chapter_4/wireframe-landing-1.jpg)
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-1.jpg" alt="Landing Page Wireframe - Parte 1" width="600">
+</div>
 
-![Landing Page Wireframe - Parte 2](resources/imgs/chapter_4/wireframe-landing-2.jpg)
 
-![Landing Page Wireframe - Parte 3](resources/imgs/chapter_4/wireframe-landing-3.jpg)
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-2.jpg" alt="Landing Page Wireframe - Parte 2" width="600">
+</div>
+
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-3.jpg" alt="Landing Page Wireframe - Parte 3" width="600">
+</div>
+
+
 
 ### 4.3.2. Landing Page Mock-up. 
 
+A partir de los wireframes realizados para la Landing Page, se elaboraron los Mock-ups. La paleta de colores sigue las pautas definidas previamente en la sección 'General Style Guidelines'. 
+
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-1.jpg" alt="Landing Page Mock-up - Parte 1" width="600">
+</div>
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-2.jpg" alt="Landing Page Mock-up - Parte 2" width="600">
+</div>
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-3.jpg" alt="Landing Page Mock-up - Parte 3" width="600">
+</div>
 
 
 ## 4.4. Web Applications UX/UI Design. 

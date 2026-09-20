@@ -150,7 +150,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint 1](#52x-sprint-1)
+    - [5.2.1. Sprint 1](#52x-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
@@ -167,6 +167,64 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
 
 # Student Outcome 
 
+<div align="center">
+<table border="1">
+  <tr>
+  <th>Criterio Especifico</th>
+  <th>Acciones Realizadas</th>
+  <th>Conclusiones</th>
+  </tr>
+
+  <tr>
+  <th>Trabaja en equipo para proporcionar liderazgo en forma conjunta</th>
+
+  <td> Pumahualcca Garcia, Diego Rodrigo
+  	<br> AV1: <br> Aportó en la elaboración de artefactos en grupo
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+  Promovió el uso de convenciones para el versionado del proyecto.
+
+  <br> Cano Gomez Yam Antony Gabriel<br> AV1: <br>
+  Facilitó la realización de hitos durante el proyecto.
+
+  <br>  Jonseck Choque Oliver<br> AV1: <br>
+  Ayudó en la elaboración de diagramas.
+
+  <br> Luis Sebastián Rubio Ortiz  <br> AV1: <br>
+  Aporto en el diseño de la solución
+  </td>
+
+  <td>
+  AV1: <br>
+  El grupo trabajó en equipo para proponer una solución y diseñarla de forma progresiva.
+  </td>
+  </tr>
+
+  <tr>
+  <th>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.  </th>
+
+  <td>Pumahualcca Garcia, Diego Rodrigo
+	<br> AV1: <br> Facilitó el reparto de tareas.
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+  Proporcionó espacios de trabajo para distintas partes del proyecto.
+
+  <br> Cano Gomez Yam Antony Gabriel<br> AV1: <br>
+  Propuso reuniones en equipo para la realización de partes del proyecto.
+
+  <br> Jonseck Choque Oliver <br> AV1: <br>
+  Aportó en la participación de reuniones
+
+  <br>  Luis Sebastián Rubio Ortiz<br> AV1: <br>
+  </td>Promovió el trabajo en equipo durante la elaboración del proyecto.
+
+  <td>
+  AV1: <br>
+  El grupo coopero en todo momento durante la elaboración del avance, aportando ideas entre sí y ayudandose unos entre otros.
+  </td>
+  </tr>
+</table>
+</div>
 
 # Capítulo I: Introducción 
 
@@ -215,12 +273,12 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 
 ---------------------
 
-| **Integrante** | |
+| **Integrante** | Sunio Danilo Landa Sánchez |
 | :--- | :--- |
-| **Código del Estudiante** | |
-| **Carrera** | |
-| **Descripción** | |
-| **Foto** | |
+| **Código del Estudiante** | U202423973 |
+| **Carrera** |Ingenieria de Software|
+| **Descripción** |Soy Sunio Landa, tengo 20 años. Suelo aprender cosas rápido y siempre busco que mi equipo realice el mejor trabajo posible.|
+| **Foto** | <img src="resources/imgs/foto-landa.jpeg" alt="Sunio" width="200" height="240"> |
 
 ---------------------
 
@@ -1331,7 +1389,41 @@ El sistema de navegación de SkyCrop está diseñado para guiar a los usuarios (
 
 ### 4.3.1. Landing Page Wireframe. 
 
+A continuación se presentan los Wireframes realizados para la Landing Page. El diseño buscó seguir la heuristica de la usabilidad de 'Diseño estético y minimalista' mediante el uso de una estructura y figuras simples para la pagina. Además, la barra de navegación superior ayuda a que se cumpla la heuristica de 'Flexibilidad y eficiencia en el uso' al brindar atajos a ciertas partes de la pagina.
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-1.jpg" alt="Landing Page Wireframe - Parte 1" width="600">
+</div>
+
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-2.jpg" alt="Landing Page Wireframe - Parte 2" width="600">
+</div>
+
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-landing-3.jpg" alt="Landing Page Wireframe - Parte 3" width="600">
+</div>
+
+
+
 ### 4.3.2. Landing Page Mock-up. 
+
+A partir de los wireframes realizados para la Landing Page, se elaboraron los Mock-ups. La paleta de colores sigue las pautas definidas previamente en la sección 'General Style Guidelines'. 
+
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-1.jpg" alt="Landing Page Mock-up - Parte 1" width="600">
+</div>
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-2.jpg" alt="Landing Page Mock-up - Parte 2" width="600">
+</div>
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-landing-3.jpg" alt="Landing Page Mock-up - Parte 3" width="600">
+</div>
+
 
 ## 4.4. Web Applications UX/UI Design. 
 
@@ -1346,17 +1438,267 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 
 ### 4.4.1. Web Applications Wireframes. 
 
+En esta sección se presentarán los Wireframes de nuestra aplicación web. Gracias a los encabezados en gran parte de los wireframes es posible conocer en que parte de la aplicación el usuario se puede encontrar y determinar que acciones puede hacer, esto va de acuerdo con la heuristica de usabilidad 'Visibilidad del Estado del Sistema'. Además, el uso del mismo menu superior y lateral, junto con la estructura similar entre secciones, logra cumplir con el principio del diseño inclusivo sobre 'Ser Consistente'.
+
+**Pagina de inicio de sesión:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-1.jpg" alt="Web App Wireframe 1" width="600">
+</div>
+
+**Pagina de pago de subscripción:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-2.jpg" alt="Web App Wireframe 2" width="600">
+</div>
+
+**Pagina de inicio**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-3.jpg" alt="Web App Wireframe 3" width="600">
+</div>
+
+**Pagina de parcelas agricolas registradas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-4.jpg" alt="Web App Wireframe 4" width="600">
+</div>
+
+**Pagina de drones registrados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-5.jpg" alt="Web App Wireframe 5" width="600">
+</div>
+
+**Sección de registro de parcelas agricolas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-6.jpg" alt="Web App Wireframe 6" width="600">
+</div>
+
+**Sección de información de un dron registrado**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-7.jpg" alt="Web App Wireframe 7" width="600">
+</div>
+
+**Historial de reportes por estación generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-8.jpg" alt="Web App Wireframe 8" width="600">
+</div>
+
+**Dashboard de reporte de estación**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-9.jpg" alt="Web App Wireframe 9" width="600">
+</div>
+
+**Historial de diagnosticos generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-10.jpg" alt="Web App Wireframe 10" width="600">
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams. 
+
+Antes de la elaooración de los Wireflow Diagramas, definimos las User goals:
+
+- Como agricultor e ingeniero agrónomo, queremos acceder a la plataforma mediante una cuenta.
+- Como agricultor, quiero ser capaz de registrar una parcela agricola en la plataforma.
+- Como ingeniero agrónomo, quiero ser capaz de monitorear el estado de los drones agrícolas desde la plataforma.
+- Como agricultor e ingeniero agrónomo, queremos recibir y leer reportes por estación sobre nuestras parcelas agrícolas.
+- Como agricultor e ingeniero agrónomo, queremos recibir y leer diagnosticos sobre el estado de nuestros cultivos.
+
+En base a estas User Goals, elaboramos los siguientes wireflows:
+
+Wireflow 1: Acceso a la plataforma
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-1.jpg" alt="Wireflow 1" width="600">
+</div>
+
+Wireflow 2: Registro de parcela agrícola
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-2.jpg" alt="Wireflow 2" width="600">
+</div>
+
+Wireflow 3: Gestión de drones
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-3.jpg" alt="Wireflow 3" width="600">
+</div>
+
+Wireflow 4: Visualización de reportes
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-4.jpg" alt="Wireflow 4" width="600">
+</div>
+
+Wireflow 5: Lectura de diagnosticos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-5.jpg" alt="Wireflow 5" width="600">
+</div>
 
 ### 4.4.3. Web Applications Mock-ups.
 
+A partir de los wireframes elaborados, se realizaron los Mock-ups de la aplicación web. Estos diseños siguen la misma paleta de colores definida en las pautas y usada en la Landing Page, lo cual fortalece la consistencia entre diseño.
+
+**Pagina de inicio de sesión:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-1.jpg" alt="Web App Mock-up 1" width="600">
+</div>
+
+**Pagina de pago de subscripción:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-2.jpg" alt="Web App Mock-up 2" width="600">
+</div>
+
+**Pagina de inicio**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-3.jpg" alt="Web App Mock-up 3" width="600">
+</div>
+
+**Pagina de parcelas agricolas registradas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-4.jpg" alt="Web App Mock-up 4" width="600">
+</div>
+
+**Pagina de drones registrados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-5.jpg" alt="Web App Mock-up 5" width="600">
+</div>
+
+**Sección de registro de parcelas agricolas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-6.jpg" alt="Web App Mock-up 6" width="600">
+</div>
+
+**Sección de información de un dron registrado**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-7.jpg" alt="Web App Mock-up 7" width="600">
+</div>
+
+**Historial de reportes por estación generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-8.jpg" alt="Web App Mock-up 8" width="600">
+</div>
+
+**Dashboard de reporte de estación**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-9.jpg" alt="Web App Mock-up 9" width="600">
+</div>
+
+**Historial de diagnosticos generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-10.jpg" alt="Web App Mock-up 10" width="600">
+</div>
+
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+Tomando como referencia a los Wire Flows realizados, usando los Mock-ups de la aplicación web elaboramos los siguientes User Flow Diagrams.
+
+Userflow 1: Acceso a la plataforma
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-1.jpg" alt="Wireflow 1" width="600">
+</div>
+
+Userflow 2: Registro de parcela agrícola
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-2.jpg" alt="Wireflow 2" width="600">
+</div>
+
+Wireflow 3: Gestión de drones
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-3.jpg" alt="Wireflow 3" width="600">
+</div>
+
+Userflow 4: Visualización de reportes
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-4.jpg" alt="Wireflow 4" width="600">
+</div>
+
+Userflow 5: Lectura de diagnosticos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-5.jpg" alt="Wireflow 5" width="600">
+</div>
+
 ## 4.5. Web Applications Prototyping. 
+
+Con los Mock-ups realizados y los User flows elaborados, elaboramos un prototipo de nuestra aplicación web usando como base la estructura de los Mock-ups y siguiendo los flujos dictados por los User Flows. Como se menciono previamente, estos user flows guiarán al usuario a las partes principales de nuestra plataforma.
+
+Enlace del prototipo realizado en Figma: [https://www.figma.com/proto/1nlenowk3dSY0qdNiG6hYD/Dise%C3%B1o-UX-UI---SkyCrop?node-id=85-266&p=f&t=3mUFit5D9c68mFrX-1&scaling=min-zoom&content-scaling=fixed&page-id=5%3A2&starting-point-node-id=85%3A266](https://www.figma.com/proto/1nlenowk3dSY0qdNiG6hYD/Dise%C3%B1o-UX-UI---SkyCrop?node-id=85-266&p=f&t=3mUFit5D9c68mFrX-1&scaling=min-zoom&content-scaling=fixed&page-id=5%3A2&starting-point-node-id=85%3A266)
+
+Enlace al video de presentación del prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDnRI9W8acKTphuXimXgKQZAZwHkoPGAoMBGMpwR7lqt9Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=o1bQkf](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDnRI9W8acKTphuXimXgKQZAZwHkoPGAoMBGMpwR7lqt9Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=o1bQkf)
+
+<div align="center">
+<img src="resources/imgs/chapter_4/prototype-navigation-image.jpg" alt="Captura de pantalla del video de presentación" width="600">
+</div>
 
 ## 4.6. Domain-Driven Software Architecture. 
 
 ### 4.6.1. Design-Level EventStorming. 
+
+Para la elaboración del Design Level EventStorming nos hemos basado en los eventos del Big Picture Eventstorming, agregando mayor detalle entre ellos. A continuación se presenta el proceso seguido para su elaboración.
+
+Paso 1: Agregar eventos de dominio
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-1.png" alt="Eventstorming paso 1" width="600">
+</div>
+
+Paso 2: Agregar comandos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-2.png" alt="Eventstorming paso 2" width="600">
+</div>
+
+Paso 3: Agregar actores y politicas
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-3.png" alt="Eventstorming paso 3" width="600">
+</div>
+
+Paso 4: Agregar Read Models
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-4.png" alt="Eventstorming paso 4" width="600">
+</div>
+
+Paso 6: Agregar sistemas externos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-5.png" alt="Eventstorming paso 5" width="600">
+</div>
+
+Paso 6: Escribir reglas de negocio
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-6.png" alt="Eventstorming paso 6" width="600">
+</div>
+
+Paso 7: Juntar reglas de negocio (Aggregates)
+
+<div align="center">
+<img src="resources/imgs/chapter_4/design-level-eventstorming-7.png" alt="Eventstorming paso 7" width="600">
+</div>
 
 ### 4.6.2. Software Architecture Context Diagram. 
 
@@ -1520,7 +1862,7 @@ El despliegue en GitHub Pages requiere que los archivos estén organizados de un
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.X. Sprint 1 
+### 5.2.1. Sprint 1 
 
 #### 5.2.1.1. Sprint Planning 1. 
 
@@ -1538,8 +1880,8 @@ El Sprint Planning 1 se enfoca en el desarrollo e implementación de la primera 
 | **Sprint 0 Retrospective Summary** | Este es el primer sprint del proyecto. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de SkyCrop, que presenta la propuesta de valor, las funcionalidades, los beneficios por segmento, los planes de suscripción y un canal de contacto. Creemos que esto entrega una comprensión rápida de la plataforma y una vía clara de registro a los agricultores y a los ingenieros agrónomos que evalúan adoptar SkyCrop. Esto se confirmará cuando un visitante pueda llegar a cualquier sección de la página, incluidos los planes y el formulario de contacto, con un solo clic desde la barra de navegación fija, y la página se visualice sin desbordes ni elementos cortados en pantallas móviles y de escritorio, publicada en GitHub Pages. |
-| **Sprint 1 Velocity** | [N] Story Points |
-| **Sum of Story Points** | [M] Story Points |
+| **Sprint 1 Velocity** | 15 Story Points |
+| **Sum of Story Points** | 14 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
@@ -1688,3 +2030,11 @@ Preston-Werner, T. (s. f.). *[Semantic Versioning 2.0.0](https://semver.org/spec
 Vue.js. (s. f.). *[Style guide](https://vuejs.org/style-guide/)*. Recuperado el 19 de septiembre de 2026.
 
 # Anexos
+
+## Anexo A
+
+**Enlaces**
+
+Enlace al video de navegación al prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDnRI9W8acKTphuXimXgKQZAZwHkoPGAoMBGMpwR7lqt9Y?e=Dd7Czn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+Enlace al video de entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O

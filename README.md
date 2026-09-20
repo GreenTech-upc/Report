@@ -1187,6 +1187,21 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 
 ### 4.7.1. Class Diagrams. 
 
+**SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones**
+<div align="center">
+<img src="resources/imgs/Diagrams/ClassDiagram1.png" alt="ClassDiagram1" width="600">
+</div>
+
+**SkyCrop - Gestión de Parcelas y Drones**
+<div align="center">
+<img src="resources/imgs/Diagrams/ClassDiagram2.png" alt="ClassDiagram2" width="600">
+</div>
+
+**SkyCrop - Diagnóstico, Análisis, Reportes y Notificaciones**
+<div align="center">
+<img src="resources/imgs/Diagrams/ClassDiagram3.png" alt="ClassDiagram3" width="600">
+</div>
+
 ## 4.8. Database Design. 
 
 ### 4.8.1. Database Diagrams. 

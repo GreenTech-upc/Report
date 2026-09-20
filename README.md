@@ -1443,6 +1443,46 @@ En esta sección se presentarán los Wireframes de nuestra aplicación web. Grac
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
+Antes de la elaooración de los Wireflow Diagramas, definimos las User goals:
+
+- Como agricultor e ingeniero agrónomo, queremos acceder a la plataforma mediante una cuenta.
+- Como agricultor, quiero ser capaz de registrar una parcela agricola en la plataforma.
+- Como ingeniero agrónomo, quiero ser capaz de monitorear el estado de los drones agrícolas desde la plataforma.
+- Como agricultor e ingeniero agrónomo, queremos recibir y leer reportes por estación sobre nuestras parcelas agrícolas.
+- Como agricultor e ingeniero agrónomo, queremos recibir y leer diagnosticos sobre el estado de nuestros cultivos.
+
+En base a estas User Goals, elaboramos los siguientes wireflows:
+
+Wireflow 1: Acceso a la plataforma
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-1.jpg" alt="Wireflow 1" width="600">
+</div>
+
+Wireflow 2: Registro de parcela agrícola
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-2.jpg" alt="Wireflow 2" width="600">
+</div>
+
+Wireflow 3: Gestión de drones
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-3.jpg" alt="Wireflow 3" width="600">
+</div>
+
+Wireflow 4: Visualización de reportes
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-4.jpg" alt="Wireflow 4" width="600">
+</div>
+
+Wireflow 5: Lectura de diagnosticos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireflow-5.jpg" alt="Wireflow 5" width="600">
+</div>
+
 ### 4.4.3. Web Applications Mock-ups.
 
 A partir de los wireframes elaborados, se realizaron los Mock-ups de la aplicación web. Estos diseños siguen la misma paleta de colores definida en las pautas y usada en la Landing Page, lo cual fortalece la consistencia entre diseño.
@@ -1508,6 +1548,38 @@ A partir de los wireframes elaborados, se realizaron los Mock-ups de la aplicaci
 </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
+
+Tomando como referencia a los Wire Flows realizados, usando los Mock-ups de la aplicación web elaboramos los siguientes User Flow Diagrams.
+
+Userflow 1: Acceso a la plataforma
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-1.jpg" alt="Wireflow 1" width="600">
+</div>
+
+Userflow 2: Registro de parcela agrícola
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-2.jpg" alt="Wireflow 2" width="600">
+</div>
+
+Wireflow 3: Gestión de drones
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-3.jpg" alt="Wireflow 3" width="600">
+</div>
+
+Userflow 4: Visualización de reportes
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-4.jpg" alt="Wireflow 4" width="600">
+</div>
+
+Userflow 5: Lectura de diagnosticos
+
+<div align="center">
+<img src="resources/imgs/chapter_4/userflow-5.jpg" alt="Wireflow 5" width="600">
+</div>
 
 ## 4.5. Web Applications Prototyping. 
 

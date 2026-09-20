@@ -1176,13 +1176,81 @@ A continuación se presentan las User Stories que indicarán las funcionalidades
 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a las operaciones autorizadas desde una aplicación cliente. | **Scenario: Autenticación válida** <br> *Given* que la aplicación cliente dispone de las credenciales de un usuario registrado <br> *When* envía una solicitud de autenticación con credenciales válidas <br> *Then* la API devuelve una credencial de acceso y restringe las operaciones a los permisos del usuario. <br> **Scenario: Credenciales incorrectas** <br> *Given* que la solicitud contiene credenciales incorrectas <br> *When* la API valida la solicitud <br> *Then* rechaza la autenticación sin emitir una credencial de acceso. | EP-09 |
 
 ## 3.2. Impact Mapping. 
+**SEGMENTO 1: AGRICULTORES**
+<div align="center">
+<img src="resources/imgs/IMSeg1.png" alt="IMSeg1" width="600">
+</div>
 
+**SEGMENTO 2: INGENIEROS AGRONOMOS**
+<div align="center">
+<img src="resources/imgs/IMSeg2.png" alt="IMSeg2" width="600">
+</div>
 
-## 3.3. Product Backlog. 
+## 3.3. Product Backlog.
 
-|# Orden|User Story ID|Título|Descripción|Story Points|
-|:--------------|:-----|:----------|:----------------------|:--------------|
-||||||
+El Product Backlog de SkyCrop reúne las User Stories identificadas para el desarrollo del producto. El orden presentado sigue inicialmente la numeración de las historias definidas por el equipo y podrá ser actualizado según las prioridades establecidas durante los siguientes sprints.
+
+Los Story Points utilizan la escala de Fibonacci y representan una estimación relativa del esfuerzo necesario para implementar cada User Story.
+
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|:---:|:---:|---|---|:---:|
+| 1 | US-01 | Registrar la cuenta de un Usuario | Como usuario de la plataforma SkyCrop, deseo registrarme en la plataforma para poder acceder a las funcionalidades que ofrece. | 5 |
+| 2 | US-02 | Inicio de Sesión | Como usuario registrado, deseo iniciar sesión usando mis credenciales para volver a tener acceso a mi cuenta. | 3 |
+| 3 | US-03 | Cambiar la información del perfil | Como usuario registrado, deseo cambiar la información de mi perfil para corregir datos incorrectos o desactualizados. | 3 |
+| 4 | US-04 | Recuperación de acceso | Como usuario registrado, deseo recuperar el acceso a mi cuenta en caso olvide mi contraseña. | 5 |
+| 5 | US-05 | Autenticación de dos factores | Como usuario registrado, quiero activar la autenticación de dos factores para contar con una segunda capa de seguridad. | 8 |
+| 6 | US-06 | Adquisición de subscripciones | Como usuario registrado, deseo adquirir una subscripción para acceder a las funcionalidades pagadas de la plataforma. | 8 |
+| 7 | US-07 | Pagar la suscripción con tarjeta | Como usuario registrado, deseo pagar mi suscripción con tarjeta de manera rápida y segura. | 8 |
+| 8 | US-08 | Confirmación de pagos | Como usuario registrado, quiero recibir una confirmación de pago para mantener un registro de mis transacciones. | 3 |
+| 9 | US-09 | Consulta de detalles de la subscripción actual | Como usuario suscrito, quiero consultar los detalles de mi subscripción y las funcionalidades disponibles. | 3 |
+| 10 | US-10 | Cancelación de subscripciones | Como usuario suscrito, quiero cancelar mi subscripción para evitar gastos accidentales. | 5 |
+| 11 | US-11 | Registro de parcela | Como usuario, deseo registrar el terreno por el cual el dron va a volar. | 5 |
+| 12 | US-12 | Consulta de estado de una parcela | Como usuario, deseo consultar el estado de una parcela para conocer la información detectada durante su monitoreo. | 5 |
+| 13 | US-13 | Visualización del mapa de una parcela | Como usuario, quiero visualizar el mapa de mi parcela para identificar zonas de anomalías visualmente. | 8 |
+| 14 | US-14 | Registro de cultivos en una parcela | Como usuario, quiero registrar el tipo de cultivo de mi parcela para asociarlo al monitoreo realizado. | 3 |
+| 15 | US-15 | Consulta de información de los cultivos | Como usuario, deseo acceder a la información de los cultivos asignados a mis parcelas. | 3 |
+| 16 | US-16 | Invitación de compañeros | Como administrador de una cuenta, quiero invitar compañeros o agrónomos para compartir el monitoreo de las parcelas. | 5 |
+| 17 | US-17 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron. | 8 |
+| 18 | US-18 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a realizar. | 8 |
+| 19 | US-19 | Captura de imágenes mediante dron | Como usuario, quiero que el dron capture imágenes automáticamente durante su rutina. | 8 |
+| 20 | US-20 | Parametrización de vuelo del dron | Como usuario, quiero configurar parámetros técnicos de vuelo para optimizar la captura de imágenes. | 5 |
+| 21 | US-21 | Envío de imágenes tomadas por el dron | Como usuario, deseo que el dron envíe las imágenes capturadas para que puedan ser procesadas por el sistema. | 8 |
+| 22 | US-22 | Visualización de imágenes tomadas por el dron | Como usuario, quiero visualizar las imágenes capturadas para verificar la calidad del patrullaje. | 5 |
+| 23 | US-23 | Generación de diagnóstico | Como usuario con acceso a una parcela, deseo que las imágenes sean analizadas y que el diagnóstico sea almacenado. | 13 |
+| 24 | US-24 | Generación de mapa según diagnóstico | Como usuario, deseo contar con un mapa de los resultados del diagnóstico para ubicar las zonas que requieren atención. | 8 |
+| 25 | US-25 | Historial de diagnósticos | Como usuario, deseo consultar diagnósticos anteriores para revisar la evolución del cultivo. | 5 |
+| 26 | US-26 | Actualización de una parcela mediante diagnóstico | Como usuario, deseo que el estado de una parcela refleje los resultados de su diagnóstico más reciente. | 8 |
+| 27 | US-27 | Notificación de diagnóstico realizado | Como usuario, deseo recibir una notificación cuando el diagnóstico de una parcela esté disponible. | 3 |
+| 28 | US-28 | Notificación de anomalía detectada | Como usuario, deseo recibir una notificación especial cuando se detecte una anomalía. | 5 |
+| 29 | US-29 | Notificación de fallo del dron | Como usuario, deseo recibir una alerta inmediata si el dron presenta una falla durante una ruta. | 5 |
+| 30 | US-30 | Recordatorio de renovación de subscripción | Como usuario registrado, quiero recibir un aviso antes del vencimiento de mi subscripción. | 3 |
+| 31 | US-31 | Creación de reporte según la estación | Como usuario, deseo generar un reporte estacional utilizando los reportes obtenidos durante el monitoreo. | 8 |
+| 32 | US-32 | Compartir | Como usuario, deseo compartir los reportes generados mediante un enlace o correo electrónico. | 5 |
+| 33 | US-33 | Guardado de reportes en la nube | Como usuario, quiero que los reportes se almacenen automáticamente para acceder al historial de diagnósticos. | 5 |
+| 34 | US-34 | Comparación entre reportes | Como usuario, deseo seleccionar dos reportes para comparar los resultados entre ambos. | 8 |
+| 35 | US-35 | Guardado de reportes como PDF | Como usuario, deseo descargar los reportes generados como archivos PDF. | 3 |
+| 36 | US-36 | Presentación de SkyCrop | Como visitante, quiero ver una introducción clara con la propuesta de valor de SkyCrop para entender rápidamente qué hace el software. | 3 |
+| 37 | US-37 | Demostración de funcionalidades de SkyCrop | Como visitante, quiero conocer las características de la plataforma para comprender las herramientas disponibles. | 5 |
+| 38 | US-38 | Muestra de beneficios para agricultores | Como productor agrícola visitante, quiero conocer los beneficios de SkyCrop para evaluar su utilidad en mis parcelas. | 3 |
+| 39 | US-39 | Muestra de beneficios para agrónomos | Como ingeniero agrónomo visitante, deseo conocer la analítica e información que ofrece el sistema para evaluar su utilidad profesional. | 5 |
+| 40 | US-40 | Planes de subscripciones y precios | Como visitante interesado, quiero conocer los planes y tarifas para seleccionar una opción adecuada a mis necesidades. | 3 |
+| 41 | US-41 | Opción de contacto | Como visitante, quiero poder comunicarme con el personal de soporte para aclarar mis dudas. | 5 |
+| 42 | US-42 | Navegación rápida por la Landing Page | Como visitante, deseo contar con una barra de navegación fija para acceder rápidamente a las diferentes secciones. | 3 |
+| 43 | US-43 | Pie de página informativo | Como visitante, quiero ver un footer con información institucional, términos y medios de contacto. | 2 |
+
+### Technical Stories
+
+Las siguientes Technical Stories complementan las funcionalidades del producto mediante la RESTful API.
+
+| # Orden | Technical Story ID | Título | Descripción | Story Points |
+|:---:|:---:|---|---|:---:|
+| 44 | TS-01 | Manejo de datos de usuarios | Como desarrollador, quiero consultar y actualizar datos de usuarios mediante la API para integrar la gestión de perfiles. | 5 |
+| 45 | TS-02 | Manejo de datos de parcelas | Como desarrollador, quiero registrar y actualizar parcelas mediante la API para mantener su información desde una aplicación cliente. | 5 |
+| 46 | TS-03 | Manejo de reportes | Como desarrollador, quiero consultar y descargar reportes mediante la API para utilizarlos desde otras aplicaciones. | 5 |
+| 47 | TS-04 | Manejo de datos de drones | Como desarrollador, quiero registrar el estado de los drones mediante la API para consultar información actualizada. | 8 |
+| 48 | TS-05 | Solicitud de procesamiento de imágenes | Como desarrollador, quiero solicitar el análisis de imágenes mediante la API para iniciar el diagnóstico de una parcela. | 8 |
+| 49 | TS-06 | Gestión de notificaciones | Como desarrollador, quiero solicitar notificaciones mediante la API para comunicar eventos a los usuarios correspondientes. | 5 |
+| 50 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a operaciones autorizadas. | 8 |
 
 # Capítulo IV: Product Design 
 

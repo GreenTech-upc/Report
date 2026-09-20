@@ -901,17 +901,17 @@ A partir de este proceso, identificamos lo siguiente:
 
 ### 4.6.2. Software Architecture Context Diagram. 
 
-<img src="resources/imgs/Software Architecture Diagram/Context Diagram.png"
+<img src="resources/imgs/Software Architecture Diagram/Context_Diagram_new.png"
 alt="Context-Diagram">
 
 ### 4.6.3. Software Architecture Container Diagrams. 
 
-<img src="resources/imgs/Software Architecture Diagram/Container Diagram.png"
+<img src="resources/imgs/Software Architecture Diagram/Container_Diagram_new.png"
 alt="Context-Diagram">
 
 ### 4.6.4. Software Architecture Components Diagrams. 
 
-<img src="resources/imgs/Software Architecture Diagram/Component Diagram.png"
+<img src="resources/imgs/Software Architecture Diagram/Component_Diagram_new.png"
 alt="Component-Diagram">
 
 ## 4.7. Software Object-Oriented Design. 

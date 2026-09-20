@@ -154,7 +154,6 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
-      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1-1)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
@@ -1555,7 +1554,6 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
-#### 5.2.1.3. Sprint Backlog 1.
 
 El objetivo principal de este Sprint es implementar la primera versión funcional de la Landing Page de SkyCrop. Para ello, se toman las User Stories de la épica EP-08 (US-36 a US-43) y se descomponen en tasks, junto con tasks generales de diseño, despliegue y documentación que no dependen de una User Story en particular. El seguimiento del Sprint se realiza en Trello; a continuación se presenta una captura del tablero y su enlace público.
 
@@ -1588,6 +1586,23 @@ Enlace: https://trello.com/b/v9IDjQLu/sprint-backlog-1
 | - | - | UT-20 | Documentar wireframes y mock-ups | Incorporar los diseños de la landing en las secciones 4.3.1 y 4.3.2 del informe. | 2 | Sebastián Rubio | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :---: | :--- | :--- | :---: |
+| GreenTech-upc/Landing-Page | develop | 8e8ed5b | Merge pull request #3 from GreenTech-upc/feature/landing-contact-footer | Integra en `develop`, mediante el Pull Request #3, la rama `feature/landing-contact-footer` con el formulario de contacto validado y el pie de página. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/landing-contact-footer | 1f43784 | feat(landing): add contact validation and footer (US-41 UT-08, US-43 UT-11) | Ajusta la indentación a dos espacios en el menú de navegación y en las listas de beneficios de `index.html`, según la convención de la sección 5.1.3, con un cambio menor en `style.css`. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | develop | 47f4734 | Merge pull request feature/landing-contact-footer | Integra en `develop` los cambios de contacto y pie de página, ya combinados con los de planes y precios. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/landing-contact-footer | db891db | merge: resolve conflicts with develop | Incorpora en la rama de la funcionalidad los cambios de `develop`, incluida la sección de planes, y resuelve los conflictos de integración. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/landing-contact-footer | 947818e | feat(landing): add contact validation and footer (US-41 UT-08, US-43 UT-11) | Agrega la sección de contacto con formulario (nombre, correo y mensaje) y validación en el cliente con mensajes de error accesibles; incorpora el pie de página con los diálogos de privacidad y términos. Modifica `index.html`, `style.css` y `main.js`. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | develop | b9efc89 | Merge branch 'feature/plans-and-pricing' into develop | Integra en `develop` la sección de planes y precios. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/plans-and-pricing | 41eb331 | feat(styles): add styles to pricing cards | Agrega en `style.css` los estilos de las tarjetas de precios y su cuadrícula adaptable a pantallas pequeñas. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/plans-and-pricing | 145c749 | feat(index): add plans structure | Agrega en `index.html` la sección de planes con las tarjetas Basic, Professional y Corporate, su costo mensual y sus características. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | develop | b0f411f | Merge branch 'feature/landing-features-benefits' into develop | Integra en `develop` las secciones de funcionalidades y beneficios. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/landing-features-benefits | 05a0644 | feat: add landing features and benefits. | Agrega la sección de funcionalidades (parcelas, rutas de dron, diagnóstico de cultivos y reportes estacionales) y la de beneficios para agricultores y agrónomos, con sus estilos. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | develop | df5c8d4 | Merge branch 'feature/landing-foundation' into develop | Integra en `develop` la base de la landing y la sección Hero. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | feature/landing-foundation | 76136a6 | feat: build landing foundation and hero. | Construye la base de la página: cabecera con navegación fija y menú móvil, sección Hero, mensaje informativo del botón «Access Platform», hojas de estilo adaptables, imágenes e íconos SVG, y el script `main.js`. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | develop | eb6c793 | chore: add landing page gitignore. | Agrega el archivo `.gitignore` del proyecto. | 20/09/2026 |
+| GreenTech-upc/Landing-Page | main | cc4445c | chore: initial commit | Crea el repositorio con `README.md`, un `index.html` inicial, las carpetas `assets/images`, `assets/scripts` y `assets/styles`, el favicon y los logotipos de SkyCrop. | 20/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 

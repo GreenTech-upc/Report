@@ -1330,7 +1330,17 @@ El sistema de navegación de SkyCrop está diseñado para guiar a los usuarios (
 
 ### 4.3.1. Landing Page Wireframe. 
 
+A continuación se presentan los Wireframes realizados para la Landing Page. El diseño buscó seguir la heuristica de la usabilidad de 'Diseño estético y minimalista' mediante el uso de una estructura y figuras simples para la pagina. Además, la barra de navegación superior ayuda a que se cumpla la heuristica de 'Flexibilidad y eficiencia en el uso' al brindar atajos a ciertas partes de la pagina.
+
+![Landing Page Wireframe - Parte 1](resources/imgs/chapter_4/wireframe-landing-1.jpg)
+
+![Landing Page Wireframe - Parte 2](resources/imgs/chapter_4/wireframe-landing-2.jpg)
+
+![Landing Page Wireframe - Parte 3](resources/imgs/chapter_4/wireframe-landing-3.jpg)
+
 ### 4.3.2. Landing Page Mock-up. 
+
+
 
 ## 4.4. Web Applications UX/UI Design. 
 
@@ -1345,9 +1355,13 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 
 ### 4.4.1. Web Applications Wireframes. 
 
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
 ### 4.4.3. Web Applications Mock-ups.
+
+
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 

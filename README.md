@@ -150,7 +150,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint 1](#52x-sprint-1)
+    - [5.2.1. Sprint 1](#52x-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
@@ -166,6 +166,64 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
 
 # Student Outcome 
 
+<div align="center">
+<table border="1">
+  <tr>
+  <th>Criterio Especifico</th>
+  <th>Acciones Realizadas</th>
+  <th>Conclusiones</th>
+  </tr>
+
+  <tr>
+  <th>Trabaja en equipo para proporcionar liderazgo en forma conjunta</th>
+
+  <td> Pumahualcca Garcia, Diego Rodrigo
+  	<br> AV1: <br> Aportó en la elaboración de artefactos en grupo
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+  Promovió el uso de convenciones para el versionado del proyecto.
+
+  <br> Cano Gomez Yam Antony Gabriel<br> AV1: <br>
+  Facilitó la realización de hitos durante el proyecto.
+
+  <br>  Jonseck Choque Oliver<br> AV1: <br>
+  Ayudó en la elaboración de diagramas.
+
+  <br> Luis Sebastián Rubio Ortiz  <br> AV1: <br>
+  Aporto en el diseño de la solución
+  </td>
+
+  <td>
+  AV1: <br>
+  El grupo trabajó en equipo para proponer una solución y diseñarla de forma progresiva.
+  </td>
+  </tr>
+
+  <tr>
+  <th>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.  </th>
+
+  <td>Pumahualcca Garcia, Diego Rodrigo
+	<br> AV1: <br> Facilitó el reparto de tareas.
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+  Proporcionó espacios de trabajo para distintas partes del proyecto.
+
+  <br> Cano Gomez Yam Antony Gabriel<br> AV1: <br>
+  Propuso reuniones en equipo para la realización de partes del proyecto.
+
+  <br> Jonseck Choque Oliver <br> AV1: <br>
+  Aportó en la participación de reuniones
+
+  <br>  Luis Sebastián Rubio Ortiz<br> AV1: <br>
+  </td>Promovió el trabajo en equipo durante la elaboración del proyecto.
+
+  <td>
+  AV1: <br>
+  El grupo coopero en todo momento durante la elaboración del avance, aportando ideas entre sí y ayudandose unos entre otros.
+  </td>
+  </tr>
+</table>
+</div>
 
 # Capítulo I: Introducción 
 
@@ -214,12 +272,12 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 
 ---------------------
 
-| **Integrante** | |
+| **Integrante** | Sunio Danilo Landa Sánchez |
 | :--- | :--- |
-| **Código del Estudiante** | |
-| **Carrera** | |
-| **Descripción** | |
-| **Foto** | |
+| **Código del Estudiante** | U202423973 |
+| **Carrera** |Ingenieria de Software|
+| **Descripción** |Soy Sunio Landa, tengo 20 años. Suelo aprender cosas rápido y siempre busco que mi equipo realice el mejor trabajo posible.|
+| **Foto** | <img src="resources/imgs/foto-landa.jpeg" alt="Sunio" width="200" height="240"> |
 
 ---------------------
 
@@ -1803,7 +1861,7 @@ El despliegue en GitHub Pages requiere que los archivos estén organizados de un
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.X. Sprint 1 
+### 5.2.1. Sprint 1 
 
 #### 5.2.1.1. Sprint Planning 1. 
 
@@ -1821,8 +1879,8 @@ El Sprint Planning 1 se enfoca en el desarrollo e implementación de la primera 
 | **Sprint 0 Retrospective Summary** | Este es el primer sprint del proyecto. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de SkyCrop, que presenta la propuesta de valor, las funcionalidades, los beneficios por segmento, los planes de suscripción y un canal de contacto. Creemos que esto entrega una comprensión rápida de la plataforma y una vía clara de registro a los agricultores y a los ingenieros agrónomos que evalúan adoptar SkyCrop. Esto se confirmará cuando un visitante pueda llegar a cualquier sección de la página, incluidos los planes y el formulario de contacto, con un solo clic desde la barra de navegación fija, y la página se visualice sin desbordes ni elementos cortados en pantallas móviles y de escritorio, publicada en GitHub Pages. |
-| **Sprint 1 Velocity** | [N] Story Points |
-| **Sum of Story Points** | [M] Story Points |
+| **Sprint 1 Velocity** | 15 Story Points |
+| **Sum of Story Points** | 14 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
@@ -1918,3 +1976,11 @@ Preston-Werner, T. (s. f.). *[Semantic Versioning 2.0.0](https://semver.org/spec
 Vue.js. (s. f.). *[Style guide](https://vuejs.org/style-guide/)*. Recuperado el 19 de septiembre de 2026.
 
 # Anexos
+
+## Anexo A
+
+**Enlaces**
+
+Enlace al video de navegación al prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDnRI9W8acKTphuXimXgKQZAZwHkoPGAoMBGMpwR7lqt9Y?e=Dd7Czn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+Enlace al video de entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O

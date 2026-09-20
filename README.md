@@ -1202,10 +1202,42 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 <img src="resources/imgs/Diagrams/ClassDiagram3.png" alt="ClassDiagram3" width="600">
 </div>
 
-## 4.8. Database Design. 
+## 4.8. Database Design.
+
+El diseño de base de datos de SkyCrop tiene como objetivo definir la estructura necesaria para almacenar de manera persistente la información generada por los diferentes bounded contexts de la plataforma. El modelo considera la gestión de usuarios y suscripciones, parcelas agrícolas, cultivos, drones y vuelos de monitoreo, así como los diagnósticos, anomalías, reportes y notificaciones generados a partir de la información recolectada.
+
+Se utiliza un modelo de base de datos relacional, representando las entidades principales mediante tablas relacionadas a través de claves primarias y claves foráneas. Asimismo, se utilizan restricciones de unicidad, obligatoriedad e integridad referencial para mantener la consistencia de los datos. En las relaciones de muchos a muchos se utilizan tablas asociativas que permiten representar correctamente la participación de usuarios en parcelas y otros elementos compartidos de la plataforma.
+
+Los Database Diagrams se organizan de acuerdo con los principales bounded contexts identificados durante el diseño de SkyCrop, manteniendo separación entre las responsabilidades de gestión de cuentas y suscripciones, gestión de parcelas y drones, y monitoreo, diagnóstico y reportes.
 
 ### 4.8.1. Database Diagrams. 
 
+**SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones**
+
+<div align="center">
+<img src="resources/imgs/Diagrams/DataBaseDiagram1.png" alt="DataBaseDiagram1" width="600">
+</div>
+
+El bounded context de gestión de cuentas y suscripciones almacena la información necesaria para identificar y autenticar a los usuarios de SkyCrop, administrar sus perfiles y controlar el acceso a las funcionalidades de acuerdo con la suscripción adquirida. La tabla users constituye la entidad principal, mientras que user_profiles permite separar los datos adicionales del perfil. Las suscripciones se relacionan con subscription_plans, permitiendo mantener los diferentes planes disponibles sin duplicar sus características en cada suscripción. Finalmente, payments conserva las transacciones relacionadas con cada suscripción y recovery_codes permite soportar el proceso de recuperación de cuenta.
+
+**SkyCrop - Gestión de Parcelas y Drones**
+
+<div align="center">
+<img src="resources/imgs/Diagrams/DataBaseDiagram2.png" alt="DataBaseDiagram2" width="600">
+</div>
+
+El bounded context de gestión de parcelas y drones persiste la información relacionada con las parcelas agrícolas registradas en SkyCrop, los cultivos asociados a estas, los usuarios autorizados para administrarlas y los drones utilizados para realizar el monitoreo. La relación entre usuarios y parcelas se representa mediante la tabla asociativa plot_users, permitiendo que una parcela pueda ser administrada colaborativamente por diferentes agricultores o agrónomos.
+Asimismo, cada dron puede almacenar una configuración asociada y ejecutar diferentes vuelos utilizando rutas previamente definidas para una parcela. Cada ejecución se registra mediante flights, permitiendo conservar su estado y tiempos de ejecución. Finalmente, las imágenes capturadas durante cada vuelo son registradas mediante aerial_images, almacenando además la referencia hacia el archivo correspondiente en el almacenamiento externo.
+
+**SkyCrop - Diagnóstico, Análisis, Reportes y Notificaciones**
+
+<div align="center">
+<img src="resources/imgs/Diagrams/DataBaseDiagram3.png" alt="DataBaseDiagram3" width="600">
+</div>
+
+El bounded context de monitoreo, diagnóstico, reportes y notificaciones almacena los resultados generados a partir de la información recolectada durante los vuelos de los drones. Cada sesión de monitoreo puede producir uno o más diagnósticos, los cuales contienen información sobre el estado del cultivo y pueden identificar diferentes anomalías.
+Las anomalías almacenan el tipo de problema detectado, su severidad y ubicación dentro de la parcela. Los diagnósticos también pueden producir mapas visuales, cuya ubicación en el almacenamiento externo se registra mediante terrain_maps.
+Los reportes permiten consolidar diferentes diagnósticos mediante la tabla asociativa report_diagnoses, posibilitando la generación de reportes históricos y estacionales. Finalmente, notifications registra los avisos enviados a los usuarios como consecuencia de anomalías detectadas u otros eventos relevantes de la plataforma.
 
 # Capítulo V: Product Implementation, Validation & Deployment  
 

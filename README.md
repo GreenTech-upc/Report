@@ -1129,22 +1129,203 @@ A continuación se presentan las User Stories que indicarán las funcionalidades
 # Capítulo IV: Product Design 
 
 ## 4.1. Style Guidelines. 
-
 ### 4.1.1. General Style Guidelines. 
+Las guías generales de estilo de SkyCrop establecen la identidad visual y los principios de diseño que guiarán la experiencia en la plataforma web y dispositivos móviles. Su propósito es democratizar el acceso a la agricultura de precisión mediante un diseño que transmita confianza y accesibilidad, asegurando la eficiencia en la interacción para nuestros usuarios principales: agricultores e ingenieros agrónomos.
+
+**Paleta de colores**
+- **Primarios y Secundarios:** Se priorizarán tonos verdes (que representan los cultivos y la salud vegetal), combinados con tonos azules o grises tecnológicos (que representan el cielo, el agua y los drones) para reflejar la fusión entre agricultura y tecnología AgTech.
+- **Contraste:** Se emplearán colores con un alto nivel de contraste visual. Esto es fundamental porque los agricultores e ingenieros agrónomos utilizarán la aplicación en exteriores, bajo la luz solar intensa propia de las zonas rurales.
+- **Alertas y Semaforización:** Se utilizará un sistema de semaforización (rojo, amarillo, verde) sobre los mapas visuales para identificar y resaltar de manera temprana anomalías críticas, tales como el estrés hídrico, las plagas o la deficiencia de fertilizantes.
+
+**Tipografía**
+- **Fuente principal:** Se utilizarán fuentes Sans-Serif limpias y modernas, como Roboto o Open Sans.
+- **Legibilidad:** Estas fuentes garantizan una alta legibilidad en pantallas de dispositivos móviles y tablets, que son las herramientas que los usuarios llevarán consigo a las parcelas.
+
+**Iconografía y gráficos**
+- Interfaces amplias con botones y controles de mapas lo suficientemente grandes para poder ser operados con total facilidad durante el trabajo físico en el campo.
+- Las interfaces deben destacar visualmente de forma rápida y comprensible las anomalías encontradas tras el procesamiento de las imágenes aéreas.
+
+**Estilo de interacción**
+- **Feedback visual rápido:** Integración de enlaces directos o atajos (navegación contextual) dentro de los mapas visuales generados.
+- **Transiciones orientadas a la acción:** Al detectar un área con anomalías, el sistema debe permitir al usuario saltar directamente desde esa alerta hacia el historial de reportes de esa misma ubicación geográfica exacta para realizar comparaciones rápidas de los ciclos.
+
+**Accesibilidad**
+- **Lenguaje y Tono de Voz:** La comunicación debe ser profesional, clara y educativa, utilizando estrictamente el lenguaje ubicuo y agronómico familiar para el usuario. Se debe evitar por completo el uso de tecnicismos informáticos complejos o de programación, ya que el segmento objetivo carece de estos conocimientos.
+- **Modo Offline First:** La interfaz debe indicar de forma clara e inequívoca qué herramientas, mapas y reportes están disponibles sin conexión a internet. Esto prevé los problemas de conectividad intermitente que caracterizan a los campos de cultivo y zonas rurales.
 
 ### 4.1.2. Web Style Guidelines. 
+La versión web de SkyCrop está diseñada para ofrecer una experiencia simple, confiable e intuitiva, enfocada en democratizar el acceso a la agricultura de precisión para nuestros principales usuarios: agricultores e ingenieros agrónomos. Su diseño visual y funcional está pensado para operar eficientemente tanto en la planificación desde un escritorio como durante el trabajo físico en los campos de cultivo.
+- **Diseño responsivo e interfaces amplias:** La plataforma se adapta de manera óptima a navegadores web, así como a dispositivos móviles y tablets, que son las herramientas principales que los usuarios llevarán a las parcelas. Es un requisito estricto que los botones, tarjetas y controles de mapas sean lo suficientemente grandes para poder ser operados con total facilidad en el campo y bajo condiciones de movilidad.
+- **Feedback visual y semaforización (Hover & Alerts):** Los elementos interactivos proporcionarán retroalimentación inmediata para confirmar acciones. Sobre los mapas visuales del terreno, se implementará un sistema de semaforización (rojo, amarillo, verde) que resaltará visualmente y de forma rápida las anomalías detectadas por los drones, alertando tempranamente sobre problemas críticos como estrés hídrico, presencia de plagas o deficiencia de fertilizantes.
+- **Navegación principal y contextual:** La navegación principal se ubicará en un menú lateral (sidebar) colapsable, asegurando el acceso rápido a módulos vitales como: Mis Parcelas, Planificar Vuelo (Rutas Automatizadas), Mapas de Salud, Historial de Cultivos y Configuración de Suscripción. Adicionalmente, se habilitará una navegación contextual directamente sobre los mapas: al interactuar con un área marcada con anomalías, el usuario podrá saltar directamente hacia el historial de reportes de esa misma ubicación geográfica.
+- **Adaptabilidad Offline (Modo Offline First):** A diferencia de aplicaciones convencionales, la interfaz de SkyCrop debe indicar de manera clara e inequívoca mediante iconos o cambios de estado qué herramientas, mapas y reportes se encuentran disponibles para su uso sin conexión a internet. Esto es vital para mitigar el problema de conectividad intermitente que caracteriza a las zonas rurales y agrícolas.
+- **Paneles modulares y organización cronológica:** El contenido informativo clave, como el módulo de historial de cultivos y los reportes almacenados en la nube, se presentará mediante paneles modulares ordenados cronológicamente. Este diseño facilita la lectura cruzada de datos, permitiendo a los ingenieros agrónomos comparar visualmente distintos ciclos estacionales y tomar decisiones rápidas sin necesidad de conocimientos técnicos en programación.
 
 ## 4.2. Information Architecture. 
+En esta sección se definen las decisiones de arquitectura de información que guiarán la organización del contenido en la experiencia web y móvil de SkyCrop, incluyendo la Landing Page y las futuras interfaces de gestión agrícola.
+El objetivo principal es garantizar que nuestros segmentos objetivo, conformados por agricultores e ingenieros agrónomos, se adapten de manera intuitiva a la funcionalidad del producto. Se busca que los usuarios encuentren fácilmente lo que necesitan, como la planificación de rutas de vuelo, la visualización de mapas de salud del terreno y el historial de reportes, disfrutando de una navegación fluida y satisfactoria incluso en entornos de campo con conectividad limitada.
+Las propuestas de arquitectura están diseñadas siguiendo principios de usabilidad, claridad, adaptabilidad offline y el uso estricto del lenguaje ubicuo del sector agrícola, considerando los siguientes componentes estructurales:
+
+- Organization Systems
+- Labeling Systems
+- SEO Tags and Meta Tags
+- Searching Systems
+- Navigation Systems
 
 ### 4.2.1. Organization Systems. 
+**Jerarquía Visual (Visual Hierarchy)**
+Se aplicará una jerarquía visual clara en todas las páginas e interfaces de la plataforma, priorizando los accesos más críticos para el flujo de trabajo agrícola diario:
+
+- "Mis Parcelas"
+- "Planificar Vuelo" (Rutas Automatizadas)
+- "Mapas de Salud"
+- "Historial de Cultivos"
+- "Gestión de Cooperativa"
+
+El tamaño, contraste y peso de los elementos gráficos guiarán la atención del usuario hacia la información más relevante, utilizando especialmente el sistema de semaforización (rojo, amarillo, verde) para alertar de inmediato sobre anomalías detectadas en los mapas, así como destacar los botones primarios para guardar rutas o iniciar vuelos.
+
+**Organización Secuencial (Sequential Organization)**
+En procesos clave o que requieren precisión técnica por parte del usuario, se implementará una organización estructurada paso a paso. Esto facilitará que los agricultores completen acciones complejas de forma lógica y sin errores:
+
+- “Configuración de Rutas de Vuelo Automatizadas”
+- “Registro de Nuevas Parcelas”
+- “Gestión de Suscripciones (Básico, Profesional, Cooperativa)”
+
+Ejemplo del proceso de configuración de vuelo automatizado:
+
+- Seleccionar la parcela específica a monitorear dentro de la consola de gestión.
+- Delimitar visualmente el área de cobertura sobre el mapa interactivo.
+- Confirmar los parámetros de vuelo (altura, velocidad, solapamiento) adaptados al tipo de cultivo.
+- Guardar la rutina para vuelos recurrentes o ejecutar la misión de inmediato con el dron compatible.
+
+**Organización Matricial (Matricial Organization)**
+Para los módulos de visualización de parcelas y análisis de reportes, se aplicará un modelo matricial que permita a los ingenieros agrónomos y gestores comparar múltiples opciones y terrenos en un mismo nivel jerárquico.
+Los filtros paramétricos avanzados incluirán:
+
+- Estado general de la parcela (saludable, en riesgo, crítica).
+- Tipo de anomalía detectada (estrés hídrico, plagas, deficiencia de nutrientes).
+- Fechas de escaneo (últimos 30 días, ciclo estacional anterior).
+
+Esto facultará a los ingenieros agrónomos a cruzar datos visuales de forma automatizada y tomar decisiones rápidas e informadas para mitigar pérdidas económicas.
+
+**Esquemas de Categorización**
+Según el tipo de contenido y el módulo de la plataforma, se aplicarán distintos esquemas de organización para garantizar un acceso eficiente:
+
+- **Jerárquico (Estructural):** Orientado principalmente a las suscripciones de Cooperativa, donde la información fluye desde la entidad administradora hacia los equipos de trabajo, luego a las parcelas asignadas y finalmente a los reportes individuales.
+- **Cronológico:** Implementado de manera estricta en el módulo de "Historial de cultivos", ordenando los reportes por fechas para permitir la lectura cruzada y comparación de las condiciones de las plantas a lo largo de los diferentes ciclos estacionales.
+- **Por Tópicos (Diagnósticos):** Categorizando los mapas y alertas visuales según variables agronómicas precisas, tales como "Mapas NDVI", "Niveles de humedad" o "Presencia de maleza".
+- **Alfabético:** Para el listado de miembros del equipo de trabajo o la búsqueda rápida de parcelas guardadas por nombre dentro de la barra de búsqueda global.
 
 ### 4.2.2. Labeling Systems. 
+La representación de los datos en la plataforma SkyCrop busca ser clara, intuitiva y sin ambigüedades, empleando el lenguaje ubicuo recopilado de nuestros usuarios. Para ello se establecen las siguientes directrices de etiquetado:
+
+**Principios de Etiquetado**
+- Utilizar un mínimo número de palabras para agilizar la lectura, especialmente en exteriores.
+- Preferir términos comunes en el ámbito agronómico y fáciles de comprender, evitando tecnicismos informáticos o de programación.
+- Mantener consistencia en la terminología a lo largo de toda la aplicación web y móvil.
+
+**Etiquetas principales propuestas**
+
+| Área                    | Etiqueta asignada          | Propósito                           |
+| ----------------------- | -------------------------- | ----------------------------------- |
+| Gestión de terrenos     |      "Mis Parcelas"        | Visualizar y administrar las áreas de cultivo registradas en el sistema.|
+| Vuelos automatizados    |    "Planificar Vuelo"      | Configurar las rutas de los drones adaptadas al tipo de cultivo.|
+| Visor de resultados     |     "Mapas de Salud"       | Visualizar el terreno escaneado y la semaforización de anomalías detectadas. |
+| Reportes en la nube     |  "Historial de Cultivos"   | Ver diagnósticos y cruzar datos de diferentes ciclos agrícolas estacionales.|
+| Equipo y cuentas        |  "Gestión de Cooperativa"  | Administrar múltiples usuarios, permisos y suscripciones (Básico, Profesional, Cooperativa).|
+
+Dentro de los filtros (especialmente en los módulos de mapas y reportes) se emplearán palabras clave simples y técnicas del sector como:
+- "Estado" (saludable, en riesgo, crítica).
+- "Anomalía" (estrés hídrico, plagas, deficiencia de nutrientes, maleza).
+- "Fecha de escaneo" (últimos 30 días, ciclo estacional anterior).
+- "Índice de vegetación" (NDVI, NDRE).
+
+Esto facilita que tanto agricultores como ingenieros agrónomos interpreten de inmediato la información de sus terrenos y las opciones de la interfaz, agilizando la toma de decisiones para mitigar pérdidas económicas sin necesidad de explicaciones adicionales.
 
 ### 4.2.3. SEO Tags and Meta Tags 
+Para optimizar la visibilidad y accesibilidad de SkyCrop en motores de búsqueda, se establecen los siguientes SEO Tags y Meta Tags que serán implementados tanto en la Landing Page como en la Web Application:
+
+TODO: Agregar meta tags para páginas adicionales (no app). Blog, Casos de Éxito, Precios, Log In, Sign Up, etc.
+
+| Página                           | Title                                            | Meta Description            | Meta Keywords            | Author         |
+| -------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------- |
+| Landing Page                     | Agricultura de Precisión y Automatización de Drones - SkyCrop         | SkyCrop es la plataforma digital de GreenTech para automatizar vuelos de drones y monitorear cultivos. Detecta a tiempo plagas, estrés hídrico y deficiencias mediante mapas NDVI accesibles y precisos. | agricultura de precisión, software AgTech, drones agrícolas, automatización de vuelos, monitoreo de cultivos, fotogrametría agrícola, mapas NDVI, estrés hídrico | Equipo GreenTech |
+| Web Application - Home           | SkyCrop App - Gestión de Parcelas a tu Alcance | Con SkyCrop administra tus terrenos, gestiona de forma colaborativa los equipos de tu cooperativa y supervisa el estado general de múltiples cultivos en un solo lugar.| gestión de parcelas, monitoreo agrícola online, cooperativas agrarias, software agrícola, administración de cultivos, AgTech | Equipo GreenTech |
+| Web Application - Historial y Mapas | SkyCrop - Mapas de Salud y Reportes Agrícolas| Visualiza mapas de salud del terreno, cruza datos visuales y compara diferentes ciclos agrícolas estacionales almacenados de forma segura en la nube.| mapas de salud agrícola, diagnóstico agronómico, historial de cultivos, detección de plagas, análisis de cultivos en la nube|Equipo GreenTech|
+| Página de reporte de parcela | Reporte de Salud: [[Nombre de la Parcela]] - [[Fecha]] - SkyCrop | Revisa el diagnóstico detallado de la parcela [[Nombre de la Parcela]]. Identifica tempranamente áreas con [[Tipo de Anomalía]] y optimiza el uso de recursos para evitar pérdidas. | reporte agrícola [[Nombre de la Parcela]], análisis NDVI [[Cultivo]], anomalías agrícolas, reporte agronómico, mapa visual de terreno|Equipo GreenTech|
+
 
 ### 4.2.4. Searching Systems. 
+Para optimizar la capacidad de búsqueda dentro de la plataforma web y móvil de SkyCrop, se implementarán sistemas directos y basados en filtros paramétricos, diseñados para agilizar el flujo de trabajo diario de agricultores, ingenieros agrónomos y gestores de cooperativas.  
+
+**Tipos de búsqueda ofrecidos**
+- Búsqueda Directa Global (Header Search Box):
+
+  - Visible en la cabecera de todas las vistas principales de la consola de gestión.
+  - Permite ubicar rápidamente parcelas específicas, rutinas de vuelo automatizadas previamente guardadas o perfiles de los miembros del equipo de la cooperativa.
+  - Incluye autocompletado con sugerencias relevantes al contexto agrícola (ejemplo: "Parcela Norte", "Historial Octubre", "Juan Pérez").
+  
+- Sistema de Filtros Avanzados (Módulo de Historial y Mapas): Dentro del módulo de historial de cultivos y reportes en la nube, los ingenieros agrónomos contarán con filtros paramétricos para cruzar datos y refinar la búsqueda de diagnósticos:
+
+  - Estado de la parcela: Saludable, en riesgo, crítica.
+  - Tipo de anomalía detectada: Presencia de plagas, estrés hídrico, deficiencia de nutrientes.
+  - Fechas de escaneo: "Últimos 30 días", "Ciclo estacional anterior" o rangos de fechas personalizados.
+ 
+- Búsqueda específica en "Gestión de Cooperativa":
+  - Por nombre del ingeniero o agricultor asignado.
+  - Por rol dentro del equipo de trabajo.
+ 
+**Presentación de resultados**
+- Resultados dinámicos e integrados al modo Offline: El listado se actualizará en tiempo real al aplicar filtros. Si el usuario está en el campo con conectividad intermitente, el sistema priorizará mostrar los reportes y mapas cacheados disponibles sin conexión.
+
+- Organización matricial (Tarjetas/Cards): Cada resultado de parcela o reporte se mostrará en forma de tarjeta incluyendo:
+
+  - Miniatura del mapa visual o mapa NDVI generado.
+  - Nombre de la parcela, fecha del escaneo y métricas clave.
+  - Indicador visual de semaforización (rojo, amarillo, verde) resaltando la salud general del cultivo.
+  - Botón de acción principal ("Ver diagnóstico detallado", "Ejecutar ruta de vuelo").
+
+- Resultados ordenables: Los usuarios podrán ordenar el listado por:
+  - Fecha del reporte (cronológico).
+  - Nivel de criticidad del estado de la parcela (de mayor a menor riesgo).
+  - Nombre de la parcela (alfabético).
+
+Con este sistema, SkyCrop garantiza búsquedas rápidas, comparaciones claras entre ciclos agrícolas y filtros relevantes que permiten a los agricultores identificar problemas en sus terrenos de forma inmediata y sin complicaciones técnicas.  
 
 ### 4.2.5. Navigation Systems. 
+El sistema de navegación de SkyCrop está diseñado para guiar a los usuarios (agricultores, ingenieros agrónomos y gestores de cooperativas) de manera fluida. El objetivo es asegurar que encuentren las herramientas que buscan de forma natural, rápida e intuitiva, considerando especialmente el uso de la aplicación en el campo.
+
+**Principios de navegación**
+
+- Navegación principal fija: Un menú lateral (sidebar) colapsable o fijo estará presente en todo momento. Este será accesible desde cualquier parte de la consola de gestión, tanto en web como en móvil.
+- Accesos rápidos: Se priorizarán los accesos a las secciones principales y de mayor uso: Mis Parcelas, Planificar Vuelo, Mapas de Salud y Gestión de Cooperativa.
+- Navegación contextual (Cross-linking): Se colocarán atajos directamente dentro de los mapas visuales del terreno. Esto permitirá al usuario saltar de un "área anómala detectada" directamente hacia el historial de reportes de esa ubicación exacta para hacer comparaciones rápidas.
+- Pistas visuales: Se utilizará un sistema de semaforización (rojo, amarillo, verde) y estados activos en los menús para indicar claramente la sección actual y resaltar alertas críticas urgentes.
+- Breadcrumbs (Navegación estructural): Se implementarán en procesos secuenciales y módulos profundos para que el usuario siempre sepa en qué nivel del sistema está. Se utilizarán esquemas como: Inicio > Mis Parcelas > Parcela Norte > Reporte Estacional Octubre.
+
+**Flujo de navegación en la Landing Page**
+
+- El visitante accede a la Landing Page de SkyCrop.
+
+- Puede navegar rápidamente a:
+
+  - Conocer más sobre la tecnología AgTech y la compatibilidad con drones comerciales estándar.
+  - Explorar las opciones de suscripción (Básico, Profesional, Cooperativa).
+  - Registrarse como productor independiente o como entidad cooperativa.
+
+- Se invita a la acción con CTA (Call to Action) claros como:
+
+  - "Optimiza tus cultivos con SkyCrop".
+  - "Inicia tu prueba gratuita".  
+
+**Flujo de navegación en la Web / Mobile Application**
+
+- Menú principal: Organizado con íconos de gran tamaño y texto claro para facilitar la operación en exteriores (Mis Parcelas, Planificar Vuelo, Mapas de Salud, Historial de Cultivos, Gestión de Cooperativa).
+- En Mis Parcelas: Se visualiza el listado de terrenos registrados y se revisa rápidamente su estado general de salud.
+- En Planificar Vuelo: El usuario configura de manera secuencial las rutas automatizadas de los drones delimitando áreas sobre el mapa.
+- En Mapas de Salud: Se revisan los resultados de los escaneos fotogramétricos (mapas NDVI) y las alertas visuales por estrés hídrico, plagas o falta de nutrientes.
+- En Historial de Cultivos: Se cruzan y comparan datos visuales de diferentes ciclos agrícolas estacionales mediante paneles organizados cronológicamente y almacenados en la nube.
+- En Gestión de Cooperativa: El administrador delega tareas, supervisa múltiples equipos de trabajo y administra los permisos de su suscripción.  
 
 ## 4.3. Landing Page UI Design. 
 

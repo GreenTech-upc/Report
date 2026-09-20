@@ -1606,9 +1606,58 @@ Enlace: https://trello.com/b/v9IDjQLu/sprint-backlog-1
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
+**Inicio**
+Muestra el logo, el menú de navegación, el selector de idioma y el botón de acceso
+a la plataforma, junto con la propuesta de valor principal y el llamado a la acción.
+
+![Inicio_Landing](assets/chapter_05/Inicio_Landing.png)
+
+**Benefits**
+Explica los beneficios diferenciados para agricultores y agrónomos.
+
+![Benefits_Landing](assets/chapter_05/Benefits_Landing.png)
+
+**Pricing**
+Detalla los planes Basic, Professional y Corporate, con sus alcances y precios
+ilustrativos.
+
+![Pricing_Landing](assets/chapter_05/Pricing_Landing.png)
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review. 
+
+
+**Inicio**
+
+![Inicio_Landing](assets/chapter_05/Inicio_Landing.png)
+
+**Features**
+
+![Features_Landing](assets/chapter_05/Features_Landing.png)
+
+**Benefits**
+
+![Benefits_Landing](assets/chapter_05/Benefits_Landing.png)
+
+**Pricing**
+
+![Pricing_Landing](assets/chapter_05/Pricing_Landing.png)
+
+**Contact us**
+
+![Contact_us_Landing](assets/chapter_05/Contact_us_Landing.png)
+
+**Cambio de idioma**
+
+![Español_Landing](assets/chapter_05/Español_Landing.png)
+
+**Diseño responsive**
+
+![Responsive_Landing](assets/chapter_05/Responsive_Landing.png)
+
+**URL del Landing Page desplegado:**https://greentech-upc.github.io/Landing-Page/
 
 #### 5.2.X.8. Team Collaboration Insights during Sprint. 
 

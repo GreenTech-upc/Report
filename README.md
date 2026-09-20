@@ -1379,7 +1379,67 @@ El diseño adopta Material Design como referencia, los verdes y azules definidos
 
 ### 4.4.1. Web Applications Wireframes. 
 
+En esta sección se presentarán los Wireframes de nuestra aplicación web. Gracias a los encabezados en gran parte de los wireframes es posible conocer en que parte de la aplicación el usuario se puede encontrar y determinar que acciones puede hacer, esto va de acuerdo con la heuristica de usabilidad 'Visibilidad del Estado del Sistema'. Además, el uso del mismo menu superior y lateral, junto con la estructura similar entre secciones, logra cumplir con el principio del diseño inclusivo sobre 'Ser Consistente'.
 
+**Pagina de inicio de sesión:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-1.jpg" alt="Web App Wireframe 1" width="600">
+</div>
+
+**Pagina de pago de subscripción:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-2.jpg" alt="Web App Wireframe 2" width="600">
+</div>
+
+**Pagina de inicio**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-3.jpg" alt="Web App Wireframe 3" width="600">
+</div>
+
+**Pagina de parcelas agricolas registradas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-4.jpg" alt="Web App Wireframe 4" width="600">
+</div>
+
+**Pagina de drones registrados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-5.jpg" alt="Web App Wireframe 5" width="600">
+</div>
+
+**Sección de registro de parcelas agricolas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-6.jpg" alt="Web App Wireframe 6" width="600">
+</div>
+
+**Sección de información de un dron registrado**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-7.jpg" alt="Web App Wireframe 7" width="600">
+</div>
+
+**Historial de reportes por estación generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-8.jpg" alt="Web App Wireframe 8" width="600">
+</div>
+
+**Dashboard de reporte de estación**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-9.jpg" alt="Web App Wireframe 9" width="600">
+</div>
+
+**Historial de diagnosticos generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/wireframe-desktop-10.jpg" alt="Web App Wireframe 10" width="600">
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 

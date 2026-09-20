@@ -1445,7 +1445,67 @@ En esta sección se presentarán los Wireframes de nuestra aplicación web. Grac
 
 ### 4.4.3. Web Applications Mock-ups.
 
+A partir de los wireframes elaborados, se realizaron los Mock-ups de la aplicación web. Estos diseños siguen la misma paleta de colores definida en las pautas y usada en la Landing Page, lo cual fortalece la consistencia entre diseño.
 
+**Pagina de inicio de sesión:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-1.jpg" alt="Web App Mock-up 1" width="600">
+</div>
+
+**Pagina de pago de subscripción:**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-2.jpg" alt="Web App Mock-up 2" width="600">
+</div>
+
+**Pagina de inicio**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-3.jpg" alt="Web App Mock-up 3" width="600">
+</div>
+
+**Pagina de parcelas agricolas registradas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-4.jpg" alt="Web App Mock-up 4" width="600">
+</div>
+
+**Pagina de drones registrados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-5.jpg" alt="Web App Mock-up 5" width="600">
+</div>
+
+**Sección de registro de parcelas agricolas**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-6.jpg" alt="Web App Mock-up 6" width="600">
+</div>
+
+**Sección de información de un dron registrado**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-7.jpg" alt="Web App Mock-up 7" width="600">
+</div>
+
+**Historial de reportes por estación generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-8.jpg" alt="Web App Mock-up 8" width="600">
+</div>
+
+**Dashboard de reporte de estación**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-9.jpg" alt="Web App Mock-up 9" width="600">
+</div>
+
+**Historial de diagnosticos generados**
+
+<div align="center">
+<img src="resources/imgs/chapter_4/mockup-desktop-10.jpg" alt="Web App Mock-up 10" width="600">
+</div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 

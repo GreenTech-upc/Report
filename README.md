@@ -1118,6 +1118,15 @@ A continuación se presentan las User Stories que indicarán las funcionalidades
 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a las operaciones autorizadas desde una aplicación cliente. | **Scenario: Autenticación válida** <br> *Given* que la aplicación cliente dispone de las credenciales de un usuario registrado <br> *When* envía una solicitud de autenticación con credenciales válidas <br> *Then* la API devuelve una credencial de acceso y restringe las operaciones a los permisos del usuario. <br> **Scenario: Credenciales incorrectas** <br> *Given* que la solicitud contiene credenciales incorrectas <br> *When* la API valida la solicitud <br> *Then* rechaza la autenticación sin emitir una credencial de acceso. | EP-09 |
 
 ## 3.2. Impact Mapping. 
+**SEGMENTO 1: AGRICULTORES**
+<div align="center">
+<img src="resources/imgs/IMSeg1.png" alt="IMSeg1" width="600">
+</div>
+
+**SEGMENTO 2: INGENIEROS AGRONOMOS**
+<div align="center">
+<img src="resources/imgs/IMSeg2.png" alt="IMSeg2" width="600">
+</div>
 
 ## 3.3. Product Backlog.
 

@@ -154,6 +154,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1-1)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
@@ -1373,6 +1374,37 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
+#### 5.2.1.3. Sprint Backlog 1.
+
+El objetivo principal de este Sprint es implementar la primera versión funcional de la Landing Page de SkyCrop. Para ello, se toman las User Stories de la épica EP-08 (US-36 a US-43) y se descomponen en tasks, junto con tasks generales de diseño, despliegue y documentación que no dependen de una User Story en particular. El seguimiento del Sprint se realiza en Trello; a continuación se presenta una captura del tablero y su enlace público.
+
+Enlace: https://trello.com/b/v9IDjQLu/sprint-backlog-1
+
+
+![Sprint 1 Backlog - Trello](resources/imgs/chapter_5/sprint-1-backlog-trello.png)
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-Do / In-Process / To-Review / Done) |
+| :---: | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
+| US-36 | Presentación de SkyCrop | UT-01 | Maquetar la sección de presentación (Hero) | Crear la sección con el eslogan principal, una breve descripción y el botón de registro (con enlace provisional hasta contar con la Web Application). | 3 | Diego Pumahualcca | Done |
+| US-37 | Demostración de funcionalidades de SkyCrop | UT-02 | Maquetar la sección de funcionalidades | Crear los bloques de mapeo, telemetría y drones con su descripción. | 4 | Oliver Jonseck | Done |
+| US-37 | Demostración de funcionalidades de SkyCrop | UT-03 | Incorporar imágenes ilustrativas de las funcionalidades | Agregar a cada bloque imágenes exportadas de los mock-ups de Figma. | 2 | Yam Cano | Done |
+| US-38 | Muestra de beneficios para agricultores | UT-04 | Crear las tarjetas de beneficios para agricultores | Redactar y maquetar los beneficios: ahorro de agua, prevención de plagas y facilidad de uso. | 3 | Yam Cano | Done |
+| US-38 | Muestra de beneficios para agricultores | UT-05 | Implementar el filtro de beneficios por perfil | Programar en JavaScript el filtro Agricultor / Agrónomo de la sección de beneficios (aplica también a US-39). | 3 | Diego Pumahualcca | Done |
+| US-39 | Muestra de beneficios para agrónomos | UT-06 | Crear las tarjetas de beneficios para agrónomos | Redactar y maquetar los beneficios: índices de vegetación, reportes estacionales automatizados y gestión multiparcela. | 3 | Oliver Jonseck | Done |
+| US-40 | Planes de subscripciones y precios | UT-07 | Maquetar la cuadrícula de planes | Crear la sección con el costo mensual, las características incluidas y el botón de suscripción de cada plan. | 4 | Sunio Landa | Done |
+| US-41 | Opción de contacto | UT-08 | Maquetar el formulario de contacto con validación | Crear los campos de nombre, correo y mensaje con validación en el cliente. | 3 | Yam Cano | Done |
+| US-41 | Opción de contacto | UT-09 | Implementar el envío del formulario de contacto | Integrar un servicio de formularios compatible con sitios estáticos que envíe el mensaje a soporte y conserve el correo del remitente. | 3 | Oliver Jonseck | Done |
+| US-42 | Navegación rápida por la Landing Page | UT-10 | Implementar la barra de navegación fija | Crear el menú superior fijo con desplazamiento suave a cada sección y su versión para móvil. | 3 | Diego Pumahualcca | Done |
+| US-43 | Pie de página informativo | UT-11 | Maquetar el pie de página | Crear el footer con enlaces institucionales, políticas de privacidad, soporte, redes sociales y derechos reservados. | 2 | Yam Cano | Done |
+| - | - | UT-12 | Configurar el repositorio y la estructura base | Preparar el repositorio Landing-Page con las ramas main y develop y la estructura inicial de archivos según las convenciones de 5.1.3. | 3 | Diego Pumahualcca | Done |
+| - | - | UT-13 | Definir los fundamentos visuales de la landing | Establecer paleta de colores, tipografía y espaciados en Figma. | 3 | Sebastián Rubio | Done |
+| - | - | UT-14 | Diseñar los wireframes de la landing | Elaborar los wireframes para navegador de escritorio y móvil. | 4 | Sebastián Rubio | Done |
+| - | - | UT-15 | Diseñar los mock-ups de la landing | Elaborar los mock-ups de todas las secciones en Figma. | 6 | Sunio Landa | Done |
+| - | - | UT-16 | Aplicar diseño responsive y probar en dispositivos | Ajustar los estilos para móvil y escritorio y verificar que no existan desbordes ni elementos cortados. | 4 | Oliver Jonseck | Done |
+| - | - | UT-17 | Desplegar la landing en GitHub Pages | Configurar Settings > Pages con la rama main y verificar la URL pública. | 2 | Sunio Landa | Done |
+| - | - | UT-18 | Documentar el Sprint 1 | Redactar en el informe las secciones de Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. | 3 | Yam Cano | Done |
+| - | - | UT-19 | Documentar las evidencias del Sprint 1 | Registrar commits, capturas de ejecución y despliegue, y los insights de colaboración. | 3 | Sunio Landa | Done |
+| - | - | UT-20 | Documentar wireframes y mock-ups | Incorporar los diseños de la landing en las secciones 4.3.1 y 4.3.2 del informe. | 2 | Sebastián Rubio | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 

@@ -269,7 +269,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Código del Estudiante** | U202312912 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Mi nombre es Oliver, poseo 21 años. Poseo mucho interés en la programación y llevo haciendo varios proyectos personales desde que ingrese a la universidad. No trabajo bajo contrato actualmente, pero trabajo cómo freelancer por periodos de tiempo. |
-| **Foto** | |
+| **Foto** | <img src="resources/imgs/Integrante Oliver.jpeg" alt="Integrante Oliver"> |
 
 ---------------------
 
@@ -1770,9 +1770,18 @@ Paso 7: Juntar reglas de negocio (Aggregates)
 
 ### 4.6.2. Software Architecture Context Diagram. 
 
+<img src="resources/imgs/Software Architecture Diagram/Context_Diagram_new.png"
+alt="Context-Diagram">
+
 ### 4.6.3. Software Architecture Container Diagrams. 
 
+<img src="resources/imgs/Software Architecture Diagram/Container_Diagram_new.png"
+alt="Context-Diagram">
+
 ### 4.6.4. Software Architecture Components Diagrams. 
+
+<img src="resources/imgs/Software Architecture Diagram/Component_Diagram_new.png"
+alt="Component-Diagram">
 
 ## 4.7. Software Object-Oriented Design. 
 
@@ -1889,7 +1898,6 @@ El equipo sigue el esquema GitFlow descrito en 5.1.2. Los cambios del informe se
 Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
 
 <br>
-
 ### 5.1.2. Source Code Management.
 
 En esta sección, el equipo establece los medios y esquemas de organización para el seguimiento de modificaciones durante el ciclo de vida del proyecto. Para ello, se utiliza **GitHub** como plataforma y sistema de control de versiones.

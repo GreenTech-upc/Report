@@ -150,13 +150,13 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n.](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators.](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n.](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review.](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review.](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review.](#52x6-services-documentation-evidence-for-sprint-review)
+    - [5.2.X. Sprint 1](#52x-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
       - [5.2.X.8. Team Collaboration Insights during Sprint.](#52x8-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
@@ -1338,19 +1338,47 @@ El despliegue en GitHub Pages requiere que los archivos estén organizados de un
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.X. Sprint n 
+### 5.2.X. Sprint 1 
 
-#### 5.2.X.1. Sprint Planning n. 
+#### 5.2.1.1. Sprint Planning 1. 
 
-#### 5.2.X.2. Aspect Leaders and Collaborators. 
+El Sprint Planning 1 se enfoca en el desarrollo e implementación de la primera versión funcional de la Landing Page de SkyCrop . El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando su propuesta de valor a los agricultores y a los ingenieros agrónomos, e integrando la presentación de sus funcionalidades, los beneficios para cada segmento, los planes de suscripción y un canal de contacto.
 
-#### 5.2.X.3. Sprint Backlog n. 
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-09-19 |
+| **Time** | 01:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Landa Sanchez, Sunio Danilo |
+| **Attendees (to planning meeting)** | Landa Sanchez, Sunio Danilo / Cano Gomez, Yam Antony Gabriel / Jonseck Choque, Oliver / Rubio Ortiz, Luis Sebastián / Pumahualcca Garcia, Diego Rodrigo |
+| **Sprint 0 Review Summary** | Este es el primer sprint del proyecto. |
+| **Sprint 0 Retrospective Summary** | Este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de SkyCrop, que presenta la propuesta de valor, las funcionalidades, los beneficios por segmento, los planes de suscripción y un canal de contacto. Creemos que esto entrega una comprensión rápida de la plataforma y una vía clara de registro a los agricultores y a los ingenieros agrónomos que evalúan adoptar SkyCrop. Esto se confirmará cuando un visitante pueda llegar a cualquier sección de la página, incluidos los planes y el formulario de contacto, con un solo clic desde la barra de navegación fija, y la página se visualice sin desbordes ni elementos cortados en pantallas móviles y de escritorio, publicada en GitHub Pages. |
+| **Sprint 1 Velocity** | [N] Story Points |
+| **Sum of Story Points** | [M] Story Points |
 
-#### 5.2.X.4. Development Evidence for Sprint Review. 
+#### 5.2.1.2. Aspect Leaders and Collaborators. 
 
-#### 5.2.X.5. Execution Evidence for Sprint Review. 
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
 
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review. 
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | UX/UI & Prototyping<br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Landa Sanchez, Sunio Danilo  | DanLandio | C | L | C |
+| Cano Gomez, Yam Antony  | Yam-1CG  | C | C | L |
+| Jonseck Choque, Oliver | Olizzy-upc| C | C | L |
+| Rubio Ortiz, Luis Sebastián | notoriussxd | L | C | C |
+| Pumahualcca Garcia, Diego Rodrigo | DiegoPumahualcca | L | C | C |
+
+#### 5.2.1.3. Sprint Backlog 1. 
+
+
+#### 5.2.1.4. Development Evidence for Sprint Review. 
+
+#### 5.2.1.5. Execution Evidence for Sprint Review. 
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review. 
 

@@ -45,7 +45,7 @@ Proyecto
 
 </div>
 
----
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -75,6 +75,8 @@ El informe se mantiene en el [repositorio Report de GreenTech](https://github.co
 El desarrollo del informe reúne el trabajo del equipo en investigación, requisitos, diseño y documentación. Las integraciones permiten reunir estos avances en una versión común y mantener la coherencia entre las secciones.
 
 El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
+
+<div style="page-break-after: always;"></div>
 
 # Contenido 
 
@@ -164,6 +166,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
 
 # Student Outcome 
 
@@ -216,7 +219,8 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
   Aportó en la participación de reuniones
 
   <br>  Luis Sebastián Rubio Ortiz<br> AV1: <br>
-  </td>Promovió el trabajo en equipo durante la elaboración del proyecto.
+  Promovió el trabajo en equipo durante la elaboración del proyecto.
+  </td>
 
   <td>
   AV1: <br>
@@ -225,6 +229,8 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
   </tr>
 </table>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción 
 
@@ -432,7 +438,7 @@ Los segmentos se distinguen por su actividad y sus necesidades de monitoreo. Las
 - **Valores:** El rigor técnico, la eficiencia y la toma de decisiones basada en datos.
 - **Intereses:** Herramientas digitales que centralicen información de múltiples parcelas y faciliten diagnósticos visuales confiables.
 
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
@@ -1106,6 +1112,7 @@ A partir de este proceso, identificamos lo siguiente:
 |Report (Reporte) |Documento que reúne resultados del monitoreo de una parcela para su consulta, seguimiento o comparación.|
 |Alert (Alerta) |Aviso que comunica una condición que requiere atención, como una anomalía en el cultivo o un fallo del dron.|
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification 
 
@@ -1251,6 +1258,8 @@ Las siguientes Technical Stories complementan las funcionalidades del producto m
 | 48 | TS-05 | Solicitud de procesamiento de imágenes | Como desarrollador, quiero solicitar el análisis de imágenes mediante la API para iniciar el diagnóstico de una parcela. | 8 |
 | 49 | TS-06 | Gestión de notificaciones | Como desarrollador, quiero solicitar notificaciones mediante la API para comunicar eventos a los usuarios correspondientes. | 5 |
 | 50 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a operaciones autorizadas. | 8 |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design 
 
@@ -1839,8 +1848,9 @@ El bounded context de monitoreo, diagnóstico, reportes y notificaciones almacen
 Las anomalías almacenan el tipo de problema detectado, su severidad y ubicación dentro de la parcela. Los diagnósticos también pueden producir mapas visuales, cuya ubicación en el almacenamiento externo se registra mediante terrain_maps.
 Los reportes permiten consolidar diferentes diagnósticos mediante la tabla asociativa report_diagnoses, posibilitando la generación de reportes históricos y estacionales. Finalmente, notifications registra los avisos enviados a los usuarios como consecuencia de anomalías detectadas u otros eventos relevantes de la plataforma.
 
-# Capítulo V: Product Implementation, Validation & Deployment  
+<div style="page-break-after: always;"></div>
 
+# Capítulo V: Product Implementation, Validation & Deployment  
 
 ## 5.1. Software Configuration Management. 
 

@@ -45,7 +45,7 @@ Proyecto
 
 </div>
 
----
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -75,6 +75,8 @@ El informe se mantiene en el [repositorio Report de GreenTech](https://github.co
 El desarrollo del informe reúne el trabajo del equipo en investigación, requisitos, diseño y documentación. Las integraciones permiten reunir estos avances en una versión común y mantener la coherencia entre las secciones.
 
 El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
+
+<div style="page-break-after: always;"></div>
 
 # Contenido 
 
@@ -164,6 +166,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
 
 # Student Outcome 
 
@@ -216,7 +219,8 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
   Aportó en la participación de reuniones
 
   <br>  Luis Sebastián Rubio Ortiz<br> AV1: <br>
-  </td>Promovió el trabajo en equipo durante la elaboración del proyecto.
+  Promovió el trabajo en equipo durante la elaboración del proyecto.
+  </td>
 
   <td>
   AV1: <br>
@@ -225,6 +229,8 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
   </tr>
 </table>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción 
 
@@ -432,7 +438,7 @@ Los segmentos se distinguen por su actividad y sus necesidades de monitoreo. Las
 - **Valores:** El rigor técnico, la eficiencia y la toma de decisiones basada en datos.
 - **Intereses:** Herramientas digitales que centralicen información de múltiples parcelas y faciliten diagnósticos visuales confiables.
 
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
@@ -659,13 +665,14 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 
 **Entrevista 1**
 
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Drago Duarte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Edad** | 26 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Distrito** | Huancayo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Duración** | 6:56 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q) |
+| Campo | Detalle |
+| :--- |:-------|
+| **Nombre** | Drago Duarte  |
+| **Edad** | 26 años   |
+| **Distrito** | Huancayo    |
+| **Duración** | 6:56 min     |
+| **Timing** | Inicia 00:00 - Termina 06:56 |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
@@ -682,8 +689,9 @@ En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una
 | **Nombre** | Masaru Nikaido |
 | **Edad** | 27 |
 | **Distrito** | Huaral |
-| **Duración** | Por completar |
-| **Enlace** | Por completar |
+| **Duración** | 7:20 min |
+| **Timing** | Inicia 06:56 - Termina 14:16 |
+| **Enlace** | [Entrevista] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O)|
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista2_segmento1.jpeg" alt="Entrevista 2 - Segmento 1" width="600">
@@ -701,7 +709,8 @@ En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de su
 | **Edad** | 61 |
 | **Distrito** | Villa Maria del Triunfo |
 | **Duración** | 7:22 min |
-| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/IQBZNqpJc52rQZjZbGbruBF3AXx6UrRnUWbUXMzME_DsSGM?e=tnRr3J&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timing** | Inicia 14:16 - Termina 21:38 |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista3_segmento1.jpg" alt="Entrevista 3 - Segmento 1" width="600">
@@ -719,13 +728,14 @@ Finalmente, Higidio Pumahualcca manifiesta que estaría dispuesto a pagar por un
 
 **Entrevista 1**
 
-| Campo            | Detalle                                                                                                                                                                                                                                                                                                                      |
-|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre**       | Yamil Tejada                                                                                                                                                                                                                                                                                                                 |
-| **Edad**         | 25 años                                                                                                                                                                                                                                                                                                                      |
-| **Departamento** | Apurtimac                                                                                                                                                                                                                                                                                                                    |
-| **Duración**     | 4:53 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD)|
+| Campo     | Detalle   |
+|:------------|:-----|
+| **Nombre**       | Yamil Tejada |
+| **Edad**         | 25 años     |
+| **Departamento** | Apurtimac     |
+| **Duración**     | 4:53 min      |
+| **Timing** | Inicia 21:38 - Termina 26:31 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O)|
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
@@ -737,13 +747,14 @@ Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus 
 ---
 **Entrevista 2**
 
-| Campo            | Detalle                                                                                                                                                                                                                                                                                                                      |
-|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre**       | Ana Patricio                                                                                                                                                                                                                                                                                                                 |
-| **Edad**         | 25 años                                                                                                                                                                                                                                                                                                                      |
-| **Departamento** | Cusco                                                                                                                                                                                                                                                                                                                        |
-| **Duración**     | 5:06 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
+| Campo    | Detalle      |
+|:---------|:--------|
+| **Nombre**       | Ana Patricio    |
+| **Edad**         | 25 años        |
+| **Departamento** | Cusco          |
+| **Duración**     | 5:06 min       |
+| **Timing** | Inicia 26:31 - Termina 31:37 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
@@ -761,7 +772,8 @@ En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años res
 | **Edad**         | 48 años              |
 | **Departamento** | Ate                  |
 | **Duración**     | 14:26 min            |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
+| **Timing** | Inicia 31:38 - Termina 46:05 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">
@@ -1106,6 +1118,7 @@ A partir de este proceso, identificamos lo siguiente:
 |Report (Reporte) |Documento que reúne resultados del monitoreo de una parcela para su consulta, seguimiento o comparación.|
 |Alert (Alerta) |Aviso que comunica una condición que requiere atención, como una anomalía en el cultivo o un fallo del dron.|
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification 
 
@@ -1192,51 +1205,65 @@ El Product Backlog de SkyCrop reúne las User Stories identificadas para el desa
 
 Los Story Points utilizan la escala de Fibonacci y representan una estimación relativa del esfuerzo necesario para implementar cada User Story.
 
+**Product backlog desarrollado en Trello**
+<div align="center">
+<img src="resources/imgs/product-backlog-greentech.jpg" alt="IMSeg2" width="600">
+</div>
+
+Enlace al tablero: [Product Backlog en Trello](https://trello.com/b/L5lihF6B)
+
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---:|---|---|:---:|
-| 1 | US-01 | Registrar la cuenta de un Usuario | Como usuario de la plataforma SkyCrop, deseo registrarme en la plataforma para poder acceder a las funcionalidades que ofrece. | 5 |
-| 2 | US-02 | Inicio de Sesión | Como usuario registrado, deseo iniciar sesión usando mis credenciales para volver a tener acceso a mi cuenta. | 3 |
-| 3 | US-03 | Cambiar la información del perfil | Como usuario registrado, deseo cambiar la información de mi perfil para corregir datos incorrectos o desactualizados. | 3 |
-| 4 | US-04 | Recuperación de acceso | Como usuario registrado, deseo recuperar el acceso a mi cuenta en caso olvide mi contraseña. | 5 |
-| 5 | US-05 | Autenticación de dos factores | Como usuario registrado, quiero activar la autenticación de dos factores para contar con una segunda capa de seguridad. | 8 |
-| 6 | US-06 | Adquisición de subscripciones | Como usuario registrado, deseo adquirir una subscripción para acceder a las funcionalidades pagadas de la plataforma. | 8 |
-| 7 | US-07 | Pagar la suscripción con tarjeta | Como usuario registrado, deseo pagar mi suscripción con tarjeta de manera rápida y segura. | 8 |
-| 8 | US-08 | Confirmación de pagos | Como usuario registrado, quiero recibir una confirmación de pago para mantener un registro de mis transacciones. | 3 |
-| 9 | US-09 | Consulta de detalles de la subscripción actual | Como usuario suscrito, quiero consultar los detalles de mi subscripción y las funcionalidades disponibles. | 3 |
-| 10 | US-10 | Cancelación de subscripciones | Como usuario suscrito, quiero cancelar mi subscripción para evitar gastos accidentales. | 5 |
-| 11 | US-11 | Registro de parcela | Como usuario, deseo registrar el terreno por el cual el dron va a volar. | 5 |
-| 12 | US-12 | Consulta de estado de una parcela | Como usuario, deseo consultar el estado de una parcela para conocer la información detectada durante su monitoreo. | 5 |
-| 13 | US-13 | Visualización del mapa de una parcela | Como usuario, quiero visualizar el mapa de mi parcela para identificar zonas de anomalías visualmente. | 8 |
-| 14 | US-14 | Registro de cultivos en una parcela | Como usuario, quiero registrar el tipo de cultivo de mi parcela para asociarlo al monitoreo realizado. | 3 |
-| 15 | US-15 | Consulta de información de los cultivos | Como usuario, deseo acceder a la información de los cultivos asignados a mis parcelas. | 3 |
-| 16 | US-16 | Invitación de compañeros | Como administrador de una cuenta, quiero invitar compañeros o agrónomos para compartir el monitoreo de las parcelas. | 5 |
-| 17 | US-17 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron. | 8 |
-| 18 | US-18 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a realizar. | 8 |
-| 19 | US-19 | Captura de imágenes mediante dron | Como usuario, quiero que el dron capture imágenes automáticamente durante su rutina. | 8 |
-| 20 | US-20 | Parametrización de vuelo del dron | Como usuario, quiero configurar parámetros técnicos de vuelo para optimizar la captura de imágenes. | 5 |
-| 21 | US-21 | Envío de imágenes tomadas por el dron | Como usuario, deseo que el dron envíe las imágenes capturadas para que puedan ser procesadas por el sistema. | 8 |
-| 22 | US-22 | Visualización de imágenes tomadas por el dron | Como usuario, quiero visualizar las imágenes capturadas para verificar la calidad del patrullaje. | 5 |
-| 23 | US-23 | Generación de diagnóstico | Como usuario con acceso a una parcela, deseo que las imágenes sean analizadas y que el diagnóstico sea almacenado. | 13 |
-| 24 | US-24 | Generación de mapa según diagnóstico | Como usuario, deseo contar con un mapa de los resultados del diagnóstico para ubicar las zonas que requieren atención. | 8 |
-| 25 | US-25 | Historial de diagnósticos | Como usuario, deseo consultar diagnósticos anteriores para revisar la evolución del cultivo. | 5 |
-| 26 | US-26 | Actualización de una parcela mediante diagnóstico | Como usuario, deseo que el estado de una parcela refleje los resultados de su diagnóstico más reciente. | 8 |
-| 27 | US-27 | Notificación de diagnóstico realizado | Como usuario, deseo recibir una notificación cuando el diagnóstico de una parcela esté disponible. | 3 |
-| 28 | US-28 | Notificación de anomalía detectada | Como usuario, deseo recibir una notificación especial cuando se detecte una anomalía. | 5 |
-| 29 | US-29 | Notificación de fallo del dron | Como usuario, deseo recibir una alerta inmediata si el dron presenta una falla durante una ruta. | 5 |
-| 30 | US-30 | Recordatorio de renovación de subscripción | Como usuario registrado, quiero recibir un aviso antes del vencimiento de mi subscripción. | 3 |
-| 31 | US-31 | Creación de reporte según la estación | Como usuario, deseo generar un reporte estacional utilizando los reportes obtenidos durante el monitoreo. | 8 |
-| 32 | US-32 | Compartir | Como usuario, deseo compartir los reportes generados mediante un enlace o correo electrónico. | 5 |
-| 33 | US-33 | Guardado de reportes en la nube | Como usuario, quiero que los reportes se almacenen automáticamente para acceder al historial de diagnósticos. | 5 |
-| 34 | US-34 | Comparación entre reportes | Como usuario, deseo seleccionar dos reportes para comparar los resultados entre ambos. | 8 |
-| 35 | US-35 | Guardado de reportes como PDF | Como usuario, deseo descargar los reportes generados como archivos PDF. | 3 |
-| 36 | US-36 | Presentación de SkyCrop | Como visitante, quiero ver una introducción clara con la propuesta de valor de SkyCrop para entender rápidamente qué hace el software. | 3 |
-| 37 | US-37 | Demostración de funcionalidades de SkyCrop | Como visitante, quiero conocer las características de la plataforma para comprender las herramientas disponibles. | 5 |
-| 38 | US-38 | Muestra de beneficios para agricultores | Como productor agrícola visitante, quiero conocer los beneficios de SkyCrop para evaluar su utilidad en mis parcelas. | 3 |
-| 39 | US-39 | Muestra de beneficios para agrónomos | Como ingeniero agrónomo visitante, deseo conocer la analítica e información que ofrece el sistema para evaluar su utilidad profesional. | 5 |
-| 40 | US-40 | Planes de subscripciones y precios | Como visitante interesado, quiero conocer los planes y tarifas para seleccionar una opción adecuada a mis necesidades. | 3 |
-| 41 | US-41 | Opción de contacto | Como visitante, quiero poder comunicarme con el personal de soporte para aclarar mis dudas. | 5 |
-| 42 | US-42 | Navegación rápida por la Landing Page | Como visitante, deseo contar con una barra de navegación fija para acceder rápidamente a las diferentes secciones. | 3 |
-| 43 | US-43 | Pie de página informativo | Como visitante, quiero ver un footer con información institucional, términos y medios de contacto. | 2 |
+| 01 | US-36 | Presentación de SkyCrop | Como visitante, quiero ver una introducción clara con la propuesta de valor de SkyCrop para entender rápidamente qué hace el software. | 1 |
+| 02 | US-37 | Demostración de funcionalidades de SkyCrop | Como visitante, quiero conocer las características de la plataforma para comprender las herramientas disponibles. | 1 |
+| 03 | US-38 | Muestra de beneficios para agricultores | Como productor agrícola visitante, quiero conocer los beneficios de SkyCrop para evaluar su utilidad en mis parcelas. | 1 |
+| 04 | US-39 | Muestra de beneficios para agrónomos | Como ingeniero agrónomo visitante, deseo conocer la analítica e información que ofrece el sistema para evaluar su utilidad profesional. | 1 |
+| 05 | US-40 | Planes de subscripciones y precios | Como visitante interesado, quiero conocer los planes y tarifas para seleccionar una opción adecuada a mis necesidades. | 1 |
+| 06 | US-41 | Opción de contacto | Como visitante, quiero poder comunicarme con el personal de soporte para aclarar mis dudas. | 1 |
+| 07 | US-42 | Navegación rápida por la Landing Page | Como visitante, deseo contar con una barra de navegación fija para acceder rápidamente a las diferentes secciones. | 1 |
+| 08 | US-43 | Pie de página informativo | Como visitante, quiero ver un footer con información institucional, términos y medios de contacto. | 1 |
+| 09 | US-11 | Registro de parcela | Como usuario, deseo registrar el terreno por el cual el dron va a volar. | 2 |
+| 10 | US-12 | Consulta de estado de una parcela | Como usuario, deseo consultar el estado de una parcela para conocer la información detectada durante su monitoreo. | 1 |
+| 11 | US-14 | Registro de cultivos en una parcela | Como usuario, quiero registrar el tipo de cultivo de mi parcela para asociarlo al monitoreo realizado. | 2 |
+| 12 | US-15 | Consulta de información de los cultivos | Como usuario, deseo acceder a la información de los cultivos asignados a mis parcelas. | 1 |
+| 13 | TS-02 | Manejo de datos de parcelas | Como desarrollador, quiero registrar y actualizar parcelas mediante la API para mantener su información desde una aplicación cliente. | 5 |
+| 14 | US-17 | Conectar el dron | Como usuario, deseo conectar el aplicativo con mi dron. | 5 |
+| 15 | US-18 | Gestionar la rutina de vuelo | Como usuario, deseo gestionar la rutina de vuelo que el dron va a realizar. | 5 |
+| 16 | US-20 | Parametrización de vuelo del dron | Como usuario, quiero configurar parámetros técnicos de vuelo para optimizar la captura de imágenes. | 3 |
+| 17 | TS-04 | Manejo de datos de drones | Como desarrollador, quiero registrar el estado de los drones mediante la API para consultar su información actualizada. | 5 |
+| 18 | US-23 | Generación de diagnóstico | Como usuario con acceso a una parcela, deseo que las imágenes sean analizadas y que el diagnóstico sea almacenado. | 3 |
+| 19 | US-25 | Historial de diagnósticos | Como usuario, deseo consultar diagnósticos anteriores para revisar la evolución del cultivo. | 2 |
+| 20 | US-31 | Creación de reporte según la estación | Como usuario, deseo generar un reporte estacional utilizando los reportes obtenidos durante el monitoreo. | 3 |
+| 21 | US-34 | Comparación entre reportes | Como usuario, deseo seleccionar dos reportes para comparar los resultados entre ambos. | 3 |
+| 22 | TS-03 | Manejo de reportes | Como desarrollador, quiero consultar y descargar reportes mediante la API para utilizarlos en otras aplicaciones. | 5 |
+| 23 | US-19 | Captura de imágenes mediante dron | Como usuario, quiero que el dron capture imágenes automáticamente durante su rutina. | 5 |
+| 24 | TS-05 | Llamados para procesamientos | Como desarrollador, quiero solicitar el análisis de imágenes mediante la API para iniciar el diagnóstico de una parcela. | 5 |
+| 25 | US-21 | Envío de imágenes tomadas por el dron | Como usuario, deseo que el dron envíe las imágenes capturadas para que puedan ser procesadas por el sistema. | 3 |
+| 26 | US-22 | Visualización de imágenes tomadas por el dron | Como usuario, quiero visualizar las imágenes capturadas para verificar la calidad del patrullaje. | 2 |
+| 27 | US-26 | Actualización de una parcela mediante diagnóstico | Como usuario, deseo que el estado de una parcela refleje los resultados de su diagnóstico más reciente. | 3 |
+| 28 | US-24 | Generación de mapa según diagnóstico | Como usuario, deseo contar con un mapa de los resultados del diagnóstico para ubicar las zonas que requieren atención. | 8 |
+| 29 | US-13 | Visualización del mapa de una parcela | Como usuario, quiero visualizar el mapa de mi parcela para identificar zonas de anomalías visualmente. | 3 |
+| 30 | US-16 | Invitación de compañeros | Como administrador de una cuenta, quiero invitar compañeros o agrónomos para compartir el monitoreo de las parcelas. | 3 |
+| 31 | US-35 | Guardado de reportes como PDF | Como usuario, deseo descargar los reportes generados como archivos PDF. | 2 |
+| 32 | US-32 | Compartir reportes | Como usuario, deseo compartir los reportes generados mediante un enlace o correo electrónico. | 2 |
+| 33 | US-33 | Guardado de reportes en la nube | Como usuario, quiero que los reportes se almacenen automáticamente para acceder al historial de diagnósticos. | 3 |
+| 34 | TS-06 | Gestión de notificacines | Como desarrollador, quiero solicitar notificaciones mediante la API para comunicar eventos a los usuarios correspondientes. | 3 |
+| 35 | US-27 | Notificación de diagnóstico realizado | Como usuario, deseo recibir una notificación cuando el diagnóstico de una parcela esté disponible. | 2 |
+| 36 | US-28 | Notificación de anomalía detectada | Como usuario, deseo recibir una notificación especial cuando se detecte una anomalía. | 2 |
+| 37 | US-29 | Notificación de fallo del dron | Como usuario, deseo recibir una alerta inmediata si el dron presenta una falla durante una ruta. | 2 |
+| 38 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a las operaciones autorizadas desde una aplicación cliente. | 3 |
+| 39 | US-01 | Registrar la cuenta de un Usuario | Como usuario de la plataforma SkyCrop, deseo registrarme en la plataforma para poder acceder a las funcionalidades que ofrece. | 2 |
+| 40 | US-02 | Inicio de Sesión | Como usuario registrado, deseo iniciar sesión usando mis credenciales para volver a tener acceso a mi cuenta. | 2 |
+| 41 | US-03 | Cambiar la información del perfil | Como usuario registrado, deseo cambiar la información de mi perfil para corregir datos incorrectos o desactualizados. | 1 |
+| 42 | TS-01 | Manejo de datos de usuarios | Como desarrollador, quiero consultar y actualizar datos de usuarios mediante la API para integrar la gestión de perfiles. | 5 |
+| 43 | US-04 | Recuperación de acceso | Como usuario registrado, deseo recuperar el acceso a mi cuenta en caso olvide mi contraseña. | 3 |
+| 44 | US-05 | Autenticación de dos factores | Como usuario registrado, quiero activar la autenticación de dos factores para contar con una segunda capa de seguridad. | 2 |
+| 45 | US-06 | Adquisición de subscripciones | Como usuario registrado, deseo adquirir una subscripción para acceder a las funcionalidades pagadas de la plataforma. | 3 |
+| 46 | US-07 | Pagar la suscripción con tarjeta | Como usuario registrado, deseo pagar mi suscripción con tarjeta de manera rápida y segura. | 5 |
+| 47 | US-08 | Confirmación de pagos | Como usuario registrado, quiero recibir una confirmación de pago para mantener un registro de mis transacciones. | 2 |
+| 48 | US-09 | Consulta de detalles de la subscripción actual | Como usuario suscrito, quiero consultar los detalles de mi subscripción y las funcionalidades disponibles. | 1 |
+| 49 | US-10 | Cancelación de subscripciones | Como usuario suscrito, quiero cancelar mi subscripción para evitar gastos accidentales. | 1 |
+| 50 | US-30 | Recordatorio de renovación de subscripción | Como usuario registrado, quiero recibir un aviso antes del vencimiento de mi subscripción. | 1 |
 
 ### Technical Stories
 
@@ -1251,6 +1278,8 @@ Las siguientes Technical Stories complementan las funcionalidades del producto m
 | 48 | TS-05 | Solicitud de procesamiento de imágenes | Como desarrollador, quiero solicitar el análisis de imágenes mediante la API para iniciar el diagnóstico de una parcela. | 8 |
 | 49 | TS-06 | Gestión de notificaciones | Como desarrollador, quiero solicitar notificaciones mediante la API para comunicar eventos a los usuarios correspondientes. | 5 |
 | 50 | TS-07 | Servicio de autenticación | Como desarrollador, quiero autenticar usuarios mediante la API para acceder a operaciones autorizadas. | 8 |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design 
 
@@ -1839,8 +1868,9 @@ El bounded context de monitoreo, diagnóstico, reportes y notificaciones almacen
 Las anomalías almacenan el tipo de problema detectado, su severidad y ubicación dentro de la parcela. Los diagnósticos también pueden producir mapas visuales, cuya ubicación en el almacenamiento externo se registra mediante terrain_maps.
 Los reportes permiten consolidar diferentes diagnósticos mediante la tabla asociativa report_diagnoses, posibilitando la generación de reportes históricos y estacionales. Finalmente, notifications registra los avisos enviados a los usuarios como consecuencia de anomalías detectadas u otros eventos relevantes de la plataforma.
 
-# Capítulo V: Product Implementation, Validation & Deployment  
+<div style="page-break-after: always;"></div>
 
+# Capítulo V: Product Implementation, Validation & Deployment  
 
 ## 5.1. Software Configuration Management. 
 
@@ -2004,7 +2034,7 @@ El Sprint Planning 1 se enfoca en el desarrollo e implementación de la primera 
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de SkyCrop, que presenta la propuesta de valor, las funcionalidades, los beneficios por segmento, los planes de suscripción y un canal de contacto. Creemos que esto entrega una comprensión rápida de la plataforma y una vía clara de registro a los agricultores y a los ingenieros agrónomos que evalúan adoptar SkyCrop. Esto se confirmará cuando un visitante pueda llegar a cualquier sección de la página, incluidos los planes y el formulario de contacto, con un solo clic desde la barra de navegación fija, y la página se visualice sin desbordes ni elementos cortados en pantallas móviles y de escritorio, publicada en GitHub Pages. |
 | **Sprint 1 Velocity** | 15 Story Points |
-| **Sum of Story Points** | 14 Story Points |
+| **Sum of Story Points** | 8 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 

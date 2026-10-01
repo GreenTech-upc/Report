@@ -293,7 +293,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | **Código del Estudiante** | U202310349 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Soy Sebastián, soy estudiante de la carrera de ingenieria de software, tengo 20 años y me gusta lograr grandes cosas programando, suelo interesarme mucho por aprender cosas nuevas en el mundo de la programacián más que nada. Me gusta apoyar a mis compañeros para los trabajos, considero que soy de trabajar en equipo. Tengo conocimientos en C#, C++, JavaScript, Python y TypeScript. |
-| **Foto** | |
+| **Foto** | <img src="resources/imgs/foto-sebastian.jpeg" alt="Luis Sebastián Rubio Ortiz" width="200"> |
 
 ## 1.2. Solution Profile 
 

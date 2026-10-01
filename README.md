@@ -671,7 +671,8 @@ Al comenzar la entrevista, se realizarán preguntas cortas para recaudar informa
 | **Edad** | 26 años   |
 | **Distrito** | Huancayo    |
 | **Duración** | 6:56 min     |
-| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDJE97sKJy4QJL1mG9r9brlAa9gDSSq7TTjgAmJ_qvrnxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mG4q5Q) |
+| **Timing** | Inicia 00:00 - Termina 06:56 |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
@@ -688,8 +689,9 @@ En esta entrevista, Drago, un agricultor que gestiona una parcela mediana en una
 | **Nombre** | Masaru Nikaido |
 | **Edad** | 27 |
 | **Distrito** | Huaral |
-| **Duración** | Por completar |
-| **Enlace** | Por completar |
+| **Duración** | 7:20 min |
+| **Timing** | Inicia 06:56 - Termina 14:16 |
+| **Enlace** | [Entrevista] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O)|
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista2_segmento1.jpeg" alt="Entrevista 2 - Segmento 1" width="600">
@@ -707,7 +709,8 @@ En esta entrevista, Masaru Nikaido comparte su experiencia en el monitoreo de su
 | **Edad** | 61 |
 | **Distrito** | Villa Maria del Triunfo |
 | **Duración** | 7:22 min |
-| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/IQBZNqpJc52rQZjZbGbruBF3AXx6UrRnUWbUXMzME_DsSGM?e=tnRr3J&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timing** | Inicia 14:16 - Termina 21:38 |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista3_segmento1.jpg" alt="Entrevista 3 - Segmento 1" width="600">
@@ -731,7 +734,8 @@ Finalmente, Higidio Pumahualcca manifiesta que estaría dispuesto a pagar por un
 | **Edad**         | 25 años     |
 | **Departamento** | Apurtimac     |
 | **Duración**     | 4:53 min      |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQANRnid8Q2qTqzgiSzDhOhjAVoy8OeP3wXISC2PYCEKAYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BL5eQD)|
+| **Timing** | Inicia 21:38 - Termina 26:31 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O)|
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
@@ -749,7 +753,8 @@ Yamil, un ingeniero agrónomo de 25 años que vive en apurimac,el  comparte sus 
 | **Edad**         | 25 años        |
 | **Departamento** | Cusco          |
 | **Duración**     | 5:06 min       |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
+| **Timing** | Inicia 26:31 - Termina 31:37 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista2_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
@@ -767,7 +772,8 @@ En esta entrevista, Ana Camila Patricio, una ingeniera agrónoma de 25 años res
 | **Edad**         | 48 años              |
 | **Departamento** | Ate                  |
 | **Duración**     | 14:26 min            |
-| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBdZ5wsRcLAT474EJ-DhFrMATsyQPF2viFsecxTayiaq4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZbm4k) |
+| **Timing** | Inicia 31:38 - Termina 46:05 |
+| **Enlace**       | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQAs_PnoTE5iRpSbVLalpTuEAXN0uFDhZLx91ilex0f1F4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hz1f5O) |
 
 <div align="center">
 <img src="resources/imgs/chapter_2/entrevista3_segmento2.jpg" alt="Entrevista 2 - Segmento 2" width="600">

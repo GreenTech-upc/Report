@@ -1205,6 +1205,13 @@ El Product Backlog de SkyCrop reúne las User Stories identificadas para el desa
 
 Los Story Points utilizan la escala de Fibonacci y representan una estimación relativa del esfuerzo necesario para implementar cada User Story.
 
+**Product backlog desarrollado en Trello**
+<div align="center">
+<img src="resources/imgs/product-backlog-greentech.jpg" alt="IMSeg2" width="600">
+</div>
+
+Enlace al tablero: [Product Backlog en Trello](https://trello.com/b/L5lihF6B)
+
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---:|---|---|:---:|
 | 01 | US-36 | Presentación de SkyCrop | Como visitante, quiero ver una introducción clara con la propuesta de valor de SkyCrop para entender rápidamente qué hace el software. | 1 |

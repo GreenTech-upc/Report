@@ -41,7 +41,7 @@ Proyecto
 </picture>
 
 **Período 202620**
-<h3>Setiembre 2026</h3>
+<h3>Octubre 2026</h3>
 
 </div>
 
@@ -117,6 +117,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
+    - [Technical Stories](#technical-stories)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
@@ -152,7 +153,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#52x-sprint-1)
+    - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
@@ -165,6 +166,7 @@ El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commit
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Anexo A](#anexo-a)
 
 <div style="page-break-after: always;"></div>
 
@@ -265,7 +267,7 @@ Convertirnos en la empresa *AgTech* líder y referente en Latinoamérica, empode
 | :--- | :--- |
 | **Código del Estudiante** | U202423775 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es Yam Cano,tengo 20 años y soy estudiante de la carrera de ingeniería de software,ademas soy una persona proactiva ;cuento con habilidades analíticas y lógicas en programación, lo que me permite abordar problemas en base a mi carrera,además estoy buscando nuevas oportunidades para aprender y aplicar mis conocimientos, lo que me ayuda a crecer tanto a nivel académico como personal.|
+| **Descripción** | Mi nombre es Yam Cano, tengo 20 años y soy estudiante de la carrera de ingeniería de software,ademas soy una persona proactiva ;cuento con habilidades analíticas y lógicas en programación, lo que me permite abordar problemas en base a mi carrera,además estoy buscando nuevas oportunidades para aprender y aplicar mis conocimientos, lo que me ayuda a crecer tanto a nivel académico como personal.|
 | **Foto** | <img src="resources/imgs/chapter_2/Yam.png" alt="Yam" width="200" height="240">  |
 
 ----------------------
@@ -402,8 +404,9 @@ Lean UX Canvas — SkyCrop
 Los segmentos se distinguen por su actividad y sus necesidades de monitoreo. Las características descritas son una propuesta inicial que se contrasta con las entrevistas del capítulo II; estas no permiten establecer la distribución demográfica o socioeconómica del mercado.
 
 **Segmento Objetivo 1: Agricultores**
+
 **Aspectos demográficos:**
-- **Edad:** Sin un rango validado como criterio de segmentación. Los agricultores entrevistados tienen 26, 27 y 61 años.
+- **Edad:** 20 - 65 años.
 - **Nivel socioeconómico:** Media - Baja.
 - **Tipo de productor:** Pequeños y medianos productores agrícolas, independientes o asociados a cooperativas.
 - **Rubro:** Cultivo de productos agrícolas.
@@ -421,8 +424,9 @@ Los segmentos se distinguen por su actividad y sus necesidades de monitoreo. Las
 ---------------
 
 **Segmento Objetivo 2: Ingenieros agrónomos**
+
 **Aspectos demográficos:**
-- **Edad:** Sin un rango validado como criterio de segmentación. Los agrónomos entrevistados tienen 25, 25 y 48 años.
+- **Edad:** 25 - 50 años.
 - **Nivel socioeconómico:** Media - Alta.
 - **Tipo de perfil:** Profesionales independientes o vinculados a cooperativas u asociaciones agrarias.
 - **Rubro:** Asesoría técnica y gestión agronómica de cultivos.
@@ -801,7 +805,7 @@ Se consideran seis registros con resumen: tres de agricultores y tres de ingenie
 | A2 | Agricultores, entrevista 2 | Masaru Nikaido | 27 años | Huaral |
 | A3 | Agricultores, entrevista 3 | Higidio Pumahualcca | 61 años | Villa María del Triunfo |
 | G1 | Ingenieros agrónomos, entrevista 1 | Yamil Tejada | 25 años | Apurímac |
-| G2 | Ingenieros agrónomos, entrevista 2 | Ana Patricio, nombrada Ana Camila Patricio en el resumen | 25 años | Cusco |
+| G2 | Ingenieros agrónomos, entrevista 2 | Ana Patricio | 25 años | Cusco |
 | G3 | Ingenieros agrónomos, entrevista 3 | Suzy Vásquez Navarro | 48 años | Ate |
 
 Las ubicaciones se presentan como procedencia registrada, sin asumir que todas corresponden al mismo nivel geográfico. Es necesario precisar el distrito de los registros que solo identifican un departamento.
@@ -2153,7 +2157,7 @@ ilustrativos.
 
 ![Responsive_Landing](resources/imgs/chapter_5/Responsive_Landing.png)
 
-**URL del Landing Page desplegado:**https://greentech-upc.github.io/Landing-Page/
+**URL del Landing Page desplegado:** https://greentech-upc.github.io/Landing-Page/
 
 #### 5.2.X.8. Team Collaboration Insights during Sprint. 
 
@@ -2163,6 +2167,10 @@ ilustrativos.
 ![Contributors.png](resources/imgs/chapter_5/Contributors.png)
 
 # Conclusiones 
+
+1. El desarrollo de SkyCrop permitió identificar que la gestión y monitoreo de parcelas agrícolas presenta dificultades relacionadas con el tiempo y esfuerzo requerido para obtener información del estado de los cultivos. Los resultados de las entrevistas respaldan principalmente la necesidad de automatizar la planificación de vuelos con drones, facilitar la visualización de información mediante mapas y contar con un seguimiento histórico que ayude a los usuarios en la evaluación de sus cultivos. Esto demuestra que las necesidades identificadas en los Problem Statements y Assumptions tienen correspondencia con varios de los problemas expresados por los segmentos entrevistados.
+
+2. Los resultados obtenidos permiten considerar que las funcionalidades propuestas para SkyCrop tienen una base inicial de validación, especialmente en automatización, seguimiento histórico y colaboración. Sin embargo, los criterios de éxito planteados en las Hypotheses Statements, como conversión a suscripciones, uso recurrente y retención, todavía requieren ser validados mediante el uso de un producto funcional y nuevas pruebas con usuarios. Por ello, los siguientes avances deberán enfocarse en desarrollar y probar las funcionalidades prioritarias, utilizando los resultados de las validaciones para ajustar el producto y definir las prioridades del roadmap.
 
 # Bibliografía
 

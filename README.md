@@ -76,6 +76,17 @@ El desarrollo del informe reúne el trabajo del equipo en investigación, requis
 
 El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
 
+Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
+
+**TB1:** Las tareas asignadas a la TB1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
+
+- Se redactaron y crearon los contenidos asignados a cada miembro utilizando formato Markdown, y se realizaron "Conventional Commits" para documentar el avance en el repositorio.
+- Se generaron los recursos necesarios y se añadieron las imágenes al repositorio en la carpeta "resources" correspondiente a cada rama del informe.
+- Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, que estuvo enfocado en el desarrollo de la Landing Page.
+
+![InsightsTB1](resources/imgs/chapter_0/Insights-AV1.png)
+![ContributorsTB1](resources/imgs/chapter_0/Contributors-AV1.png)
+
 <div style="page-break-after: always;"></div>
 
 # Contenido 

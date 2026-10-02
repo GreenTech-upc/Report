@@ -1816,9 +1816,9 @@ alt="Component-Diagram">
 
 ### 4.7.1. Class Diagrams. 
 
-Estos diagramas presentan una propuesta de diseño, sin afirmar que los cambios estén implementados. Los objetos marcados como `<<value object>>` carecen de identificador, son inmutables y se comparan por sus valores; sus atributos se muestran como `{readOnly}`. La composición representa los valores pertenecientes a una entidad; los servicios solo dependen de los valores que reciben o devuelven.
+El diseño de clases propuesto incorpora objetos de valor (`<<value object>>`) sin identificador, inmutables y con igualdad definida por sus atributos. La notación `{readOnly}` indica que sus atributos son de solo lectura. Las relaciones de composición representan los objetos de valor pertenecientes a una entidad, mientras que las dependencias de los servicios indican su uso como parámetros o resultados.
 
-En pagos, `Money` reúne el importe decimal y la moneda, sin fijar una moneda predeterminada. Su igualdad considera ambos atributos; la suma y la resta requieren la misma moneda y producen un nuevo valor. `EmailAddress` encapsula el correo; `Area`, la superficie en hectáreas; y `Location`, la ubicación textual existente, sin introducir coordenadas. `WeatherData` representa una instantánea meteorológica cuya igualdad incluye la fecha de registro. Las enumeraciones mantienen su naturaleza de enums.
+En la gestión de pagos, el patrón `Money` agrupa el importe decimal y la moneda. Dos valores monetarios son iguales cuando coinciden ambos atributos; las operaciones de suma y resta requieren la misma moneda y generan un nuevo valor. `EmailAddress` representa el correo electrónico, `Area` expresa la superficie en hectáreas y `Location` encapsula la ubicación textual. `WeatherData` representa una instantánea meteorológica cuya igualdad considera la temperatura, la humedad, la precipitación y la fecha de registro.
 
 **SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones**
 <div align="center">

@@ -70,22 +70,17 @@ Se registran cambios principales del informe grupal usando el commit como identi
 
 # Project Report Collaboration Insights
 
-El informe se mantiene en el [repositorio Report de GreenTech](https://github.com/GreenTech-upc/Report). Los aportes se registran mediante commits y se integran en `develop` desde ramas de trabajo. El historial muestra integraciones de bloques como el análisis de entrevistas, las historias de diagnósticos y la configuración de despliegue. Esta organización permite revisar los cambios por tema y conservar las versiones anteriores del documento.
+El informe se mantiene en el [repositorio Report de GreenTech](https://github.com/GreenTech-upc/Report). Los aportes se registran mediante commits y se integran en `develop` desde ramas de trabajo. El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados en investigación, requisitos, diseño y documentación, incluidos el análisis de entrevistas, las historias de diagnósticos y la configuración de despliegue.
 
-El desarrollo del informe reúne el trabajo del equipo en investigación, requisitos, diseño y documentación. Las integraciones permiten reunir estos avances en una versión común y mantener la coherencia entre las secciones.
-
-El [historial de la rama develop](https://github.com/GreenTech-upc/Report/commits/develop/) permite consultar los cambios integrados. Para cerrar esta sección quedan pendientes las capturas de los analíticos de contribución y del historial en GitHub, contrastadas con los integrantes del equipo.
-
-Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
-
-**TB1:** Las tareas asignadas a la TB1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
-
-- Se redactaron y crearon los contenidos asignados a cada miembro utilizando formato Markdown, y se realizaron "Conventional Commits" para documentar el avance en el repositorio.
-- Se generaron los recursos necesarios y se añadieron las imágenes al repositorio en la carpeta "resources" correspondiente a cada rama del informe.
-- Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, que estuvo enfocado en el desarrollo de la Landing Page.
+La captura de Pulse corresponde al período del 1 de septiembre al 1 de octubre de 2026 y muestra 29 pull requests integrados y actividad de cinco autores. Estos registros describen la actividad del repositorio durante el intervalo seleccionado.
 
 ![InsightsTB1](resources/imgs/chapter_0/Insights-AV1.png)
+
+La captura de Contributors muestra los aportes a `main`, excluyendo los commits de merge, de cinco cuentas: DanLandio, Yam-1CG, notoriussxd, DiegoPumahualcca y Olizzy-upc. Su intervalo semanal visible abarca del 27 de junio al 26 de septiembre de 2026 y corresponde a una consulta independiente de Pulse. Los gráficos permiten observar la distribución temporal de los commits registrados por cada cuenta.
+
 ![ContributorsTB1](resources/imgs/chapter_0/Contributors-AV1.png)
+
+Las métricas reflejan la actividad registrada en GitHub. La calidad de los aportes, el cumplimiento de las tareas y la totalidad de la participación se evalúan junto con los artefactos entregados y las responsabilidades documentadas.
 
 <div style="page-break-after: always;"></div>
 
@@ -2194,8 +2189,12 @@ ilustrativos.
 
 #### 5.2.X.8. Team Collaboration Insights during Sprint. 
 
+La captura de Pulse del repositorio de la Landing Page corresponde al período del 13 al 20 de septiembre de 2026. Muestra cinco pull requests integrados, cuatro autores y nueve commits, excluyendo merges. Estas cifras describen la actividad registrada durante el intervalo seleccionado.
+
 ![Insights-LP.png](resources/imgs/chapter_5/Insights-LP.png)
 ---
+
+La captura de Contributors presenta aportes de notoriussxd, DanLandio, DiegoPumahualcca y Yam-1CG, con tres, tres, dos y un commit, respectivamente. El período del filtro no aparece en la imagen, por lo que estos valores se describen de forma independiente del intervalo de Pulse. La evidencia de ejecución y las responsabilidades del sprint complementan estas métricas para evaluar la calidad, el cumplimiento y la participación del equipo.
 
 ![Contributors.png](resources/imgs/chapter_5/Contributors.png)
 

@@ -1,0 +1,162 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam dpi 150
+hide empty members
+title SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones
+abstract class User  {
+-id: Long
+-name: String
+-email: EmailAddress
+-createdAt: DateTime
++register(): void
++updateProfile(): void
+}
+class UserProfile  {
+-id: Long
+-phone: String
+-address: String
++updateInformation(): void
+}
+class Subscription  {
+-id: Long
+-startDate: Date
+-endDate: Date
+-type: SubscriptionType
+-status: SubscriptionStatus
++activate(): void
++renew(): void
++cancel(): void
++isActive(): boolean
++hasFeature(feature: String): boolean
+}
+class Farmer  {
+
++managePlots(): void
++manageDrones(): void
++viewReports(): void
+}
+class Agronomist  {
+-professionalLicense: String
++analyzeCrop(): void
++managePlots(): void
++generateReport(): void
+}
+class Payment  {
+-id: Long
+-amount: Money
+-paymentDate: DateTime
+-method: PaymentMethod
+-status: PaymentStatus
++initiate(): void
++authorize(): boolean
++reject(): void
++refund(): void
+}
+interface PaymentProcessor  {
+
++process(payment: Payment): boolean
++authorize(payment: Payment): boolean
+}
+class Account  {
+-id: Long
+-username: String
+-passwordHash: String
+-status: AccountStatus
++create(): void
++authenticate(): boolean
++deactivate(): void
+}
+interface AuthenticationService  {
+
++authenticate(account: Account): boolean
++verifyTwoFactor(code: String): boolean
++recoverAccount(code: String): boolean
+}
+interface EmailService  {
+
++sendVerificationCode(email: EmailAddress): void
++sendRecoveryCode(email: EmailAddress): void
+}
+class TwoFactorAuthentication  {
+-id: Long
+-enabled: boolean
+-verifiedAt: DateTime
++generateCode(): String
++verify(code: String): boolean
+}
+class RecoveryCode  {
+-id: Long
+-code: String
+-used: boolean
+-expiresAt: DateTime
++generate(): String
++validate(): boolean
++use(): void
+}
+enum SubscriptionStatus {
+ACTIVE
+EXPIRED
+CANCELLED
+PENDING
+}
+enum SubscriptionType {
+BASIC
+PROFESSIONAL
+COOPERATIVE
+}
+enum PaymentMethod {
+CARD
+TRANSFER
+OTHER
+}
+enum PaymentStatus {
+PENDING
+AUTHORIZED
+REJECTED
+REFUNDED
+}
+enum AccountStatus {
+ACTIVE
+INACTIVE
+LOCKED
+}
+class EmailAddress <<value object>> {
+-value: String {readOnly}
+
+}
+class Money <<value object>> {
+-amount: Decimal {readOnly}
+-currency: String {readOnly}
++add(other: Money): Money
++subtract(other: Money): Money
+}
+note right of Money
+Inmutable; igualdad por amount y currency.
+add/subtract requieren la misma moneda
+y devuelven un nuevo Money.
+end note
+User <|-- Farmer
+User <|-- Agronomist
+User "1" *-- "1" UserProfile : has
+User "1" -- "0..*" Subscription : subscribes
+User "1" *-- "1" Account : owns
+Subscription "1" *-- "0..*" Payment : contains
+Subscription --> SubscriptionStatus : status
+Subscription --> SubscriptionType : type
+Payment --> PaymentMethod : method
+Payment --> PaymentStatus : status
+PaymentProcessor ..> Payment : processes
+Account --> AccountStatus : status
+Account "1" -- "0..1" TwoFactorAuthentication : uses
+Account "1" -- "0..*" RecoveryCode : has
+AuthenticationService ..> Account : authenticates
+AuthenticationService ..> TwoFactorAuthentication : verifies
+AuthenticationService ..> RecoveryCode : recovers
+EmailService ..> TwoFactorAuthentication : sends code
+EmailService ..> RecoveryCode : sends code
+EmailService ..> EmailAddress
+User "1" *-- "1" EmailAddress : email
+Payment "1" *-- "1" Money : amount
+@enduml

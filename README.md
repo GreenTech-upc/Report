@@ -1816,19 +1816,23 @@ alt="Component-Diagram">
 
 ### 4.7.1. Class Diagrams. 
 
+Estos diagramas presentan una propuesta de diseño, sin afirmar que los cambios estén implementados. Los objetos marcados como `<<value object>>` carecen de identificador, son inmutables y se comparan por sus valores; sus atributos se muestran como `{readOnly}`. La composición representa los valores pertenecientes a una entidad; los servicios solo dependen de los valores que reciben o devuelven.
+
+En pagos, `Money` reúne el importe decimal y la moneda, sin fijar una moneda predeterminada. Su igualdad considera ambos atributos; la suma y la resta requieren la misma moneda y producen un nuevo valor. `EmailAddress` encapsula el correo; `Area`, la superficie en hectáreas; y `Location`, la ubicación textual existente, sin introducir coordenadas. `WeatherData` representa una instantánea meteorológica cuya igualdad incluye la fecha de registro. Las enumeraciones mantienen su naturaleza de enums.
+
 **SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram1.png" alt="ClassDiagram1" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram1-updated.png" alt="ClassDiagram1" width="600">
 </div>
 
 **SkyCrop - Gestión de Parcelas y Drones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram2.png" alt="ClassDiagram2" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram2-updated.png" alt="ClassDiagram2" width="600">
 </div>
 
 **SkyCrop - Diagnóstico, Análisis, Reportes y Notificaciones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram3.png" alt="ClassDiagram3" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram3-updated.png" alt="ClassDiagram3" width="600">
 </div>
 
 ## 4.8. Database Design.

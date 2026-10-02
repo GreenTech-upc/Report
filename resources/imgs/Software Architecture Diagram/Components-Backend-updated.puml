@@ -1,0 +1,53 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam dpi 150
+skinparam defaultFontName SansSerif
+skinparam wrapWidth 220
+skinparam maxMessageSize 70
+skinparam componentStyle rectangle
+left to right direction
+title SkyCrop - Componentes de Backend RESTful API
+component "Frontend Web Application\n[Contenedor: Vue]\n\nConsume operaciones REST." as web
+rectangle "Backend RESTful API [Contenedor: C# / ASP.NET Core]" {
+component "Controladores REST\n[Componente: ASP.NET Core]\n\nEndpoints de cuentas, parcelas, vuelos y resultados." as controllers
+component "Servicios de cuentas y suscripciones\n[Componente: C#]\n\nAutenticación, perfiles, suscripciones y pagos." as accountsvc
+component "Servicios de parcelas y drones\n[Componente: C#]\n\nParcelas, cultivos, configuración y vuelos." as plotsvc
+component "Servicios de diagnósticos y reportes\n[Componente: C#]\n\nAnálisis, historial, reportes y notificaciones." as diagnosissvc
+component "Modelo de dominio\n[Componente: C#]\n\nEntidades, reglas, Money y objetos de valor." as domain
+component "Repositorios y DbContext\n[Componente: Entity Framework Core]\n\nPersistencia de los contextos del dominio." as repos
+component "Adaptadores de servicios externos\n[Componente: C#]\n\nIntegración de pagos, mensajes, mapas, clima y archivos." as adapters
+component "Documentación del API\n[Componente: OpenAPI / Swagger]\n\nDescribe endpoints y contratos REST." as docs
+}
+database "Base de datos relacional\n[MySQL Server o PostgreSQL]\n\nPersiste cuentas, parcelas, vuelos y resultados." as db
+component "Pasarela de pagos\n[Sistema externo]\n\nProcesa transacciones." as payment
+component "Servicio de mensajería\n[Sistema externo]\n\nEntrega correos y notificaciones." as messaging
+component "Mapas y meteorología\n[Sistemas externos]\n\nMapas y datos meteorológicos." as maps
+component "Almacenamiento de archivos\n[Sistema externo]\n\nImágenes y reportes." as storage
+web --> controllers : REST [HTTPS / JSON]
+controllers --> accountsvc : Delega operaciones
+controllers --> plotsvc : Delega operaciones
+controllers --> diagnosissvc : Delega operaciones
+accountsvc --> domain : Aplica reglas
+plotsvc --> domain : Aplica reglas
+diagnosissvc --> domain : Aplica reglas
+accountsvc --> repos : Persiste y consulta
+plotsvc --> repos : Persiste y consulta
+diagnosissvc --> repos : Persiste y consulta
+repos --> domain : Mapea entidades
+repos --> db : Lectura y escritura [SQL]
+accountsvc --> adapters : Pagos y mensajes
+plotsvc --> adapters : Mapas y archivos
+diagnosissvc --> adapters : Mapas, clima, archivos y avisos
+adapters --> payment : [HTTPS]
+adapters --> messaging : [HTTPS]
+adapters --> maps : [HTTPS]
+adapters --> storage : [HTTPS]
+docs ..> controllers : Documenta contratos
+note bottom of controllers
+Arquitectura propuesta.
+Mensajes y documentación en inglés.
+Soporte de internacionalización en_US / es_419.
+end note
+
+@enduml

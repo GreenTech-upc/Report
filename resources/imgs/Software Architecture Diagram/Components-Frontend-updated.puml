@@ -1,0 +1,45 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam dpi 150
+skinparam defaultFontName SansSerif
+skinparam wrapWidth 220
+skinparam maxMessageSize 70
+skinparam componentStyle rectangle
+left to right direction
+title SkyCrop - Componentes de Frontend Web Application
+actor "Agricultor\n[Persona]\n\nSupervisa parcelas y consulta información." as farmer
+actor "Ingeniero agrónomo\n[Persona]\n\nEvalúa cultivos y consulta diagnósticos." as agronomist
+rectangle "Frontend Web Application [Contenedor: Vue, JavaScript, PrimeVue]" {
+component "Acceso y cuentas\n[Componente: Vue / JavaScript]\n\nRegistro, autenticación y perfil." as accounts
+component "Parcelas y cultivos\n[Componente: Vue / JavaScript]\n\nInformación de parcelas y colaboración." as plots
+component "Drones y vuelos\n[Componente: Vue / JavaScript]\n\nConfiguración y planificación de vuelos." as drones
+component "Diagnósticos y reportes\n[Componente: Vue / JavaScript]\n\nMapas, resultados e historial." as reports
+component "Suscripciones y pagos\n[Componente: Vue / JavaScript]\n\nConsulta y gestión de suscripciones." as payments
+component "Componentes compartidos\n[Componente: Vue / JavaScript]\n\nLayout, navegación, idioma y estados de interfaz." as shared
+component "Cliente HTTP\n[Componente: Vue / JavaScript]\n\nComunicación REST y manejo de errores." as http
+}
+component "Backend RESTful API\n[Contenedor: C# / ASP.NET Core]\n\nOperaciones del dominio." as api
+farmer --> shared : Interactúa
+agronomist --> shared : Interactúa
+shared --> accounts : Navegación
+shared --> plots : Navegación
+shared --> drones : Navegación
+shared --> reports : Navegación
+shared --> payments : Navegación
+accounts --> http : Solicita operaciones
+plots --> http : Solicita operaciones
+drones --> http : Solicita operaciones
+reports --> http : Solicita operaciones
+payments --> http : Solicita operaciones
+http --> api : REST [HTTPS / JSON]
+note bottom of shared
+UI: PrimeVue; referencia visual: Material Design.
+i18n: en_US predeterminado y es_419.
+a11y: atributos ARIA y diseño adaptable.
+end note
+note bottom of api
+Diseño propuesto de integración.
+end note
+
+@enduml

@@ -1817,15 +1817,33 @@ Paso 7: Juntar reglas de negocio (Aggregates)
 <img src="resources/imgs/Software Architecture Diagram/Context_Diagram_new.png"
 alt="Context-Diagram">
 
-### 4.6.3. Software Architecture Container Diagrams. 
+### 4.6.3. Software Architecture Container Diagrams.
 
-<img src="resources/imgs/Software Architecture Diagram/Container_Diagram_new.png"
-alt="Context-Diagram">
+La arquitectura propuesta de SkyCrop comprende una Landing Page desarrollada con HTML5, CSS3 y JavaScript, una aplicación web basada en Vue y PrimeVue, y un RESTful API con C# y ASP.NET Core. Entity Framework Core proporciona el acceso a la base de datos relacional, para la cual se consideran MySQL Server o PostgreSQL. La landing presenta el producto y contempla llamados a la acción hacia las vistas de la aplicación correspondientes a cada segmento. La aplicación consume el API mediante HTTPS, mientras que el backend concentra las operaciones del dominio y las integraciones externas.
 
-### 4.6.4. Software Architecture Components Diagrams. 
+<img src="resources/imgs/Software Architecture Diagram/Container-Diagram-updated.png" alt="Diagrama de contenedores de SkyCrop">
 
-<img src="resources/imgs/Software Architecture Diagram/Component_Diagram_new.png"
-alt="Component-Diagram">
+### 4.6.4. Software Architecture Components Diagrams.
+
+Las vistas de componentes detallan las responsabilidades internas de la landing, la aplicación web y el API. La propuesta utiliza Material Design como referencia visual, inglés como idioma predeterminado y soporte para español latinoamericano. La landing y la aplicación contemplan diseño adaptable y accesibilidad mediante atributos ARIA. Los diagramas describen la organización prevista de la solución.
+
+**Landing Page**
+
+Los componentes organizan la navegación, las funcionalidades y beneficios, los planes, el formulario de contacto y el pie de página. El cambio de idioma proporciona los textos de la interfaz y los llamados a la acción contemplan la redirección hacia la aplicación. El formulario considera una integración con un servicio externo para recibir consultas.
+
+<img src="resources/imgs/Software Architecture Diagram/Components-Landing-updated.png" alt="Diagrama de componentes de la Landing Page de SkyCrop">
+
+**Frontend Web Application**
+
+La aplicación Vue distribuye la interacción en módulos de acceso y cuentas, parcelas y cultivos, drones y vuelos, diagnósticos y reportes, y suscripciones y pagos. Los componentes compartidos reúnen la navegación, los estados de interfaz y la selección de idioma. PrimeVue proporciona la biblioteca de componentes visuales y el cliente HTTP centraliza la comunicación con el API y el manejo de errores.
+
+<img src="resources/imgs/Software Architecture Diagram/Components-Frontend-updated.png" alt="Diagrama de componentes del frontend de SkyCrop">
+
+**Backend RESTful API**
+
+Los controladores de ASP.NET Core delegan las operaciones a servicios de aplicación organizados por los contextos del dominio. El modelo de dominio reúne entidades, reglas y objetos de valor, mientras que los repositorios y DbContext utilizan Entity Framework Core para la persistencia. Los adaptadores encapsulan las integraciones externas de pagos, mensajería, mapas, meteorología y almacenamiento. OpenAPI y Swagger describen los endpoints y contratos del API.
+
+<img src="resources/imgs/Software Architecture Diagram/Components-Backend-updated.png" alt="Diagrama de componentes del backend de SkyCrop">
 
 ## 4.7. Software Object-Oriented Design. 
 

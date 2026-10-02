@@ -1,0 +1,43 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam dpi 150
+skinparam defaultFontName SansSerif
+skinparam wrapWidth 220
+skinparam maxMessageSize 70
+skinparam componentStyle rectangle
+left to right direction
+title SkyCrop - Diagrama de contenedores
+actor "Agricultor\n[Persona]\n\nSupervisa parcelas y consulta información." as farmer
+actor "Ingeniero agrónomo\n[Persona]\n\nEvalúa cultivos y consulta diagnósticos." as agronomist
+rectangle "SkyCrop [Sistema de software]" {
+component "Landing Page\n[Contenedor: HTML5, CSS3, JavaScript]\n\nPresenta propuesta, beneficios, planes y contacto." as landing
+component "Frontend Web Application\n[Contenedor: Vue, JavaScript, PrimeVue]\n\nGestiona la interacción de agricultores y agrónomos." as web
+component "Backend RESTful API\n[Contenedor: C#, ASP.NET Core, EF Core]\n\nExpone operaciones del dominio y acceso a datos." as api
+database "Base de datos relacional\n[MySQL Server o PostgreSQL]\n\nPersiste cuentas, parcelas, vuelos y resultados." as db
+}
+component "Pasarela de pagos\n[Sistema externo]\n\nProcesa transacciones." as payment
+component "Servicio de mensajería\n[Sistema externo]\n\nEntrega correos y notificaciones." as messaging
+component "Servicios de mapas y meteorología\n[Sistemas externos]\n\nProporcionan mapas y datos meteorológicos." as agri
+component "Almacenamiento de archivos\n[Sistema externo]\n\nConserva imágenes y reportes." as storage
+farmer --> landing : Consulta [HTTPS]
+agronomist --> landing : Consulta [HTTPS]
+farmer --> web : Interactúa [HTTPS]
+agronomist --> web : Interactúa [HTTPS]
+landing --> web : CTA a vistas por segmento [HTTPS]\n(diseño previsto)
+web --> api : Operaciones REST [HTTPS / JSON]
+api --> db : Lectura y escritura [EF Core / SQL]
+api --> payment : Solicita pagos [HTTPS]
+api --> messaging : Solicita notificaciones [HTTPS]
+api --> agri : Consulta información [HTTPS]
+api --> storage : Guarda y recupera archivos [HTTPS]
+note bottom of web
+Referencia visual: Material Design.
+Idioma predeterminado: inglés; soporte es_419.
+end note
+note bottom of api
+Documentación: OpenAPI / Swagger.
+Arquitectura propuesta.
+end note
+
+@enduml

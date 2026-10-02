@@ -1,0 +1,45 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam dpi 150
+skinparam defaultFontName SansSerif
+skinparam wrapWidth 220
+skinparam maxMessageSize 70
+skinparam componentStyle rectangle
+left to right direction
+title SkyCrop - Componentes de Landing Page
+actor "Agricultor\n[Persona]\n\nSupervisa parcelas y consulta información." as farmer
+actor "Ingeniero agrónomo\n[Persona]\n\nEvalúa cultivos y consulta diagnósticos." as agronomist
+rectangle "Landing Page [Contenedor: HTML5, CSS3, JavaScript]" {
+component "Navegación\n[Componente: HTML5, CSS3, JavaScript]\n\nAcceso a secciones y menú adaptable." as navigation
+component "Funcionalidades y beneficios\n[Componente: HTML5, CSS3, JavaScript]\n\nPropuesta de valor y beneficios por segmento." as content
+component "Planes\n[Componente: HTML5, CSS3, JavaScript]\n\nCaracterísticas y precios ilustrativos." as plans
+component "Formulario de contacto\n[Componente: HTML5, CSS3, JavaScript]\n\nCaptura y valida los datos de consulta." as contact
+component "Pie de página\n[Componente: HTML5, CSS3, JavaScript]\n\nInformación institucional y políticas." as footer
+component "Cambio de idioma\n[Componente: HTML5, CSS3, JavaScript]\n\nTextos en en_US y es_419." as language
+component "Llamados a la acción\n[Componente: HTML5, CSS3, JavaScript]\n\nAcceso a las vistas por segmento." as cta
+}
+component "Frontend Web Application\n[Contenedor: Vue]\n\nVistas para agricultores y agrónomos." as web
+component "Servicio de formularios\n[Sistema externo]\n\nRecibe consultas de contacto." as contactservice
+farmer --> navigation : Consulta la página
+agronomist --> navigation : Consulta la página
+navigation --> content : Accede
+navigation --> plans : Accede
+navigation --> contact : Accede
+navigation --> footer : Accede
+content --> cta : Presenta acceso
+plans --> cta : Presenta acceso
+cta --> web : Redirección [HTTPS]\n(diseño previsto)
+contact --> contactservice : Envía consulta [HTTPS]\n(integración prevista)
+language --> navigation : Localiza textos
+language --> content : Localiza textos
+language --> plans : Localiza textos
+language --> contact : Localiza textos
+language --> footer : Localiza textos
+language --> cta : Localiza textos
+note bottom of content
+Referencia visual: Material Design.
+Diseño adaptable y accesibilidad con ARIA.
+end note
+
+@enduml

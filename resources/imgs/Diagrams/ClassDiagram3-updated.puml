@@ -1,0 +1,239 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam dpi 150
+hide empty members
+title SkyCrop - Diagnóstico, Análisis, Reportes y Notificaciones
+class User  {
+-id: Long
+-name: String
+-email: EmailAddress
++viewReports(): void
++viewNotifications(): void
+}
+class AgriculturalPlot  {
+-id: Long
+-name: String
+-location: Location
++viewMonitoringHistory(): void
+}
+class Crop  {
+-id: Long
+-name: String
+-variety: String
+-growthStage: String
++updateInformation(): void
+}
+class Report  {
+-id: Long
+-title: String
+-generatedAt: DateTime
+-type: ReportType
+-content: String
++generate(): void
++export(): void
++saveToHistory(): void
+}
+class Diagnosis  {
+-id: Long
+-generatedAt: DateTime
+-observations: String
+-status: DiagnosisStatus
++generate(): void
++analyzeData(): void
++detectAnomaly(): Anomaly
++saveToHistory(): void
+}
+class TerrainData  {
+-id: Long
+-humidity: Decimal
+-temperature: Decimal
+-nutrients: String
+-pH: Decimal
++update(): void
+}
+class AerialImage  {
+-id: Long
+-capturedAt: DateTime
+-resolution: String
+-fileUrl: String
+-quality: ImageQuality
++validateQuality(): boolean
+}
+class TerrainMap  {
+-id: Long
+-mapUrl: String
+-generatedAt: DateTime
+-resolution: String
++generate(): void
++display(): void
+}
+class Anomaly  {
+-id: Long
+-type: AnomalyType
+-severity: Severity
+-description: String
+-location: Location
++classify(): void
+}
+class AgronomicRule  {
+-id: Long
+-name: String
+-description: String
+-condition: String
++evaluate(): boolean
+}
+class DiagnosticHistory  {
+-id: Long
+-savedAt: DateTime
+-reference: String
++save(diagnosis: Diagnosis): void
++retrieve(): Diagnosis
+}
+class Notification  {
+-id: Long
+-message: String
+-createdAt: DateTime
+-type: NotificationType
+-status: NotificationStatus
++create(): void
++send(): void
++markAsRead(): void
+}
+interface CloudStorageService  {
+
++saveDiagnosis(diagnosis: Diagnosis): String
++saveReport(report: Report): String
++retrieveHistory(): String
+}
+interface ImageAnalysisService  {
+
++process(image: AerialImage): Diagnosis
++analyzeTerrain(data: TerrainData): Diagnosis
++applyRules(diagnosis: Diagnosis): void
+}
+interface MapService  {
+
++generateTerrainMap(data: TerrainData): TerrainMap
+}
+interface WeatherService  {
+
++getWeather(location: Location): WeatherData
+}
+interface NotificationService  {
+
++createNotification(anomaly: Anomaly): Notification
++route(notification: Notification): void
+}
+interface NotificationChannel  {
+
++send(notification: Notification): void
+}
+class SMSNotificationChannel  {
+
++send(notification: Notification): void
+}
+class EmailNotificationChannel  {
+
++send(notification: Notification): void
+}
+enum ReportType {
+DIAGNOSTIC
+SEASONAL
+}
+enum DiagnosisStatus {
+PENDING
+PROCESSING
+COMPLETED
+FAILED
+}
+enum ImageQuality {
+LOW
+MEDIUM
+HIGH
+}
+enum Severity {
+LOW
+MEDIUM
+HIGH
+CRITICAL
+}
+enum AnomalyType {
+WATER_STRESS
+PEST
+FERTILIZER_DEFICIENCY
+OTHER
+}
+enum NotificationType {
+ANOMALY_DETECTED
+REPORT_READY
+SYSTEM_ALERT
+}
+enum NotificationStatus {
+PENDING
+SENT
+READ
+}
+class EmailAddress <<value object>> {
+-value: String {readOnly}
+
+}
+class Location <<value object>> {
+-value: String {readOnly}
+
+}
+class WeatherData <<value object>> {
+-temperature: Decimal {readOnly}
+-humidity: Decimal {readOnly}
+-precipitation: Decimal {readOnly}
+-recordedAt: DateTime {readOnly}
+
+}
+User "1" -- "0..*" Report : views
+User "1" -- "0..*" Notification : receives
+User "1" *-- "1" EmailAddress : email
+AgriculturalPlot "1" *-- "1" Location : location
+Anomaly "1" *-- "1" Location : location
+Report --> ReportType : type
+Report "1" o-- "0..*" Diagnosis : contains
+AgriculturalPlot "1" -- "0..*" Diagnosis : monitored by
+AgriculturalPlot "1" -- "0..1" TerrainMap : has
+AgriculturalPlot "1" -- "0..*" Crop : contains
+Diagnosis "1" -- "1" TerrainData : analyzed
+Diagnosis "1" -- "0..*" AerialImage : analyzed in
+Diagnosis "1" -- "0..*" Crop : analyzed
+Diagnosis "1" -- "0..*" Anomaly : detects
+Diagnosis "1" -- "1..*" AgronomicRule : evaluates
+Diagnosis "1" -- "0..1" DiagnosticHistory : saved in / retrieves
+Diagnosis --> DiagnosisStatus : status
+Anomaly --> Severity : severity
+Anomaly --> AnomalyType : type
+Anomaly "1" -- "0..*" Notification : triggers
+Notification --> NotificationType : type
+Notification --> NotificationStatus : status
+AerialImage --> ImageQuality : quality
+CloudStorageService ..> Report : stores
+CloudStorageService ..> Diagnosis : stores
+CloudStorageService ..> DiagnosticHistory : stores
+ImageAnalysisService ..> TerrainData : analyzes
+ImageAnalysisService ..> AerialImage : processes
+ImageAnalysisService ..> Diagnosis : generates
+ImageAnalysisService ..> Crop : analyzes
+ImageAnalysisService ..> AgronomicRule : applies
+ImageAnalysisService ..> TerrainMap : uses
+MapService ..> TerrainMap : generates
+WeatherService ..> WeatherData : obtains
+WeatherService ..> Location
+WeatherData ..> TerrainData : provides data
+NotificationService ..> Anomaly : detects
+NotificationService ..> Notification : creates
+NotificationService ..> NotificationChannel : routes
+NotificationChannel <|.. SMSNotificationChannel
+NotificationChannel <|.. EmailNotificationChannel
+note bottom of WeatherData
+Instantánea inmutable, sin identificador.
+Igualdad por todos sus atributos.
+El servicio devuelve el valor; no lo posee.
+end note
+@enduml

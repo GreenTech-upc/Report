@@ -1,0 +1,190 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam dpi 150
+hide empty members
+title SkyCrop - Gestión de Parcelas y Drones
+class User  {
+-id: Long
+-name: String
+-email: EmailAddress
++managePlot(plot: AgriculturalPlot): void
++manageDrone(drone: Drone): void
+}
+class AgriculturalPlot  {
+-id: Long
+-name: String
+-areaHectares: Area
+-location: Location
+-createdAt: DateTime
+-status: PlotStatus
++register(): void
++updateInformation(): void
++defineLimits(): void
++generateMap(): PlotMap
++updateDashboard(): void
+}
+interface MapService  {
+
++getLocationInformation(): Location
++generatePlotMap(plot: AgriculturalPlot): PlotMap
+}
+class Crop  {
+-id: Long
+-name: String
+-variety: String
+-growthStage: String
+-registrationDate: Date
++register(): void
++updateInformation(): void
++assignToPlot(plot: AgriculturalPlot): void
+}
+class PlotMap  {
+-id: Long
+-mapUrl: String
+-generatedAt: DateTime
+-source: String
++generate(): void
++display(): void
++update(): void
+}
+class FlightPlan  {
+-id: Long
+-name: String
+-altitude: Decimal
+-speed: Decimal
+-overlap: Decimal
+-status: FlightPlanStatus
++createRoute(): void
++customizeRoute(): void
++validateRoute(): boolean
+}
+class Drone  {
+-id: Long
+-serialNumber: String
+-model: String
+-batteryLevel: Decimal
+-range: Decimal
+-status: DroneStatus
++register(): void
++configure(): void
++checkBattery(): Decimal
++startFlight(): void
++stopFlight(): void
+}
+interface DroneController  {
+
++connect(drone: Drone): boolean
++configure(drone: Drone): void
++uploadFlightPlan(plan: FlightPlan): void
++startFlight(flight: Flight): void
++stopFlight(flight: Flight): void
+}
+class DroneConfiguration  {
+-id: Long
+-connectionSettings: String
+-flightSettings: String
+-securitySettings: String
++configure(): void
++updateSettings(): void
++applyToDrone(drone: Drone): void
+}
+class Flight  {
+-id: Long
+-startTime: DateTime
+-endTime: DateTime
+-status: FlightStatus
++start(): void
++pause(): void
++finish(): void
++cancel(): void
++captureImage(): AerialImage
+}
+class AerialImage  {
+-id: Long
+-capturedAt: DateTime
+-resolution: String
+-fileUrl: String
+-quality: ImageQuality
++capture(): void
++upload(): void
++validateQuality(): boolean
+}
+interface CloudStorageService  {
+
++upload(file: AerialImage): String
++download(url: String): AerialImage
+}
+enum PlotStatus {
+ACTIVE
+INACTIVE
+}
+enum FlightPlanStatus {
+DRAFT
+READY
+ACTIVE
+COMPLETED
+}
+enum DroneStatus {
+AVAILABLE
+IN_FLIGHT
+LOW_BATTERY
+OFFLINE
+MAINTENANCE
+}
+enum FlightStatus {
+PLANNED
+IN_PROGRESS
+PAUSED
+COMPLETED
+CANCELLED
+}
+enum ImageQuality {
+LOW
+MEDIUM
+HIGH
+}
+class EmailAddress <<value object>> {
+-value: String {readOnly}
+
+}
+class Location <<value object>> {
+-value: String {readOnly}
+
+}
+class Area <<value object>> {
+-value: Decimal {readOnly}
+-unit: String = "ha" {readOnly}
+
+}
+User "1" -- "0..*" AgriculturalPlot : manages
+User "1" -- "0..*" Drone : manages
+User "1" *-- "1" EmailAddress : email
+AgriculturalPlot "1" *-- "1" Area : areaHectares
+AgriculturalPlot "1" *-- "1" Location : location
+AgriculturalPlot --> PlotStatus : status
+AgriculturalPlot "1" *-- "0..*" Crop : contains
+AgriculturalPlot "1" *-- "0..1" PlotMap : has
+AgriculturalPlot "1" *-- "0..*" FlightPlan : has
+MapService ..> AgriculturalPlot : obtains location
+MapService ..> PlotMap : generates
+MapService ..> Location
+FlightPlan --> FlightPlanStatus : status
+FlightPlan "1" -- "0..*" Flight : schedules
+Drone "1" -- "0..*" Flight : performs
+Drone "1" *-- "1" DroneConfiguration : uses
+Drone --> DroneStatus : status
+DroneController ..> FlightPlan : uploads
+DroneController ..> Flight : controls
+DroneController ..> Drone : controls
+DroneController ..> DroneConfiguration : configures
+Flight --> FlightStatus : status
+Flight "1" -- "1..*" AerialImage : captures
+CloudStorageService ..> AerialImage : stores
+AerialImage --> ImageQuality : quality
+note bottom of Area
+Inmutable; unidad fija en hectáreas.
+Igualdad por sus valores, sin identidad.
+end note
+@enduml

@@ -1816,19 +1816,23 @@ alt="Component-Diagram">
 
 ### 4.7.1. Class Diagrams. 
 
+El diseño de clases propuesto incorpora objetos de valor (`<<value object>>`) sin identificador, inmutables y con igualdad definida por sus atributos. La notación `{readOnly}` indica que sus atributos son de solo lectura. Las relaciones de composición representan los objetos de valor pertenecientes a una entidad, mientras que las dependencias de los servicios indican su uso como parámetros o resultados.
+
+En la gestión de pagos, el patrón `Money` agrupa el importe decimal y la moneda. Dos valores monetarios son iguales cuando coinciden ambos atributos; las operaciones de suma y resta requieren la misma moneda y generan un nuevo valor. `EmailAddress` representa el correo electrónico, `Area` expresa la superficie en hectáreas y `Location` encapsula la ubicación textual. `WeatherData` representa una instantánea meteorológica cuya igualdad considera la temperatura, la humedad, la precipitación y la fecha de registro.
+
 **SkyCrop - Gestión de Usuarios, Autenticación y Suscripciones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram1.png" alt="ClassDiagram1" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram1-updated.png" alt="ClassDiagram1" width="600">
 </div>
 
 **SkyCrop - Gestión de Parcelas y Drones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram2.png" alt="ClassDiagram2" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram2-updated.png" alt="ClassDiagram2" width="600">
 </div>
 
 **SkyCrop - Diagnóstico, Análisis, Reportes y Notificaciones**
 <div align="center">
-<img src="resources/imgs/Diagrams/ClassDiagram3.png" alt="ClassDiagram3" width="600">
+<img src="resources/imgs/Diagrams/ClassDiagram3-updated.png" alt="ClassDiagram3" width="600">
 </div>
 
 ## 4.8. Database Design.

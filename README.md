@@ -1789,7 +1789,7 @@ Paso 4: Agregar Read Models
 <img src="resources/imgs/chapter_4/design-level-eventstorming-4.png" alt="Eventstorming paso 4" width="600">
 </div>
 
-Paso 6: Agregar sistemas externos
+Paso 5: Agregar sistemas externos
 
 <div align="center">
 <img src="resources/imgs/chapter_4/design-level-eventstorming-5.png" alt="Eventstorming paso 5" width="600">

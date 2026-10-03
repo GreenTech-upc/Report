@@ -1213,7 +1213,7 @@ A continuación se presentan las User Stories que indicarán las funcionalidades
 
 El Product Backlog de SkyCrop reúne las User Stories identificadas para el desarrollo del producto. El orden presentado sigue inicialmente la numeración de las historias definidas por el equipo y podrá ser actualizado según las prioridades establecidas durante los siguientes sprints.
 
-Los Story Points utilizan la escala de Fibonacci y representan una estimación relativa del esfuerzo necesario para implementar cada User Story.
+Los Story Points utilizan la escala de Fibonacci y representan una estimación relativa del esfuerzo necesario para implementar cada User Story. En las historias de la landing, las secciones informativas simples se estiman en 1 punto; la integración de contenido, los planes y la navegación adaptable, en 2 puntos; y el contacto con validación y envío a un servicio externo, en 3 puntos. Estas estimaciones consideran complejidad e incertidumbre y no equivalen a horas de trabajo.
 
 **Product backlog desarrollado en Trello**
 <div align="center">
@@ -1225,13 +1225,13 @@ Enlace al tablero: [Product Backlog en Trello](https://trello.com/b/L5lihF6B)
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---:|---|---|:---:|
 | 01 | US-36 | Presentación de SkyCrop | Como visitante, quiero ver una introducción clara con la propuesta de valor de SkyCrop para entender rápidamente qué hace el software. | 1 |
-| 02 | US-37 | Demostración de funcionalidades de SkyCrop | Como visitante, quiero conocer las características de la plataforma para comprender las herramientas disponibles. | 1 |
+| 02 | US-37 | Demostración de funcionalidades de SkyCrop | Como visitante, quiero conocer las características de la plataforma para comprender las herramientas disponibles. | 2 |
 | 03 | US-38 | Muestra de beneficios para agricultores | Como productor agrícola visitante, quiero conocer los beneficios de SkyCrop para evaluar su utilidad en mis parcelas. | 1 |
 | 04 | US-39 | Muestra de beneficios para agrónomos | Como ingeniero agrónomo visitante, deseo conocer la analítica e información que ofrece el sistema para evaluar su utilidad profesional. | 1 |
-| 05 | US-40 | Planes de subscripciones y precios | Como visitante interesado, quiero conocer los planes y tarifas para seleccionar una opción adecuada a mis necesidades. | 1 |
-| 06 | US-41 | Opción de contacto | Como visitante, quiero poder comunicarme con el personal de soporte para aclarar mis dudas. | 1 |
-| 07 | US-42 | Navegación rápida por la Landing Page | Como visitante, deseo contar con una barra de navegación fija para acceder rápidamente a las diferentes secciones. | 1 |
-| 08 | US-43 | Pie de página informativo | Como visitante, quiero ver un footer con información institucional, términos y medios de contacto. | 1 |
+| 05 | US-40 | Planes de subscripciones y precios | Como visitante interesado, quiero conocer los planes y tarifas para seleccionar una opción adecuada a mis necesidades. | 2 |
+| 06 | US-41 | Opción de contacto | Como visitante, quiero poder comunicarme con el personal de soporte para aclarar mis dudas. | 3 |
+| 07 | US-42 | Navegación rápida por la Landing Page | Como visitante, deseo contar con una barra de navegación fija para acceder rápidamente a las diferentes secciones. | 2 |
+| 08 | US-43 | Pie de página informativo | Como visitante, quiero ver un footer con información institucional, términos y medios de contacto. | 2 |
 | 09 | US-11 | Registro de parcela | Como usuario, deseo registrar el terreno por el cual el dron va a volar. | 2 |
 | 10 | US-12 | Consulta de estado de una parcela | Como usuario, deseo consultar el estado de una parcela para conocer la información detectada durante su monitoreo. | 1 |
 | 11 | US-14 | Registro de cultivos en una parcela | Como usuario, quiero registrar el tipo de cultivo de mi parcela para asociarlo al monitoreo realizado. | 2 |
@@ -2065,8 +2065,10 @@ El Sprint Planning 1 se enfoca en el desarrollo e implementación de la primera 
 | **Sprint 0 Retrospective Summary** | Este es el primer sprint del proyecto. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de SkyCrop, que presenta la propuesta de valor, las funcionalidades, los beneficios por segmento, los planes de suscripción y un canal de contacto. Creemos que esto entrega una comprensión rápida de la plataforma y una vía clara de registro a los agricultores y a los ingenieros agrónomos que evalúan adoptar SkyCrop. Esto se confirmará cuando un visitante pueda llegar a cualquier sección de la página, incluidos los planes y el formulario de contacto, con un solo clic desde la barra de navegación fija, y la página se visualice sin desbordes ni elementos cortados en pantallas móviles y de escritorio, publicada en GitHub Pages. |
-| **Sprint 1 Velocity** | 15 Story Points |
-| **Sum of Story Points** | 8 Story Points |
+| **Sprint 1 Velocity** | 14 Story Points (estimación inicial revisada) |
+| **Sum of Story Points** | 14 Story Points |
+
+La estimación inicial revisada de capacidad cubre las ocho historias seleccionadas: US-36 (1), US-37 (2), US-38 (1), US-39 (1), US-40 (2), US-41 (3), US-42 (2) y US-43 (2), que suman 14 Story Points. Al tratarse del primer sprint, este valor corresponde a una referencia de planificación y no a una velocidad histórica medida. Las estimaciones de tareas expresan esfuerzo en horas-persona y se mantienen separadas de los Story Points.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
@@ -2090,28 +2092,21 @@ Enlace: https://trello.com/b/v9IDjQLu/sprint-backlog-1
 
 ![Sprint 1 Backlog - Trello](resources/imgs/chapter_5/sprint-1-backlog-trello.png)
 
+Las tareas se presentan en bloques de ingeniería de entre 4 y 8 horas-persona. Los identificadores originales se conservan para relacionar cada bloque con las evidencias existentes y los aportes de sus responsables. La revisión mantiene un esfuerzo total estimado de 63 horas-persona; redistribuye el esfuerzo de beneficios entre el filtro compartido y su integración por segmento. Las horas corresponden a estimaciones revisadas, no a registros de tiempo ejecutado. La captura de Trello conserva la organización anterior; la tabla siguiente presenta la agrupación revisada.
+
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-Do / In-Process / To-Review / Done) |
 | :---: | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
-| US-36 | Presentación de SkyCrop | UT-01 | Maquetar la sección de presentación (Hero) | Crear la sección con el eslogan principal, una breve descripción y el botón de registro (con enlace provisional hasta contar con la Web Application). | 3 | Diego Pumahualcca | Done |
-| US-37 | Demostración de funcionalidades de SkyCrop | UT-02 | Maquetar la sección de funcionalidades | Crear los bloques de mapeo, telemetría y drones con su descripción. | 4 | Oliver Jonseck | Done |
-| US-37 | Demostración de funcionalidades de SkyCrop | UT-03 | Incorporar imágenes ilustrativas de las funcionalidades | Agregar a cada bloque imágenes exportadas de los mock-ups de Figma. | 2 | Yam Cano | Done |
-| US-38 | Muestra de beneficios para agricultores | UT-04 | Crear las tarjetas de beneficios para agricultores | Redactar y maquetar los beneficios: ahorro de agua, prevención de plagas y facilidad de uso. | 3 | Yam Cano | Done |
-| US-38 | Muestra de beneficios para agricultores | UT-05 | Implementar el filtro de beneficios por perfil | Programar en JavaScript el filtro Agricultor / Agrónomo de la sección de beneficios (aplica también a US-39). | 3 | Diego Pumahualcca | Done |
-| US-39 | Muestra de beneficios para agrónomos | UT-06 | Crear las tarjetas de beneficios para agrónomos | Redactar y maquetar los beneficios: índices de vegetación, reportes estacionales automatizados y gestión multiparcela. | 3 | Oliver Jonseck | Done |
-| US-40 | Planes de subscripciones y precios | UT-07 | Maquetar la cuadrícula de planes | Crear la sección con el costo mensual, las características incluidas y el botón de suscripción de cada plan. | 4 | Sunio Landa | Done |
-| US-41 | Opción de contacto | UT-08 | Maquetar el formulario de contacto con validación | Crear los campos de nombre, correo y mensaje con validación en el cliente. | 3 | Yam Cano | Done |
-| US-41 | Opción de contacto | UT-09 | Implementar el envío del formulario de contacto | Integrar un servicio de formularios compatible con sitios estáticos que envíe el mensaje a soporte y conserve el correo del remitente. | 3 | Oliver Jonseck | Done |
-| US-42 | Navegación rápida por la Landing Page | UT-10 | Implementar la barra de navegación fija | Crear el menú superior fijo con desplazamiento suave a cada sección y su versión para móvil. | 3 | Diego Pumahualcca | Done |
-| US-43 | Pie de página informativo | UT-11 | Maquetar el pie de página | Crear el footer con enlaces institucionales, políticas de privacidad, soporte, redes sociales y derechos reservados. | 2 | Yam Cano | Done |
-| - | - | UT-12 | Configurar el repositorio y la estructura base | Preparar el repositorio Landing-Page con las ramas main y develop y la estructura inicial de archivos según las convenciones de 5.1.3. | 3 | Diego Pumahualcca | Done |
-| - | - | UT-13 | Definir los fundamentos visuales de la landing | Establecer paleta de colores, tipografía y espaciados en Figma. | 3 | Sebastián Rubio | Done |
-| - | - | UT-14 | Diseñar los wireframes de la landing | Elaborar los wireframes para navegador de escritorio y móvil. | 4 | Sebastián Rubio | Done |
-| - | - | UT-15 | Diseñar los mock-ups de la landing | Elaborar los mock-ups de todas las secciones en Figma. | 6 | Sunio Landa | Done |
-| - | - | UT-16 | Aplicar diseño responsive y probar en dispositivos | Ajustar los estilos para móvil y escritorio y verificar que no existan desbordes ni elementos cortados. | 4 | Oliver Jonseck | Done |
-| - | - | UT-17 | Desplegar la landing en GitHub Pages | Configurar Settings > Pages con la rama main y verificar la URL pública. | 2 | Sunio Landa | Done |
-| - | - | UT-18 | Documentar el Sprint 1 | Redactar en el informe las secciones de Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. | 3 | Yam Cano | Done |
-| - | - | UT-19 | Documentar las evidencias del Sprint 1 | Registrar commits, capturas de ejecución y despliegue, y los insights de colaboración. | 3 | Sunio Landa | Done |
-| - | - | UT-20 | Documentar wireframes y mock-ups | Incorporar los diseños de la landing en las secciones 4.3.1 y 4.3.2 del informe. | 2 | Sebastián Rubio | Done |
+| US-36 | Presentación de SkyCrop | UT-01 / UT-12 | Preparar la base y la presentación de la landing | Configurar el repositorio y la estructura HTML/CSS/JS, y maquetar la sección Hero con descripción y botón de acceso provisional. | 6 | Diego Pumahualcca | Done |
+| US-37 | Demostración de funcionalidades de SkyCrop | UT-02 / UT-03 | Implementar la sección de funcionalidades | Maquetar los bloques de mapeo, telemetría y drones e incorporar las imágenes ilustrativas. | 6 | Oliver Jonseck (maquetación); Yam Cano (imágenes) | Done |
+| US-38 / US-39 | Beneficios por segmento | UT-04 / UT-05 | Implementar las tarjetas agrícolas y el filtro por perfil | Maquetar los beneficios para agricultores e implementar el filtro Agricultor / Agrónomo utilizado por ambas historias. | 4 | Yam Cano (tarjetas); Diego Pumahualcca (filtro) | Done |
+| US-39 | Muestra de beneficios para agrónomos | UT-06 | Integrar los beneficios para agrónomos | Redactar y maquetar los beneficios para agrónomos y verificar su visualización al cambiar de perfil mediante el filtro compartido. | 5 | Oliver Jonseck | Done |
+| US-40 | Planes de subscripciones y precios | UT-07 | Implementar la cuadrícula de planes | Maquetar costos mensuales, características y botones de suscripción de cada plan. | 4 | Sunio Landa | Done |
+| US-41 | Opción de contacto | UT-08 / UT-09 | Implementar el formulario y su envío | Crear los campos de contacto, validar los datos e integrar el servicio externo de formularios para enviar la consulta y conservar el correo del remitente. | 6 | Yam Cano (formulario); Oliver Jonseck (envío) | Done |
+| US-42 / US-43 | Navegación y pie de página | UT-10 / UT-11 | Implementar la navegación y el pie de página | Crear el menú fijo con desplazamiento a secciones y versión móvil, e incorporar enlaces institucionales, políticas y medios de contacto en el footer. | 5 | Diego Pumahualcca (navegación); Yam Cano (footer) | Done |
+| - | - | UT-13 / UT-14 | Definir fundamentos visuales y wireframes | Establecer paleta, tipografía y espaciados en Figma y elaborar los wireframes de la landing para escritorio y móvil. | 7 | Sebastián Rubio | Done |
+| - | - | UT-15 | Diseñar los mock-ups de la landing | Elaborar los mock-ups de las secciones en Figma. | 6 | Sunio Landa | Done |
+| - | - | UT-16 / UT-17 | Verificar el diseño adaptable y publicar la landing | Revisar la visualización en móvil y escritorio, corregir desbordes y configurar GitHub Pages con verificación de la URL pública. | 6 | Oliver Jonseck (diseño adaptable); Sunio Landa (despliegue) | Done |
+| - | - | UT-18 / UT-19 / UT-20 | Documentar la planificación y las evidencias del sprint | Registrar planificación, responsabilidades, backlog, commits, ejecución, despliegue e insights, e incorporar wireframes y mock-ups al informe. | 8 | Yam Cano (planificación); Sunio Landa (evidencias); Sebastián Rubio (diseños) | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
